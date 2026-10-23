@@ -8,40 +8,33 @@
   <meta name="description" content="두 사람의 상하이 5박 6일. 로봇, 도시의 기술, 새로운 브랜드를 찾아가는 출발 전 여행 계획.">
   <title>SHANGHAI ’26 — 두 사람의 여행 노트</title>
   <link rel="stylesheet" href="vendor/leaflet/leaflet.css">
-  <link rel="stylesheet" href="styles.css?v=dining-route-20261023">
-  <script src="data-public.js?v=dining-route-20261023" defer></script>
-  <script src="app-public.js?v=dining-route-20261023" defer></script>
+  <link rel="stylesheet" href="styles.css?v=calm-guide-20261023">
+  <script src="data-public.js?v=calm-guide-20261023" defer></script>
+  <script src="app-public.js?v=calm-guide-20261023" defer></script>
   <script src="vendor/leaflet/leaflet.js" defer></script>
-  <script src="journey-map.js?v=dining-route-20261023" defer></script>
+  <script src="journey-map.js?v=calm-guide-20261023" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#itinerary">여행 일정으로 바로가기</a>
   <header class="site-header">
     <div class="header-inner">
       <a class="wordmark" href="#top" aria-label="상하이 여행 노트 처음으로">S / 26<span>TRAVEL NOTES</span></a>
-      <nav aria-label="주요 메뉴">
-        <a href="#journey-map">지도</a>
-        <a href="#itinerary">여정</a>
-        <a href="#experiences">체험</a>
-        <a href="#reservations">예약</a>
-        <a href="#sim-stores">유심</a>
-        <a href="#prepare">준비</a>
-      </nav>
+      <nav aria-label="주요 메뉴"><a href="#itinerary">일정</a><a href="#journey-map">지도</a><a href="#travel-essentials">여행 준비</a></nav>
       <button class="print-button" id="print-button" type="button" aria-label="6일 전체 여행 일정 인쇄 또는 PDF 저장"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 9V3h12v6M6 17H3V9h18v8h-3M6 14h12v7H6z"/><path d="M17 12h1"/></svg><span>PDF / 인쇄</span></button>
     </div>
   </header>
 
   <main id="top">
-    <section class="hero page-width" aria-labelledby="hero-title">
+<section class="hero page-width" aria-labelledby="hero-title">
       <div class="hero-edition"><span>A CITY IN THE MAKING</span><span>CHINA · 31°13′ N 121°28′ E</span></div>
       <div class="masthead" aria-label="Shanghai 2026"><span>SHANGHAI</span><span class="masthead-year">’26</span></div>
       <div class="hero-layout">
         <div class="hero-copy">
           <p class="eyebrow"><span class="red-dot"></span> 두 사람의 도시 탐험</p>
-          <h1 id="hero-title">도시의 다음 장면을,<br>먼저 만나다.</h1>
-          <p class="hero-description">휴머노이드가 걷고, 드론이 일상을 잇는 도시.<br>상하이의 기술과 취향을 찾아가는 5박 6일.</p>
+          <h1 id="hero-title">상하이, 우리만의 6일</h1>
+          <p class="hero-description">로봇과 드론, 가벼운 산책과 맛있는 한 끼.</p>
           <div class="hero-tripline"><span>2026. 10. 27 <i>—</i> 11. 01</span><span>5 NIGHTS · 6 DAYS</span></div>
-          <div class="hero-actions"><a class="button primary" href="#itinerary">우리의 여정 펼쳐보기 <span aria-hidden="true">↗</span></a><span id="departure-count" class="countdown">10월 27일 출발</span></div>
+          <div class="hero-actions"><a class="button primary" href="#itinerary">일정 보기 <span aria-hidden="true">↗</span></a><span id="departure-count" class="countdown">10월 27일 출발</span></div>
           <div class="plan-state"><span class="state-mark" aria-hidden="true">○</span><div><strong>출발 전 여행 계획</strong><span>운영·예약 상황에 맞춰 여유 있게 조정해요.</span></div></div>
         </div>
         <figure class="hero-figure">
@@ -51,8 +44,15 @@
       </div>
       <div class="trip-facts"><div><span>OUR BASE</span><strong>소피텔 상하이 홍차오</strong></div><div><span>OUR CURIOSITY</span><strong>Humanoids, drones & city culture</strong></div><div><span>OUR PACE</span><strong>체험은 깊게, 이동은 여유롭게.</strong></div><div class="trip-facts-stamp" aria-hidden="true">SEE WHAT’S<br><b>NEXT.</b></div></div>
     </section>
-
-    <section id="journey-map" class="section page-width journey-section" aria-labelledby="journey-map-title">
+<section id="itinerary" class="section page-width" aria-labelledby="itinerary-title">
+      <div class="section-heading"><div><p class="eyebrow section-number">01 — THE ITINERARY</p><h2 id="itinerary-title">날짜별 일정</h2></div><div class="section-intro"><p>날짜를 고르면 그날 갈 곳과 먹을 곳이 보여요.</p><div class="legend"><span><i class="dot green"></i>체험 가능</span><span><i class="dot blue"></i>관측·관람</span><span><i class="dot amber"></i>확인 필요</span></div></div></div>
+      <p id="dining-policy" class="dining-policy" hidden>일반 식사는 예약·좌석 확인을 먼저 하고, 15분 이상 대기하면 가까운 대안으로 바꿔요. 실시간 대기와 예약 확정 정보는 아니에요.</p>
+      <div class="day-tabs" id="day-tabs" role="tablist" aria-label="여행 날짜 선택"></div>
+      <div id="day-panel" class="day-panel" role="tabpanel" tabindex="0"></div>
+      <div class="all-days" hidden><div class="subsection-label"><span>THE WHOLE JOURNEY</span><span>6일의 흐름 한눈에 보기</span></div><div id="day-overview"></div></div>
+      <div id="print-days" class="print-days"></div>
+    </section>
+<section id="travel-essentials" class="travel-library page-width" aria-labelledby="library-title"><div class="library-heading"><p class="eyebrow">WHEN YOU NEED IT</p><h2 id="library-title">필요할 때 꺼내보기</h2></div><details id="map-guide" class="guide-group"><summary><span><strong>여정 지도</strong><small>장소와 날짜별 동선</small></span><i aria-hidden="true">＋</i></summary><div class="guide-body"><section id="journey-map" class="section page-width journey-section" aria-labelledby="journey-map-title">
       <div class="section-heading"><div><p class="eyebrow section-number">THE CITY / ONE MAP</p><h2 id="journey-map-title">우리의 상하이<br>여행 지도</h2></div><div class="section-intro"><p>호텔과 가볼 곳 이름을 한글로 표시했어요.<br>날짜를 고르면 그날의 방문지를 크게 볼 수 있어요.</p><span class="journey-updated" id="journey-updated"></span></div></div>
       <div class="journey-filters" id="journey-map-filters" role="group" aria-label="지도에 표시할 날짜"></div>
       <div class="journey-map-legend" id="journey-map-legend" aria-label="지도 색상 범례"></div>
@@ -66,22 +66,16 @@
       </div>
       <div class="journey-map-footnote"><p id="journey-map-note">선은 방문 순서를 나타내며 실제 도로 경로가 아닙니다. 정확한 입구와 길찾기는 장소별 고덕지도를 확인하세요.</p><a href="#video-places" class="text-link">영상 속 후보 보기 ↘</a><a href="https://www.openstreetmap.org/fixthemap" target="_blank" rel="noopener noreferrer">지도 정보 수정 제안 ↗</a></div>
       <noscript><p class="journey-no-script">날짜별 지도는 자바스크립트를 켜면 볼 수 있어요. 아래 일정의 고덕지도 링크에서도 각 장소를 확인할 수 있습니다.</p></noscript>
-    </section>
-
-    <section id="itinerary" class="section page-width" aria-labelledby="itinerary-title">
-      <div class="section-heading"><div><p class="eyebrow section-number">01 — THE ITINERARY</p><h2 id="itinerary-title">호기심을 따라,<br>하루의 동선을 그리다.</h2></div><div class="section-intro"><p>로봇·드론 시간은 그대로, 영상 속 장소는 가까운 동선에.<br>산책은 30–60분, 나머지는 식사와 휴식에 써요.</p><div class="legend"><span><i class="dot green"></i>체험 가능</span><span><i class="dot blue"></i>관측·관람</span><span><i class="dot amber"></i>확인 필요</span></div></div></div>
-      <p id="dining-policy" class="dining-policy">일반 식사는 예약·좌석 확인을 먼저 하고, 15분 이상 대기하면 가까운 대안으로 바꿔요. 실시간 대기와 예약 확정 정보는 아니에요.</p>
-      <div class="day-tabs" id="day-tabs" role="tablist" aria-label="여행 날짜 선택"></div>
-      <div id="day-panel" class="day-panel" role="tabpanel" tabindex="0"></div>
-      <div class="all-days"><div class="subsection-label"><span>THE WHOLE JOURNEY</span><span>6일의 흐름 한눈에 보기</span></div><div id="day-overview"></div></div>
-      <div id="print-days" class="print-days"></div>
-    </section>
-
-    <section id="experiences" class="experience-section" aria-labelledby="experiences-title">
-      <div class="page-width"><div class="section-heading"><div><p class="eyebrow section-number">02 — WHAT WE CAME FOR</p><h2 id="experiences-title">미래를 구경하고,<br>도시의 취향을 만지고.</h2></div><div class="section-intro"><p>AI Matrix는 무료·무예약 참관, 드론은 당일 주문형.<br>장소별 예약과 한국 +82 번호 조건을 아래에서 확인하세요.</p><a class="text-link video-section-jump" href="#video-places">영상 속 여행 후보 보기 ↘</a><span class="edition-label">A FIELD GUIDE TO SHANGHAI</span></div></div><div id="experience-grid" class="experience-grid"></div><div class="experience-footnote"><span aria-hidden="true">↗</span><p>상설 매장이라도 시연과 체험 방식은 당일 달라질 수 있어요. <strong>확인 필요</strong> 표시는 방문 전 다시 확인할 항목이에요.</p></div></div>
-    </section>
-
-    <section id="video-places" class="section page-width video-guide-section" aria-labelledby="video-guide-title">
+    </section></div></details><details id="prep-guide" class="guide-group"><summary><span><strong>출발 준비</strong><small>체크리스트 · 현지 유심</small></span><i aria-hidden="true">＋</i></summary><div class="guide-body"><section id="prepare" class="prepare-section" aria-labelledby="prepare-title"><div class="page-width preparation-layout"><div class="preparation-intro"><p class="eyebrow section-number">04 — BEFORE WE GO</p><h2 id="prepare-title">앱은 설치 완료.<br>이제, 출발 준비.</h2><p>인증이 필요한 일부터 먼저.<br>하나씩 체크하고 가볍게 떠나요.</p><ol class="priority-list" aria-label="여행 준비 우선순위"><li><span>01</span>결제 · 본인인증</li><li><span>02</span>현지 SIM 개통 · 한국 번호 유지</li><li><span>03</span>여권 · 입국서류</li><li><span>04</span>체험점 · 드론 운영 확인</li></ol><div class="prep-progress"><div><strong id="prep-count">0 / 0</strong><span>준비 완료</span></div><div class="progress-track" role="progressbar" id="prep-progressbar" aria-label="여행 준비 완료율" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span id="prep-progress-fill"></span></div><p>체크한 내용은 이 기기에 저장돼요.</p></div><div class="prep-large-number" aria-hidden="true">LET’S<br><span>GO.</span> ↗</div></div><div class="checklist" id="checklist"></div></div></section><details class="sub-guide"><summary>유심 매장과 개통 안내<span aria-hidden="true">＋</span></summary><div class="sub-guide-body"><section id="sim-stores" class="section page-width sim-section" aria-labelledby="sim-title">
+      <div class="section-heading"><div><p class="eyebrow section-number">SIM / LOCAL CONNECTION</p><h2 id="sim-title">호텔 근처에서,<br>중국 번호 만들기.</h2></div><div class="section-intro"><p id="sim-intro"></p><span class="sim-updated" id="sim-updated"></span></div></div>
+      <p class="sim-caution" id="sim-caution"></p>
+      <ol class="sim-steps" id="sim-steps" aria-label="현지 SIM 개통 방문 순서"></ol>
+      <div class="sim-store-grid" id="sim-store-grid"></div>
+      <div class="sim-request" id="sim-request"></div>
+    </section></div></details></div></details><details id="stay-guide" class="guide-group"><summary><span><strong>항공·호텔</strong><small>비행 시간 · 숙소 주소</small></span><i aria-hidden="true">＋</i></summary><div class="guide-body"><section id="reservations" class="section page-width" aria-labelledby="reservations-title">
+      <div class="section-heading"><div><p class="eyebrow section-number">03 — THE ESSENTIALS</p><h2 id="reservations-title">갈 곳과 머물 곳은,<br>준비되어 있어요.</h2></div><div class="section-intro"><p>이동에 필요한 항공편과 호텔 기본 정보.<br>날짜와 시간은 각 도시의 현지시간 기준이에요.</p></div></div>
+      <div class="reservation-grid"><article class="reservation-card flight-card"><div class="reservation-heading"><span class="eyebrow">THE FLIGHTS</span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="m3 11 7 1 7-8c2-2 4-1 3 2l-7 8 1 7-2 1-3-6-5-2z"/></svg></div><h3>김포에서, 홍차오로.</h3><div id="flight-content"></div></article><article class="reservation-card hotel-card"><div class="reservation-heading"><span class="eyebrow">OUR HOME IN SHANGHAI</span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M5 21V3h14v18M2 21h20M9 21v-4h6v4M8 7h2m4 0h2M8 11h2m4 0h2"/></svg></div><div id="hotel-content"></div></article></div>
+    </section></div></details><details id="places-guide" class="guide-group"><summary><span><strong>더 둘러볼 곳</strong><small>영상 속 후보 · 체험 안내</small></span><i aria-hidden="true">＋</i></summary><div class="guide-body"><details class="sub-guide"><summary>영상에서 소개한 다른 장소<span aria-hidden="true">＋</span></summary><div class="sub-guide-body"><section id="video-places" class="section page-width video-guide-section" aria-labelledby="video-guide-title">
       <div class="section-heading"><div><p class="eyebrow section-number">FROM THE VIDEO / OUR WISHLIST</p><h2 id="video-guide-title">영상 속 상하이,<br>가볼 곳 후보</h2></div><div class="section-intro"><p id="video-guide-intro">마음에 드는 곳을 찜해 두고, 가까운 일정에 골라 넣어요.</p><div id="video-guide-source" class="video-guide-source"></div></div></div>
       <p class="video-guide-note" id="video-guide-note"></p>
       <div class="video-guide-controls"><label class="video-area-filter">지역 <select id="video-area-select" aria-label="영상 후보 지역 선택"><option value="all">전체 지역</option></select></label><button type="button" id="video-favorites-only" class="video-favorites-filter" aria-pressed="false">찜한 후보만 보기 <span id="video-favorites-count">0</span></button><p id="video-result-count" role="status"></p></div>
@@ -89,25 +83,10 @@
       <div id="video-candidate-grid" class="video-candidate-grid"></div>
       <div class="video-more-wrap"><button type="button" id="video-candidates-more" class="button">후보 더 보기 ↓</button></div>
       <noscript><p>영상 후보의 필터와 찜은 자바스크립트를 켜면 사용할 수 있어요.</p></noscript>
-    </section>
-
-    <section id="reservations" class="section page-width" aria-labelledby="reservations-title">
-      <div class="section-heading"><div><p class="eyebrow section-number">03 — THE ESSENTIALS</p><h2 id="reservations-title">갈 곳과 머물 곳은,<br>준비되어 있어요.</h2></div><div class="section-intro"><p>이동에 필요한 항공편과 호텔 기본 정보.<br>날짜와 시간은 각 도시의 현지시간 기준이에요.</p></div></div>
-      <div class="reservation-grid"><article class="reservation-card flight-card"><div class="reservation-heading"><span class="eyebrow">THE FLIGHTS</span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="m3 11 7 1 7-8c2-2 4-1 3 2l-7 8 1 7-2 1-3-6-5-2z"/></svg></div><h3>김포에서, 홍차오로.</h3><div id="flight-content"></div></article><article class="reservation-card hotel-card"><div class="reservation-heading"><span class="eyebrow">OUR HOME IN SHANGHAI</span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M5 21V3h14v18M2 21h20M9 21v-4h6v4M8 7h2m4 0h2M8 11h2m4 0h2"/></svg></div><div id="hotel-content"></div></article></div>
-    </section>
-
-    <section id="sim-stores" class="section page-width sim-section" aria-labelledby="sim-title">
-      <div class="section-heading"><div><p class="eyebrow section-number">SIM / LOCAL CONNECTION</p><h2 id="sim-title">호텔 근처에서,<br>중국 번호 만들기.</h2></div><div class="section-intro"><p id="sim-intro"></p><span class="sim-updated" id="sim-updated"></span></div></div>
-      <p class="sim-caution" id="sim-caution"></p>
-      <ol class="sim-steps" id="sim-steps" aria-label="현지 SIM 개통 방문 순서"></ol>
-      <div class="sim-store-grid" id="sim-store-grid"></div>
-      <div class="sim-request" id="sim-request"></div>
-    </section>
-
-    <section id="prepare" class="prepare-section" aria-labelledby="prepare-title"><div class="page-width preparation-layout"><div class="preparation-intro"><p class="eyebrow section-number">04 — BEFORE WE GO</p><h2 id="prepare-title">앱은 설치 완료.<br>이제, 출발 준비.</h2><p>인증이 필요한 일부터 먼저.<br>하나씩 체크하고 가볍게 떠나요.</p><ol class="priority-list" aria-label="여행 준비 우선순위"><li><span>01</span>결제 · 본인인증</li><li><span>02</span>현지 SIM 개통 · 한국 번호 유지</li><li><span>03</span>여권 · 입국서류</li><li><span>04</span>체험점 · 드론 운영 확인</li></ol><div class="prep-progress"><div><strong id="prep-count">0 / 0</strong><span>준비 완료</span></div><div class="progress-track" role="progressbar" id="prep-progressbar" aria-label="여행 준비 완료율" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span id="prep-progress-fill"></span></div><p>체크한 내용은 이 기기에 저장돼요.</p></div><div class="prep-large-number" aria-hidden="true">LET’S<br><span>GO.</span> ↗</div></div><div class="checklist" id="checklist"></div></div></section>
-
-    <section class="section page-width practical-section" aria-labelledby="practical-title"><div class="section-heading compact"><div><p class="eyebrow section-number">THE POCKET NOTES</p><h2 id="practical-title">필요할 때, 바로 꺼내보기.</h2></div></div><div id="practical-grid" class="practical-grid"></div><details class="sources"><summary><span>자료 출처와 확인 기록</span><span aria-hidden="true">＋</span></summary><div class="sources-inner"><p class="source-note" id="source-note">출발 전 계획입니다. 영업시간·체험 운영·예약 조건은 변경될 수 있으니 방문 직전 공식 안내를 다시 확인해 주세요.</p><ol id="source-list"></ol></div></details></section>
-  </main>
+    </section></div></details><details class="sub-guide"><summary>로봇·드론 체험 상세 안내<span aria-hidden="true">＋</span></summary><div class="sub-guide-body"><section id="experiences" class="experience-section" aria-labelledby="experiences-title">
+      <div class="page-width"><div class="section-heading"><div><p class="eyebrow section-number">02 — WHAT WE CAME FOR</p><h2 id="experiences-title">미래를 구경하고,<br>도시의 취향을 만지고.</h2></div><div class="section-intro"><p>AI Matrix는 무료·무예약 참관, 드론은 당일 주문형.<br>장소별 예약과 한국 +82 번호 조건을 아래에서 확인하세요.</p><a class="text-link video-section-jump" href="#video-places">영상 속 여행 후보 보기 ↘</a><span class="edition-label">A FIELD GUIDE TO SHANGHAI</span></div></div><div id="experience-grid" class="experience-grid"></div><div class="experience-footnote"><span aria-hidden="true">↗</span><p>상설 매장이라도 시연과 체험 방식은 당일 달라질 수 있어요. <strong>확인 필요</strong> 표시는 방문 전 다시 확인할 항목이에요.</p></div></div>
+    </section></div></details></div></details><details id="pocket-guide" class="guide-group"><summary><span><strong>중문 메모·확인 자료</strong><small>기사님께 보여줄 문장 · 출처</small></span><i aria-hidden="true">＋</i></summary><div class="guide-body"><section class="section page-width practical-section" aria-labelledby="practical-title"><div class="section-heading compact"><div><p class="eyebrow section-number">THE POCKET NOTES</p><h2 id="practical-title">필요할 때, 바로 꺼내보기.</h2></div></div><div id="practical-grid" class="practical-grid"></div><details class="sources"><summary><span>자료 출처와 확인 기록</span><span aria-hidden="true">＋</span></summary><div class="sources-inner"><p class="source-note" id="source-note">출발 전 계획입니다. 영업시간·체험 운영·예약 조건은 변경될 수 있으니 방문 직전 공식 안내를 다시 확인해 주세요.</p><ol id="source-list"></ol></div></details></section></div></details></section>
+</main>
   <footer class="site-footer page-width"><div><span class="footer-wordmark">SHANGHAI ’26</span><span>두 사람의 여행 노트</span></div><a href="#top">다시, 첫 장면으로 <span aria-hidden="true">↑</span></a><p>Small discoveries. A new perspective.</p></footer>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
 </body>

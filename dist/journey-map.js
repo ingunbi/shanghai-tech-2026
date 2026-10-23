@@ -197,13 +197,18 @@
   document.addEventListener('journey:show-candidate',event => {
     const place = byId.get(event.detail?.id);
     if (!place || place.kind === 'hotel') return;
+    for (let parent = section.parentElement; parent; parent = parent.parentElement) {
+      if (parent.tagName === 'DETAILS') parent.open = true;
+    }
     candidateId = place.id; activeDate = 'candidate'; selectedId = place.id;
     currentPoints = visiblePlaces();
     document.querySelectorAll('[data-map-date]').forEach(button=>button.setAttribute('aria-pressed','false'));
     renderSummary(); renderPlaceList(); renderDetail(); renderOverview();
-    if (map) updateMap(); else initializeMap();
-    showMode();
-    section.scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth',block:'start'});
+    window.requestAnimationFrame(()=>{
+      if (map) updateMap(); else initializeMap();
+      showMode();
+      section.scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth',block:'start'});
+    });
   });
   $('journey-map-filters').addEventListener('click',event => { const button = event.target.closest('[data-map-date]'); if (button) selectDate(button.dataset.mapDate); });
   $('journey-place-list').addEventListener('click',event => { const button = event.target.closest('[data-map-place]'); if (button) selectPlace(button.dataset.mapPlace); });
@@ -219,6 +224,9 @@
     showMode();
   });
   selectDate('all'); showMode();
+  document.getElementById('map-guide')?.addEventListener('toggle',event=>{
+    if (event.target.open) window.requestAnimationFrame(()=>{ initializeMap(); if(map) fitMap(); });
+  });
   if ('IntersectionObserver' in window) {
     const observer = new IntersectionObserver(entries=>{ if (entries.some(entry=>entry.isIntersecting)) { initializeMap(); observer.disconnect(); } },{rootMargin:'100px'});
     observer.observe($('journey-map-canvas'));

@@ -29,7 +29,7 @@
   const difference = Math.round((dateNumber(start) - dateNumber(today)) / 86400000);
   $('#departure-count').textContent = difference > 0 ? `출발 D−${difference}` : difference === 0 ? '오늘, 상하이로' : today <= end ? `여행 ${Math.abs(difference) + 1}일째` : '다음 장면을 추억하며';
 
-  if (meta.title) $('#hero-title').innerHTML = esc(meta.title).replace(', ', ',<br>');
+  if (meta.title) $('#hero-title').textContent = meta.title;
   if (meta.heroImage) $('#hero-image').src = meta.heroImage;
   if (meta.heroCaption) $('#hero-caption').textContent = meta.heroCaption;
   if (meta.heroCredit && url(meta.heroSourceUrl)) {
@@ -83,7 +83,18 @@
     const address = [stop.zh, stop.address].filter(Boolean).join('\n');
     return `<li class="timeline-stop"><div class="stop-time">${esc(stop.time)}</div><div class="stop-main"><div class="stop-topline"><h4 class="stop-title">${esc(stop.title)}</h4><div class="status-pills">${pill(stop.priority, true)}${pill(stop.type, true)}${pill(stop.status)}</div></div>${stop.detail ? `<p class="stop-detail">${esc(stop.detail)}</p>` : ''}${mealHTML(stop.meal,print)}${stop.zh ? `<div class="stop-zh" lang="zh-CN">${esc(stop.zh)}</div>` : ''}${stop.address ? `<div class="stop-address"><span lang="zh-CN">${esc(stop.address)}</span>${copyButton(address)}</div>` : address ? `<div class="stop-address">${copyButton(address)}</div>` : ''}<div class="stop-links">${link(stop.mapUrl,'고덕지도')}${link(stop.sourceUrl,'확인 자료')}${link(stop.videoUrl,'영상 속 장소')}</div>${stopAccessHTML(stop)}</div></li>`;
   };
-  const dayHTML = (day, index, print = false) => `<div class="day-content-grid"><div class="day-summary"><p class="day-kicker">DAY ${String(index + 1).padStart(2,'0')} — ${esc(day.kicker)}</p><h3>${print ? `${esc(day.label)} (${esc(day.weekday)}) · ` : ''}${esc(day.title)}</h3><p>${esc(day.summary)}</p>${array(day.focus).length ? `<ul class="day-focus" aria-label="오늘의 핵심과 선택 일정">${day.focus.map(item => `<li>${esc(item)}</li>`).join('')}</ul>` : ''}${day.mealNote ? `<p class="day-meal-note"><strong>식사 계획</strong>${esc(day.mealNote)}</p>` : ''}${day.area ? `<span class="day-area">${esc(day.area)}</span>` : ''}${array(day.route).length ? `<div class="route-label">TODAY’S ROUTE</div><div class="day-route">${day.route.map(place => `<span>${esc(place)}</span>`).join('<i aria-hidden="true">→</i>')}</div>` : ''}${day.travelNote || day.weatherPlan ? `<div class="day-small-note">${day.travelNote ? `<strong>이동의 여유</strong>${esc(day.travelNote)}` : ''}${day.weatherPlan ? `<div class="weather-note"><strong>날씨가 달라지면</strong>${esc(day.weatherPlan)}</div>` : ''}</div>` : ''}</div><ol class="timeline" aria-label="${esc(day.label)} 상세 일정">${array(day.stops).map(stop => stopHTML(stop,print)).join('')}</ol></div>${!print ? `<div class="day-note"><label for="daily-note">오늘의 작은 메모<span>이 브라우저에 자동 저장</span></label><textarea id="daily-note" data-note-date="${esc(day.date)}" placeholder="궁금한 기기, 방문 전 물어볼 것, 찍고 싶은 장면…" aria-label="${esc(day.label)} 여행 메모">${esc(saved.notes[day.date] || '')}</textarea></div>` : ''}`;
+  const fullDayHTML = (day, index, print = false) => `<div class="day-content-grid"><div class="day-summary"><p class="day-kicker">DAY ${String(index + 1).padStart(2,'0')} — ${esc(day.kicker)}</p><h3>${print ? `${esc(day.label)} (${esc(day.weekday)}) · ` : ''}${esc(day.title)}</h3><p>${esc(day.summary)}</p>${array(day.focus).length ? `<ul class="day-focus" aria-label="오늘의 핵심과 선택 일정">${day.focus.map(item => `<li>${esc(item)}</li>`).join('')}</ul>` : ''}${day.mealNote ? `<p class="day-meal-note"><strong>식사 계획</strong>${esc(day.mealNote)}</p>` : ''}${day.area ? `<span class="day-area">${esc(day.area)}</span>` : ''}${array(day.route).length ? `<div class="route-label">TODAY’S ROUTE</div><div class="day-route">${day.route.map(place => `<span>${esc(place)}</span>`).join('<i aria-hidden="true">→</i>')}</div>` : ''}${day.travelNote || day.weatherPlan ? `<div class="day-small-note">${day.travelNote ? `<strong>이동의 여유</strong>${esc(day.travelNote)}` : ''}${day.weatherPlan ? `<div class="weather-note"><strong>날씨가 달라지면</strong>${esc(day.weatherPlan)}</div>` : ''}</div>` : ''}</div><ol class="timeline" aria-label="${esc(day.label)} 상세 일정">${array(day.stops).map(stop => stopHTML(stop,print)).join('')}</ol></div>${!print ? `<div class="day-note"><label for="daily-note">오늘의 작은 메모<span>이 브라우저에 자동 저장</span></label><textarea id="daily-note" data-note-date="${esc(day.date)}" placeholder="궁금한 기기, 방문 전 물어볼 것, 찍고 싶은 장면…" aria-label="${esc(day.label)} 여행 메모">${esc(saved.notes[day.date] || '')}</textarea></div>` : ''}`;
+
+
+  const compactStopHTML = stop => {
+    const address = [stop.zh,stop.address].filter(Boolean).join('\n');
+    const hasDetails = stop.detail || stop.meal || address || stop.sourceUrl || stop.videoUrl || stop.accessId;
+    return `<li class="compact-stop"><div class="stop-time">${esc(stop.time)}</div><div class="compact-stop-copy"><div class="compact-stop-head"><h4>${esc(stop.displayTitle || stop.title)}</h4>${stop.quickStatus ? `<span class="quick-status">${esc(stop.quickStatus)}</span>` : ''}${link(stop.mapUrl,'지도')}</div>${stop.shortNote ? `<p class="compact-stop-note">${esc(stop.shortNote)}</p>` : ''}${hasDetails ? `<details class="stop-details"><summary>${stop.meal ? '메뉴·예약·식당 대안' : '주소·방문 안내'}</summary><div class="stop-details-body">${stop.detail ? `<p class="stop-detail">${esc(stop.detail)}</p>` : ''}${mealHTML(stop.meal)}${stop.zh ? `<p class="stop-zh" lang="zh-CN">${esc(stop.zh)}</p>` : ''}${stop.address ? `<div class="stop-address"><span lang="zh-CN">${esc(stop.address)}</span>${copyButton(address)}</div>` : address ? `<div class="stop-address">${copyButton(address)}</div>` : ''}<div class="stop-links">${link(stop.mapUrl,'고덕지도')}${link(stop.sourceUrl,'확인 자료')}${link(stop.videoUrl,'영상 속 장소')}</div>${stopAccessHTML(stop)}</div></details>` : ''}</div></li>`;
+  };
+  const dayHTML = (day,index,print = false) => {
+    if (print) return fullDayHTML(day,index,true);
+    return `<div class="compact-day-header"><p class="eyebrow">DAY ${String(index + 1).padStart(2,'0')} · ${esc(day.label)} ${esc(day.weekday)}</p><h3>${esc(day.displayTitle || day.title)}</h3><p>${esc(day.displaySummary || day.summary)}</p></div><ol class="compact-timeline" aria-label="${esc(day.label)} 핵심 일정">${array(day.stops).filter(stop=>!stop.secondary).map(compactStopHTML).join('')}</ol><details class="day-more"><summary>이동 안내·예약 체크·개인 메모</summary><div class="day-more-body">${array(day.stops).some(stop=>stop.secondary) ? `<ol class="compact-timeline secondary-stops" aria-label="추가 준비·조건부 일정">${array(day.stops).filter(stop=>stop.secondary).map(compactStopHTML).join('')}</ol>` : ''}<p>${esc(day.summary)}</p>${array(day.focus).length ? `<ul class="day-focus" aria-label="오늘의 핵심과 선택 일정">${day.focus.map(item => `<li>${esc(item)}</li>`).join('')}</ul>` : ''}${day.mealNote ? `<p class="day-meal-note"><strong>식사 계획</strong>${esc(day.mealNote)}</p>` : ''}${array(day.route).length ? `<p class="day-route">${day.route.map(esc).join(' → ')}</p>` : ''}${day.travelNote || day.weatherPlan ? `<div class="day-small-note">${day.travelNote ? `<strong>이동의 여유</strong>${esc(day.travelNote)}` : ''}${day.weatherPlan ? `<div class="weather-note"><strong>날씨가 달라지면</strong>${esc(day.weatherPlan)}</div>` : ''}</div>` : ''}<div class="day-note"><label for="daily-note">오늘의 작은 메모<span>이 브라우저에 자동 저장</span></label><textarea id="daily-note" data-note-date="${esc(day.date)}" placeholder="궁금한 기기, 방문 전 물어볼 것, 찍고 싶은 장면…" aria-label="${esc(day.label)} 여행 메모">${esc(saved.notes[day.date] || '')}</textarea></div></div></details>`;
+  };
 
   let activeDay = Math.max(0, days.findIndex(day => day.date === today));
   const setDay = (index, shouldFocus = false) => {
@@ -109,7 +120,7 @@
     $('#itinerary').scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth',block:'start'});
   });
   if (days.length) {
-    $('#day-tabs').innerHTML = days.map((day,index) => `<button class="day-tab" type="button" role="tab" id="day-tab-${index}" aria-controls="day-panel" aria-selected="${index === activeDay}" tabindex="${index === activeDay ? 0 : -1}" data-day="${index}"><span class="day-tab-top"><span>DAY ${String(index + 1).padStart(2,'0')}</span><span>${esc(day.weekday)}</span></span><span class="day-tab-date">${esc(day.label)}</span><span class="day-tab-label">${esc(day.area)}</span>${day.date === today ? '<span class="day-tab-today">TODAY</span>' : ''}</button>`).join('');
+    $('#day-tabs').innerHTML = days.map((day,index) => `<button class="day-tab" type="button" role="tab" id="day-tab-${index}" aria-controls="day-panel" aria-selected="${index === activeDay}" tabindex="${index === activeDay ? 0 : -1}" data-day="${index}"><span class="day-tab-top"><span>DAY ${String(index + 1).padStart(2,'0')}</span><span>${esc(day.weekday)}</span></span><span class="day-tab-date">${esc(day.label)}</span><span class="day-tab-label">${esc(day.shortArea || day.area)}</span>${day.date === today ? '<span class="day-tab-today">TODAY</span>' : ''}</button>`).join('');
     $('#day-overview').innerHTML = days.map((day,index) => `<button class="overview-row" type="button" data-select-day="${index}" aria-label="${esc(day.label)} ${esc(day.title)} 일정 보기"><span class="overview-number">${String(index + 1).padStart(2,'0')}</span><span class="overview-date">${esc(day.label)} ${esc(day.weekday)}</span><span class="overview-title">${esc(day.title)}</span><span class="overview-area">${esc(day.area)}</span><span class="overview-arrow" aria-hidden="true">↗</span></button>`).join('');
     $('#print-days').innerHTML = days.map((day,index) => `<article class="print-day">${dayHTML(day,index,true)}</article>`).join('');
     setDay(activeDay);
@@ -278,7 +289,38 @@
     const button = event.target.closest('[data-copy]');
     if (button) copy(button.dataset.copy);
   });
+  let printAccordionState = [];
+  window.addEventListener('beforeprint',() => {
+    if (printAccordionState.length) return;
+    for (let ancestor = $('#reservations'); ancestor; ancestor = ancestor.parentElement) {
+      if (ancestor.tagName !== 'DETAILS') continue;
+      printAccordionState.push([ancestor,ancestor.open]);
+      ancestor.open = true;
+    }
+  });
+  window.addEventListener('afterprint',() => {
+    printAccordionState.forEach(([element,wasOpen])=>{ element.open = wasOpen; });
+    printAccordionState = [];
+  });
   $('#print-button').addEventListener('click',() => window.print());
+
+  const revealAnchor = (hash,scroll = false) => {
+    if (!hash || hash === '#') return;
+    let id;
+    try { id = decodeURIComponent(hash.slice(1)); } catch { return; }
+    const target = document.getElementById(id);
+    if (!target) return;
+    for (let ancestor = target; ancestor; ancestor = ancestor.parentElement) {
+      if (ancestor.tagName === 'DETAILS') ancestor.open = true;
+    }
+    if (scroll) window.requestAnimationFrame(() => target.scrollIntoView({block:'start',behavior:'auto'}));
+  };
+  document.addEventListener('click',event => {
+    const anchor = event.target.closest('a[href^="#"]');
+    if (anchor) revealAnchor(anchor.getAttribute('href'));
+  });
+  window.addEventListener('hashchange',()=>revealAnchor(window.location.hash,true));
+  revealAnchor(window.location.hash,true);
 
   if ('IntersectionObserver' in window) {
     const observer = new IntersectionObserver(entries => {
@@ -286,6 +328,6 @@
       if (!visible) return;
       document.querySelectorAll('.site-header nav a').forEach(anchor => anchor.classList.toggle('current',anchor.getAttribute('href') === `#${visible.target.id}`));
     },{rootMargin:'-15% 0px -55% 0px',threshold:[0,.1,.3]});
-    ['journey-map','itinerary','experiences','reservations','sim-stores','prepare'].forEach(id => { const section = document.getElementById(id); if (section) observer.observe(section); });
+    document.querySelectorAll('.site-header nav a[href^="#"]').forEach(anchor => { const section = document.getElementById(anchor.getAttribute('href').slice(1)); if (section) observer.observe(section); });
   }
 })();

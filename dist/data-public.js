@@ -1,6 +1,6 @@
 window.TRIP_DATA = {
   "meta": {
-    "title": "도시의 다음 장면을, 먼저 만나다.",
+    "title": "상하이, 우리만의 6일",
     "subtitle": "휴머노이드와 인사하고, 강변에서 드론이 가져온 점심을 기다리는 두 사람의 상하이.",
     "startDate": "2026-10-27",
     "endDate": "2026-11-01",
@@ -37,7 +37,11 @@ window.TRIP_DATA = {
           "detail": "항공권 메일의 출발 3시간 전 도착 권고를 반영했다. 여권·전자항공권·위탁수하물 확인.",
           "type": "항공",
           "status": "준비",
-          "mapUrl": null
+          "mapUrl": null,
+          "displayTitle": "김포 국제선 출국 준비",
+          "shortNote": "출발 3시간 전 공항 도착을 목표로 여권과 수하물을 확인해요.",
+          "quickStatus": "",
+          "secondary": true
         },
         {
           "time": "12:00 → 12:55",
@@ -48,7 +52,10 @@ window.TRIP_DATA = {
           "type": "항공",
           "status": "발권 완료",
           "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BA%20T1%20&city=310000&view=map&src=shanghaitech2026&callnative=1",
-          "placeId": "airport"
+          "placeId": "airport",
+          "displayTitle": "MU512 · 김포 → 홍차오 T1",
+          "shortNote": "한국 12:00 출발, 상하이 12:55 도착이에요.",
+          "quickStatus": ""
         },
         {
           "time": "14:00–15:00 · 입국 후",
@@ -60,7 +67,10 @@ window.TRIP_DATA = {
           "status": "현장 조건 확인",
           "sourceUrl": "https://english.shanghai.gov.cn/en-LatestNews/20260319/526f61df226649a58acf4b174d18f8aa.html",
           "mapUrl": null,
-          "placeId": "airport"
+          "placeId": "airport",
+          "displayTitle": "홍차오 T1 · SIM 상담",
+          "shortNote": "한국에서도 인증 문자를 받을 +86 회선의 비용과 유지 조건을 확인해요.",
+          "quickStatus": "개통 조건 확인"
         },
         {
           "time": "15:30–16:30",
@@ -72,7 +82,10 @@ window.TRIP_DATA = {
           "status": "예약 확정",
           "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E6%96%B0%E5%8D%8E%E8%81%94%E7%B4%A2%E8%8F%B2%E7%89%B9%E5%A4%A7%E9%85%92%E5%BA%97%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%B3%B0%E8%99%B9%E8%B7%AF666%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
           "placeId": "hotel",
-          "priority": "핵심"
+          "priority": "핵심",
+          "displayTitle": "소피텔 홍차오 체크인",
+          "shortNote": "짐을 풀고 연속 투숙과 귀국일 새벽 차량을 프런트에 확인해요.",
+          "quickStatus": ""
         },
         {
           "time": "16:30–18:00 · 필요 시",
@@ -85,7 +98,11 @@ window.TRIP_DATA = {
           "sourceUrl": "https://www.10086.cn/support/service/channel/entityen/",
           "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8%20%E7%94%B3%E9%95%BF%E8%B7%AF%E8%90%A5%E4%B8%9A%E5%8E%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E7%94%B3%E9%95%BF%E8%B7%AF1588%E5%BC%843%E3%80%815%E5%8F%B7106%E5%AE%A4&city=310000&view=map&src=shanghaitech2026&callnative=1",
           "priority": "선택",
-          "placeId": "sim"
+          "placeId": "sim",
+          "displayTitle": "유심이 남았다면 선창루점",
+          "shortNote": "공항 개통이 어려웠을 때만 호텔에서 여권 접수 여부를 확인해요.",
+          "quickStatus": "필요할 때만",
+          "secondary": true
         },
         {
           "time": "18:30–19:30 · SIM 일정 뒤",
@@ -127,7 +144,10 @@ window.TRIP_DATA = {
               "sourceUrl": "https://sofitel.accor.com/en/hotels/9933/R003.restaurant.html",
               "mapUrl": "https://uri.amap.com/search?keyword=Le+Chinois+%E4%B9%90%E8%BD%A9%E5%8D%8E%E4%B8%AD%E9%A4%90%E5%8E%85+%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%B3%B0%E8%99%B9%E8%B7%AF666%E5%8F%B7+%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E6%96%B0%E5%8D%8E%E8%81%94%E7%B4%A2%E8%8F%B2%E7%89%B9%E5%A4%A7%E9%85%92%E5%BA%97&city=310000&view=map&src=shanghaitech2026&callnative=1"
             }
-          }
+          },
+          "displayTitle": "청년성주 · 홍차오톈디점",
+          "shortNote": "호텔 가까운 홍차오 권역에서 오리구이와 가정식으로 저녁을 먹어요.",
+          "quickStatus": "좌석 확인"
         }
       ],
       "focus": [
@@ -135,7 +155,10 @@ window.TRIP_DATA = {
         "필수 · 소피텔 체크인",
         "선택 · 홍차오 저녁 산책"
       ],
-      "mealNote": "점심은 김포 출국 전에 가볍게 준비한다. 기내식 제공은 확인되지 않았으므로 공항에서 간단한 식사를 챙기고, 상하이에서는 입국·SIM·체크인을 먼저 마친다. 저녁은 홍차오 호텔 권역에서 해결한다."
+      "mealNote": "점심은 김포 출국 전에 가볍게 준비한다. 기내식 제공은 확인되지 않았으므로 공항에서 간단한 식사를 챙기고, 상하이에서는 입국·SIM·체크인을 먼저 마친다. 저녁은 홍차오 호텔 권역에서 해결한다.",
+      "displayTitle": "도착일은 가볍게, 홍차오에서",
+      "displaySummary": "입국 후 SIM을 상담하고 체크인, 저녁은 호텔 가까이에서.",
+      "shortArea": "도착 · 홍차오"
     },
     {
       "date": "2026-10-28",
@@ -166,7 +189,10 @@ window.TRIP_DATA = {
           "mapUrl": "https://uri.amap.com/search?keyword=%E5%AE%87%E6%A0%91%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E4%BD%93%E9%AA%8C%E9%A6%86%20%E4%B9%85%E5%85%89%E7%99%BE%E8%B4%A7%E5%BA%97%20%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF1618%E5%8F%B7%20%E4%B9%85%E5%85%89%E7%99%BE%E8%B4%A72%E6%A5%BC&city=310000&view=map&src=shanghaitech2026&callnative=1",
           "accessId": "unitree",
           "priority": "핵심",
-          "placeId": "unitree"
+          "placeId": "unitree",
+          "displayTitle": "Unitree · 휴머노이드 체험관",
+          "shortNote": "휴머노이드와 로봇개를 보고 직접 조작할 수 있는지 물어봐요.",
+          "quickStatus": "조작 조건 확인"
         },
         {
           "time": "12:30–13:30",
@@ -203,7 +229,10 @@ window.TRIP_DATA = {
               "sourceUrl": "https://www.shangri-la.com/shanghai/jinganshangrila/dining/restaurants/summer-palace/",
               "mapUrl": "https://uri.amap.com/search?keyword=%E5%A4%8F%E5%AE%AB+%E5%A4%8F%E5%B0%8F%E9%A6%86+%E9%9D%99%E5%AE%89%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89+%E9%9D%99%E5%AE%89%E5%8C%BA%E5%BB%B6%E5%AE%89%E4%B8%AD%E8%B7%AF1218%E5%8F%B7+%E9%9D%99%E5%AE%89%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%893%E6%A5%BC&city=310000&view=map&src=shanghaitech2026&callnative=1"
             }
-          }
+          },
+          "displayTitle": "COVA 久光店 · 점심",
+          "shortNote": "Unitree와 같은 건물 1층에서 가볍게 먹고 쉬어요.",
+          "quickStatus": ""
         },
         {
           "time": "14:00–15:30",
@@ -216,7 +245,10 @@ window.TRIP_DATA = {
           "sourceUrl": "https://www.gentlemonster.com/cn/zh-CN/stores/detail/779149670609076624",
           "mapUrl": "https://uri.amap.com/search?keyword=HAUS%20NOWHERE%20%E4%B8%8A%E6%B5%B7%20%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF798%E2%80%93812%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
           "priority": "핵심",
-          "placeId": "haus"
+          "placeId": "haus",
+          "displayTitle": "HAUS NOWHERE · 브랜드 공간",
+          "shortNote": "현재 설치물을 둘러보고 마음에 드는 장면을 짧게 촬영해요.",
+          "quickStatus": ""
         },
         {
           "time": "16:00–18:00 · 산책 후 17:00 식사",
@@ -259,7 +291,10 @@ window.TRIP_DATA = {
               "sourceUrl": "https://www.poluxbypp.com/",
               "mapUrl": "https://uri.amap.com/search?keyword=POLUX+%E6%96%B0%E5%A4%A9%E5%9C%B0+%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%A4%AA%E4%BB%93%E8%B7%AF181%E5%BC%84%E6%96%B0%E5%A4%A9%E5%9C%B0%E5%8C%97%E9%87%8C5%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1"
             }
-          }
+          },
+          "displayTitle": "신톈디 산책 · 夜上海 저녁",
+          "shortNote": "30–45분 산책 뒤 상하이 요리로 17시 이른 저녁을 계획해요.",
+          "quickStatus": "예약 권장"
         }
       ],
       "focus": [
@@ -267,7 +302,10 @@ window.TRIP_DATA = {
         "핵심 · HAUS NOWHERE",
         "영상 · 신톈디 산책·이른 저녁"
       ],
-      "mealNote": "점심은 Unitree와 같은 久光 건물에서, 저녁은 신톈디 산책 뒤 17시 예약을 목표로 한다. 두 끼 모두 기존 식사 시간 안에 넣었으며 좌석을 기다리느라 HAUS 방문을 줄이지 않는다."
+      "mealNote": "점심은 Unitree와 같은 久光 건물에서, 저녁은 신톈디 산책 뒤 17시 예약을 목표로 한다. 두 끼 모두 기존 식사 시간 안에 넣었으며 좌석을 기다리느라 HAUS 방문을 줄이지 않는다.",
+      "displayTitle": "로봇을 만나고, 신톈디에서 저녁",
+      "displaySummary": "Unitree와 HAUS를 충분히 보고, 신톈디 산책 뒤 이른 저녁.",
+      "shortArea": "정안 · 신톈디"
     },
     {
       "date": "2026-10-29",
@@ -299,7 +337,10 @@ window.TRIP_DATA = {
           "mapUrl": "https://uri.amap.com/search?keyword=META%20AI%20HUB%20%E5%BC%A0%E6%B1%9FAI%E5%BA%94%E7%94%A8%E5%95%86%E5%BA%97%20%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E6%B5%B7%E7%A7%91%E8%B7%AF1650%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
           "accessId": "matrix",
           "priority": "핵심",
-          "placeId": "matrix"
+          "placeId": "matrix",
+          "displayTitle": "장장 AI Matrix · 기기 체험",
+          "shortNote": "AI 안경과 로봇을 둘러보고, 개별 제작 체험은 현장에서 확인해요.",
+          "quickStatus": ""
         },
         {
           "time": "12:30–14:30 · 식사 후 이동",
@@ -336,7 +377,10 @@ window.TRIP_DATA = {
               "sourceUrl": "https://www.hilton.com/en/hotels/shazjhi-hilton-shanghai-zhangjiang-science-city/dining/",
               "mapUrl": "https://uri.amap.com/search?keyword=JV%E5%A3%B9%E8%81%9A%E6%B5%B7%E6%B4%BE%E8%8F%9C+%E4%B8%8A%E6%B5%B7%E5%BC%A0%E6%B1%9F%E7%A7%91%E5%AD%A6%E5%9F%8E%E5%B8%8C%E5%B0%94%E9%A1%BF%E9%85%92%E5%BA%97+%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E6%B5%B7%E7%A7%91%E8%B7%AF1398%E5%8F%B7+%E4%B8%8A%E6%B5%B7%E5%BC%A0%E6%B1%9F%E7%A7%91%E5%AD%A6%E5%9F%8E%E5%B8%8C%E5%B0%94%E9%A1%BF%E9%85%92%E5%BA%971%E6%A5%BC&city=310000&view=map&src=shanghaitech2026&callnative=1"
             }
-          }
+          },
+          "displayTitle": "장장 Marriott · 점심",
+          "shortNote": "AI Matrix 인근 호텔에서 점심을 먹고 루자쭈이로 이동해요.",
+          "quickStatus": "예약 권장"
         },
         {
           "time": "14:30–16:00",
@@ -350,7 +394,10 @@ window.TRIP_DATA = {
           "placeId": "lujiazui",
           "mapUrl": "https://uri.amap.com/search?keyword=%E6%B5%A6%E4%B8%9C%E7%BE%8E%E6%9C%AF%E9%A6%86+%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E6%BB%A8%E6%B1%9F%E5%A4%A7%E9%81%932777%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
           "sourceUrl": "https://www.museumofartpd.org.cn/business",
-          "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=1455s"
+          "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=1455s",
+          "displayTitle": "푸둥 강변 · 일락장랑 권역",
+          "shortNote": "푸둥미술관 바깥 강변을 30–40분 걷고 카페나 몰에서 쉬어요.",
+          "quickStatus": ""
         },
         {
           "time": "16:15–17:15 · 이른 저녁",
@@ -387,7 +434,10 @@ window.TRIP_DATA = {
               "sourceUrl": "https://www.superbrandmall.com/cn/store/691af4c7a00a2a955e99aaf8",
               "mapUrl": "https://uri.amap.com/search?keyword=%E8%8B%8F%E5%B0%8F%E6%9F%B3+%E6%AD%A3%E5%A4%A7%E5%B9%BF%E5%9C%BA%E5%BA%97+%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E9%99%86%E5%AE%B6%E5%98%B4%E8%A5%BF%E8%B7%AF168%E5%8F%B7+%E6%AD%A3%E5%A4%A7%E5%B9%BF%E5%9C%BAB2E-1%2B2%2B3&city=310000&view=map&src=shanghaitech2026&callnative=1"
             }
-          }
+          },
+          "displayTitle": "SPACELAB · 레일 식당",
+          "shortNote": "레일로 음식이 오는 식당에서 버거·립·파스타 중 골라 먹어요.",
+          "quickStatus": "영업·좌석 확인"
         },
         {
           "time": "17:45–18:30 · 체력 여유 시",
@@ -400,7 +450,10 @@ window.TRIP_DATA = {
           "sourceUrl": null,
           "mapUrl": "https://uri.amap.com/search?keyword=%E5%A4%96%E6%BB%A9%20&city=310000&view=map&src=shanghaitech2026&callnative=1",
           "priority": "선택",
-          "placeId": "bund"
+          "placeId": "bund",
+          "displayTitle": "와이탄 · 짧은 야경 산책",
+          "shortNote": "식사와 이동이 여유로울 때만 강을 건너 스카이라인을 봐요.",
+          "quickStatus": "여유 있을 때"
         }
       ],
       "focus": [
@@ -408,7 +461,10 @@ window.TRIP_DATA = {
         "영상 · 일락장랑 권역 30–40분",
         "선택 · 와이탄 야경"
       ],
-      "mealNote": "장장 점심은 AI Matrix 인접 도로의 Marriott에서, 저녁은 루자쭈이 SPACELAB에서 이르게 먹는다. 식사가 길어지면 선택 일정인 와이탄부터 빼고 푸둥에서 마무리한다."
+      "mealNote": "장장 점심은 AI Matrix 인접 도로의 Marriott에서, 저녁은 루자쭈이 SPACELAB에서 이르게 먹는다. 식사가 길어지면 선택 일정인 와이탄부터 빼고 푸둥에서 마무리한다.",
+      "displayTitle": "장장의 AI, 푸둥 강변과 저녁",
+      "displaySummary": "AI Matrix를 둘러본 뒤 푸둥에서 쉬고, SPACELAB에서 저녁.",
+      "shortArea": "장장 · 루자쭈이"
     },
     {
       "date": "2026-10-30",
@@ -440,7 +496,10 @@ window.TRIP_DATA = {
           "mapUrl": "https://uri.amap.com/search?keyword=%E6%9C%BA%E6%97%B6%E7%A7%9F%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E4%BD%93%E9%AA%8C%E5%BA%97%20%E5%BE%90%E6%B1%87%E5%8C%BA%E8%A1%A1%E5%B1%B1%E8%B7%AF932%E5%8F%B7%20%E6%96%B0%E5%85%AD%E7%99%BEYOUNG%203%E6%A5%BC&city=310000&view=map&src=shanghaitech2026&callnative=1",
           "accessId": "robot",
           "priority": "핵심",
-          "placeId": "robot"
+          "placeId": "robot",
+          "displayTitle": "机时租 · 로봇개 조작",
+          "shortNote": "현장 안내에 따라 로봇개 조작과 휴머노이드 상호작용을 시도해요.",
+          "quickStatus": "조작 조건 확인"
         },
         {
           "time": "13:00–14:30",
@@ -482,7 +541,10 @@ window.TRIP_DATA = {
               "sourceUrl": "https://www.mcdonalds.com.cn/news/20211008-mchqrestaurant/",
               "mapUrl": "https://uri.amap.com/search?keyword=%E9%BA%A6%E5%BD%93%E5%8A%B3%E9%BE%99%E8%85%BE%E5%A4%A7%E9%81%93%E9%A4%90%E5%8E%85+%E5%B7%A8%E6%97%A0%E9%9C%B8%E9%AD%94%E6%96%B9+%E5%BE%90%E6%B1%87%E5%8C%BA%E9%BE%99%E8%85%BE%E5%A4%A7%E9%81%932121%E5%8F%B7+%E5%B7%A8%E6%97%A0%E9%9C%B8%E9%AD%94%E6%96%B91%E2%80%932%E6%A5%BC&city=310000&view=map&src=shanghaitech2026&callnative=1"
             }
-          }
+          },
+          "displayTitle": "미투안 드론 · 맥도날드 점심",
+          "shortNote": "운항·주문을 확인하고 지정 수령점에서 QR로 점심을 찾아요.",
+          "quickStatus": "당일 운항"
         },
         {
           "time": "14:30–16:00",
@@ -496,7 +558,10 @@ window.TRIP_DATA = {
           "mapUrl": "https://uri.amap.com/search?keyword=%E8%A5%BF%E5%B2%B8%E7%BE%8E%E6%9C%AF%E9%A6%86+%E5%BE%90%E6%B1%87%E5%8C%BA%E9%BE%99%E8%85%BE%E5%A4%A7%E9%81%932600%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
           "priority": "선택",
           "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=642s",
-          "placeId": "video-westbund"
+          "placeId": "video-westbund",
+          "displayTitle": "서안미술관 외관 · 강변",
+          "shortNote": "외관과 강변만 30–45분 걷고, 체험이 늦어지면 바로 쉬어요.",
+          "quickStatus": "선택 산책"
         },
         {
           "time": "17:30–18:30 · 이른 저녁",
@@ -538,7 +603,10 @@ window.TRIP_DATA = {
               "sourceUrl": "https://www.bln-restaurants.com/zh-hans/wechat/our-brands/baktro/west-bund/",
               "mapUrl": "https://uri.amap.com/search?keyword=BAKTRO+%E7%83%98%E7%84%99%E9%A4%90%E9%85%92%E9%A6%86+%E8%A5%BF%E5%B2%B8%E6%A2%A6%E4%B8%AD%E5%BF%83%E5%BA%97+%E5%BE%90%E6%B1%87%E5%8C%BA%E9%BE%99%E8%85%BE%E5%A4%A7%E9%81%932266%E5%8F%B7+%E8%A5%BF%E5%B2%B8%E6%A2%A6%E4%B8%AD%E5%BF%8310%E6%A0%8B117&city=310000&view=map&src=shanghaitech2026&callnative=1"
             }
-          }
+          },
+          "displayTitle": "Paulaner · 서안몽중심점",
+          "shortNote": "독일식 돼지족이나 소시지를 나눠 먹고 호텔로 돌아가요.",
+          "quickStatus": "예약 권장"
         },
         {
           "time": "19:00 전후 · 교통 상황에 따라",
@@ -550,7 +618,10 @@ window.TRIP_DATA = {
           "status": "귀환 목표",
           "priority": "선택",
           "placeId": "hotel",
-          "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E6%96%B0%E5%8D%8E%E8%81%94%E7%B4%A2%E8%8F%B2%E7%89%B9%E5%A4%A7%E9%85%92%E5%BA%97%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%B3%B0%E8%99%B9%E8%B7%AF666%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1"
+          "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E6%96%B0%E5%8D%8E%E8%81%94%E7%B4%A2%E8%8F%B2%E7%89%B9%E5%A4%A7%E9%85%92%E5%BA%97%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%B3%B0%E8%99%B9%E8%B7%AF666%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "displayTitle": "소피텔 홍차오 · 휴식",
+          "shortNote": "연속 투숙의 키 갱신 여부를 확인하고 다음 날을 위해 쉬어요.",
+          "quickStatus": ""
         }
       ],
       "focus": [
@@ -558,7 +629,10 @@ window.TRIP_DATA = {
         "핵심 · 미투안 드론 주문 시도",
         "영상 · 서안미술관 외관·강변"
       ],
-      "mealNote": "점심은 드론 맥도날드 주문 자체가 체험이다. 실패하면 발송 식당에서 일반 식사를 하고, 저녁은 서안 강변에서 예약·좌석 확인 후 독일식으로 먹는다."
+      "mealNote": "점심은 드론 맥도날드 주문 자체가 체험이다. 실패하면 발송 식당에서 일반 식사를 하고, 저녁은 서안 강변에서 예약·좌석 확인 후 독일식으로 먹는다.",
+      "displayTitle": "로봇개를 조작하고, 드론 점심",
+      "displaySummary": "로봇개 체험과 드론 주문을 우선하고, 강변은 짧게 걸어요.",
+      "shortArea": "쉬자후이 · 서안"
     },
     {
       "date": "2026-10-31",
@@ -589,7 +663,10 @@ window.TRIP_DATA = {
           "mapUrl": "https://uri.amap.com/search?keyword=%E6%99%BA%E5%85%83%E4%BA%AC%E4%B8%9C%E7%BA%BF%E4%B8%8B%E9%A6%96%E5%BA%97%20%E4%BA%AC%E4%B8%9CMALL%E4%B8%8A%E6%B5%B7%E4%B8%83%E5%AE%9D%E5%BA%97%20%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%BC%95%E5%AE%9D%E8%B7%AF3509%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
           "accessId": "agibot",
           "priority": "핵심",
-          "placeId": "agibot"
+          "placeId": "agibot",
+          "displayTitle": "AGIBOT · 휴머노이드 매장",
+          "shortNote": "로봇의 안내와 시연을 보고 상호작용 가능 여부를 물어봐요.",
+          "quickStatus": "체험 조건 확인"
         },
         {
           "time": "12:00–13:15",
@@ -602,7 +679,10 @@ window.TRIP_DATA = {
           "sourceUrl": "https://japanese.shanghai.gov.cn/ja-FirstStores/20260608/24f3a7ad2426446e9b31ba6b764f64cf.html",
           "mapUrl": "https://uri.amap.com/search?keyword=%E4%BA%AC%E4%B8%9CMALL%20%E4%B8%8A%E6%B5%B7%E4%B8%83%E5%AE%9D%E5%BA%97%20%E6%BC%95%E5%AE%9D%E8%B7%AF3509%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
           "priority": "핵심",
-          "placeId": "agibot"
+          "placeId": "agibot",
+          "displayTitle": "JD MALL · IT 구경",
+          "shortNote": "관심 있는 AI 기기와 전자제품을 여유롭게 비교해요.",
+          "quickStatus": ""
         },
         {
           "time": "13:30–14:15 · 늦은 점심",
@@ -647,7 +727,10 @@ window.TRIP_DATA = {
               "sourceUrl": "https://us.trip.com/restaurant/china/shanghai/detail/restaurant-135986009/",
               "mapUrl": "https://uri.amap.com/search?keyword=%E5%A4%96%E5%A9%86%E5%AE%B6+%E4%B8%8A%E6%B5%B7%E4%B8%83%E5%AE%9D%E9%A2%86%E5%B1%95%E5%B9%BF%E5%9C%BA%E5%BA%97+%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%BC%95%E5%AE%9D%E8%B7%AF3366%E5%8F%B7+%E4%B8%83%E5%AE%9D%E9%A2%86%E5%B1%95%E5%B9%BF%E5%9C%BA5%E6%A5%BC515B&city=310000&view=map&src=shanghaitech2026&callnative=1"
             }
-          }
+          },
+          "displayTitle": "청년성주 · 칠보링크플라자점",
+          "shortNote": "인접 몰에서 13:30 늦은 점심으로 가정식과 밥을 먹어요.",
+          "quickStatus": "좌석 확인"
         },
         {
           "time": "14:45–15:30 · 혼잡하면 생략",
@@ -661,7 +744,10 @@ window.TRIP_DATA = {
           "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%83%E5%AE%9D%E5%8F%A4%E9%95%87%20%E6%97%85%E6%B8%B8%E5%92%A8%E8%AF%A2%E7%82%B9%EF%BC%9A%E9%97%B5%E8%A1%8C%E5%8C%BA%E4%B8%83%E5%AE%9D%E9%95%87%E6%A8%AA%E6%B2%A5%E8%B7%AF108%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
           "priority": "선택",
           "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=946s",
-          "placeId": "video-qibao"
+          "placeId": "video-qibao",
+          "displayTitle": "칠보고진 · 간식과 산책",
+          "shortNote": "옛 거리와 물가를 45분 정도 보고, 붐비면 호텔로 돌아가요.",
+          "quickStatus": "선택 산책"
         },
         {
           "time": "17:00–18:00 / 저녁 후 이어서",
@@ -673,7 +759,10 @@ window.TRIP_DATA = {
           "status": "차량 예약 필요",
           "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E6%96%B0%E5%8D%8E%E8%81%94%E7%B4%A2%E8%8F%B2%E7%89%B9%E5%A4%A7%E9%85%92%E5%BA%97%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%B3%B0%E8%99%B9%E8%B7%AF666%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
           "priority": "핵심",
-          "placeId": "hotel"
+          "placeId": "hotel",
+          "displayTitle": "17시 호텔 복귀 · 짐 정리",
+          "shortNote": "짐과 새벽 차량, 중국 SIM의 한국 문자 수신을 마지막으로 확인해요.",
+          "quickStatus": ""
         },
         {
           "time": "18:00–19:00 · 호텔 안 저녁",
@@ -716,7 +805,10 @@ window.TRIP_DATA = {
               "sourceUrl": "https://sofitel.accor.com/en/hotels/9933/restaurants.html",
               "mapUrl": "https://uri.amap.com/search?keyword=Kwee+Zeen+%E9%94%A6%E5%8E%A8%E5%85%A8%E6%97%A5%E5%88%B6%E9%A4%90%E5%8E%85+%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%B3%B0%E8%99%B9%E8%B7%AF666%E5%8F%B7+%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E6%96%B0%E5%8D%8E%E8%81%94%E7%B4%A2%E8%8F%B2%E7%89%B9%E5%A4%A7%E9%85%92%E5%BA%97&city=310000&view=map&src=shanghaitech2026&callnative=1"
             }
-          }
+          },
+          "displayTitle": "Le Chinois · 호텔 저녁",
+          "shortNote": "호텔 중식당에서 가볍게 먹고 추가 이동 없이 쉬어요.",
+          "quickStatus": "저녁 영업 확인"
         }
       ],
       "focus": [
@@ -724,7 +816,10 @@ window.TRIP_DATA = {
         "영상 · 칠보고진 45–60분",
         "필수 · 17시 호텔 복귀"
       ],
-      "mealNote": "토요일 점심은 JD MALL에서 구경한 뒤 인접 칠보링크플라자로 이동해13:30 늦은 점심을 계획한다. 저녁은 17시 호텔 복귀 뒤 호텔 안에서 해결해 새벽 출국 준비 시간을 지킨다."
+      "mealNote": "토요일 점심은 JD MALL에서 구경한 뒤 인접 칠보링크플라자로 이동해13:30 늦은 점심을 계획한다. 저녁은 17시 호텔 복귀 뒤 호텔 안에서 해결해 새벽 출국 준비 시간을 지킨다.",
+      "displayTitle": "AGIBOT와 칠보, 일찍 호텔로",
+      "displaySummary": "로봇과 IT 구경 후 칠보는 짧게, 17시 호텔 복귀.",
+      "shortArea": "칠보 · 홍차오"
     },
     {
       "date": "2026-11-01",
@@ -752,7 +847,10 @@ window.TRIP_DATA = {
           "status": "계획 시간",
           "sourceUrl": null,
           "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E6%96%B0%E5%8D%8E%E8%81%94%E7%B4%A2%E8%8F%B2%E7%89%B9%E5%A4%A7%E9%85%92%E5%BA%97%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%B3%B0%E8%99%B9%E8%B7%AF666%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
-          "placeId": "hotel"
+          "placeId": "hotel",
+          "displayTitle": "새벽 체크아웃",
+          "shortNote": "정산을 마치고 여권·휴대폰·충전기를 챙겨요.",
+          "quickStatus": ""
         },
         {
           "time": "04:20 → 05:00",
@@ -764,7 +862,10 @@ window.TRIP_DATA = {
           "status": "차량 예약 필요",
           "sourceUrl": null,
           "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BA%20T1%20%E5%9B%BD%E9%99%85%E5%87%BA%E5%8F%91%20&city=310000&view=map&src=shanghaitech2026&callnative=1",
-          "placeId": "airport"
+          "placeId": "airport",
+          "displayTitle": "04:20 출발 목표 · 홍차오 T1",
+          "shortNote": "전날 확정할 차량·택시로 국제선 T1에 05시 도착을 목표로 해요.",
+          "quickStatus": "차량 사전 확인"
         },
         {
           "time": "08:00 → 11:00",
@@ -775,7 +876,10 @@ window.TRIP_DATA = {
           "type": "항공",
           "status": "발권 완료",
           "mapUrl": null,
-          "placeId": "airport"
+          "placeId": "airport",
+          "displayTitle": "MU511 · 홍차오 T1 → 김포",
+          "shortNote": "상하이 08:00 출발, 한국 11:00 도착이에요.",
+          "quickStatus": ""
         }
       ],
       "focus": [
@@ -783,7 +887,10 @@ window.TRIP_DATA = {
         "필수 · 홍차오 T1 국제선",
         "관광 없이 귀국"
       ],
-      "mealNote": "귀국일은08:00 항공편이 우선이다. 공항 식당 영업이나 기내식을 확정하지 않고, 전날 호텔에 포장 조식 가능 여부를 문의한다. 점심은11:00 김포 도착 뒤 컨디션에 맞춰 먹는다."
+      "mealNote": "귀국일은08:00 항공편이 우선이다. 공항 식당 영업이나 기내식을 확정하지 않고, 전날 호텔에 포장 조식 가능 여부를 문의한다. 점심은11:00 김포 도착 뒤 컨디션에 맞춰 먹는다.",
+      "displayTitle": "홍차오 T1에서 김포로 귀국",
+      "displaySummary": "04:20 호텔 출발 목표, 국제선 T1로 이동해요.",
+      "shortArea": "홍차오 T1 · 김포"
     }
   ],
   "experiences": [
@@ -1465,7 +1572,7 @@ window.TRIP_DATA = {
     }
   ],
   "notes": {
-    "plan": "로봇·드론 유지 · 점심·저녁 지점과 대안 반영 · 일반 식사 대기15분 기준",
+    "plan": "5박 6일 · 로봇·드론·도시 산책",
     "assumption": "왕홍 체험은 로봇·드론·브랜드 공간에서 짧은 영상을 직접 찍는 동선으로 구성했다. 전문 스튜디오·메이크업 서비스는 포함하지 않았다.",
     "privacy": "공개 여행 가이드. 체크와 메모는 현재 브라우저에만 저장되며 다른 방문자에게 공개되거나 기기 간 자동 동기화되지 않는다."
   },
