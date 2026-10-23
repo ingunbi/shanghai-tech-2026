@@ -8,11 +8,11 @@
   <meta name="description" content="두 사람의 상하이 5박 6일. 로봇, 도시의 기술, 새로운 브랜드를 찾아가는 출발 전 여행 계획.">
   <title>SHANGHAI ’26 — 두 사람의 여행 노트</title>
   <link rel="stylesheet" href="vendor/leaflet/leaflet.css">
-  <link rel="stylesheet" href="styles.css?v=clear-map-20261023">
-  <script src="data-public.js?v=clear-map-20261023" defer></script>
-  <script src="app-public.js?v=clear-map-20261023" defer></script>
+  <link rel="stylesheet" href="styles.css?v=video-guide-20261023">
+  <script src="data-public.js?v=video-guide-20261023" defer></script>
+  <script src="app-public.js?v=video-guide-20261023" defer></script>
   <script src="vendor/leaflet/leaflet.js" defer></script>
-  <script src="journey-map.js?v=clear-map-20261023" defer></script>
+  <script src="journey-map.js?v=video-guide-20261023" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#itinerary">여행 일정으로 바로가기</a>
@@ -64,7 +64,7 @@
         </div>
         <aside class="journey-map-sidebar" aria-label="선택한 날짜와 장소 안내"><div id="journey-map-summary" class="journey-map-summary"></div><div id="journey-place-detail" class="journey-place-detail" aria-live="polite"></div><details class="journey-place-picker"><summary>장소 목록에서 선택하기</summary><div id="journey-place-list" class="journey-place-list" aria-label="지도에 표시한 장소 목록"></div></details></aside>
       </div>
-      <div class="journey-map-footnote"><p id="journey-map-note">선은 방문 순서를 나타내며 실제 도로 경로가 아닙니다. 정확한 입구와 길찾기는 장소별 고덕지도를 확인하세요.</p><a href="https://www.openstreetmap.org/fixthemap" target="_blank" rel="noopener noreferrer">지도 정보 수정 제안 ↗</a></div>
+      <div class="journey-map-footnote"><p id="journey-map-note">선은 방문 순서를 나타내며 실제 도로 경로가 아닙니다. 정확한 입구와 길찾기는 장소별 고덕지도를 확인하세요.</p><a href="#video-places" class="text-link">영상 속 후보 보기 ↘</a><a href="https://www.openstreetmap.org/fixthemap" target="_blank" rel="noopener noreferrer">지도 정보 수정 제안 ↗</a></div>
       <noscript><p class="journey-no-script">날짜별 지도는 자바스크립트를 켜면 볼 수 있어요. 아래 일정의 고덕지도 링크에서도 각 장소를 확인할 수 있습니다.</p></noscript>
     </section>
 
@@ -77,7 +77,17 @@
     </section>
 
     <section id="experiences" class="experience-section" aria-labelledby="experiences-title">
-      <div class="page-width"><div class="section-heading"><div><p class="eyebrow section-number">02 — WHAT WE CAME FOR</p><h2 id="experiences-title">미래를 구경하고,<br>도시의 취향을 만지고.</h2></div><div class="section-intro"><p>AI Matrix는 무료·무예약 참관, 드론은 당일 주문형.<br>장소별 예약과 한국 +82 번호 조건을 아래에서 확인하세요.</p><span class="edition-label">A FIELD GUIDE TO SHANGHAI</span></div></div><div id="experience-grid" class="experience-grid"></div><div class="experience-footnote"><span aria-hidden="true">↗</span><p>상설 매장이라도 시연과 체험 방식은 당일 달라질 수 있어요. <strong>확인 필요</strong> 표시는 방문 전 다시 확인할 항목이에요.</p></div></div>
+      <div class="page-width"><div class="section-heading"><div><p class="eyebrow section-number">02 — WHAT WE CAME FOR</p><h2 id="experiences-title">미래를 구경하고,<br>도시의 취향을 만지고.</h2></div><div class="section-intro"><p>AI Matrix는 무료·무예약 참관, 드론은 당일 주문형.<br>장소별 예약과 한국 +82 번호 조건을 아래에서 확인하세요.</p><a class="text-link video-section-jump" href="#video-places">영상 속 여행 후보 보기 ↘</a><span class="edition-label">A FIELD GUIDE TO SHANGHAI</span></div></div><div id="experience-grid" class="experience-grid"></div><div class="experience-footnote"><span aria-hidden="true">↗</span><p>상설 매장이라도 시연과 체험 방식은 당일 달라질 수 있어요. <strong>확인 필요</strong> 표시는 방문 전 다시 확인할 항목이에요.</p></div></div>
+    </section>
+
+    <section id="video-places" class="section page-width video-guide-section" aria-labelledby="video-guide-title">
+      <div class="section-heading"><div><p class="eyebrow section-number">FROM THE VIDEO / OUR WISHLIST</p><h2 id="video-guide-title">영상 속 상하이,<br>가볼 곳 후보</h2></div><div class="section-intro"><p id="video-guide-intro">마음에 드는 곳을 찜해 두고, 가까운 일정에 골라 넣어요.</p><div id="video-guide-source" class="video-guide-source"></div></div></div>
+      <p class="video-guide-note" id="video-guide-note"></p>
+      <div class="video-guide-controls"><label class="video-area-filter">지역 <select id="video-area-select" aria-label="영상 후보 지역 선택"><option value="all">전체 지역</option></select></label><button type="button" id="video-favorites-only" class="video-favorites-filter" aria-pressed="false">찜한 후보만 보기 <span id="video-favorites-count">0</span></button><p id="video-result-count" role="status"></p></div>
+      <p id="video-save-note" class="video-save-note">찜은 이 브라우저에만 저장돼요. 다른 방문자에게 공개되거나 기기 간 동기화되지 않아요.</p>
+      <div id="video-candidate-grid" class="video-candidate-grid"></div>
+      <div class="video-more-wrap"><button type="button" id="video-candidates-more" class="button">후보 더 보기 ↓</button></div>
+      <noscript><p>영상 후보의 필터와 찜은 자바스크립트를 켜면 사용할 수 있어요.</p></noscript>
     </section>
 
     <section id="reservations" class="section page-width" aria-labelledby="reservations-title">

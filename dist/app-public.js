@@ -127,6 +127,63 @@
   const experiences = array(data.experiences);
   $('#experience-grid').innerHTML = experiences.map((experience,index) => `<article class="experience-card">${experience.image ? `<figure class="experience-image-wrap"><img class="experience-image" src="${esc(experience.image)}" alt="${esc(experience.title)} 관련 공식 자료사진" loading="lazy" width="800" height="500">${experience.imageCredit ? `<figcaption>${esc(experience.imageCredit)}</figcaption>` : ''}</figure>` : `<div class="experience-typography" aria-hidden="true"><span>${esc(experience.tag)}</span><strong>${String(index + 1).padStart(2,'0')}</strong><i>HUMAN × CITY</i></div>`}<div class="experience-card-head"><span class="eyebrow">${esc(experience.tag)}</span><span class="experience-index">${String(index + 1).padStart(2,'0')} / ${esc(experience.area)}</span></div><h3>${esc(experience.title)}</h3><p class="experience-zh" lang="zh-CN">${esc(experience.zh)}</p><div class="status-pills">${pill(experience.status)}</div><p class="experience-card-detail">${esc(experience.detail)}</p>${accessHTML(experience.access)}${experience.address ? `<div class="experience-card-address"><span lang="zh-CN">${esc(experience.address)}</span>${copyButton([experience.zh,experience.address].filter(Boolean).join('\n'))}</div>` : ''}<div class="stop-links">${link(experience.mapUrl,'고덕지도')}${link(experience.sourceUrl,'공식 안내')}</div></article>`).join('');
 
+  const videoGuide = data.videoGuide || {};
+  const videoPlaces = array(videoGuide.places).filter(place => place && place.id);
+  const videoStorageKey = 'shanghai-2026-video-candidates-v1';
+  let videoFavorites = new Set(), videoArea = 'all', videoOnlyFavorites = false, videoLimit = 12;
+  try {
+    const stored = JSON.parse(localStorage.getItem(videoStorageKey) || '[]');
+    if (Array.isArray(stored)) videoFavorites = new Set(stored.filter(id => typeof id === 'string' && videoPlaces.some(place => String(place.id) === id)));
+  } catch { /* The candidate list still works when local storage is unavailable. */ }
+  const persistVideoFavorites = () => {
+    try { localStorage.setItem(videoStorageKey,JSON.stringify([...videoFavorites])); }
+    catch { $('#video-save-note').textContent = '이 환경에서는 찜을 저장하기 어려워요. 현재 화면에서 고른 후보는 새로고침하면 사라질 수 있어요.'; }
+  };
+  const videoTime = seconds => Number.isFinite(seconds) && seconds >= 0 ? `${Math.floor(seconds / 60)}:${String(Math.floor(seconds % 60)).padStart(2,'0')}` : '';
+  const videoLink = (item, label = '영상') => link(item.videoUrl,`${label}${videoTime(item.videoSeconds) ? ` ${videoTime(item.videoSeconds)}` : ' 보기'}`);
+  const videoFit = fit => ({nearby:'기존 일정 근처',halfday:'반나절 후보',fullday:'별도 하루 후보'}[fit] || '동선 확인');
+  const renderVideoCandidates = () => {
+    const filtered = videoPlaces.filter(place => (videoArea === 'all' || place.area === videoArea) && (!videoOnlyFavorites || videoFavorites.has(String(place.id))));
+    const visible = filtered.slice(0,videoLimit);
+    $('#video-favorites-count').textContent = String(videoFavorites.size);
+    $('#video-favorites-only').setAttribute('aria-pressed',String(videoOnlyFavorites));
+    $('#video-result-count').textContent = `전체 ${videoPlaces.length}곳 중 ${filtered.length}곳${filtered.length > visible.length ? ` · ${visible.length}곳 표시` : ''}`;
+    $('#video-candidate-grid').innerHTML = visible.length ? visible.map(place => {
+      const favorite = videoFavorites.has(String(place.id));
+      const hasMap = place.mapPlaceId && array(data.journeyMap?.places).some(point => point.id === place.mapPlaceId && Number.isFinite(point.lat) && Number.isFinite(point.lng));
+      const address = [place.zh,place.address].filter(Boolean).join('\n');
+      const children = array(place.subPlaces);
+      return `<article class="video-candidate-card ${favorite ? 'is-favorite' : ''}" aria-labelledby="video-place-${esc(place.id)}"><div class="video-card-top"><span class="eyebrow">${esc(place.area || '상하이')} / ${esc(place.category || '여행 후보')}</span><button type="button" class="video-favorite-button" data-video-favorite="${esc(place.id)}" aria-pressed="${favorite}" aria-label="${esc(place.name)} 후보 찜"><span aria-hidden="true">${favorite ? '♥' : '♡'}</span>${favorite ? '찜함' : '찜'}</button></div><h3 id="video-place-${esc(place.id)}">${esc(place.name)}</h3>${place.zh ? `<p class="video-place-zh" lang="zh-CN">${esc(place.zh)}</p>` : ''}<div class="status-pills">${pill(videoFit(place.fit),true)}${pill(place.status)}</div>${place.suggestedDay ? `<p class="video-suggested-day">함께 보기 · ${esc(place.suggestedDay)}</p>` : ''}${place.detail ? `<p class="video-place-description">${esc(place.detail)}</p>` : ''}${place.address ? `<p class="video-place-address" lang="zh-CN">${esc(place.address)}</p>` : ''}<div class="video-card-links">${videoLink(place)}${link(place.mapUrl,'고덕지도')}${link(place.sourceUrl,'현재 정보 근거')}${address ? copyButton(address,'중문 장소·주소 복사') : ''}${hasMap ? `<button type="button" class="text-link" data-video-map="${esc(place.mapPlaceId)}">여정 지도에 표시 ↗</button>` : ''}</div>${children.length ? `<details class="video-subplaces"><summary>이곳에서 소개한 세부 장소 ${children.length}곳 <span aria-hidden="true">＋</span></summary><ul>${children.map(child => `<li><h4>${esc(child.name)}</h4>${child.zh ? `<p lang="zh-CN">${esc(child.zh)}</p>` : ''}${child.note ? `<p>${esc(child.note)}</p>` : ''}<div>${videoLink(child)}${link(child.mapUrl,'고덕지도')}${link(child.sourceUrl,'현재 정보 근거')}</div></li>`).join('')}</ul></details>` : ''}</article>`;
+    }).join('') : `<p class="video-empty">${videoOnlyFavorites ? '아직 이 지역에 찜한 후보가 없어요. 찜만 보기 버튼을 끄면 전체 후보를 볼 수 있어요.' : '이 지역에 표시할 후보가 없어요.'}</p>`;
+    const remaining = filtered.length - visible.length;
+    $('#video-candidates-more').hidden = remaining <= 0;
+    $('#video-candidates-more').textContent = `후보 ${Math.min(12,remaining)}곳 더 보기 · ${remaining}곳 남음 ↓`;
+  };
+  if ($('#video-places')) {
+    if (videoGuide.intro) $('#video-guide-intro').textContent = videoGuide.intro;
+    $('#video-guide-note').textContent = videoGuide.note || '영상 소개 시점과 현재 운영 조건을 구분해 확인하세요. 이 목록은 기본 일정 외에 골라 볼 여행 후보입니다.';
+    $('#video-guide-source').innerHTML = `${videoGuide.channel || videoGuide.date ? `<span>${esc([videoGuide.channel,videoGuide.date].filter(Boolean).join(' · '))}</span>` : ''}${link(videoGuide.startUrl || videoGuide.url,'보내준 영상 보기')}`;
+    const areas = [...new Set(videoPlaces.map(place => place.area).filter(Boolean))];
+    $('#video-area-select').innerHTML = '<option value="all">전체 지역</option>' + areas.map(area => `<option value="${esc(area)}">${esc(area)}</option>`).join('');
+    $('#video-area-select').addEventListener('change',event => { videoArea = event.target.value; videoLimit = 12; renderVideoCandidates(); });
+    $('#video-favorites-only').addEventListener('click',()=>{ videoOnlyFavorites = !videoOnlyFavorites; videoLimit = 12; renderVideoCandidates(); });
+    $('#video-candidates-more').addEventListener('click',()=>{ videoLimit += 12; renderVideoCandidates(); });
+    $('#video-candidate-grid').addEventListener('click',event => {
+      const favorite = event.target.closest('[data-video-favorite]');
+      if (favorite) {
+        const id = favorite.dataset.videoFavorite;
+        if (videoFavorites.has(id)) videoFavorites.delete(id); else videoFavorites.add(id);
+        persistVideoFavorites(); renderVideoCandidates();
+        const nextButton = [...document.querySelectorAll('[data-video-favorite]')].find(button => button.dataset.videoFavorite === id);
+        (nextButton || $('#video-favorites-only')).focus({preventScroll:true});
+        return;
+      }
+      const mapButton = event.target.closest('[data-video-map]');
+      if (mapButton) document.dispatchEvent(new CustomEvent('journey:show-candidate',{detail:{id:mapButton.dataset.videoMap}}));
+    });
+    renderVideoCandidates();
+  }
+
   const flight = data.flight || {};
   $('#flight-content').innerHTML = array(flight.legs).map(leg => `<div class="flight-leg"><div class="flight-leg-head"><span>${esc(String(leg.date || '').replaceAll('-','.'))}${leg.weekday ? ` (${esc(leg.weekday)})` : ''}</span><span>CHINA EASTERN · ${esc(leg.number)}</span></div><div class="flight-airports"><div class="flight-airport"><strong>${esc(leg.departure)}</strong><span>${esc(leg.from)}</span><small>${esc(leg.fromTerminal)}</small></div><span class="flight-direction" aria-hidden="true">→</span><div class="flight-airport"><strong>${esc(leg.arrival)}</strong><span>${esc(leg.to)}</span><small>${esc(leg.toTerminal)}</small></div></div>${leg.note ? `<div class="flight-leg-note">${esc(leg.note)}</div>` : ''}</div>`).join('') + `${flight.baggage ? `<div class="reservation-meta"><p>${esc(flight.baggage)}</p></div>` : ''}`;
 
