@@ -1160,7 +1160,8 @@ window.TRIP_DATA = {
         "note": "5박의 베이스. 시내 일정은 아침에 나가 권역별로 이어 본다.",
         "sourceUrl": "https://all.accor.com/hotel/9933/index.en.shtml",
         "kind": "hotel",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E6%96%B0%E5%8D%8E%E8%81%94%E7%B4%A2%E8%8F%B2%E7%89%B9%E5%A4%A7%E9%85%92%E5%BA%97%20%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%B3%B0%E8%99%B9%E8%B7%AF666%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1"
+        "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E6%96%B0%E5%8D%8E%E8%81%94%E7%B4%A2%E8%8F%B2%E7%89%B9%E5%A4%A7%E9%85%92%E5%BA%97%20%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%B3%B0%E8%99%B9%E8%B7%AF666%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapLabel": "소피텔 숙소"
       },
       {
         "id": "airport",
@@ -1173,7 +1174,8 @@ window.TRIP_DATA = {
         "note": "10/27 12:55 도착, 11/1 08:00 출발. 국제선 T1을 확인한다.",
         "sourceUrl": "https://www.openstreetmap.org/way/93184730",
         "kind": "airport",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BA%20T1%20%E8%99%B9%E6%A1%A5%E6%9C%BA%E5%9C%BA1%E5%8F%B7%E8%88%AA%E7%AB%99%E6%A5%BC&city=310000&view=map&src=shanghaitech2026&callnative=1"
+        "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BA%20T1%20%E8%99%B9%E6%A1%A5%E6%9C%BA%E5%9C%BA1%E5%8F%B7%E8%88%AA%E7%AB%99%E6%A5%BC&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapLabel": "홍차오공항 T1"
       },
       {
         "id": "unitree",
@@ -1186,7 +1188,8 @@ window.TRIP_DATA = {
         "note": "10/28 핵심. 휴머노이드·로봇개 전시와 상호작용. 직접 조작·예약·시연은 별도 확인.",
         "sourceUrl": "https://www.openstreetmap.org/node/573339616",
         "kind": "experience",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E5%AE%87%E6%A0%91%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E4%BD%93%E9%AA%8C%E9%A6%86%20%E4%B9%85%E5%85%89%E7%99%BE%E8%B4%A7%E5%BA%97%20%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF1618%E5%8F%B7%20%E4%B9%85%E5%85%89%E7%99%BE%E8%B4%A72%E6%A5%BC&city=310000&view=map&src=shanghaitech2026&callnative=1"
+        "mapUrl": "https://uri.amap.com/search?keyword=%E5%AE%87%E6%A0%91%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E4%BD%93%E9%AA%8C%E9%A6%86%20%E4%B9%85%E5%85%89%E7%99%BE%E8%B4%A7%E5%BA%97%20%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF1618%E5%8F%B7%20%E4%B9%85%E5%85%89%E7%99%BE%E8%B4%A72%E6%A5%BC&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapLabel": "유니트리"
       },
       {
         "id": "haus",
@@ -1199,7 +1202,8 @@ window.TRIP_DATA = {
         "note": "10/28 핵심. 미래형 브랜드 공간에서 짧은 영상을 남긴다. 공식 10:00–22:00.",
         "sourceUrl": "https://www.openstreetmap.org/node/14301435101",
         "kind": "experience",
-        "mapUrl": "https://uri.amap.com/search?keyword=HAUS%20NOWHERE%20%E4%B8%8A%E6%B5%B7%20%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF798%E2%80%93812%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1"
+        "mapUrl": "https://uri.amap.com/search?keyword=HAUS%20NOWHERE%20%E4%B8%8A%E6%B5%B7%20%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF798%E2%80%93812%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapLabel": "하우스 노웨어"
       },
       {
         "id": "matrix",
@@ -1212,7 +1216,8 @@ window.TRIP_DATA = {
         "note": "10/29 핵심. 이 핀은 권역 개요용이다. 정확한 매장은 海科路1650号와 고덕지도 검색 결과로 찾는다. 일반 참관 무료·무예약, 개별 제작 체험 별도 확인.",
         "sourceUrl": "https://www.openstreetmap.org/way/1258224479",
         "kind": "experience",
-        "mapUrl": "https://uri.amap.com/search?keyword=META%20AI%20HUB%20%2F%20AI%20Matrix%20Store%20%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E6%B5%B7%E7%A7%91%E8%B7%AF1650%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1"
+        "mapUrl": "https://uri.amap.com/search?keyword=META%20AI%20HUB%20%2F%20AI%20Matrix%20Store%20%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E6%B5%B7%E7%A7%91%E8%B7%AF1650%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapLabel": "AI 매트릭스"
       },
       {
         "id": "lujiazui",
@@ -1225,7 +1230,8 @@ window.TRIP_DATA = {
         "note": "10/29 핵심. 초고층 도시와 강변을 보고 실내 몰에서 쉰다.",
         "sourceUrl": "https://www.openstreetmap.org/way/264721081",
         "kind": "sight",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E9%99%86%E5%AE%B6%E5%98%B4%20%E6%BB%A8%E6%B1%9F%E5%A4%A7%E9%81%93%20%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E9%99%86%E5%AE%B6%E5%98%B4%20%E6%BB%A8%E6%B1%9F%E5%A4%A7%E9%81%93%E6%B2%BF%E7%BA%BF&city=310000&view=map&src=shanghaitech2026&callnative=1"
+        "mapUrl": "https://uri.amap.com/search?keyword=%E9%99%86%E5%AE%B6%E5%98%B4%20%E6%BB%A8%E6%B1%9F%E5%A4%A7%E9%81%93%20%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E9%99%86%E5%AE%B6%E5%98%B4%20%E6%BB%A8%E6%B1%9F%E5%A4%A7%E9%81%93%E6%B2%BF%E7%BA%BF&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapLabel": "루자쭈이"
       },
       {
         "id": "bund",
@@ -1238,7 +1244,8 @@ window.TRIP_DATA = {
         "note": "10/29 선택. 날씨와 체력이 좋을 때 강을 건너 야경을 본다.",
         "sourceUrl": "https://www.openstreetmap.org/relation/2142077",
         "kind": "sight",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E5%A4%96%E6%BB%A9%20%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%B8%AD%E5%B1%B1%E4%B8%9C%E4%B8%80%E8%B7%AF%20%E5%A4%96%E6%BB%A9%E6%B2%BF%E7%BA%BF&city=310000&view=map&src=shanghaitech2026&callnative=1"
+        "mapUrl": "https://uri.amap.com/search?keyword=%E5%A4%96%E6%BB%A9%20%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%B8%AD%E5%B1%B1%E4%B8%9C%E4%B8%80%E8%B7%AF%20%E5%A4%96%E6%BB%A9%E6%B2%BF%E7%BA%BF&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapLabel": "와이탄"
       },
       {
         "id": "robot",
@@ -1251,7 +1258,8 @@ window.TRIP_DATA = {
         "note": "10/30 핵심. 로봇개 조작과 회차별 체험. 기기·요금·예약은 당일 확인.",
         "sourceUrl": "https://www.openstreetmap.org/node/6298348685",
         "kind": "experience",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E6%9C%BA%E6%97%B6%E7%A7%9F%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E4%BD%93%E9%AA%8C%E5%BA%97%20%E5%BE%90%E6%B1%87%E5%8C%BA%E8%A1%A1%E5%B1%B1%E8%B7%AF932%E5%8F%B7%20%E6%96%B0%E5%85%AD%E7%99%BEYOUNG%203%E6%A5%BC&city=310000&view=map&src=shanghaitech2026&callnative=1"
+        "mapUrl": "https://uri.amap.com/search?keyword=%E6%9C%BA%E6%97%B6%E7%A7%9F%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E4%BD%93%E9%AA%8C%E5%BA%97%20%E5%BE%90%E6%B1%87%E5%8C%BA%E8%A1%A1%E5%B1%B1%E8%B7%AF932%E5%8F%B7%20%E6%96%B0%E5%85%AD%E7%99%BEYOUNG%203%E6%A5%BC&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapLabel": "로봇개 조작 체험"
       },
       {
         "id": "drone",
@@ -1264,7 +1272,8 @@ window.TRIP_DATA = {
         "note": "10/30 핵심. 현장 표지·QR로 지정 수령함을 찾는다. 운항과 계정·연락처·결제 조건을 주문 화면에서 확인.",
         "sourceUrl": "https://www.openstreetmap.org/way/793718848",
         "kind": "experience",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E8%A5%BF%E5%B2%B8%E6%BB%91%E6%9D%BF%E5%85%AC%E5%9B%AD%20%E7%BE%8E%E5%9B%A2%E6%97%A0%E4%BA%BA%E6%9C%BA%20%E5%BE%90%E6%B1%87%E6%BB%A8%E6%B1%9F%20%E9%BE%99%E8%85%BE%E5%A4%A7%E9%81%93%E6%B2%BF%E7%BA%BF%20%E8%A5%BF%E5%B2%B8%E6%BB%91%E6%9D%BF%E5%85%AC%E5%9B%AD&city=310000&view=map&src=shanghaitech2026&callnative=1"
+        "mapUrl": "https://uri.amap.com/search?keyword=%E8%A5%BF%E5%B2%B8%E6%BB%91%E6%9D%BF%E5%85%AC%E5%9B%AD%20%E7%BE%8E%E5%9B%A2%E6%97%A0%E4%BA%BA%E6%9C%BA%20%E5%BE%90%E6%B1%87%E6%BB%A8%E6%B1%9F%20%E9%BE%99%E8%85%BE%E5%A4%A7%E9%81%93%E6%B2%BF%E7%BA%BF%20%E8%A5%BF%E5%B2%B8%E6%BB%91%E6%9D%BF%E5%85%AC%E5%9B%AD&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapLabel": "드론 배달"
       },
       {
         "id": "agibot",
@@ -1277,7 +1286,8 @@ window.TRIP_DATA = {
         "note": "10/31 핵심. 휴머노이드와 중국 IT 기기를 한 건물에서 살펴본다.",
         "sourceUrl": "https://www.openstreetmap.org/way/306984718",
         "kind": "experience",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E6%99%BA%E5%85%83%E4%BA%AC%E4%B8%9C%E7%BA%BF%E4%B8%8B%E9%A6%96%E5%BA%97%20%E4%BA%AC%E4%B8%9CMALL%E4%B8%8A%E6%B5%B7%E4%B8%83%E5%AE%9D%E5%BA%97%20%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%BC%95%E5%AE%9D%E8%B7%AF3509%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1"
+        "mapUrl": "https://uri.amap.com/search?keyword=%E6%99%BA%E5%85%83%E4%BA%AC%E4%B8%9C%E7%BA%BF%E4%B8%8B%E9%A6%96%E5%BA%97%20%E4%BA%AC%E4%B8%9CMALL%E4%B8%8A%E6%B5%B7%E4%B8%83%E5%AE%9D%E5%BA%97%20%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%BC%95%E5%AE%9D%E8%B7%AF3509%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapLabel": "애지봇 · JD몰"
       }
     ],
     "days": [

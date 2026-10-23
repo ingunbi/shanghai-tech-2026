@@ -26,13 +26,16 @@
     const points = activeDate === 'all' ? places : pointsForDay(activeDay());
     return [...new Map([...(hotel ? [hotel] : []),...points].map(place => [place.id,place])).values()];
   };
+  const mapLabel = place => place.mapLabel || place.name;
+  const labelOffsets = {hotel:[1,14,-24],airport:[1,14,20],unitree:[-1,-14,-28],haus:[1,14,24],matrix:[-1,-14,2],lujiazui:[1,14,-30],bund:[-1,-14,20],robot:[-1,-14,20],drone:[1,14,24],agibot:[1,14,10]};
+  const mobileOffsets = {hotel:[1,12,-24],airport:[1,12,20],unitree:[-1,-12,-42],haus:[1,12,22],matrix:[-1,-12,8],lujiazui:[1,12,-48],bund:[-1,-12,-8],robot:[-1,-12,32],drone:[1,12,40],agibot:[1,12,20]};
   const markerLabel = place => {
     if (place.kind === 'hotel') return 'H';
     if (place.kind === 'airport') return '✈';
     const day = activeDay() || matchingDays(place.id)[0];
     const route = pointsForDay(day).filter(point => point.kind !== 'hotel' && point.kind !== 'airport');
     const n = route.findIndex(point => point.id === place.id) + 1;
-    return activeDate === 'all' ? `${String(day?.label || '').slice(0,5)}·${Math.max(1,n)}` : String(Math.max(1,n));
+    return activeDate === 'all' ? String(day?.label || '').slice(0,5).replace('.','/') : String(Math.max(1,n));
   };
   const detailHTML = place => {
     const dates = matchingDays(place.id).map(day => day.label).join(' · ');
@@ -56,10 +59,11 @@
   };
   const renderSummary = () => {
     const day = activeDay();
-    $('journey-map-summary').innerHTML = day ? `<p class="eyebrow" style="color:${day.color}">${esc(day.label)} / DAY ${String(days.indexOf(day)+1).padStart(2,'0')}</p><h3>${esc(day.title)}</h3><p>${esc(day.summary)}</p><button type="button" class="text-link" data-map-itinerary="${esc(day.date)}">이날의 상세 일정 보기 ↘</button>` : `<p class="eyebrow">ONE BASE · SIX DAYS</p><h3>홍차오에서, 상하이 곳곳으로.</h3><p>색깔은 날짜, 선은 방문 순서예요. 날짜를 고르면 하루의 동선만 볼 수 있고, 핀을 누르면 주소와 고덕지도가 열려요.</p>`;
+    const routeText = value => pointsForDay(value).filter(place=>place.kind !== 'hotel').filter((place,index,items)=>index === 0 || place.id !== items[index-1].id).map(mapLabel).join(' → ');
+    $('journey-map-summary').innerHTML = day ? `<p class="eyebrow" style="color:${day.color}">${esc(day.label)} / DAY ${String(days.indexOf(day)+1).padStart(2,'0')}</p><h3>${esc(day.title)}</h3><p class="journey-text-route">${esc(routeText(day))}</p><p>${esc(day.summary)}</p><button type="button" class="text-link" data-map-itinerary="${esc(day.date)}">이날의 상세 일정 보기 ↘</button>` : `<p class="eyebrow">날짜별 방문 순서</p><div class="journey-day-routes">${days.map(day=>`<button type="button" data-map-date="${esc(day.date)}" style="--day-color:${day.color}"><strong>${esc(day.label)}</strong><span>${esc(routeText(day))}</span></button>`).join('')}</div>`;
   };
   const renderPlaceList = () => {
-    $('journey-place-list').innerHTML = currentPoints.map(place => `<button type="button" class="journey-place-button" data-map-place="${esc(place.id)}" aria-pressed="${place.id === selectedId}"><span class="journey-list-pin" style="--pin-color:${pointColor(place)}">${esc(markerLabel(place))}</span><span><strong>${esc(place.name)}</strong><small>${esc(place.kind === 'hotel' ? '매일 출발·귀환' : matchingDays(place.id).map(day => day.label).join(' · '))}</small></span><span aria-hidden="true">↗</span></button>`).join('');
+    $('journey-place-list').innerHTML = currentPoints.map(place => `<button type="button" class="journey-place-button" data-map-place="${esc(place.id)}" aria-pressed="${place.id === selectedId}"><span class="journey-list-pin" style="--pin-color:${pointColor(place)}">${esc(markerLabel(place))}</span><span><strong>${esc(mapLabel(place))}</strong><small>${esc(place.kind === 'hotel' ? '매일 출발·귀환' : matchingDays(place.id).map(day => day.label).join(' · '))}</small></span><span aria-hidden="true">↗</span></button>`).join('');
   };
   const bounds = points => {
     const latitudes = points.map(p => p.lat), longitudes = points.map(p => p.lng);
@@ -71,13 +75,13 @@
     if (!currentPoints.length) return;
     const b = bounds(currentPoints), width = 1000, height = 510;
     const project = place => [65+(place.lng-b.minLng)/(b.maxLng-b.minLng)*870,450-(place.lat-b.minLat)/(b.maxLat-b.minLat)*380];
-    const lines = (activeDay() ? [activeDay()] : days).map(day => {
-      const points = pointsForDay(day).map(project).map(p => p.map(x=>x.toFixed(1)).join(',')).join(' ');
+    const lines = (activeDay() ? [activeDay()] : []).map(day => {
+      const points = pointsForDay(day).filter(place=>place.kind !== 'hotel' && place.kind !== 'airport').map(project).map(p => p.map(x=>x.toFixed(1)).join(',')).join(' ');
       return `<polyline points="${points}" fill="none" stroke="${day.color}" stroke-width="3" stroke-dasharray="7 5" opacity=".65"/>`;
     }).join('');
     const pins = currentPoints.map(place => {
       const [x,y] = project(place), color = pointColor(place), chosen = place.id === selectedId;
-      const name = String(place.name).length > 15 ? `${String(place.name).slice(0,14)}…` : place.name;
+      const name = mapLabel(place);
       const label = markerLabel(place);
       return `<g role="button" tabindex="0" data-overview-place="${esc(place.id)}" aria-label="${esc(place.name)} 선택" class="journey-svg-pin"><title>${esc(place.name)}</title>${chosen ? `<circle cx="${x}" cy="${y}" r="20" fill="none" stroke="${color}" stroke-width="2"/>` : ''}<circle cx="${x}" cy="${y}" r="${activeDate === 'all' ? 16 : 14}" fill="${color}" stroke="#fffdf6" stroke-width="3"/><text x="${x}" y="${y+4}" text-anchor="middle" fill="white" font-size="${activeDate === 'all' ? 8 : 11}" font-weight="700">${esc(label)}</text><text x="${x}" y="${y+34}" text-anchor="middle" class="journey-svg-label">${esc(name)}</text></g>`;
     }).join('');
@@ -88,28 +92,59 @@
     const overview = forcedOverview || failed || !map || !tileReady;
     $('journey-map-fallback').hidden = !overview;
     $('journey-live-map').classList.toggle('is-ready',!overview);
-    $('journey-map-view-label').textContent = overview ? '좌표 기준 위치 개요' : '상하이 여정 지도';
+    $('journey-map-view-label').textContent = overview ? '좌표 기준 위치 개요' : '우리의 상하이 여행 지도';
     $('journey-map-mode').textContent = overview ? '거리 지도 보기' : '위치 개요 보기';
-    $('journey-map-notice').textContent = failed ? '거리 지도를 불러오기 어려워 위치 개요를 표시해요. 장소별 고덕지도는 계속 이용할 수 있어요.' : overview ? '위치 개요의 선은 방문 순서예요. 실제 이동은 고덕지도에서 확인하세요.' : '핀을 누르면 장소 안내가 열려요. 선은 방문 순서이며 실제 도로 경로가 아닙니다.';
+    $('journey-map-notice').textContent = failed ? '거리 지도를 불러오기 어려워 위치 개요를 표시해요. 장소별 고덕지도는 계속 이용할 수 있어요.' : overview ? '위치 개요의 선은 방문 순서예요. 실제 이동은 고덕지도에서 확인하세요.' : (activeDate === 'all' ? '호텔과 가볼 곳을 한글로 표시했어요. 날짜를 고르면 그날의 방문지만 확대합니다.' : '그날의 방문지를 확대했어요. 숙소 위치는 전체 여정에서 볼 수 있습니다. 선은 방문 순서예요.');
+  };
+  const layoutLabels = () => {
+    if (!map) return;
+    const size = map.getSize(), compact = size.x < 620, occupied = [];
+    currentPoints.forEach(place => {
+      const element = markers.get(place.id)?.getElement(), label = element?.querySelector('.journey-pin-label');
+      if (!label) return;
+      const point = map.latLngToContainerPoint([place.lat,place.lng]);
+      if (point.x < -20 || point.y < -20 || point.x > size.x+20 || point.y > size.y+20) { label.style.visibility='hidden'; return; }
+      label.style.visibility='visible';
+      const [side,dx,dy] = (compact ? mobileOffsets : labelOffsets)[place.id] || [1,14,0];
+      const w = label.offsetWidth, h = label.offsetHeight;
+      let x = side < 0 ? dx-w : dx;
+      x = Math.max(7-point.x,Math.min(x,size.x-point.x-w-7));
+      let bestY = dy-h/2, score = Infinity;
+      [0,-34,34,-68,68,-102,102].forEach(shift=>{
+        const y = Math.max(8-point.y,Math.min(dy-h/2+shift,size.y-point.y-h-8));
+        const rect={x:point.x+x,y:point.y+y,w,h};
+        const overlap=occupied.reduce((total,r)=>total+Math.max(0,Math.min(rect.x+w+5,r.x+r.w)-Math.max(rect.x-5,r.x))*Math.max(0,Math.min(rect.y+h+4,r.y+r.h)-Math.max(rect.y-4,r.y)),0);
+        const value=overlap+Math.abs(shift)*.4;
+        if(value<score){score=value;bestY=y;}
+      });
+      label.style.left=`${x}px`;label.style.top=`${bestY}px`;
+      occupied.push({x:point.x+x,y:point.y+bestY,w,h});
+      const leader=element.querySelector('.journey-pin-leader');
+      const endX=x>0?x:x+w,endY=Math.max(bestY,Math.min(0,bestY+h));
+      if(leader){leader.style.width=`${Math.hypot(endX,endY)}px`;leader.style.transform=`rotate(${Math.atan2(endY,endX)}rad)`;}
+    });
   };
   const fitMap = () => {
     if (!map || !currentPoints.length) return;
     map.invalidateSize({pan:false});
-    map.fitBounds(window.L.latLngBounds(currentPoints.map(p => [p.lat,p.lng])),{padding:[42,42],maxZoom:14,animate:false});
+    const visits = activeDate === 'all' ? currentPoints : currentPoints.filter(place=>place.kind !== 'hotel' && place.kind !== 'airport');
+    const focus = visits.length ? visits : currentPoints;
+    map.fitBounds(window.L.latLngBounds(focus.map(p => [p.lat,p.lng])),{padding:[32,48],maxZoom:14.25,animate:false});
+    window.requestAnimationFrame(layoutLabels);
   };
   const updateMap = () => {
     if (!map) return;
     markerLayer.clearLayers(); routeLayer.clearLayers(); markers.clear();
-    (activeDay() ? [activeDay()] : days).forEach(day => {
-      const points = pointsForDay(day).map(place => [place.lat,place.lng]);
-      if (points.length > 1) window.L.polyline(points,{color:day.color,weight:3,opacity:activeDate === 'all' ? .55 : .8,dashArray:'7 6',interactive:false}).addTo(routeLayer);
-    });
+    const day=activeDay();
+    if(day){
+      const points=pointsForDay(day).filter(place=>place.kind !== 'hotel' && place.kind !== 'airport').map(place=>[place.lat,place.lng]);
+      if(points.length>1)window.L.polyline(points,{color:day.color,weight:3,opacity:.65,dashArray:'7 6',interactive:false}).addTo(routeLayer);
+    }
     currentPoints.forEach(place => {
-      const color = pointColor(place);
-      const icon = window.L.divIcon({className:'journey-leaflet-icon',html:`<span style="--pin-color:${color}" class="journey-marker-badge ${place.kind === 'hotel' ? 'is-hotel' : ''}">${esc(markerLabel(place))}</span>`,iconSize:[36,36],iconAnchor:[18,18]});
-      const marker = window.L.marker([place.lat,place.lng],{icon,title:place.name,alt:place.name,keyboard:true}).addTo(markerLayer);
+      const color = pointColor(place), tag=place.kind === 'hotel'?'숙소':place.kind === 'airport'?'공항':markerLabel(place);
+      const icon = window.L.divIcon({className:'journey-leaflet-icon journey-named-icon',html:`<span class="journey-map-dot" style="--pin-color:${color}"></span><span class="journey-pin-leader"></span><span class="journey-pin-label" style="--pin-color:${color}"><small>${esc(tag)}</small><strong>${esc(mapLabel(place))}</strong></span>`,iconSize:[1,1],iconAnchor:[0,0]});
+      const marker = window.L.marker([place.lat,place.lng],{icon,title:place.name,alt:place.name,keyboard:true,zIndexOffset:place.kind==='hotel'?100:0}).addTo(markerLayer);
       marker.bindPopup(`<div class="journey-map-popup">${detailHTML(place)}</div>`,{maxWidth:290});
-      marker.bindTooltip(esc(place.name),{direction:'top',offset:[0,-16]});
       marker.on('click',()=>selectPlace(place.id,false));
       markers.set(place.id,marker);
     });
@@ -119,8 +154,9 @@
     if (initialized || !places.length) return;
     initialized = true;
     if (!window.L) { failed = true; showMode(); return; }
-    map = window.L.map('journey-live-map',{scrollWheelZoom:false,attributionControl:true,zoomControl:true});
+    map = window.L.map('journey-live-map',{scrollWheelZoom:false,attributionControl:true,zoomControl:true,zoomSnap:.25,zoomDelta:.5});
     map.attributionControl.setPrefix('<a href="https://leafletjs.com" target="_blank" rel="noopener">Leaflet</a>');
+    map.on('zoomend moveend',layoutLabels);
     routeLayer = window.L.layerGroup().addTo(map);
     markerLayer = window.L.layerGroup().addTo(map);
     const tileUrl = safeUrl(config.tileUrl) || 'https://tile.openstreetmap.org/{z}/{x}/{y}.png';
@@ -137,11 +173,13 @@
     if (!currentPoints.some(place => place.id === selectedId)) selectedId = currentPoints.find(place=>place.kind !== 'hotel')?.id || hotel?.id;
     document.querySelectorAll('[data-map-date]').forEach(button => button.setAttribute('aria-pressed',String(button.dataset.mapDate === activeDate)));
     renderSummary(); renderPlaceList(); renderDetail(); renderOverview();
-    if (map && !forcedOverview && !failed) updateMap();
+    if (map) updateMap();
+    showMode();
   };
   $('journey-map-filters').innerHTML = `<button class="journey-filter" type="button" data-map-date="all" aria-pressed="true"><i style="--day-color:#283b40"></i><span>전체 여정</span></button>${days.map(day => `<button class="journey-filter" type="button" data-map-date="${esc(day.date)}" aria-pressed="false"><i style="--day-color:${day.color}"></i><span>${esc(day.label)}</span></button>`).join('')}`;
   $('journey-updated').textContent = config.updated ? `${String(config.updated).replaceAll('-','.')} 여정 정리` : '';
   if (config.note) $('journey-map-note').textContent = config.note;
+  $('journey-map-legend').innerHTML = `<span><i style="--legend-color:#283b40"></i>숙소 · 공항</span>${days.filter(day=>pointsForDay(day).some(place=>place.kind !== 'hotel' && place.kind !== 'airport')).map(day=>`<span><i style="--legend-color:${day.color}"></i>${esc(day.label.replace('.','/'))} 방문지</span>`).join('')}`;
   if (!places.length) {
     $('journey-map-notice').textContent = '아래 일정에서 장소별 고덕지도를 확인할 수 있어요.';
     $('journey-map-canvas').hidden = true;
@@ -152,7 +190,7 @@
   const activateOverview = event => { const pin = event.target.closest('[data-overview-place]'); if (pin) selectPlace(pin.dataset.overviewPlace,false); };
   $('journey-map-fallback').addEventListener('click',activateOverview);
   $('journey-map-fallback').addEventListener('keydown',event => { if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); activateOverview(event); } });
-  $('journey-map-summary').addEventListener('click',event => { const button = event.target.closest('[data-map-itinerary]'); if (button) document.dispatchEvent(new CustomEvent('journey:select-day',{detail:{date:button.dataset.mapItinerary}})); });
+  $('journey-map-summary').addEventListener('click',event => { const dateButton=event.target.closest('[data-map-date]'); if(dateButton){selectDate(dateButton.dataset.mapDate);return;} const button = event.target.closest('[data-map-itinerary]'); if (button) document.dispatchEvent(new CustomEvent('journey:select-day',{detail:{date:button.dataset.mapItinerary}})); });
   $('journey-map-reset').addEventListener('click',()=>{ selectDate('all'); });
   $('journey-map-mode').addEventListener('click',()=>{
     if (!map) initializeMap();
