@@ -62,7 +62,8 @@
   };
   const renderSummary = () => {
     if (candidateId) {
-      $('journey-map-summary').innerHTML = `<p class="eyebrow">영상 속 여행 후보</p><h3>${esc(mapLabel(byId.get(candidateId)))}</h3><p>고른 후보 한 곳의 위치예요. 기본 일정에 추가된 장소는 아니며, 날짜 버튼을 누르면 기존 여정으로 돌아갑니다.</p><button type="button" class="text-link" data-map-date="all">기존 여정으로 돌아가기 ↗</button>`;
+      const included = matchingDays(candidateId).map(day=>day.label).join(' · ');
+      $('journey-map-summary').innerHTML = `<p class="eyebrow">영상 속 여행 장소</p><h3>${esc(mapLabel(byId.get(candidateId)))}</h3><p>${included ? `${esc(included)} 일정에 반영한 장소예요. 날짜 버튼을 누르면 그날의 동선을 볼 수 있어요.` : '고른 후보 한 곳의 위치예요. 기본 일정에 추가된 장소는 아니며, 날짜 버튼을 누르면 기존 여정으로 돌아갑니다.'}</p><button type="button" class="text-link" data-map-date="all">전체 여정으로 돌아가기 ↗</button>`;
       return;
     }
     const day = activeDay();
@@ -99,9 +100,9 @@
     const overview = forcedOverview || failed || !map || !tileReady;
     $('journey-map-fallback').hidden = !overview;
     $('journey-live-map').classList.toggle('is-ready',!overview);
-    $('journey-map-view-label').textContent = overview ? '좌표 기준 위치 개요' : candidateId ? '영상 후보 한 곳의 위치' : '우리의 상하이 여행 지도';
+    $('journey-map-view-label').textContent = overview ? '좌표 기준 위치 개요' : candidateId ? '선택한 영상 장소의 위치' : '우리의 상하이 여행 지도';
     $('journey-map-mode').textContent = overview ? '거리 지도 보기' : '위치 개요 보기';
-    $('journey-map-notice').textContent = failed ? '거리 지도를 불러오기 어려워 위치 개요를 표시해요. 장소별 고덕지도는 계속 이용할 수 있어요.' : overview ? '위치 개요의 선은 방문 순서예요. 실제 이동은 고덕지도에서 확인하세요.' : candidateId ? '영상 후보 한 곳을 보고 있어요. 날짜 버튼으로 기존 여정에 돌아갈 수 있어요.' : (activeDate === 'all' ? '호텔과 가볼 곳을 한글로 표시했어요. 날짜를 고르면 그날의 방문지만 확대합니다.' : '그날의 방문지를 확대했어요. 숙소 위치는 전체 여정에서 볼 수 있습니다. 선은 방문 순서예요.');
+    $('journey-map-notice').textContent = failed ? '거리 지도를 불러오기 어려워 위치 개요를 표시해요. 장소별 고덕지도는 계속 이용할 수 있어요.' : overview ? '위치 개요의 선은 방문 순서예요. 실제 이동은 고덕지도에서 확인하세요.' : candidateId ? '선택한 영상 장소를 보고 있어요. 날짜 버튼으로 그날의 여정에 돌아갈 수 있어요.' : (activeDate === 'all' ? '호텔과 가볼 곳을 한글로 표시했어요. 날짜를 고르면 그날의 방문지만 확대합니다.' : '그날의 방문지를 확대했어요. 숙소 위치는 전체 여정에서 볼 수 있습니다. 선은 방문 순서예요.');
   };
   const layoutLabels = () => {
     if (!map) return;

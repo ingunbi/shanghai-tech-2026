@@ -111,15 +111,16 @@ window.TRIP_DATA = {
       "weekday": "수",
       "kicker": "HUMANOID / FUTURE RETAIL",
       "title": "휴머노이드와 인사하고, 왕홍 공간으로",
-      "area": "정안 → 화이하이루",
-      "summary": "오전에는 Unitree, 오후에는 HAUS NOWHERE. 두 핵심 공간을 충분히 보고 정안과 화이하이루의 산책은 체력에 맞춰 붙인다.",
+      "area": "정안 → 화이하이루 → 신톈디",
+      "summary": "Unitree와 HAUS NOWHERE를 충분히 본 뒤 신톈디에서 짧게 걷고 이른 저녁을 먹는다. 영상 속 신톈디는 기존 카페·저녁 시간을 바꾼 선택 산책이며 관광 정차를 더 늘리지 않았다.",
       "route": [
         "Unitree 久光",
-        "정안·난징서루",
-        "HAUS NOWHERE"
+        "정안 점심",
+        "HAUS NOWHERE",
+        "신톈디 · 산책·저녁"
       ],
-      "travelNote": "09:30 호텔 출발을 기준으로 정안까지 차량 40–70분을 확보한 계획이다. Unitree와 HAUS 사이에는 차량·지하철로 이동하고 도심에서 호텔 왕복은 하지 않는다. 첫날 SIM 개통이 남았으면 오전 여권 접수 시간을 먼저 확보하고 Unitree 방문을 점심 이후로 늦춘다.",
-      "weatherPlan": "비가 오면 두 매장과 실내 카페 위주로 진행한다. 촬영 동선보다 기기 체험 시간을 우선하고 거리 산책은 생략한다.",
+      "travelNote": "09:30 호텔 출발을 기준으로 정안까지 차량 40–70분을 확보한 계획이다. Unitree와 HAUS 사이에는 차량·지하철로 이동하고 도심에서 호텔 왕복은 하지 않는다. 첫날 SIM 개통이 남았으면 오전 여권 접수 시간을 먼저 확보하고 Unitree 방문을 점심 이후로 늦춘다. HAUS→신톈디는 차량 10–20분 또는 도보 약 25–35분을 예상하되 당일 길찾기로 확인한다. 걷기를 아끼려면 차량으로 이동하고 신톈디 안에서만 30–45분 걷는다. 줄 서는 식당보다 바로 앉아 쉴 수 있는 곳을 고른다.",
+      "weatherPlan": "비가 오면 두 매장과 실내 식사 위주로 진행한다. SIM 개통이나 로봇 체험이 길어지면 신톈디 산책을 줄이고 가까운 곳에서 저녁을 먹는다.",
       "stops": [
         {
           "time": "11:00–12:15",
@@ -162,21 +163,23 @@ window.TRIP_DATA = {
         },
         {
           "time": "16:00–18:00",
-          "title": "화이하이루 카페·저녁, 일찍 호텔로",
-          "zh": "淮海中路",
-          "address": "",
-          "detail": "마음에 드는 거리와 카페 한 곳만 더 들른다. 매장에서 찍은 로봇과 브랜드 공간을 15–30초 영상으로 정리하고, 저녁 뒤 호텔로 돌아온다. SIM 개통으로 오전이 늦어지면 이 선택 일정부터 줄인다.",
-          "type": "식사·휴식",
-          "status": "자유 일정",
-          "sourceUrl": null,
-          "mapUrl": "https://uri.amap.com/search?keyword=%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF%20&city=310000&view=map&src=shanghaitech2026&callnative=1",
-          "priority": "선택"
+          "title": "신톈디 · 짧은 산책과 이른 저녁",
+          "zh": "上海新天地",
+          "address": "太仓路181弄",
+          "detail": "HAUS에서 이동한 뒤 골목과 건축을 30–45분만 둘러보고 앉아서 이른 저녁을 먹는다. 기존 화이하이루 카페·저녁 시간을 이곳으로 바꿨다. 임시정부 청사·톈쯔팡까지 이어 붙이지 않으며, 오전이 늦어지거나 피곤하면 산책을 생략한다. 18시 전후 귀환을 시작하고 도착 시각은 교통 상황에 따른다.",
+          "type": "영상·산책·식사",
+          "status": "30–45분 산책 · 나머지 휴식",
+          "sourceUrl": "https://english.shanghai.gov.cn/en-SpecialtyShoppingAreas/20231207/521159f5af35430ab1641004f5c68d03.html",
+          "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E6%96%B0%E5%A4%A9%E5%9C%B0%20%E5%A4%AA%E4%BB%93%E8%B7%AF181%E5%BC%84&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "priority": "선택",
+          "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=187s",
+          "placeId": "video-xintiandi"
         }
       ],
       "focus": [
         "핵심 · Unitree 휴머노이드",
         "핵심 · HAUS NOWHERE",
-        "선택 · 거리 산책·카페"
+        "영상 · 신톈디 산책·이른 저녁"
       ]
     },
     {
@@ -186,14 +189,14 @@ window.TRIP_DATA = {
       "kicker": "AI PLAYGROUND / PUDONG",
       "title": "장장의 AI, 황푸강의 두 얼굴",
       "area": "장장 → 루자쭈이 → 와이탄",
-      "summary": "먼 장장 권역은 하루에 묶는다. AI Matrix에 체험 시간을 넉넉히 두고, 루자쭈이와 와이탄 중 날씨·체력에 맞는 강변 장면을 더한다.",
+      "summary": "장장 AI Matrix의 체험 시간을 유지하고, 루자쭈이에서는 푸둥미술관 바깥 강변을 짧게 걷고 쉰다. 영상 속 일락장랑 권역을 기존 강변 시간 안에 넣었으며, 와이탄은 체력이 남을 때만 간다.",
       "route": [
         "장장 AI Matrix",
-        "루자쭈이",
-        "와이탄 · 선택"
+        "루자쭈이·일락장랑 권역",
+        "와이탄 · 체력 여유 시"
       ],
-      "travelNote": "08:45 호텔 출발을 기준으로 장장까지 차량 70–100분을 여유 있게 잡은 계획이다. 장장→루자쭈이는 약 35–60분, 루자쭈이→와이탄은 강을 건너는 차량·지하철 경로를 당일 지도에서 선택한다. 지도 연결선은 방문 순서이며 실제 도로 경로가 아니다.",
-      "weatherPlan": "비가 오거나 장장에서 체험이 길어지면 와이탄을 생략하고 루자쭈이 실내 몰에서 쉬며 귀환한다. Galbot은 현재 정확한 위치·운영이 미확인이므로 필수 동선에서 뺐다.",
+      "travelNote": "08:45 호텔 출발을 기준으로 장장까지 차량 70–100분을 여유 있게 잡은 계획이다. 장장→루자쭈이는 약 35–60분, 루자쭈이→와이탄은 강을 건너는 차량·지하철 경로를 당일 지도에서 선택한다. 지도 연결선은 방문 순서이며 실제 도로 경로가 아니다. 점심과 이동이 길어지면 푸둥 강변 30분과 휴식만 남기고 와이탄부터 생략한다. 일락장랑의 특정 촬영 점을 찾느라 강변을 길게 왕복하지 않는다.",
+      "weatherPlan": "비가 오거나 AI 체험이 길어지면 강변과 와이탄을 줄이고 루자쭈이 실내 몰에서 쉰다. 전망대·바·미술관 실내를 추가하지 않는다. Galbot은 정확한 현재 위치·운영이 미확인이므로 찾으러 이동하지 않는다.",
       "stops": [
         {
           "time": "10:30–12:30",
@@ -222,15 +225,17 @@ window.TRIP_DATA = {
         },
         {
           "time": "14:00–16:00",
-          "title": "루자쭈이 · 미래 도시의 실루엣",
-          "zh": "陆家嘴 滨江大道",
-          "address": "浦东新区陆家嘴 滨江大道沿线",
-          "detail": "초고층 건물과 강변을 함께 보고 실내 몰에서 잠시 쉰다. 유료 전망대 입장은 기본 일정에 넣지 않았다. Galbot 음료점은 최신 위치와 운영을 확인했을 때만 추가하고, 찾느라 오래 헤매지 않는다.",
-          "type": "도시·촬영",
-          "status": "자유 관람",
+          "title": "루자쭈이·일락장랑 권역 · 푸둥 강변",
+          "zh": "陆家嘴 滨江大道 / 浦东美术馆外侧",
+          "address": "定位参考：浦东新区滨江大道2777号 浦东美术馆",
+          "detail": "영상의 일락장랑(日落长廊) 권역에서 와이탄을 마주 보는 강변을 30–40분 걷고, 남은 시간은 몰·카페에서 앉아 쉰다. 지도는 푸둥미술관 건물을 기준점으로 쓰며 영상의 정확한 촬영 지점은 현장에서 확인한다. 미술관 실내·유료 전망대는 포함하지 않았다. 일몰을 기다리는 일정이 아니므로 16시 전후 다음 이동 여부를 결정한다.",
+          "type": "영상·강변·휴식",
+          "status": "산책 30–40분 · 나머지 휴식",
           "priority": "핵심",
           "placeId": "lujiazui",
-          "mapUrl": "https://uri.amap.com/search?keyword=%E9%99%86%E5%AE%B6%E5%98%B4%20%E6%BB%A8%E6%B1%9F%E5%A4%A7%E9%81%93&city=310000&view=map&src=shanghaitech2026&callnative=1"
+          "mapUrl": "https://uri.amap.com/search?keyword=%E6%B5%A6%E4%B8%9C%E7%BE%8E%E6%9C%AF%E9%A6%86+%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E6%BB%A8%E6%B1%9F%E5%A4%A7%E9%81%932777%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "sourceUrl": "https://www.museumofartpd.org.cn/business",
+          "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=1455s"
         },
         {
           "time": "17:00–18:30",
@@ -248,7 +253,7 @@ window.TRIP_DATA = {
       ],
       "focus": [
         "핵심 · AI Matrix 기기 체험",
-        "핵심 · 루자쭈이 강변",
+        "영상 · 일락장랑 권역 30–40분",
         "선택 · 와이탄 야경"
       ]
     },
@@ -259,14 +264,14 @@ window.TRIP_DATA = {
       "kicker": "DRONE DELIVERY / WEST BUND",
       "title": "직접 조작한 로봇, 하늘에서 온 점심",
       "area": "쉬자후이 → 쉬후이 강변",
-      "summary": "쉬자후이에서 로봇개 조작을 시도하고 서안 강변으로 이동한다. 오늘의 우선순위는 드론 주문 성공 여부를 현장에서 확인하는 것.",
+      "summary": "로봇개 조작과 미투안 드론 방문 시간을 그대로 두었다. 드론 뒤에는 서안미술관 외관·강변만 짧게 보고 쉬며, 체험이 길어지면 산책부터 생략한다.",
       "route": [
         "쉬자후이 机时租",
-        "서안 스케이트공원",
-        "서안 강변 · 선택"
+        "서안 스케이트공원·드론",
+        "서안미술관 외관·강변 · 선택"
       ],
-      "travelNote": "호텔→쉬자후이 차량 40–70분, 쉬자후이→서안 강변 20–35분을 확보한 계획이다. 로봇 매장 체험이 길어져도 드론 수령점은 오후 초반에 도착하도록 조정한다. 드론은 당일 운항·주문 마감이 우선이며 미리 예약된 체험이 아니다.",
-      "weatherPlan": "비·강풍이나 주문 불가 시 드론 수령점에서 안내를 확인하고 실내 카페·상업시설로 전환한다. 기상이 좋고 아직 드론을 못 해봤다면 남은 날짜의 운영 상황을 보고 재시도 여부를 정한다.",
+      "travelNote": "호텔→쉬자후이 차량 40–70분, 쉬자후이→서안 강변 20–35분을 확보한 계획이다. 로봇 매장 체험이 길어져도 드론 수령점은 오후 초반에 도착하도록 조정한다. 드론은 당일 운항·주문 마감이 우선이며 미리 예약된 체험이 아니다. 드론 수령점→서안미술관은 당일 지도에서 짧은 차량 이동과 도보를 비교한다. 걷기가 길면 차량으로 이동하거나 수령점 주변 강변에서 쉬는 것으로 마무리한다.",
+      "weatherPlan": "비·강풍이나 주문 불가 시 드론 수령점 안내를 확인하고 실내 카페에서 쉰다. 드론 대기·로봇 체험이 길어지면 서안미술관 외관 산책부터 생략한다. 기상이 좋고 아직 드론을 못 해봤다면 남은 날 운영 상황을 보고 재시도를 검토한다.",
       "stops": [
         {
           "time": "11:00–12:00",
@@ -298,15 +303,17 @@ window.TRIP_DATA = {
         },
         {
           "time": "14:30–16:00",
-          "title": "서안 강변에서 쉬며 촬영",
-          "zh": "西岸梦中心",
-          "address": "",
-          "detail": "드론 수령 후 강변과 옛 산업시설을 배경으로 짧은 영상을 남긴다. 여유가 있으면 드림센터 방향을 당일 지도에서 확인하고 이동한다. 타인의 주문번호와 얼굴은 담기 전에 허락을 구한다. 산책이 길어지면 카페 한 곳에서 쉬는 것으로 마무리한다.",
-          "type": "왕홍·강변",
-          "status": "자유 일정",
-          "sourceUrl": "https://www.meituan.com/news/NN260911177010407",
-          "mapUrl": "https://uri.amap.com/search?keyword=%E8%A5%BF%E5%B2%B8%E6%A2%A6%E4%B8%AD%E5%BF%83%20&city=310000&view=map&src=shanghaitech2026&callnative=1",
-          "priority": "선택"
+          "title": "서안미술관 외관·강변 · 짧은 산책",
+          "zh": "西岸美术馆 外观 / 徐汇滨江",
+          "address": "徐汇区龙腾大道2600号",
+          "detail": "기존 14:30–16:00 강변 시간을 영상 속 웨스트번드 산책으로 구체화했다. 이동 뒤 미술관 외관과 주변 강변을 30–45분만 보고 앉아서 쉰다. 실내 전시·드림센터를 더하지 않으며, 드론 체험이 늦어지면 이 산책을 생략하고 수령점 근처에서 쉬어도 충분하다.",
+          "type": "영상·강변·휴식",
+          "status": "외관 산책 · 실내 관람 제외",
+          "sourceUrl": "https://english.shanghai.gov.cn/en-MuseumsGalleries/20250702/64d1d26886b3458b8dffb3a8533787b5.html",
+          "mapUrl": "https://uri.amap.com/search?keyword=%E8%A5%BF%E5%B2%B8%E7%BE%8E%E6%9C%AF%E9%A6%86+%E5%BE%90%E6%B1%87%E5%8C%BA%E9%BE%99%E8%85%BE%E5%A4%A7%E9%81%932600%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "priority": "선택",
+          "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=642s",
+          "placeId": "video-westbund"
         },
         {
           "time": "17:30–19:00",
@@ -323,7 +330,7 @@ window.TRIP_DATA = {
       "focus": [
         "핵심 · 机时租 로봇 조작",
         "핵심 · 미투안 드론 주문 시도",
-        "선택 · 서안 강변 산책"
+        "영상 · 서안미술관 외관·강변"
       ]
     },
     {
@@ -333,14 +340,14 @@ window.TRIP_DATA = {
       "kicker": "AGIBOT / LAST AFTERNOON",
       "title": "AGIBOT와 IT 쇼핑, 마지막 날은 여유롭게",
       "area": "칠보 · 호텔에서 가까운 서쪽",
-      "summary": "AGIBOT와 JD MALL을 한 건물에서 이어 본다. 칠보 산책은 선택으로 두고 17시에는 호텔에 돌아와 귀국 준비를 마친다.",
+      "summary": "AGIBOT와 JD MALL을 같은 건물에서 이어 보고 점심까지 여유롭게 해결한다. 영상 속 칠보고진은 기존 선택 산책을 구체화한 45–60분 코스다. 17시 호텔 복귀와 귀국 준비를 우선한다.",
       "route": [
         "JD MALL 七宝",
         "AGIBOT",
         "칠보 짧은 산책",
         "호텔"
       ],
-      "travelNote": "호텔→칠보 JD MALL은 차량 25–45분을 잡은 계획이다. AGIBOT와 전자제품 매장을 같은 건물에서 돌아보고 이동 횟수를 줄인다. 주말이므로 칠보고진 대기줄이 길면 생략하고, 호텔 복귀 17:00을 우선한다.",
+      "travelNote": "호텔→칠보 JD MALL은 차량 25–45분을 잡은 계획이다. AGIBOT와 전자제품 매장을 같은 건물에서 돌아보고 이동 횟수를 줄인다. 주말이므로 칠보고진 대기줄이 길면 생략하고, 호텔 복귀 17:00을 우선한다. 몰→고진 이동은 당일 지도에서 확인하고 가까워 보여도 도보 시간을 과소평가하지 않는다. 쇼핑이 늦어지면 고진 산책을 빼며, 주가각·판룽톈디를 같은 날 추가하지 않는다.",
       "weatherPlan": "비가 오면 칠보 옛 거리 대신 JD MALL 실내에서 마무리한다. 전날 드론에 실패했고 당일 운항이 확인되면 칠보 산책 대신 드론 재시도를 검토하되 새벽 귀국 준비 시간을 확보한다.",
       "stops": [
         {
@@ -359,10 +366,10 @@ window.TRIP_DATA = {
         },
         {
           "time": "12:00–14:00",
-          "title": "JD MALL · 중국 IT 리테일",
+          "title": "JD MALL · IT 구경과 점심",
           "zh": "京东MALL 上海七宝店",
           "address": "漕宝路3509号",
-          "detail": "관심 가는 AI 기기와 전자제품을 직접 비교한다. 한국 사용 가능 언어·전원·보증·지역 제한은 구입 전에 확인. 쇼핑 예산이나 구매를 미리 확정하지 않았다.",
+          "detail": "관심 가는 AI 기기와 전자제품을 직접 비교한다. 한국 사용 가능 언어·전원·보증·지역 제한은 구입 전에 확인. 쇼핑 예산이나 구매를 미리 확정하지 않았다. 이 두 시간 안에 몰에서 점심과 앉아서 쉬는 시간을 함께 확보한다.",
           "type": "IT·쇼핑",
           "status": "자유 일정",
           "sourceUrl": "https://japanese.shanghai.gov.cn/ja-FirstStores/20260608/24f3a7ad2426446e9b31ba6b764f64cf.html",
@@ -372,15 +379,17 @@ window.TRIP_DATA = {
         },
         {
           "time": "14:30–15:30",
-          "title": "칠보고진 한 바퀴 · 선택",
+          "title": "칠보고진 · 간식과 45–60분 산책",
           "zh": "七宝古镇",
-          "address": "",
-          "detail": "시간과 체력이 남으면 가까운 옛 거리에서 간식과 짧은 산책. 주말 대기줄이 길면 바로 호텔로 돌아간다.",
-          "type": "산책·간식",
-          "status": "선택 일정",
-          "sourceUrl": null,
-          "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%83%E5%AE%9D%E5%8F%A4%E9%95%87%20&city=310000&view=map&src=shanghaitech2026&callnative=1",
-          "priority": "선택"
+          "address": "旅游咨询点：闵行区七宝镇横沥路108号",
+          "detail": "영상 속 수향마을 중 현재 칠보 동선에 맞는 곳을 골랐다. 몰에서 이동한 뒤 옛 거리와 물가를 짧게 보고 간식 하나만 고른다. 주말 줄이 길면 기다리지 않고 쉬거나 호텔로 돌아간다. 15:30 전후 산책을 마치고 늦어도 16시에는 귀환을 시작해 17시 호텔 복귀를 목표로 한다.",
+          "type": "영상·산책·간식",
+          "status": "45–60분 · 혼잡하면 생략",
+          "sourceUrl": "https://whlyj.sh.gov.cn/4ajjq/20191008/0022-28627.html",
+          "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%83%E5%AE%9D%E5%8F%A4%E9%95%87%20%E6%97%85%E6%B8%B8%E5%92%A8%E8%AF%A2%E7%82%B9%EF%BC%9A%E9%97%B5%E8%A1%8C%E5%8C%BA%E4%B8%83%E5%AE%9D%E9%95%87%E6%A8%AA%E6%B2%A5%E8%B7%AF108%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "priority": "선택",
+          "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=946s",
+          "placeId": "video-qibao"
         },
         {
           "time": "17:00–20:00",
@@ -396,9 +405,9 @@ window.TRIP_DATA = {
         }
       ],
       "focus": [
-        "핵심 · AGIBOT 휴머노이드",
-        "핵심 · JD MALL IT 리테일",
-        "선택 · 칠보고진 짧은 산책"
+        "핵심 · AGIBOT·JD MALL·점심",
+        "영상 · 칠보고진 45–60분",
+        "필수 · 17시 호텔 복귀"
       ]
     },
     {
@@ -1060,10 +1069,20 @@ window.TRIP_DATA = {
       "url": "https://www.flairrooftopbarshanghai.com/contact-location",
       "date": "2026-10-23 확인",
       "note": "현재 테이블·패키지·연령 조건을 확인하고 예약. 영상의 과거 한 잔 가격을 현재 예산으로 사용하지 않음."
+    },
+    {
+      "url": "https://museumofartpd.org.cn/en/visit",
+      "title": "푸둥미술관 공식 방문 안내 · 강변 산책 기준점",
+      "date": "2026-10-23"
+    },
+    {
+      "url": "https://wbmshanghai.com/en/page/visit",
+      "title": "서안미술관 공식 방문 안내 · 외관 산책 기준점",
+      "date": "2026-10-23"
     }
   ],
   "notes": {
-    "plan": "출발 전 제안 일정 · 핵심 체험과 선택 산책 · 현장 운영·SIM 개통 조건 확인 필요",
+    "plan": "로봇·드론 유지 · 영상 속 산책·식사 4곳 반영 · 운영·SIM 조건 확인 필요",
     "assumption": "왕홍 체험은 로봇·드론·브랜드 공간에서 짧은 영상을 직접 찍는 동선으로 구성했다. 전문 스튜디오·메이크업 서비스는 포함하지 않았다.",
     "privacy": "공개 여행 가이드. 체크와 메모는 현재 브라우저에만 저장되며 다른 방문자에게 공개되거나 기기 간 자동 동기화되지 않는다."
   },
@@ -1171,7 +1190,7 @@ window.TRIP_DATA = {
   },
   "journeyMap": {
     "updated": "2026-10-23",
-    "note": "핵심 장소 10곳을 날짜별로 묶은 여정 지도입니다. 연결선은 방문 순서를 나타내며 실제 도로·대중교통 경로가 아닙니다. 일부 핀은 건물·공원 중심 또는 권역 근사 위치입니다. 특히 AI Matrix는 정확한 매장 점이 아닌 일대 표시이므로 주소와 고덕지도에서 입구를 확인하세요. 식사·선택 산책과 조건부 SIM점은 상세 일정과 유심 안내에서 확인합니다.",
+    "note": "일정에 넣은 13곳을 날짜별로 표시했습니다. 영상에서 고른 산책은 선택 일정이며 체험이 길어지면 생략해요. 연결선은 방문 순서이며 실제 도로·대중교통 경로가 아닙니다. 일부 핀은 건물·공원 중심 또는 권역 기준점입니다. 푸둥 강변 핀은 푸둥미술관 건물 중심으로, 일락장랑의 정확한 촬영 지점이 아닙니다. AI Matrix도 일대 표시이므로 입구는 주소와 고덕지도로 확인하세요.",
     "places": [
       {
         "id": "hotel",
@@ -1245,17 +1264,17 @@ window.TRIP_DATA = {
       },
       {
         "id": "lujiazui",
-        "name": "루자쭈이",
-        "zh": "陆家嘴 滨江大道",
-        "address": "浦东新区陆家嘴 滨江大道沿线",
-        "lat": 31.2401683,
-        "lng": 121.4979446,
-        "precision": "루자쭈이 중심 지점 · 산책 시작점은 자유",
-        "note": "10/29 핵심. 초고층 도시와 강변을 보고 실내 몰에서 쉰다.",
-        "sourceUrl": "https://www.openstreetmap.org/way/264721081",
+        "name": "루자쭈이·푸둥 강변",
+        "zh": "陆家嘴 滨江大道 / 浦东美术馆外侧",
+        "address": "浦东新区滨江大道2777号 浦东美术馆（定位参考）",
+        "lat": 31.2402395,
+        "lng": 121.49203395,
+        "precision": "푸둥미술관 건물 대표 중심 · 일락장랑의 정확한 촬영 지점이나 입구가 아님",
+        "note": "10/29 AI Matrix 뒤 기존 루자쭈이 체류 시간에 30–40분만 걷고 쉰다. 영상의 일락장랑 권역을 보되 일몰까지 대기하거나 미술관 실내에 입장하는 일정은 아니다.",
+        "sourceUrl": "https://www.openstreetmap.org/way/803292747",
         "kind": "sight",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E9%99%86%E5%AE%B6%E5%98%B4%20%E6%BB%A8%E6%B1%9F%E5%A4%A7%E9%81%93%20%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E9%99%86%E5%AE%B6%E5%98%B4%20%E6%BB%A8%E6%B1%9F%E5%A4%A7%E9%81%93%E6%B2%BF%E7%BA%BF&city=310000&view=map&src=shanghaitech2026&callnative=1",
-        "mapLabel": "루자쭈이"
+        "mapUrl": "https://uri.amap.com/search?keyword=%E6%B5%A6%E4%B8%9C%E7%BE%8E%E6%9C%AF%E9%A6%86+%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E6%BB%A8%E6%B1%9F%E5%A4%A7%E9%81%932777%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapLabel": "푸둥 강변"
       },
       {
         "id": "bund",
@@ -1337,11 +1356,11 @@ window.TRIP_DATA = {
         "lat": 31.2219311,
         "lng": 121.4704371,
         "precision": "상업·역사 구역 중심 · 특정 입구 아님",
-        "note": "영상에서 본 선택 후보. 골목과 건축을 보며 걷고 싶을 때의 후보. 식사·카페 이용은 선택으로 두고 임시정부 청사와 함께 비교한다.",
+        "note": "HAUS 뒤 30–45분 산책과 이른 저녁으로 일정에 반영했다. 기존 화이하이루 카페·저녁 시간을 바꾼 코스이며, 늦어지면 산책을 줄이고 식사만 한다.",
         "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E6%96%B0%E5%A4%A9%E5%9C%B0%20%E5%A4%AA%E4%BB%93%E8%B7%AF181%E5%BC%84&city=310000&view=map&src=shanghaitech2026&callnative=1",
         "sourceUrl": "https://www.openstreetmap.org/way/40325255",
         "kind": "sight",
-        "candidate": true
+        "candidate": false
       },
       {
         "id": "video-wukang",
@@ -1442,11 +1461,26 @@ window.TRIP_DATA = {
         "lat": 31.153642,
         "lng": 121.3501439,
         "precision": "고진 핵심구역 대표 중심 · 관광안내소와 구분",
-        "note": "영상에서 본 선택 후보. 현재 일정의 JD MALL 뒤 선택 산책과 연결되는 고진. 주가각·신창까지 같은 날 모두 도는 코스로 만들지 않는다.",
+        "note": "AGIBOT·JD MALL 뒤 기존 선택 산책을 45–60분 고진 산책과 간식으로 구체화했다. 주말 혼잡 시 생략하고 호텔 17시 복귀와 새벽 귀국 준비를 우선한다.",
         "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%83%E5%AE%9D%E5%8F%A4%E9%95%87%20%E6%97%85%E6%B8%B8%E5%92%A8%E8%AF%A2%E7%82%B9%EF%BC%9A%E9%97%B5%E8%A1%8C%E5%8C%BA%E4%B8%83%E5%AE%9D%E9%95%87%E6%A8%AA%E6%B2%A5%E8%B7%AF108%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
         "sourceUrl": "https://www.openstreetmap.org/way/1212781236",
         "kind": "sight",
-        "candidate": true
+        "candidate": false
+      },
+      {
+        "id": "video-westbund",
+        "name": "서안미술관 외관·강변",
+        "mapLabel": "서안미술관·강변",
+        "zh": "西岸美术馆 外观 / 徐汇滨江",
+        "address": "徐汇区龙腾大道2600号",
+        "lat": 31.1696238,
+        "lng": 121.4592939,
+        "precision": "미술관 건물 대표 중심 · 입구 현장 확인",
+        "note": "드론 체험 뒤 기존 강변 산책 시간을 서안미술관 외관·강변 30–45분으로 구체화했다. 실내 전시와 별도 표 구매는 포함하지 않으며, 드론 대기가 길면 산책부터 생략한다.",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E8%A5%BF%E5%B2%B8%E7%BE%8E%E6%9C%AF%E9%A6%86+%E5%BE%90%E6%B1%87%E5%8C%BA%E9%BE%99%E8%85%BE%E5%A4%A7%E9%81%932600%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "sourceUrl": "https://www.openstreetmap.org/way/745277168",
+        "kind": "sight",
+        "candidate": false
       }
     ],
     "days": [
@@ -1466,11 +1500,12 @@ window.TRIP_DATA = {
         "label": "10.28",
         "title": "휴머노이드와 인사하고, 왕홍 공간으로",
         "color": "#286e73",
-        "summary": "핵심 · Unitree 휴머노이드 · 핵심 · HAUS NOWHERE · 선택 · 거리 산책·카페",
+        "summary": "핵심 · Unitree 휴머노이드 · 핵심 · HAUS NOWHERE · 영상 · 신톈디 산책·이른 저녁",
         "placeIds": [
           "hotel",
           "unitree",
           "haus",
+          "video-xintiandi",
           "hotel"
         ]
       },
@@ -1479,7 +1514,7 @@ window.TRIP_DATA = {
         "label": "10.29",
         "title": "장장의 AI, 황푸강의 두 얼굴",
         "color": "#426baa",
-        "summary": "핵심 · AI Matrix 기기 체험 · 핵심 · 루자쭈이 강변 · 선택 · 와이탄 야경",
+        "summary": "핵심 · AI Matrix 기기 체험 · 영상 · 일락장랑 권역 30–40분 · 선택 · 와이탄 야경",
         "placeIds": [
           "hotel",
           "matrix",
@@ -1493,11 +1528,12 @@ window.TRIP_DATA = {
         "label": "10.30",
         "title": "직접 조작한 로봇, 하늘에서 온 점심",
         "color": "#bb7438",
-        "summary": "핵심 · 机时租 로봇 조작 · 핵심 · 미투안 드론 주문 시도 · 선택 · 서안 강변 산책",
+        "summary": "핵심 · 机时租 로봇 조작 · 핵심 · 미투안 드론 주문 시도 · 영상 · 서안미술관 외관·강변",
         "placeIds": [
           "hotel",
           "robot",
           "drone",
+          "video-westbund",
           "hotel"
         ]
       },
@@ -1506,10 +1542,11 @@ window.TRIP_DATA = {
         "label": "10.31",
         "title": "AGIBOT와 IT 쇼핑, 마지막 날은 여유롭게",
         "color": "#7b5c93",
-        "summary": "핵심 · AGIBOT 휴머노이드 · 핵심 · JD MALL IT 리테일 · 선택 · 칠보고진 짧은 산책",
+        "summary": "핵심 · AGIBOT·JD MALL·점심 · 영상 · 칠보고진 45–60분 · 필수 · 17시 호텔 복귀",
         "placeIds": [
           "hotel",
           "agibot",
+          "video-qibao",
           "hotel"
         ]
       },
@@ -1532,8 +1569,8 @@ window.TRIP_DATA = {
     "date": "2024-12-06",
     "url": "https://www.youtube.com/watch?v=avRg0Ee-E8s",
     "startUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=888s",
-    "intro": "로봇·드론 일정 밖에도, 영상에서 마음에 든 곳을 후보로 모아두었어요. 보내주신 14:48 구간의 주가각·칠보·신창도 포함했습니다. 모두 갈 필요 없이 날짜와 동선에 맞춰 골라보세요.",
-    "note": "영상 소개와 자막에서 장소·등장 시각을 확인했습니다. 2024년 영상의 가격·영업시간·점등 시각을 현재 조건으로 적용하지 않았습니다. 주소는 공식 자료로 대조했으며 실내 관람·테마파크·바의 현재 입장·예약·비용은 방문 전 확인합니다. 일부 세부 가게는 현재 지점·영업이 미확인입니다. 지도에는 선택한 후보만 추가로 표시합니다.",
+    "intro": "영상에서 동선에 맞는 신톈디·일락장랑 권역·서안 강변·칠보고진을 골라 기존 산책·식사 시간에 반영했어요. 로봇·드론 시간은 유지하고 나머지 장소는 후보로 남겼습니다. 일정 반영 카드에서 해당 날짜를 바로 볼 수 있어요.",
+    "note": "영상 소개와 자막에서 장소·등장 시각을 확인했습니다. 2024년 영상의 가격·영업시간·점등 시각을 현재 조건으로 적용하지 않았습니다. 주소는 공식 자료로 대조했으며 실내 관람·테마파크·바의 현재 입장·예약·비용은 방문 전 확인합니다. 일부 세부 가게는 현재 지점·영업이 미확인입니다. 일정에 반영한 장소는 여정 지도에 보이며, 나머지 후보는 선택했을 때 한 곳씩 표시합니다.",
     "places": [
       {
         "id": "nanjing-east",
@@ -1630,16 +1667,17 @@ window.TRIP_DATA = {
         "area": "신천지·황푸",
         "category": "거리·쇼핑",
         "fit": "nearby",
-        "suggestedDay": "10/28 HAUS 이후 선택",
-        "detail": "골목과 건축을 보며 걷고 싶을 때의 후보. 식사·카페 이용은 선택으로 두고 임시정부 청사와 함께 비교한다.",
+        "suggestedDay": "10/28 상세 일정에 반영",
+        "detail": "HAUS 뒤 30–45분 산책과 이른 저녁으로 일정에 반영했다. 기존 화이하이루 카페·저녁 시간을 바꾼 코스이며, 늦어지면 산책을 줄이고 식사만 한다.",
         "address": "太仓路181弄",
-        "status": "선택 후보 · 운영조건 확인",
+        "status": "일정 반영 · 여유 산책",
         "videoSeconds": 187,
         "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=187s",
         "sourceUrl": "https://english.shanghai.gov.cn/en-SpecialtyShoppingAreas/20231207/521159f5af35430ab1641004f5c68d03.html",
         "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E6%96%B0%E5%A4%A9%E5%9C%B0%20%E5%A4%AA%E4%BB%93%E8%B7%AF181%E5%BC%84&city=310000&view=map&src=shanghaitech2026&callnative=1",
         "subPlaces": [],
-        "mapPlaceId": "video-xintiandi"
+        "mapPlaceId": "video-xintiandi",
+        "includedDate": "2026-10-28"
       },
       {
         "id": "korean-gov",
@@ -1910,10 +1948,10 @@ window.TRIP_DATA = {
         "area": "우캉·쉬후이",
         "category": "문화·전시",
         "fit": "nearby",
-        "suggestedDay": "10/30 기존 드론 권역",
-        "detail": "드론 체험과 같은 쉬후이 강변 권역. 강변 산책을 미술관으로 바꾸고 싶다면 전시·입장권·시간을 확인한다.",
+        "suggestedDay": "10/30 상세 일정에 반영",
+        "detail": "드론 체험 뒤 기존 강변 산책 시간을 서안미술관 외관·강변 30–45분으로 구체화했다. 실내 전시와 별도 표 구매는 포함하지 않으며, 드론 대기가 길면 산책부터 생략한다.",
         "address": "徐汇区龙腾大道沿线；西岸美术馆：龙腾大道2600号",
-        "status": "선택 후보 · 운영조건 확인",
+        "status": "일정 반영 · 여유 산책",
         "videoSeconds": 642,
         "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=642s",
         "sourceUrl": "https://english.shanghai.gov.cn/en-MuseumsGalleries/20250702/64d1d26886b3458b8dffb3a8533787b5.html",
@@ -1926,9 +1964,11 @@ window.TRIP_DATA = {
             "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=646s",
             "note": "드론·강변 산책 대신 전시를 고를 때 확인. · 龙腾大道2600号",
             "mapUrl": "https://uri.amap.com/search?keyword=%E8%A5%BF%E5%B2%B8%E7%BE%8E%E6%9C%AF%E9%A6%86%20%E9%BE%99%E8%85%BE%E5%A4%A7%E9%81%932600%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
-            "sourceUrl": "https://english.shanghai.gov.cn/en-MuseumsGalleries/20250702/64d1d26886b3458b8dffb3a8533787b5.html"
+            "sourceUrl": "https://wbmshanghai.com/en/page/visit"
           }
-        ]
+        ],
+        "includedDate": "2026-10-30",
+        "mapPlaceId": "video-westbund"
       },
       {
         "id": "yuyuan",
@@ -2036,16 +2076,17 @@ window.TRIP_DATA = {
         "area": "홍차오·서쪽 교외",
         "category": "수향마을",
         "fit": "nearby",
-        "suggestedDay": "10/31 기존 선택 산책",
-        "detail": "현재 일정의 JD MALL 뒤 선택 산책과 연결되는 고진. 주가각·신창까지 같은 날 모두 도는 코스로 만들지 않는다.",
+        "suggestedDay": "10/31 상세 일정에 반영",
+        "detail": "AGIBOT·JD MALL 뒤 기존 선택 산책을 45–60분 고진 산책과 간식으로 구체화했다. 주말 혼잡 시 생략하고 호텔 17시 복귀와 새벽 귀국 준비를 우선한다.",
         "address": "旅游咨询点：闵行区七宝镇横沥路108号",
-        "status": "기존 일정의 선택 산책",
+        "status": "일정 반영 · 여유 산책",
         "videoSeconds": 946,
         "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=946s",
         "sourceUrl": "https://whlyj.sh.gov.cn/4ajjq/20191008/0022-28627.html",
         "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%83%E5%AE%9D%E5%8F%A4%E9%95%87%20%E6%97%85%E6%B8%B8%E5%92%A8%E8%AF%A2%E7%82%B9%EF%BC%9A%E9%97%B5%E8%A1%8C%E5%8C%BA%E4%B8%83%E5%AE%9D%E9%95%87%E6%A8%AA%E6%B2%A5%E8%B7%AF108%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
         "subPlaces": [],
-        "mapPlaceId": "video-qibao"
+        "mapPlaceId": "video-qibao",
+        "includedDate": "2026-10-31"
       },
       {
         "id": "xinchang",
@@ -2257,15 +2298,17 @@ window.TRIP_DATA = {
         "area": "와이탄·루자쭈이",
         "category": "야경·강변",
         "fit": "nearby",
-        "suggestedDay": "10/29 루자쭈이 강변 산책",
-        "detail": "푸둥미술관 바깥 강변 일대로 소개하는 산책 후보. 정확한 입구나 한 점의 위치는 확인되지 않아 현장 지도·표지를 기준으로 찾는다.",
-        "address": "浦东美术馆外侧滨江步道一带；位置访问前确认",
-        "status": "선택 후보 · 운영조건 확인",
+        "suggestedDay": "10/29 상세 일정에 반영",
+        "detail": "루자쭈이 체류 시간 안에서 푸둥미술관 바깥 강변을 30–40분 걷는다. 일락장랑은 영상 속 이름이며 일몰 시각까지 대기하는 계획은 아니다. 지도 핀은 미술관 기준점이고 촬영 지점은 현장에서 확인한다.",
+        "address": "定位参考：浦东新区滨江大道2777号 浦东美术馆",
+        "status": "일정 반영 · 여유 산책",
         "videoSeconds": 1455,
         "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=1455s",
         "sourceUrl": "https://edu.sh.gov.cn/study_cn_news/20251118/638a3648f2a54e71862055fad93ccb25.html",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E6%97%A5%E8%90%BD%E9%95%BF%E5%BB%8A%20%E6%B5%A6%E4%B8%9C%E7%BE%8E%E6%9C%AF%E9%A6%86%E5%A4%96%E4%BE%A7%E6%BB%A8%E6%B1%9F%E6%AD%A5%E9%81%93%E4%B8%80%E5%B8%A6%EF%BC%9B%E4%BD%8D%E7%BD%AE%E8%AE%BF%E9%97%AE%E5%89%8D%E7%A1%AE%E8%AE%A4&city=310000&view=map&src=shanghaitech2026&callnative=1",
-        "subPlaces": []
+        "mapUrl": "https://uri.amap.com/search?keyword=%E6%B5%A6%E4%B8%9C%E7%BE%8E%E6%9C%AF%E9%A6%86+%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E6%BB%A8%E6%B1%9F%E5%A4%A7%E9%81%932777%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "subPlaces": [],
+        "includedDate": "2026-10-29",
+        "mapPlaceId": "lujiazui"
       },
       {
         "id": "bund",
