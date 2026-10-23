@@ -569,3 +569,66 @@
   .video-place-description,.video-guide-note{font-size:10px}
   .video-place-zh,.video-place-address,.video-suggested-day,.video-card-links .text-link{font-size:9px}
 }
+
+/* Meal choices stay beside their visit, with a nearby fallback for long queues. */
+.meal-box{margin:15px 0 16px;padding:15px 17px;background:#f0efe8;border-left:2px solid #9aab94;font-size:12px;line-height:1.85;min-width:0}
+.meal-kicker{margin:0 0 10px;font-size:10px;font-weight:700;letter-spacing:.6px;color:var(--green)}
+.meal-kicker span{margin-left:9px;font-weight:500;letter-spacing:0;color:var(--muted)}
+.meal-fact{display:grid;grid-template-columns:66px minmax(0,1fr);gap:9px;margin:8px 0;color:var(--ink)}
+.meal-fact>strong{font-size:10px;font-weight:650;color:var(--muted);padding-top:2px}
+.meal-fact>span{overflow-wrap:anywhere}
+.meal-why{margin:9px 0;color:var(--muted)}
+.meal-queue{border-top:1px solid #d8dbd0;padding-top:9px;margin-top:10px}
+.meal-queue>strong{color:var(--green)}
+.meal-meta{margin-top:9px;color:var(--muted)}
+.meal-meta .meal-fact{font-size:11px;line-height:1.8;color:var(--muted)}
+.meal-links{display:flex;flex-wrap:wrap;gap:8px 17px;align-items:center;margin-top:12px;min-width:0}
+.meal-links .text-link,.meal-links .copy-button{font-size:11px;overflow-wrap:anywhere}
+.meal-backup{margin-top:14px;border-top:1px solid #d3d8cb}
+.meal-backup>summary{list-style:none;display:flex;justify-content:space-between;gap:14px;padding:11px 0 0;cursor:pointer;font-size:12px;font-weight:600;line-height:1.7}
+.meal-backup>summary::-webkit-details-marker{display:none}
+.meal-backup>summary>span{color:var(--red);font-weight:400;flex-shrink:0}
+.meal-backup[open]>summary>span{transform:rotate(45deg)}
+.meal-backup-body{margin-top:10px;padding:12px;background:var(--white);border:1px solid #dce0d5;min-width:0}
+.meal-backup-body h5{font-size:13px;line-height:1.6;margin:0 0 4px;font-weight:650}
+.meal-backup-body p{margin:6px 0;font-size:12px;line-height:1.85}
+.meal-backup-body .meal-backup-zh,.meal-backup-body .meal-backup-address{font-size:11px;color:var(--muted);word-break:normal;overflow-wrap:anywhere}
+.meal-checked{margin:11px 0 0;font-size:10px;color:var(--muted)}
+.day-summary>.day-meal-note{margin-top:17px;padding:12px 13px;border:1px solid var(--line);font-size:12px;line-height:1.85;color:var(--muted)}
+.day-meal-note>strong{display:block;color:var(--ink);font-size:11px;margin-bottom:3px}
+@media screen and (max-width:600px){
+  .meal-box{padding:14px 13px;font-size:14px;line-height:1.85;margin-block:14px}
+  .meal-kicker{font-size:11px}
+  .meal-kicker span{display:block;margin:3px 0 0}
+  .meal-fact{display:block;margin-block:10px}
+  .meal-fact>strong{display:block;font-size:11px;margin-bottom:3px;padding-top:0}
+  .meal-meta .meal-fact{font-size:12px}
+  .meal-links{gap:10px 15px}
+  .meal-links .text-link,.meal-links .copy-button{font-size:12px}
+  .meal-backup>summary{font-size:13px}
+  .meal-backup-body{padding:11px}
+  .meal-backup-body h5{font-size:14px}
+  .meal-backup-body p{font-size:14px}
+  .meal-backup-body .meal-backup-zh,.meal-backup-body .meal-backup-address{font-size:12px}
+  .meal-checked{font-size:11px}
+  .day-summary>.day-meal-note{font-size:13px}
+}
+@media print{
+  .meal-box{margin:8px 0;padding:9px 10px;font-size:9px;line-height:1.6;break-inside:avoid;background:#f5f5f0}
+  .meal-kicker,.meal-fact>strong,.meal-checked{font-size:8px}
+  .meal-fact{grid-template-columns:49px minmax(0,1fr);gap:7px;margin-block:5px}
+  .meal-queue{padding-top:6px;margin-top:6px}
+  .meal-meta .meal-fact{font-size:8px}
+  .meal-links{margin-top:6px;gap:5px 12px}
+  .meal-links .text-link{font-size:8px}
+  .meal-backup{margin-top:7px}
+  .meal-backup>summary{font-size:9px;padding-top:7px}
+  .meal-backup>summary>span{display:none}
+  .meal-backup-body{padding:7px;margin-top:5px}
+  .meal-backup-body h5{font-size:10px}
+  .meal-backup-body p,.meal-backup-body .meal-backup-zh,.meal-backup-body .meal-backup-address{font-size:9px;line-height:1.6}
+  .day-summary>.day-meal-note{font-size:9px;margin-top:8px;padding:8px}
+  .day-meal-note>strong{font-size:9px}
+}
+
+.dining-policy{padding:14px 17px;border-left:2px solid var(--green);background:#eeefe7;color:var(--muted);font-size:12px;line-height:1.85;margin:0 0 24px}.dining-policy:empty{display:none}@media(max-width:600px){.dining-policy{font-size:13px;padding:13px;margin-bottom:20px}}

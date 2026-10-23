@@ -23,7 +23,8 @@ window.TRIP_DATA = {
       "route": [
         "홍차오 T1",
         "소피텔 홍차오",
-        "申长路 SIM점 · 필요 시"
+        "申长路 SIM점 · 필요 시",
+        "홍차오톈디 · 저녁"
       ],
       "travelNote": "12:55 도착 후 입국·수하물 60–90분, SIM 상담·개통 30–60분, 호텔 차량 이동 30–45분을 확보한 계획. 공항 상담이 길어지면 호텔로 먼저 이동한다. 申长路점은 공식 안내상 18:00 마감이므로 당일 접수 가능 여부를 확인하고, 빠듯하면 10/28 오전으로 넘긴다. 이동 시간은 예상이다.",
       "weatherPlan": "도착 지연 시 호텔에서 쉬며 申长路점 또는 华漕점에 여권 접수 시간 확인을 요청한다. 현장 개통이 어려우면 쑹훙루의 중국전신 연계 센터를 온라인 예약한다. 아래 유심 안내에 주소·전화·지도·공식 출처를 모았다.",
@@ -87,23 +88,54 @@ window.TRIP_DATA = {
           "placeId": "sim"
         },
         {
-          "time": "18:30 이후",
-          "title": "호텔 주변에서 첫 저녁",
-          "zh": "上海虹桥新华联索菲特大酒店",
-          "address": "上海市闵行区泰虹路666号",
-          "detail": "가까운 식당이나 호텔에서 저녁을 먹고 알리페이 소액 결제·데이터 연결을 확인한다. SIM을 개통했다면 문자 수신과 미투안 본인 계정 인증을 점검한다. 피곤하면 별도 산책 없이 쉬고, 첫날 늦은 시내 왕복은 생략한다.",
-          "type": "식사·휴식",
-          "status": "자유 일정",
+          "time": "18:30–19:30 · SIM 일정 뒤",
+          "title": "青年星厨 홍차오톈디점 · 첫 저녁",
+          "zh": "青年星厨 虹桥天地店",
+          "address": "闵行区申长路688号 虹桥天地南区L3层",
+          "detail": "시내까지 나가지 않고 홍차오 권역에서 북경식 오리구이와 가정식으로 첫 저녁을 먹는다. 호텔에서 짧은 차량 이동을 당일 고덕지도로 확인하고, SIM 상담이 늦어지거나 피곤하면 호텔 중식당으로 바꾼다.",
+          "type": "저녁·중식",
+          "status": "좌석 전화 확인 · 예약 전",
           "priority": "선택",
-          "placeId": "hotel",
-          "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E6%96%B0%E5%8D%8E%E8%81%94%E7%B4%A2%E8%8F%B2%E7%89%B9%E5%A4%A7%E9%85%92%E5%BA%97%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%B3%B0%E8%99%B9%E8%B7%AF666%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1"
+          "placeId": null,
+          "mapUrl": "https://uri.amap.com/search?keyword=%E9%9D%92%E5%B9%B4%E6%98%9F%E5%8E%A8+%E8%99%B9%E6%A1%A5%E5%A4%A9%E5%9C%B0%E5%BA%97+%E7%94%B3%E9%95%BF%E8%B7%AF688%E5%8F%B7+%E8%99%B9%E6%A1%A5%E5%A4%A9%E5%9C%B0%E5%8D%97%E5%8C%BAL3%E5%B1%82&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "sourceUrl": "https://www.qnct.net/contact_2_0.html",
+          "meal": {
+            "checkedAt": "2026-10-23",
+            "queuePlan": "대기 안내가15분을 넘으면 아래 대안의 좌석부터 확인한다. 대안도 붐비면 줄을 옮겨 서지 않고 빈자리 있는 식당으로 바꾼다.",
+            "cuisine": "북경 오리구이·가정식",
+            "dishes": "桂花香酥烤鸭(오리구이)와 채소·밥을 나눠 먹기. 두 사람 분량과 당일 가능 메뉴를 확인한다.",
+            "why": "공식 지점 목록에 있는 홍차오 상권 지점. 긴 도심 왕복을 피한다.",
+            "seating": "호텔 프런트에서 저녁 영업·2인 일반석·예약 가능 여부를 전화로 확인한 뒤 출발. 공식 지점 목록은 예약 규정을 밝히지 않는다.",
+            "hoursNote": "지점별 식사 시간은 공식 목록에 없어 당일 문의.",
+            "phone": "+86 21 5227 2101",
+            "sources": [
+              {
+                "label": "브랜드 공식 지점·전화",
+                "url": "https://www.qnct.net/contact_2_0.html"
+              },
+              {
+                "label": "브랜드 메뉴 소개",
+                "url": "https://www.qnct.net/brand/442.html"
+              }
+            ],
+            "backup": {
+              "name": "Le Chinois · 소피텔 호텔 중식당",
+              "zh": "Le Chinois 乐轩华中餐厅",
+              "address": "闵行区泰虹路666号 上海虹桥新华联索菲特大酒店",
+              "detail": "이동을 줄이고 싶으면 체크인 때 저녁 단품·2인 일반석을 문의한다. 호텔 가격대이며 저녁 영업·가격을 확인한 뒤 선택. 예약 확정은 아니다.",
+              "phone": "+86 21 3669 6666",
+              "sourceUrl": "https://sofitel.accor.com/en/hotels/9933/R003.restaurant.html",
+              "mapUrl": "https://uri.amap.com/search?keyword=Le+Chinois+%E4%B9%90%E8%BD%A9%E5%8D%8E%E4%B8%AD%E9%A4%90%E5%8E%85+%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%B3%B0%E8%99%B9%E8%B7%AF666%E5%8F%B7+%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E6%96%B0%E5%8D%8E%E8%81%94%E7%B4%A2%E8%8F%B2%E7%89%B9%E5%A4%A7%E9%85%92%E5%BA%97&city=310000&view=map&src=shanghaitech2026&callnative=1"
+            }
+          }
         }
       ],
       "focus": [
         "필수 · SIM 상담·결제 연결",
         "필수 · 소피텔 체크인",
         "선택 · 홍차오 저녁 산책"
-      ]
+      ],
+      "mealNote": "점심은 김포 출국 전에 가볍게 준비한다. 기내식 제공은 확인되지 않았으므로 공항에서 간단한 식사를 챙기고, 상하이에서는 입국·SIM·체크인을 먼저 마친다. 저녁은 홍차오 호텔 권역에서 해결한다."
     },
     {
       "date": "2026-10-28",
@@ -115,11 +147,11 @@ window.TRIP_DATA = {
       "summary": "Unitree와 HAUS NOWHERE를 충분히 본 뒤 신톈디에서 짧게 걷고 이른 저녁을 먹는다. 영상 속 신톈디는 기존 카페·저녁 시간을 바꾼 선택 산책이며 관광 정차를 더 늘리지 않았다.",
       "route": [
         "Unitree 久光",
-        "정안 점심",
+        "COVA 점심",
         "HAUS NOWHERE",
-        "신톈디 · 산책·저녁"
+        "신톈디 산책·夜上海 저녁"
       ],
-      "travelNote": "09:30 호텔 출발을 기준으로 정안까지 차량 40–70분을 확보한 계획이다. Unitree와 HAUS 사이에는 차량·지하철로 이동하고 도심에서 호텔 왕복은 하지 않는다. 첫날 SIM 개통이 남았으면 오전 여권 접수 시간을 먼저 확보하고 Unitree 방문을 점심 이후로 늦춘다. HAUS→신톈디는 차량 10–20분 또는 도보 약 25–35분을 예상하되 당일 길찾기로 확인한다. 걷기를 아끼려면 차량으로 이동하고 신톈디 안에서만 30–45분 걷는다. 줄 서는 식당보다 바로 앉아 쉴 수 있는 곳을 고른다.",
+      "travelNote": "09:30 호텔 출발을 기준으로 정안까지 차량 40–70분을 확보한 계획이다. Unitree와 HAUS 사이에는 차량·지하철로 이동하고 도심에서 호텔 왕복은 하지 않는다. 첫날 SIM 개통이 남았으면 오전 여권 접수 시간을 먼저 확보하고 Unitree 방문을 점심 이후로 늦춘다. HAUS→신톈디는 차량 10–20분 또는 도보 약 25–35분을 예상하되 당일 길찾기로 확인한다. 걷기를 아끼려면 차량으로 이동하고 신톈디 안에서만 30–45분 걷는다. 줄 서는 식당보다 바로 앉아 쉴 수 있는 곳을 고른다. 저녁은 夜上海의 현재 湖滨路168号 지점까지 이동 여유를 두고, 식사 예약이 잡히면 산책을 짧게 마친다.",
       "weatherPlan": "비가 오면 두 매장과 실내 식사 위주로 진행한다. SIM 개통이나 로봇 체험이 길어지면 신톈디 산책을 줄이고 가까운 곳에서 저녁을 먹는다.",
       "stops": [
         {
@@ -138,15 +170,40 @@ window.TRIP_DATA = {
         },
         {
           "time": "12:30–13:30",
-          "title": "정안에서 점심과 짧은 산책",
-          "zh": "静安寺 南京西路",
-          "address": "",
-          "detail": "샤오롱바오·생젠 등 먹고 싶은 메뉴를 하나 고른다. 난징서루의 거리와 건물 디테일을 촬영하고 오후 이동 전에 쉰다. 특정 식당 예약은 하지 않았다.",
-          "type": "식사·촬영",
-          "status": "자유 일정",
-          "sourceUrl": null,
-          "mapUrl": "https://uri.amap.com/search?keyword=%E9%9D%99%E5%AE%89%E5%AF%BA%20%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF%20&city=310000&view=map&src=shanghaitech2026&callnative=1",
-          "priority": "선택"
+          "title": "COVA 久光店 · 같은 건물에서 점심",
+          "zh": "COVA 久光店",
+          "address": "静安区南京西路1618号 久光百货1层D104-3",
+          "detail": "Unitree가 있는 久光에서 1층으로 내려와 점심을 먹고 앉아서 쉰다. 별도 맛집 이동을 줄이고 HAUS로 넘어가는 시간을 확보한다. 이 지점은 공식적으로 점심 서비스를 안내하지만 개별 식사 메뉴는 공개되지 않았다.",
+          "type": "점심·휴식",
+          "status": "당일 식사 메뉴·좌석 확인",
+          "sourceUrl": "https://www.pasticceriacova.com/zh-hant/pages/sogo-dpt-store",
+          "mapUrl": "https://uri.amap.com/search?keyword=COVA+%E4%B9%85%E5%85%89%E5%BA%97+%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF1618%E5%8F%B7+%E4%B9%85%E5%85%89%E7%99%BE%E8%B4%A71%E5%B1%82D104-3&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "priority": "선택",
+          "meal": {
+            "checkedAt": "2026-10-23",
+            "queuePlan": "대기 안내가15분을 넘으면 아래 대안의 좌석부터 확인한다. 대안도 붐비면 줄을 옮겨 서지 않고 빈자리 있는 식당으로 바꾼다.",
+            "cuisine": "이탈리아 카페·가벼운 점심",
+            "dishes": "당일 제공 점심 메뉴를 확인해 고르고, 커피·케이크는 선택. 확인되지 않은 파스타·샌드위치 메뉴를 미리 확정하지 않는다.",
+            "why": "로봇 매장과 같은 건물이어서 이동 부담이 가장 적다.",
+            "seating": "예약 규정은 공식 지점 안내에 없다. 당일 점심 메뉴와 2인 좌석을 먼저 확인한다.",
+            "hoursNote": "공식 매일 10:00–22:00. 점심 메뉴 제공 시간은 별도 확인.",
+            "phone": "+86 21 5235 9197",
+            "sources": [
+              {
+                "label": "COVA 공식 지점·점심 서비스",
+                "url": "https://www.pasticceriacova.com/zh-hant/pages/sogo-dpt-store"
+              }
+            ],
+            "backup": {
+              "name": "夏宫·夏小馆 · 예약형 중식 대안",
+              "zh": "夏宫 夏小馆 静安香格里拉",
+              "address": "静安区延安中路1218号 静安香格里拉3楼",
+              "detail": "딤섬 중심 중식. 점심11:30–14:30·전화/공식 테이블 예약 안내가 있다. 호텔 가격대이므로 메뉴 가격과 좌석을 먼저 확인한 경우에만 이동.",
+              "phone": "+86 21 2203 8889",
+              "sourceUrl": "https://www.shangri-la.com/shanghai/jinganshangrila/dining/restaurants/summer-palace/",
+              "mapUrl": "https://uri.amap.com/search?keyword=%E5%A4%8F%E5%AE%AB+%E5%A4%8F%E5%B0%8F%E9%A6%86+%E9%9D%99%E5%AE%89%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89+%E9%9D%99%E5%AE%89%E5%8C%BA%E5%BB%B6%E5%AE%89%E4%B8%AD%E8%B7%AF1218%E5%8F%B7+%E9%9D%99%E5%AE%89%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%893%E6%A5%BC&city=310000&view=map&src=shanghaitech2026&callnative=1"
+            }
+          }
         },
         {
           "time": "14:00–15:30",
@@ -162,25 +219,55 @@ window.TRIP_DATA = {
           "placeId": "haus"
         },
         {
-          "time": "16:00–18:00",
-          "title": "신톈디 · 짧은 산책과 이른 저녁",
-          "zh": "上海新天地",
-          "address": "太仓路181弄",
-          "detail": "HAUS에서 이동한 뒤 골목과 건축을 30–45분만 둘러보고 앉아서 이른 저녁을 먹는다. 기존 화이하이루 카페·저녁 시간을 이곳으로 바꿨다. 임시정부 청사·톈쯔팡까지 이어 붙이지 않으며, 오전이 늦어지거나 피곤하면 산책을 생략한다. 18시 전후 귀환을 시작하고 도착 시각은 교통 상황에 따른다.",
-          "type": "영상·산책·식사",
-          "status": "30–45분 산책 · 나머지 휴식",
-          "sourceUrl": "https://english.shanghai.gov.cn/en-SpecialtyShoppingAreas/20231207/521159f5af35430ab1641004f5c68d03.html",
-          "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E6%96%B0%E5%A4%A9%E5%9C%B0%20%E5%A4%AA%E4%BB%93%E8%B7%AF181%E5%BC%84&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "time": "16:00–18:00 · 산책 후 17:00 식사",
+          "title": "신톈디 산책 → 夜上海 이른 저녁",
+          "zh": "夜上海 yè Shanghai",
+          "address": "黄浦区湖滨路168号 无限极荟3楼",
+          "detail": "신톈디 골목은 30–45분만 걷고, 인근 夜上海에서 17시 이른 저녁을 먹는다. 식당은 湖滨路168号의 현재 지점으로 찾아간다. 산책이 길어지면 식사 좌석 시간을 우선하며 18시 전후 귀환을 시작한다.",
+          "type": "영상·산책·저녁",
+          "status": "17시 예약 권장 · 예약 전",
+          "sourceUrl": "https://www.elite-concepts.com/our-concepts/shanghai/ye-shanghai/",
+          "mapUrl": "https://uri.amap.com/search?keyword=%E5%A4%9C%E4%B8%8A%E6%B5%B7+y%C3%A8+Shanghai+%E6%B9%96%E6%BB%A8%E8%B7%AF168%E5%8F%B7+%E6%97%A0%E9%99%90%E6%9E%81%E8%8D%9F3%E6%A5%BC&city=310000&view=map&src=shanghaitech2026&callnative=1",
           "priority": "선택",
           "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=187s",
-          "placeId": "video-xintiandi"
+          "placeId": "video-xintiandi",
+          "meal": {
+            "checkedAt": "2026-10-23",
+            "queuePlan": "대기 안내가15분을 넘으면 아래 대안의 좌석부터 확인한다. 대안도 붐비면 줄을 옮겨 서지 않고 빈자리 있는 식당으로 바꾼다.",
+            "cuisine": "상하이 요리",
+            "dishes": "홍샤오러우·새우볶음·샤오롱바오 중 두 사람 입맛에 맞춰 나눠 주문. 당일 메뉴·가격 우선.",
+            "why": "신톈디 주변 산책과 이른 저녁을 한 권역에서 마친다.",
+            "seating": "공식 예약 가능. 10/28 수요일 17시 2인 일반석을 호텔에 예약 요청하고 확정 답변을 받은 뒤 이용. 아직 예약하지 않았다.",
+            "hoursNote": "운영사 공식 매일11:30–14:30 / 15:30–21:30. 수요일 좌석·주문 마감은 예약 때 확인.",
+            "phone": "+86 21 6311 2323",
+            "sources": [
+              {
+                "label": "운영사 공식 현재 지점·예약",
+                "url": "https://www.elite-concepts.com/our-concepts/shanghai/ye-shanghai/"
+              },
+              {
+                "label": "Michelin 지점·메뉴",
+                "url": "https://guide.michelin.com/us/en/shanghai-municipality/shanghai/restaurant/ye-shanghai"
+              }
+            ],
+            "backup": {
+              "name": "POLUX · 신톈디 프렌치 비스트로",
+              "zh": "POLUX 新天地",
+              "address": "黄浦区太仓路181弄新天地北里5号",
+              "detail": "예약 권장 대안. 17시에는 오후 메뉴이며 정식 저녁은17:30부터. 좌석을 먼저 확인하고 양파수프·오리콩피 등 당일 메뉴를 고른다. 인기점이라 대기가 짧다고 보장하지 않는다.",
+              "phone": "+86 21 6333 9897",
+              "sourceUrl": "https://www.poluxbypp.com/",
+              "mapUrl": "https://uri.amap.com/search?keyword=POLUX+%E6%96%B0%E5%A4%A9%E5%9C%B0+%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%A4%AA%E4%BB%93%E8%B7%AF181%E5%BC%84%E6%96%B0%E5%A4%A9%E5%9C%B0%E5%8C%97%E9%87%8C5%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1"
+            }
+          }
         }
       ],
       "focus": [
         "핵심 · Unitree 휴머노이드",
         "핵심 · HAUS NOWHERE",
         "영상 · 신톈디 산책·이른 저녁"
-      ]
+      ],
+      "mealNote": "점심은 Unitree와 같은 久光 건물에서, 저녁은 신톈디 산책 뒤 17시 예약을 목표로 한다. 두 끼 모두 기존 식사 시간 안에 넣었으며 좌석을 기다리느라 HAUS 방문을 줄이지 않는다."
     },
     {
       "date": "2026-10-29",
@@ -192,10 +279,12 @@ window.TRIP_DATA = {
       "summary": "장장 AI Matrix의 체험 시간을 유지하고, 루자쭈이에서는 푸둥미술관 바깥 강변을 짧게 걷고 쉰다. 영상 속 일락장랑 권역을 기존 강변 시간 안에 넣었으며, 와이탄은 체력이 남을 때만 간다.",
       "route": [
         "장장 AI Matrix",
-        "루자쭈이·일락장랑 권역",
-        "와이탄 · 체력 여유 시"
+        "Marriott 점심",
+        "푸둥 강변",
+        "SPACELAB 저녁",
+        "와이탄 · 여유 시"
       ],
-      "travelNote": "08:45 호텔 출발을 기준으로 장장까지 차량 70–100분을 여유 있게 잡은 계획이다. 장장→루자쭈이는 약 35–60분, 루자쭈이→와이탄은 강을 건너는 차량·지하철 경로를 당일 지도에서 선택한다. 지도 연결선은 방문 순서이며 실제 도로 경로가 아니다. 점심과 이동이 길어지면 푸둥 강변 30분과 휴식만 남기고 와이탄부터 생략한다. 일락장랑의 특정 촬영 점을 찾느라 강변을 길게 왕복하지 않는다.",
+      "travelNote": "08:45 호텔 출발을 기준으로 장장까지 차량 70–100분을 여유 있게 잡은 계획이다. 장장→루자쭈이는 약 35–60분, 루자쭈이→와이탄은 강을 건너는 차량·지하철 경로를 당일 지도에서 선택한다. 지도 연결선은 방문 순서이며 실제 도로 경로가 아니다. 점심과 이동이 길어지면 푸둥 강변 30분과 휴식만 남기고 와이탄부터 생략한다. 일락장랑의 특정 촬영 점을 찾느라 강변을 길게 왕복하지 않는다. 점심·이동 여유를 위해 루자쭈이는14:30부터, 저녁은16:15부터로 조정했다. 강 건너 와이탄은17:45 이후 선택이며 지연되면 생략한다.",
       "weatherPlan": "비가 오거나 AI 체험이 길어지면 강변과 와이탄을 줄이고 루자쭈이 실내 몰에서 쉰다. 전망대·바·미술관 실내를 추가하지 않는다. Galbot은 정확한 현재 위치·운영이 미확인이므로 찾으러 이동하지 않는다.",
       "stops": [
         {
@@ -213,18 +302,44 @@ window.TRIP_DATA = {
           "placeId": "matrix"
         },
         {
-          "time": "12:30–14:00",
-          "title": "장장에서 점심 후 루자쭈이 이동",
-          "zh": "张江",
-          "address": "",
-          "detail": "오후에 다시 호텔로 돌아가지 않고 강변으로 이동한다. 휴머노이드 반응과 AI 기기의 실제 사용성을 각자 한 줄로 메모.",
-          "type": "식사·이동",
-          "status": "추천",
-          "sourceUrl": null,
-          "mapUrl": "https://uri.amap.com/search?keyword=%E5%BC%A0%E6%B1%9F%20&city=310000&view=map&src=shanghaitech2026&callnative=1"
+          "time": "12:30–14:30 · 식사 후 이동",
+          "title": "RESIDENT’S LOUNGE · 장장 점심",
+          "zh": "RESIDENT’S LOUNGE 上海张江万豪行政公寓",
+          "address": "浦东新区海科路1666号 上海张江万豪行政公寓1楼",
+          "detail": "AI Matrix의 海科路1650号와 같은 도로 인접 주소의 호텔 식당에서 점심과 휴식을 해결한다. 12:30–13:20 식사, 이후 루자쭈이 이동을 계획한다. 도보 출입구와 실제 이동 시간은 당일 지도에서 확인한다.",
+          "type": "점심·이동",
+          "status": "전화·공식 테이블 예약 가능",
+          "sourceUrl": "https://www.marriott.com/en-us/hotels/shazr-marriott-executive-apartments-shanghai-zhangjiang/dining/",
+          "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E5%BC%A0%E6%B1%9F%E4%B8%87%E8%B1%AA%E8%A1%8C%E6%94%BF%E5%85%AC%E5%AF%93+RESIDENT%E2%80%99S+LOUNGE+%E6%B5%B7%E7%A7%91%E8%B7%AF1666%E5%8F%B71%E6%A5%BC&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "meal": {
+            "checkedAt": "2026-10-23",
+            "queuePlan": "대기 안내가15분을 넘으면 아래 대안의 좌석부터 확인한다. 대안도 붐비면 줄을 옮겨 서지 않고 빈자리 있는 식당으로 바꾼다.",
+            "cuisine": "국제요리·호텔 점심",
+            "dishes": "당일 점심 단품 메뉴와 가격을 확인해 주문. 공개 메뉴가 없어 특정 요리를 미리 정하지 않는다.",
+            "why": "AI 체험 뒤 먼 식당을 찾아 움직이는 시간을 줄인다.",
+            "seating": "공식 전화 또는 Book a Table로12:30 2인 좌석과 점심 식사 가능 여부 확인. 예약은 아직 하지 않았다.",
+            "hoursNote": "공식 매일06:30–21:30. 점심 메뉴·주문 가능 시간은 문의.",
+            "priceNote": "호텔 식당 가격대. 메뉴·서비스료를 확인한 뒤 주문.",
+            "phone": "+86 21 2050 1666",
+            "sources": [
+              {
+                "label": "Marriott 공식 식당·예약 안내",
+                "url": "https://www.marriott.com/en-us/hotels/shazr-marriott-executive-apartments-shanghai-zhangjiang/dining/"
+              }
+            ],
+            "backup": {
+              "name": "JV壹聚海派菜 · 상하이 요리 대안",
+              "zh": "JV壹聚海派菜 上海张江科学城希尔顿酒店",
+              "address": "浦东新区海科路1398号 上海张江科学城希尔顿酒店1楼",
+              "detail": "해파이 상하이 요리. 정확한 점심 영업과 2인 좌석을 전화 확인한 경우에만 이동한다. 호텔 안내번호로 식당 연결 요청.",
+              "phone": "+86 21 3817 8888",
+              "sourceUrl": "https://www.hilton.com/en/hotels/shazjhi-hilton-shanghai-zhangjiang-science-city/dining/",
+              "mapUrl": "https://uri.amap.com/search?keyword=JV%E5%A3%B9%E8%81%9A%E6%B5%B7%E6%B4%BE%E8%8F%9C+%E4%B8%8A%E6%B5%B7%E5%BC%A0%E6%B1%9F%E7%A7%91%E5%AD%A6%E5%9F%8E%E5%B8%8C%E5%B0%94%E9%A1%BF%E9%85%92%E5%BA%97+%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E6%B5%B7%E7%A7%91%E8%B7%AF1398%E5%8F%B7+%E4%B8%8A%E6%B5%B7%E5%BC%A0%E6%B1%9F%E7%A7%91%E5%AD%A6%E5%9F%8E%E5%B8%8C%E5%B0%94%E9%A1%BF%E9%85%92%E5%BA%971%E6%A5%BC&city=310000&view=map&src=shanghaitech2026&callnative=1"
+            }
+          }
         },
         {
-          "time": "14:00–16:00",
+          "time": "14:30–16:00",
           "title": "루자쭈이·일락장랑 권역 · 푸둥 강변",
           "zh": "陆家嘴 滨江大道 / 浦东美术馆外侧",
           "address": "定位参考：浦东新区滨江大道2777号 浦东美术馆",
@@ -238,11 +353,48 @@ window.TRIP_DATA = {
           "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=1455s"
         },
         {
-          "time": "17:00–18:30",
+          "time": "16:15–17:15 · 이른 저녁",
+          "title": "SPACELAB · 레일로 음식이 오는 저녁",
+          "zh": "SPACELAB失重餐厅 正大广场店",
+          "address": "浦东新区陆家嘴西路168号 正大广场5楼35–36",
+          "detail": "루자쭈이 산책 뒤 정다광장에서 기술식당 체험을 겸해 일찍 저녁을 먹는다. 공식 몰은 레일·장치를 이용한 음식 전달을 소개한다. 음식 전달 방식·가동 상태는 당일 확인한다. 식사 때문에 와이탄으로 서둘러 건너지 않는다.",
+          "type": "저녁·기술식당",
+          "status": "영업·좌석 문의 · 예약 규정 미공개",
+          "sourceUrl": "https://www.superbrandmall.com/cn/store/677e110a4ef30ee9445a3e95",
+          "mapUrl": "https://uri.amap.com/search?keyword=SPACELAB%E5%A4%B1%E9%87%8D%E9%A4%90%E5%8E%85+%E6%AD%A3%E5%A4%A7%E5%B9%BF%E5%9C%BA%E5%BA%97+%E9%99%86%E5%AE%B6%E5%98%B4%E8%A5%BF%E8%B7%AF168%E5%8F%B7+%E6%AD%A3%E5%A4%A7%E5%B9%BF%E5%9C%BA5%E6%A5%BC35%E2%80%9336&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "priority": "선택",
+          "meal": {
+            "checkedAt": "2026-10-23",
+            "queuePlan": "대기 안내가15분을 넘으면 아래 대안의 좌석부터 확인한다. 대안도 붐비면 줄을 옮겨 서지 않고 빈자리 있는 식당으로 바꾼다.",
+            "cuisine": "서양식·기술식당",
+            "dishes": "失重烧烤汉堡(버거), 岩火烤肋排(구운 립), 肉酱意大利面(미트소스 파스타) 중 선택.",
+            "why": "IT·왕홍 체험 취향에 맞고 루자쭈이 동선을 벗어나지 않는다.",
+            "seating": "16:15 식사 가능 여부와 2인 좌석·예약 가능 여부를 지점에 문의한다. 공식 몰 페이지에는 정확한 영업시간·예약 규정이 없다.",
+            "hoursNote": "계획 시각은 영업 보장이 아니다. 당일 영업을 확인한 뒤 방문.",
+            "phone": "+86 133 1013 7964",
+            "sources": [
+              {
+                "label": "정다광장 공식 지점·메뉴",
+                "url": "https://www.superbrandmall.com/cn/store/677e110a4ef30ee9445a3e95"
+              }
+            ],
+            "backup": {
+              "name": "苏小柳 · 같은 몰 샤오롱바오",
+              "zh": "苏小柳 正大广场店",
+              "address": "浦东新区陆家嘴西路168号 正大广场B2E-1+2+3",
+              "detail": "돼지고기 육즙 샤오롱바오로 간단한 저녁. 같은 몰이라 전환이 쉽다. 영업·좌석을 확인하고 이곳도 줄이 길면 바로 앉을 수 있는 몰 식당을 고른다.",
+              "phone": "+86 21 6856 5218",
+              "sourceUrl": "https://www.superbrandmall.com/cn/store/691af4c7a00a2a955e99aaf8",
+              "mapUrl": "https://uri.amap.com/search?keyword=%E8%8B%8F%E5%B0%8F%E6%9F%B3+%E6%AD%A3%E5%A4%A7%E5%B9%BF%E5%9C%BA%E5%BA%97+%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E9%99%86%E5%AE%B6%E5%98%B4%E8%A5%BF%E8%B7%AF168%E5%8F%B7+%E6%AD%A3%E5%A4%A7%E5%B9%BF%E5%9C%BAB2E-1%2B2%2B3&city=310000&view=map&src=shanghaitech2026&callnative=1"
+            }
+          }
+        },
+        {
+          "time": "17:45–18:30 · 체력 여유 시",
           "title": "와이탄 스카이라인 촬영",
           "zh": "外滩",
           "address": "",
-          "detail": "체력이 남으면 와이탄 쪽으로 강을 건너 스카이라인을 촬영하고 저녁을 먹는다. 날씨가 흐리거나 이동이 늦어지면 루자쭈이에서 마무리한다. 야경·외벽 조명과 강변 운영은 당일 상황에 따른다.",
+          "detail": "저녁 식사를 마친 뒤 체력이 남고 강 건너 이동이 수월할 때만 와이탄 스카이라인을 본다. 식사·교통이 늦어지면 푸둥에서 마무리하고 호텔로 돌아간다. 와이탄에서 두 번째 저녁이나 별도 맛집 대기를 추가하지 않는다.",
           "type": "왕홍·야경",
           "status": "자유 일정",
           "sourceUrl": null,
@@ -255,7 +407,8 @@ window.TRIP_DATA = {
         "핵심 · AI Matrix 기기 체험",
         "영상 · 일락장랑 권역 30–40분",
         "선택 · 와이탄 야경"
-      ]
+      ],
+      "mealNote": "장장 점심은 AI Matrix 인접 도로의 Marriott에서, 저녁은 루자쭈이 SPACELAB에서 이르게 먹는다. 식사가 길어지면 선택 일정인 와이탄부터 빼고 푸둥에서 마무리한다."
     },
     {
       "date": "2026-10-30",
@@ -267,8 +420,10 @@ window.TRIP_DATA = {
       "summary": "로봇개 조작과 미투안 드론 방문 시간을 그대로 두었다. 드론 뒤에는 서안미술관 외관·강변만 짧게 보고 쉬며, 체험이 길어지면 산책부터 생략한다.",
       "route": [
         "쉬자후이 机时租",
-        "서안 스케이트공원·드론",
-        "서안미술관 외관·강변 · 선택"
+        "드론 맥도날드 점심",
+        "서안미술관 외관 · 선택",
+        "Paulaner 저녁",
+        "호텔"
       ],
       "travelNote": "호텔→쉬자후이 차량 40–70분, 쉬자후이→서안 강변 20–35분을 확보한 계획이다. 로봇 매장 체험이 길어져도 드론 수령점은 오후 초반에 도착하도록 조정한다. 드론은 당일 운항·주문 마감이 우선이며 미리 예약된 체험이 아니다. 드론 수령점→서안미술관은 당일 지도에서 짧은 차량 이동과 도보를 비교한다. 걷기가 길면 차량으로 이동하거나 수령점 주변 강변에서 쉬는 것으로 마무리한다.",
       "weatherPlan": "비·강풍이나 주문 불가 시 드론 수령점 안내를 확인하고 실내 카페에서 쉰다. 드론 대기·로봇 체험이 길어지면 서안미술관 외관 산책부터 생략한다. 기상이 좋고 아직 드론을 못 해봤다면 남은 날 운영 상황을 보고 재시도를 검토한다.",
@@ -299,7 +454,35 @@ window.TRIP_DATA = {
           "mapUrl": "https://uri.amap.com/search?keyword=%E8%A5%BF%E5%B2%B8%E6%BB%91%E6%9D%BF%E5%85%AC%E5%9B%AD%20%E7%BE%8E%E5%9B%A2%E6%97%A0%E4%BA%BA%E6%9C%BA%20%E5%BE%90%E6%B1%87%E6%BB%A8%E6%B1%9F%20%E9%BE%99%E8%85%BE%E5%A4%A7%E9%81%93%E6%B2%BF%E7%BA%BF&city=310000&view=map&src=shanghaitech2026&callnative=1",
           "accessId": "drone",
           "priority": "핵심",
-          "placeId": "drone"
+          "placeId": "drone",
+          "meal": {
+            "checkedAt": "2026-10-23",
+            "queuePlan": "드론은 식당 줄과 별개로 운항·주문·배달 대기가 있다. 안내된 도착 시간을 확인하고, 주문 불가 시 발송 식당 일반 식사로 바꾼다. 시간을 맞추려고 로봇 체험을 생략하지 않는다.",
+            "cuisine": "맥도날드·드론 점심",
+            "dishes": "당일 드론 배송 가능 메뉴에서 두 사람 점심을 고른다. 앱에서 가능한 품목·가격·운항을 확인한다.",
+            "why": "드론 체험과 점심을 한 번에 해결해 별도 식사 이동을 줄인다.",
+            "seating": "일반 테이블 예약형 체험이 아니다. 미투안 당일 주문과 QR 수령 절차를 따른다.",
+            "phone": "",
+            "sources": [
+              {
+                "label": "맥도날드 공식 드론 절차",
+                "url": "https://www.mcdonalds.com.cn/news/20260910-ShangHai/"
+              },
+              {
+                "label": "발송 식당 주소",
+                "url": "https://www.mcdonalds.com.cn/news/20211008-mchqrestaurant/"
+              }
+            ],
+            "backup": {
+              "name": "맥도날드 龙腾大道店 · 일반 점심",
+              "zh": "麦当劳龙腾大道餐厅 巨无霸魔方",
+              "address": "徐汇区龙腾大道2121号 巨无霸魔方1–2楼",
+              "detail": "드론 주문이 안 되면 일반 식사로 전환. 수령점과 발송 식당은 다른 위치이므로 고덕지도에서 이동부터 확인한다. 식당에 바로 앉기 어렵다면 가까운 빈자리 있는 식당으로 바꾼다.",
+              "phone": "",
+              "sourceUrl": "https://www.mcdonalds.com.cn/news/20211008-mchqrestaurant/",
+              "mapUrl": "https://uri.amap.com/search?keyword=%E9%BA%A6%E5%BD%93%E5%8A%B3%E9%BE%99%E8%85%BE%E5%A4%A7%E9%81%93%E9%A4%90%E5%8E%85+%E5%B7%A8%E6%97%A0%E9%9C%B8%E9%AD%94%E6%96%B9+%E5%BE%90%E6%B1%87%E5%8C%BA%E9%BE%99%E8%85%BE%E5%A4%A7%E9%81%932121%E5%8F%B7+%E5%B7%A8%E6%97%A0%E9%9C%B8%E9%AD%94%E6%96%B91%E2%80%932%E6%A5%BC&city=310000&view=map&src=shanghaitech2026&callnative=1"
+            }
+          }
         },
         {
           "time": "14:30–16:00",
@@ -316,22 +499,66 @@ window.TRIP_DATA = {
           "placeId": "video-westbund"
         },
         {
-          "time": "17:30–19:00",
-          "title": "이른 저녁 후 호텔",
+          "time": "17:30–18:30 · 이른 저녁",
+          "title": "Paulaner 서안몽중심점 · 저녁",
+          "zh": "宝莱纳餐厅 Paulaner 西岸梦中心店",
+          "address": "徐汇区龙腾大道2266号 西岸梦中心10栋115–116",
+          "detail": "서안미술관 외관 산책을 마친 뒤 강변 권역에서 저녁을 먹고 호텔로 돌아간다. 금요일 야간 상권은 붐빌 수 있어 좌석 확인을 먼저 하고, 테라스·공연 좋은 자리를 기다리지 않는다.",
+          "type": "저녁·독일식",
+          "status": "당일 전화 예약 안내",
+          "mapUrl": "https://uri.amap.com/search?keyword=%E5%AE%9D%E8%8E%B1%E7%BA%B3%E9%A4%90%E5%8E%85+%E8%A5%BF%E5%B2%B8%E6%A2%A6%E4%B8%AD%E5%BF%83%E5%BA%97+%E9%BE%99%E8%85%BE%E5%A4%A7%E9%81%932266%E5%8F%B710%E6%A0%8B115%E2%80%93116&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "placeId": null,
+          "sourceUrl": "https://www.bln-restaurants.com/zh-hans/paulaner/west-bund/location/",
+          "meal": {
+            "checkedAt": "2026-10-23",
+            "queuePlan": "대기 안내가15분을 넘으면 아래 대안의 좌석부터 확인한다. 대안도 붐비면 줄을 옮겨 서지 않고 빈자리 있는 식당으로 바꾼다.",
+            "cuisine": "독일식·강변 레스토랑",
+            "dishes": "돼지족 또는 소시지 모둠에 샐러드를 나눠 주문. 술 주문은 선택.",
+            "why": "서안 권역 안에서 식사를 마치고 호텔로 귀환한다.",
+            "seating": "공식 안내상 당일 예약은 전화로 문의.17:30 2인 일반 실내석을 요청하고 확정 여부를 확인한다. 온라인 요청이 수락되지 않을 수 있다.",
+            "hoursNote": "공식4–10월 매일10:00–23:00. 주방 주문 마감과 당일 영업 별도 확인.",
+            "priceNote": "서양식 레스토랑 가격대. 큰 요리의 2인 분량·메뉴 가격을 확인.",
+            "phone": "+86 21 2206 0555",
+            "sources": [
+              {
+                "label": "공식 지점·예약 안내",
+                "url": "https://www.bln-restaurants.com/zh-hans/paulaner/west-bund/location/"
+              },
+              {
+                "label": "공식 메뉴",
+                "url": "https://www.bln-restaurants.com/zh-hans/paulaner/west-bund/our-menu/"
+              }
+            ],
+            "backup": {
+              "name": "BAKTRO · 바로 옆 대안",
+              "zh": "BAKTRO 烘焙餐酒馆 西岸梦中心店",
+              "address": "徐汇区龙腾大道2266号 西岸梦中心10栋117",
+              "detail": "오리다리 콩피·생선·빵 등 당일 메뉴를 확인. 같은 건물 옆 점포라 좌석을 비교하기 좋지만 대기 없음은 보장하지 않는다.",
+              "phone": "+86 21 2206 0777",
+              "sourceUrl": "https://www.bln-restaurants.com/zh-hans/wechat/our-brands/baktro/west-bund/",
+              "mapUrl": "https://uri.amap.com/search?keyword=BAKTRO+%E7%83%98%E7%84%99%E9%A4%90%E9%85%92%E9%A6%86+%E8%A5%BF%E5%B2%B8%E6%A2%A6%E4%B8%AD%E5%BF%83%E5%BA%97+%E5%BE%90%E6%B1%87%E5%8C%BA%E9%BE%99%E8%85%BE%E5%A4%A7%E9%81%932266%E5%8F%B7+%E8%A5%BF%E5%B2%B8%E6%A2%A6%E4%B8%AD%E5%BF%8310%E6%A0%8B117&city=310000&view=map&src=shanghaitech2026&callnative=1"
+            }
+          }
+        },
+        {
+          "time": "19:00 전후 · 교통 상황에 따라",
+          "title": "호텔 귀환·키 확인",
           "zh": "上海虹桥新华联索菲特大酒店",
           "address": "上海市闵行区泰虹路666号",
-          "detail": "연속 숙박 중 예약 구간이 이어지는 날. 프런트에서 키 갱신이나 체크인 확인이 필요한지 묻고 다음 날을 가볍게 준비한다.",
-          "type": "호텔",
-          "status": "예약 전환일",
-          "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E6%96%B0%E5%8D%8E%E8%81%94%E7%B4%A2%E8%8F%B2%E7%89%B9%E5%A4%A7%E9%85%92%E5%BA%97%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%B3%B0%E8%99%B9%E8%B7%AF666%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
-          "placeId": "hotel"
+          "detail": "저녁 뒤 호텔로 귀환해 프런트에서 연속 투숙의 키 갱신 여부를 확인하고 쉰다. 체험이 길어져 피곤하면 강변 식당 대신 호텔에서 저녁을 먹는다.",
+          "type": "호텔·휴식",
+          "status": "귀환 목표",
+          "priority": "선택",
+          "placeId": "hotel",
+          "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E6%96%B0%E5%8D%8E%E8%81%94%E7%B4%A2%E8%8F%B2%E7%89%B9%E5%A4%A7%E9%85%92%E5%BA%97%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%B3%B0%E8%99%B9%E8%B7%AF666%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1"
         }
       ],
       "focus": [
         "핵심 · 机时租 로봇 조작",
         "핵심 · 미투안 드론 주문 시도",
         "영상 · 서안미술관 외관·강변"
-      ]
+      ],
+      "mealNote": "점심은 드론 맥도날드 주문 자체가 체험이다. 실패하면 발송 식당에서 일반 식사를 하고, 저녁은 서안 강변에서 예약·좌석 확인 후 독일식으로 먹는다."
     },
     {
       "date": "2026-10-31",
@@ -340,14 +567,14 @@ window.TRIP_DATA = {
       "kicker": "AGIBOT / LAST AFTERNOON",
       "title": "AGIBOT와 IT 쇼핑, 마지막 날은 여유롭게",
       "area": "칠보 · 호텔에서 가까운 서쪽",
-      "summary": "AGIBOT와 JD MALL을 같은 건물에서 이어 보고 점심까지 여유롭게 해결한다. 영상 속 칠보고진은 기존 선택 산책을 구체화한 45–60분 코스다. 17시 호텔 복귀와 귀국 준비를 우선한다.",
+      "summary": "AGIBOT와 JD MALL을 같은 건물에서 보고, 인접 몰에서 점심을 먹는다. 칠보고진은45–60분 선택 산책으로 두고17시 호텔에 돌아온다. 저녁도 호텔 안에서 먹어 귀국 준비 시간을 지킨다.",
       "route": [
-        "JD MALL 七宝",
-        "AGIBOT",
-        "칠보 짧은 산책",
-        "호텔"
+        "AGIBOT·JD MALL",
+        "칠보링크플라자 점심",
+        "칠보고진 · 선택",
+        "호텔17시·호텔 저녁"
       ],
-      "travelNote": "호텔→칠보 JD MALL은 차량 25–45분을 잡은 계획이다. AGIBOT와 전자제품 매장을 같은 건물에서 돌아보고 이동 횟수를 줄인다. 주말이므로 칠보고진 대기줄이 길면 생략하고, 호텔 복귀 17:00을 우선한다. 몰→고진 이동은 당일 지도에서 확인하고 가까워 보여도 도보 시간을 과소평가하지 않는다. 쇼핑이 늦어지면 고진 산책을 빼며, 주가각·판룽톈디를 같은 날 추가하지 않는다.",
+      "travelNote": "호텔→칠보 JD MALL은 차량 25–45분을 잡은 계획이다. AGIBOT와 전자제품 매장을 같은 건물에서 돌아보고 이동 횟수를 줄인다. 주말이므로 칠보고진 대기줄이 길면 생략하고, 호텔 복귀 17:00을 우선한다. 몰→고진 이동은 당일 지도에서 확인하고 가까워 보여도 도보 시간을 과소평가하지 않는다. 쇼핑이 늦어지면 고진 산책을 빼며, 주가각·판룽톈디를 같은 날 추가하지 않는다. JD 구경은13:15 전후 마치고 인접 몰 점심을13:30에 시작한다. 대기가 생기면 칠보고진 산책부터 줄이며 호텔17시 복귀는 유지한다.",
       "weatherPlan": "비가 오면 칠보 옛 거리 대신 JD MALL 실내에서 마무리한다. 전날 드론에 실패했고 당일 운항이 확인되면 칠보 산책 대신 드론 재시도를 검토하되 새벽 귀국 준비 시간을 확보한다.",
       "stops": [
         {
@@ -365,11 +592,11 @@ window.TRIP_DATA = {
           "placeId": "agibot"
         },
         {
-          "time": "12:00–14:00",
-          "title": "JD MALL · IT 구경과 점심",
+          "time": "12:00–13:15",
+          "title": "JD MALL · 중국 IT 리테일",
           "zh": "京东MALL 上海七宝店",
           "address": "漕宝路3509号",
-          "detail": "관심 가는 AI 기기와 전자제품을 직접 비교한다. 한국 사용 가능 언어·전원·보증·지역 제한은 구입 전에 확인. 쇼핑 예산이나 구매를 미리 확정하지 않았다. 이 두 시간 안에 몰에서 점심과 앉아서 쉬는 시간을 함께 확보한다.",
+          "detail": "관심 가는 AI 기기와 전자제품을 비교한다. 한국에서 쓸 언어·전원·보증·지역 제한은 구매 전에 확인한다. 점심은 JD 내부 식당으로 가정하지 않고 인접 七宝领展广场로 이동한다.",
           "type": "IT·쇼핑",
           "status": "자유 일정",
           "sourceUrl": "https://japanese.shanghai.gov.cn/ja-FirstStores/20260608/24f3a7ad2426446e9b31ba6b764f64cf.html",
@@ -378,7 +605,52 @@ window.TRIP_DATA = {
           "placeId": "agibot"
         },
         {
-          "time": "14:30–15:30",
+          "time": "13:30–14:15 · 늦은 점심",
+          "title": "青年星厨 칠보링크플라자점 · 점심",
+          "zh": "青年星厨 七宝领展店",
+          "address": "闵行区漕宝路3366号 七宝领展广场L4层",
+          "detail": "JD MALL에서 이동해 북경식·가정식 점심을 먹고 앉아서 쉰다. 토요일이므로 식당을 기다리느라 칠보 산책이나17시 호텔 귀환을 늦추지 않는다.",
+          "type": "점심·중식",
+          "status": "지점 전화·좌석 확인",
+          "priority": "선택",
+          "sourceUrl": "https://www.qnct.net/contact_2_0.html",
+          "mapUrl": "https://uri.amap.com/search?keyword=%E9%9D%92%E5%B9%B4%E6%98%9F%E5%8E%A8+%E4%B8%83%E5%AE%9D%E9%A2%86%E5%B1%95%E5%BA%97+%E6%BC%95%E5%AE%9D%E8%B7%AF3366%E5%8F%B7+%E4%B8%83%E5%AE%9D%E9%A2%86%E5%B1%95%E5%B9%BF%E5%9C%BAL4%E5%B1%82&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "meal": {
+            "checkedAt": "2026-10-23",
+            "queuePlan": "대기 안내가15분을 넘으면 아래 대안의 좌석부터 확인한다. 대안도 붐비면 줄을 옮겨 서지 않고 빈자리 있는 식당으로 바꾼다.",
+            "cuisine": "북경식 오리구이·가정식",
+            "dishes": "火腿浓汤煨豆腐(햄 육수 두부) 등 가정식과 밥 위주로, 오리구이는 두 사람 식사량에 맞춰 선택. 당일 지점 메뉴 확인.",
+            "why": "JD MALL과 칠보고진 사이 권역의 실제 공식 등록 지점. 호텔로 먼저 왕복하지 않는다.",
+            "seating": "토요일13:30 2인 일반석·점심 주문 마감·예약 가능 여부를 공개 지점 번호로 문의. 공식 목록에 예약 규정은 없다.",
+            "hoursNote": "정확한 점심 영업시간은 전화 확인. 몰 운영시간과 식당 시간은 다를 수 있다.",
+            "phone": "+86 189 1773 1653",
+            "sources": [
+              {
+                "label": "브랜드 공식 칠보 지점",
+                "url": "https://www.qnct.net/contact_2_0.html"
+              },
+              {
+                "label": "브랜드 가정식 메뉴",
+                "url": "https://www.qnct.net/delicacy_5.html"
+              },
+              {
+                "label": "현재 몰명·주소",
+                "url": "https://www.linkreit.com/sc/business/properties/qibao/"
+              }
+            ],
+            "backup": {
+              "name": "外婆家 · 같은 몰 가정식 대안",
+              "zh": "外婆家 上海七宝领展广场店",
+              "address": "闵行区漕宝路3366号 七宝领展广场5楼515B",
+              "detail": "찻잎 닭요리·가정식 대안. 지점은 현행 Trip 목록 기준으로 당일 영업·좌석을 다시 확인한다. 인기점일 수 있어 이곳도 대기가 길면 줄을 옮겨 서지 않는다.",
+              "phone": "+86 21 5223 5772",
+              "sourceUrl": "https://us.trip.com/restaurant/china/shanghai/detail/restaurant-135986009/",
+              "mapUrl": "https://uri.amap.com/search?keyword=%E5%A4%96%E5%A9%86%E5%AE%B6+%E4%B8%8A%E6%B5%B7%E4%B8%83%E5%AE%9D%E9%A2%86%E5%B1%95%E5%B9%BF%E5%9C%BA%E5%BA%97+%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%BC%95%E5%AE%9D%E8%B7%AF3366%E5%8F%B7+%E4%B8%83%E5%AE%9D%E9%A2%86%E5%B1%95%E5%B9%BF%E5%9C%BA5%E6%A5%BC515B&city=310000&view=map&src=shanghaitech2026&callnative=1"
+            }
+          }
+        },
+        {
+          "time": "14:45–15:30 · 혼잡하면 생략",
           "title": "칠보고진 · 간식과 45–60분 산책",
           "zh": "七宝古镇",
           "address": "旅游咨询点：闵行区七宝镇横沥路108号",
@@ -392,23 +664,67 @@ window.TRIP_DATA = {
           "placeId": "video-qibao"
         },
         {
-          "time": "17:00–20:00",
+          "time": "17:00–18:00 / 저녁 후 이어서",
           "title": "짐 정리와 새벽 출국 준비",
           "zh": "上海虹桥新华联索菲特大酒店",
           "address": "上海市闵行区泰虹路666号",
-          "detail": "11/1 약 04:20 차량 출발·05:00 홍차오 T1 도착 목표를 호텔과 확인한다. 예약만 요청한 차량과 확정된 차량은 구분하고, 여권·수하물·기내 반입 배터리 규정을 마지막으로 확인한다. 중국 SIM의 한국 SMS 로밍 권한·다음 월요금 차감일·원격 충전 방법도 오늘까지 확인한다.",
+          "detail": "11/1 약 04:20 차량 출발·05:00 홍차오 T1 도착 목표를 호텔과 확인한다. 예약만 요청한 차량과 확정된 차량은 구분하고, 여권·수하물·기내 반입 배터리 규정을 마지막으로 확인한다. 중국 SIM의 한국 SMS 로밍 권한·다음 월요금 차감일·원격 충전 방법도 오늘까지 확인한다. 17시 귀환 후 짐을 먼저 정리하고 호텔 안 저녁을 먹은 뒤20시 전후 휴식을 목표로 한다.",
           "type": "귀국 준비",
           "status": "차량 예약 필요",
           "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E6%96%B0%E5%8D%8E%E8%81%94%E7%B4%A2%E8%8F%B2%E7%89%B9%E5%A4%A7%E9%85%92%E5%BA%97%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%B3%B0%E8%99%B9%E8%B7%AF666%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
           "priority": "핵심",
           "placeId": "hotel"
+        },
+        {
+          "time": "18:00–19:00 · 호텔 안 저녁",
+          "title": "Le Chinois · 호텔에서 마지막 저녁",
+          "zh": "Le Chinois 乐轩华中餐厅",
+          "address": "闵行区泰虹路666号 上海虹桥新华联索菲特大酒店",
+          "detail": "새벽 출국 전 마지막 저녁은 시내로 다시 나가지 않고 호텔 중식당에서 먹는다. 단품 위주로 가볍게 고르고 식사 뒤 짐·차량·한국 SMS 준비를 마친다.",
+          "type": "저녁·호텔 중식",
+          "status": "프런트 예약 요청 · 예약 전",
+          "priority": "선택",
+          "sourceUrl": "https://sofitel.accor.com/en/hotels/9933/R003.restaurant.html",
+          "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E6%96%B0%E5%8D%8E%E8%81%94%E7%B4%A2%E8%8F%B2%E7%89%B9%E5%A4%A7%E9%85%92%E5%BA%97%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%B3%B0%E8%99%B9%E8%B7%AF666%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "placeId": "hotel",
+          "meal": {
+            "checkedAt": "2026-10-23",
+            "queuePlan": "대기 안내가15분을 넘으면 아래 대안의 좌석부터 확인한다. 대안도 붐비면 줄을 옮겨 서지 않고 빈자리 있는 식당으로 바꾼다.",
+            "cuisine": "광둥식·호텔 중식당",
+            "dishes": "당일 광둥식 단품 중 두 사람에게 맞는 요리와 밥을 고른다. 정확한 현행 메뉴는 프런트·식당에서 확인.",
+            "why": "17시 호텔 복귀를 지키고 저녁 뒤 추가 차량 이동 없이 쉰다.",
+            "seating": "체크인 때10/31 18시 2인 일반석·단품 가능 여부를 문의. 공식 예약 권장 식당이며 아직 예약하지 않았다.",
+            "hoursNote": "공식 페이지의 시간 표기가 현지 저녁 안내와 맞지 않아 고정 영업시간을 옮기지 않았다. 저녁 영업은 프런트에 확인한다.",
+            "priceNote": "호텔 중식 가격대. 단품 가격·서비스료·최소 주문 조건을 확인.",
+            "phone": "+86 21 3669 6666",
+            "sources": [
+              {
+                "label": "Le Chinois 공식 안내",
+                "url": "https://sofitel.accor.com/en/hotels/9933/R003.restaurant.html"
+              },
+              {
+                "label": "호텔 예약·룸서비스 안내",
+                "url": "https://sofitel.accor.com/en/hotels/9933/restaurants.html"
+              }
+            ],
+            "backup": {
+              "name": "Kwee Zeen · 같은 호텔 올데이 다이닝",
+              "zh": "Kwee Zeen 锦厨全日制餐厅",
+              "address": "闵行区泰虹路666号 上海虹桥新华联索菲特大酒店",
+              "detail": "프런트에서 오늘 저녁 좌석과 단품·뷔페 운영·가격을 먼저 비교한다. 룸서비스도 같은 호텔에서 확인할 수 있다.",
+              "phone": "+86 21 3669 6666",
+              "sourceUrl": "https://sofitel.accor.com/en/hotels/9933/restaurants.html",
+              "mapUrl": "https://uri.amap.com/search?keyword=Kwee+Zeen+%E9%94%A6%E5%8E%A8%E5%85%A8%E6%97%A5%E5%88%B6%E9%A4%90%E5%8E%85+%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%B3%B0%E8%99%B9%E8%B7%AF666%E5%8F%B7+%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E6%96%B0%E5%8D%8E%E8%81%94%E7%B4%A2%E8%8F%B2%E7%89%B9%E5%A4%A7%E9%85%92%E5%BA%97&city=310000&view=map&src=shanghaitech2026&callnative=1"
+            }
+          }
         }
       ],
       "focus": [
         "핵심 · AGIBOT·JD MALL·점심",
         "영상 · 칠보고진 45–60분",
         "필수 · 17시 호텔 복귀"
-      ]
+      ],
+      "mealNote": "토요일 점심은 JD MALL에서 구경한 뒤 인접 칠보링크플라자로 이동해13:30 늦은 점심을 계획한다. 저녁은 17시 호텔 복귀 뒤 호텔 안에서 해결해 새벽 출국 준비 시간을 지킨다."
     },
     {
       "date": "2026-11-01",
@@ -466,7 +782,8 @@ window.TRIP_DATA = {
         "필수 · 새벽 체크아웃",
         "필수 · 홍차오 T1 국제선",
         "관광 없이 귀국"
-      ]
+      ],
+      "mealNote": "귀국일은08:00 항공편이 우선이다. 공항 식당 영업이나 기내식을 확정하지 않고, 전날 호텔에 포장 조식 가능 여부를 문의한다. 점심은11:00 김포 도착 뒤 컨디션에 맞춰 먹는다."
     }
   ],
   "experiences": [
@@ -1079,10 +1396,76 @@ window.TRIP_DATA = {
       "url": "https://wbmshanghai.com/en/page/visit",
       "title": "서안미술관 공식 방문 안내 · 외관 산책 기준점",
       "date": "2026-10-23"
+    },
+    {
+      "title": "COVA久光 · 같은 건물 점심",
+      "url": "https://www.pasticceriacova.com/zh-hant/pages/sogo-dpt-store",
+      "date": "2026-10-23",
+      "note": "지점·메뉴·좌석 확인 방법. 실시간 대기·예약 확정 정보 아님."
+    },
+    {
+      "title": "夜上海 · 현재 지점·예약",
+      "url": "https://www.elite-concepts.com/our-concepts/shanghai/ye-shanghai/",
+      "date": "2026-10-23",
+      "note": "지점·메뉴·좌석 확인 방법. 실시간 대기·예약 확정 정보 아님."
+    },
+    {
+      "title": "Marriott张江 · 점심·테이블 예약",
+      "url": "https://www.marriott.com/en-us/hotels/shazr-marriott-executive-apartments-shanghai-zhangjiang/dining/",
+      "date": "2026-10-23",
+      "note": "지점·메뉴·좌석 확인 방법. 실시간 대기·예약 확정 정보 아님."
+    },
+    {
+      "title": "SPACELAB · 정다광장 공식 지점·메뉴",
+      "url": "https://www.superbrandmall.com/cn/store/677e110a4ef30ee9445a3e95",
+      "date": "2026-10-23",
+      "note": "지점·메뉴·좌석 확인 방법. 실시간 대기·예약 확정 정보 아님."
+    },
+    {
+      "title": "苏小柳 · 정다광장 공식 대안",
+      "url": "https://www.superbrandmall.com/cn/store/691af4c7a00a2a955e99aaf8",
+      "date": "2026-10-23",
+      "note": "지점·메뉴·좌석 확인 방법. 실시간 대기·예약 확정 정보 아님."
+    },
+    {
+      "title": "Paulaner西岸 · 당일 전화 예약",
+      "url": "https://www.bln-restaurants.com/zh-hans/paulaner/west-bund/location/",
+      "date": "2026-10-23",
+      "note": "지점·메뉴·좌석 확인 방법. 실시간 대기·예약 확정 정보 아님."
+    },
+    {
+      "title": "BAKTRO西岸 · 옆 지점 대안",
+      "url": "https://www.bln-restaurants.com/zh-hans/wechat/our-brands/baktro/west-bund/",
+      "date": "2026-10-23",
+      "note": "지점·메뉴·좌석 확인 방법. 실시간 대기·예약 확정 정보 아님."
+    },
+    {
+      "title": "青年星厨 · 홍차오·칠보 지점",
+      "url": "https://www.qnct.net/contact_2_0.html",
+      "date": "2026-10-23",
+      "note": "지점·메뉴·좌석 확인 방법. 실시간 대기·예약 확정 정보 아님."
+    },
+    {
+      "title": "青年星厨 · 브랜드 메뉴",
+      "url": "https://www.qnct.net/brand/442.html",
+      "date": "2026-10-23",
+      "note": "지점·메뉴·좌석 확인 방법. 실시간 대기·예약 확정 정보 아님."
+    },
+    {
+      "title": "Le Chinois · 호텔 중식",
+      "url": "https://sofitel.accor.com/en/hotels/9933/R003.restaurant.html",
+      "date": "2026-10-23",
+      "note": "지점·메뉴·좌석 확인 방법. 실시간 대기·예약 확정 정보 아님."
+    },
+    {
+      "title": "Sofitel · 호텔 식당·룸서비스",
+      "url": "https://sofitel.accor.com/en/hotels/9933/restaurants.html",
+      "date": "2026-10-23",
+      "note": "지점·메뉴·좌석 확인 방법. 실시간 대기·예약 확정 정보 아님."
     }
   ],
   "notes": {
-    "plan": "로봇·드론 유지 · 영상 속 산책·식사 4곳 반영 · 운영·SIM 조건 확인 필요",
+    "plan": "로봇·드론 유지 · 점심·저녁 지점과 대안 반영 · 일반 식사 대기15분 기준",
     "assumption": "왕홍 체험은 로봇·드론·브랜드 공간에서 짧은 영상을 직접 찍는 동선으로 구성했다. 전문 스튜디오·메이크업 서비스는 포함하지 않았다.",
     "privacy": "공개 여행 가이드. 체크와 메모는 현재 브라우저에만 저장되며 다른 방문자에게 공개되거나 기기 간 자동 동기화되지 않는다."
   },
@@ -1190,7 +1573,7 @@ window.TRIP_DATA = {
   },
   "journeyMap": {
     "updated": "2026-10-23",
-    "note": "일정에 넣은 13곳을 날짜별로 표시했습니다. 영상에서 고른 산책은 선택 일정이며 체험이 길어지면 생략해요. 연결선은 방문 순서이며 실제 도로·대중교통 경로가 아닙니다. 일부 핀은 건물·공원 중심 또는 권역 기준점입니다. 푸둥 강변 핀은 푸둥미술관 건물 중심으로, 일락장랑의 정확한 촬영 지점이 아닙니다. AI Matrix도 일대 표시이므로 입구는 주소와 고덕지도로 확인하세요.",
+    "note": "일정에 넣은 13곳을 날짜별로 표시했습니다. 영상에서 고른 산책은 선택 일정이며 체험이 길어지면 생략해요. 연결선은 방문 순서이며 실제 도로·대중교통 경로가 아닙니다. 일부 핀은 건물·공원 중심 또는 권역 기준점입니다. 푸둥 강변 핀은 푸둥미술관 건물 중심으로, 일락장랑의 정확한 촬영 지점이 아닙니다. AI Matrix도 일대 표시이므로 입구는 주소와 고덕지도로 확인하세요. 식당은 지도 핀을 더 늘리지 않고 상세 일정의 지점별 고덕지도에서 확인합니다.",
     "places": [
       {
         "id": "hotel",
@@ -2329,5 +2712,6 @@ window.TRIP_DATA = {
         "mapPlaceId": "bund"
       }
     ]
-  }
+  },
+  "diningPolicy": "일반 식사는 예약·좌석 확인을 먼저 하고, 식사당 전체 대기 안내가15분을 넘으면 가까운 대안으로 바꿔요. 대안도 줄이 길면 빈자리 있는 식당을 고릅니다. 실시간 웨이팅은 확인되지 않았고 예약은 아직 하지 않았어요. 드론 점심은 당일 운항·배달 절차를 따릅니다."
 };
