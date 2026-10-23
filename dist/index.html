@@ -7,9 +7,12 @@
   <meta name="robots" content="noindex, nofollow, noarchive">
   <meta name="description" content="두 사람의 상하이 5박 6일. 로봇, 도시의 기술, 새로운 브랜드를 찾아가는 출발 전 여행 계획.">
   <title>SHANGHAI ’26 — 두 사람의 여행 노트</title>
-  <link rel="stylesheet" href="styles.css?v=nearby-20261022">
-  <script src="data-public.js?v=nearby-20261022" defer></script>
-  <script src="app-public.js?v=nearby-20261022" defer></script>
+  <link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+  <link rel="stylesheet" href="styles.css?v=route-map-20261023">
+  <script src="data-public.js?v=route-map-20261023" defer></script>
+  <script src="app-public.js?v=route-map-20261023" defer></script>
+  <script src="vendor/leaflet/leaflet.js" defer></script>
+  <script src="journey-map.js?v=route-map-20261023" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#itinerary">여행 일정으로 바로가기</a>
@@ -17,6 +20,7 @@
     <div class="header-inner">
       <a class="wordmark" href="#top" aria-label="상하이 여행 노트 처음으로">S / 26<span>TRAVEL NOTES</span></a>
       <nav aria-label="주요 메뉴">
+        <a href="#journey-map">지도</a>
         <a href="#itinerary">여정</a>
         <a href="#experiences">체험</a>
         <a href="#reservations">예약</a>
@@ -46,6 +50,21 @@
         </figure>
       </div>
       <div class="trip-facts"><div><span>OUR BASE</span><strong>소피텔 상하이 홍차오</strong></div><div><span>OUR CURIOSITY</span><strong>Humanoids, drones & city culture</strong></div><div><span>OUR PACE</span><strong>체험은 깊게, 이동은 여유롭게.</strong></div><div class="trip-facts-stamp" aria-hidden="true">SEE WHAT’S<br><b>NEXT.</b></div></div>
+    </section>
+
+    <section id="journey-map" class="section page-width journey-section" aria-labelledby="journey-map-title">
+      <div class="section-heading"><div><p class="eyebrow section-number">THE CITY / ONE MAP</p><h2 id="journey-map-title">흩어진 호기심을,<br>한 장의 지도에.</h2></div><div class="section-intro"><p>호텔에서 출발해, 하루에 한 권역씩.<br>날짜를 고르면 그날의 방문 순서와 장소를 볼 수 있어요.</p><span class="journey-updated" id="journey-updated"></span></div></div>
+      <div class="journey-filters" id="journey-map-filters" role="group" aria-label="지도에 표시할 날짜"></div>
+      <div class="journey-map-layout">
+        <div class="journey-map-wrap">
+          <div class="journey-map-tools"><span id="journey-map-view-label">상하이 여정 지도</span><button type="button" id="journey-map-mode">위치 개요 보기</button><button type="button" id="journey-map-reset">전체 범위</button></div>
+          <div class="journey-map-canvas" id="journey-map-canvas"><div id="journey-live-map" class="journey-live-map" aria-label="상하이 여행 장소 지도"></div><div id="journey-map-fallback" class="journey-map-fallback"></div></div>
+          <p class="journey-map-notice" id="journey-map-notice" role="status">날짜와 장소를 고르면 방문 순서를 확인할 수 있어요.</p>
+        </div>
+        <aside class="journey-map-sidebar" aria-label="선택한 날짜와 장소 안내"><div id="journey-map-summary" class="journey-map-summary"></div><div id="journey-place-detail" class="journey-place-detail" aria-live="polite"></div><div id="journey-place-list" class="journey-place-list" aria-label="지도에 표시한 장소 목록"></div></aside>
+      </div>
+      <div class="journey-map-footnote"><p id="journey-map-note">선은 방문 순서를 나타내며 실제 도로 경로가 아닙니다. 정확한 입구와 길찾기는 장소별 고덕지도를 확인하세요.</p><a href="https://www.openstreetmap.org/fixthemap" target="_blank" rel="noopener noreferrer">지도 정보 수정 제안 ↗</a></div>
+      <noscript><p class="journey-no-script">날짜별 지도는 자바스크립트를 켜면 볼 수 있어요. 아래 일정의 고덕지도 링크에서도 각 장소를 확인할 수 있습니다.</p></noscript>
     </section>
 
     <section id="itinerary" class="section page-width" aria-labelledby="itinerary-title">

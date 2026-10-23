@@ -5,7 +5,7 @@ window.TRIP_DATA = {
     "startDate": "2026-10-27",
     "endDate": "2026-11-01",
     "travelers": "두 사람",
-    "updated": "2026-10-22",
+    "updated": "2026-10-23",
     "heroImage": "assets/hero.jpg",
     "heroCaption": "WEST BUND · DRONE DELIVERY",
     "heroCredit": "쉬후이구 공식 보도 자료사진 · 직접 촬영 사진 아님",
@@ -17,13 +17,13 @@ window.TRIP_DATA = {
       "label": "10.27",
       "weekday": "화",
       "kicker": "ARRIVAL / SOFT LANDING",
-      "title": "상하이의 일상에 로그인",
+      "title": "도착일은 가볍게, 중국 번호부터",
       "area": "김포 → 홍차오 · 호텔",
-      "summary": "홍차오 T1에서 장기 유지용 +86 회선을 상담한다. 조건이 맞지 않으면 체크인 후 호텔 주변 중국이동 申长路점의 여권 접수 시간을 확인하고 방문한다.",
+      "summary": "공항에서 SIM 조건을 확인하고 호텔에 짐을 푼다. 도착일의 목표는 통신·결제 준비와 휴식. 시내 관광은 다음 날부터 시작한다.",
       "route": [
-        "김포공항",
-        "홍차오 T1 · 현지 SIM 상담",
-        "소피텔 홍차오"
+        "홍차오 T1",
+        "소피텔 홍차오",
+        "申长路 SIM점 · 필요 시"
       ],
       "travelNote": "12:55 도착 후 입국·수하물 60–90분, SIM 상담·개통 30–60분, 호텔 차량 이동 30–45분을 확보한 계획. 공항 상담이 길어지면 호텔로 먼저 이동한다. 申长路점은 공식 안내상 18:00 마감이므로 당일 접수 가능 여부를 확인하고, 빠듯하면 10/28 오전으로 넘긴다. 이동 시간은 예상이다.",
       "weatherPlan": "도착 지연 시 호텔에서 쉬며 申长路점 또는 华漕점에 여권 접수 시간 확인을 요청한다. 현장 개통이 어려우면 쑹훙루의 중국전신 연계 센터를 온라인 예약한다. 아래 유심 안내에 주소·전화·지도·공식 출처를 모았다.",
@@ -46,7 +46,8 @@ window.TRIP_DATA = {
           "detail": "출발은 한국 12:00, 도착은 상하이 12:55. 상하이는 한국보다 1시간 느리다.",
           "type": "항공",
           "status": "발권 완료",
-          "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BA%20T1%20&city=310000&view=map&src=shanghaitech2026&callnative=1"
+          "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BA%20T1%20&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "placeId": "airport"
         },
         {
           "time": "14:00–15:00 · 입국 후",
@@ -57,7 +58,8 @@ window.TRIP_DATA = {
           "type": "통신·유심",
           "status": "현장 조건 확인",
           "sourceUrl": "https://english.shanghai.gov.cn/en-LatestNews/20260319/526f61df226649a58acf4b174d18f8aa.html",
-          "mapUrl": null
+          "mapUrl": null,
+          "placeId": "airport"
         },
         {
           "time": "15:30–16:30",
@@ -67,19 +69,40 @@ window.TRIP_DATA = {
           "detail": "5박이 세 예약으로 나뉘어 있다. 같은 방 연속 투숙 가능 여부, 조식, 11/1 새벽 차량과 체크아웃을 프런트에 확인한다.",
           "type": "호텔",
           "status": "예약 확정",
-          "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E6%96%B0%E5%8D%8E%E8%81%94%E7%B4%A2%E8%8F%B2%E7%89%B9%E5%A4%A7%E9%85%92%E5%BA%97%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%B3%B0%E8%99%B9%E8%B7%AF666%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1"
+          "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E6%96%B0%E5%8D%8E%E8%81%94%E7%B4%A2%E8%8F%B2%E7%89%B9%E5%A4%A7%E9%85%92%E5%BA%97%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%B3%B0%E8%99%B9%E8%B7%AF666%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "placeId": "hotel",
+          "priority": "핵심"
         },
         {
-          "time": "17:00",
-          "title": "첫 결제, 첫 저녁",
+          "time": "16:30–18:00 · 필요 시",
+          "title": "공항 개통이 안 됐다면 · 申长路점 문의",
+          "zh": "中国移动 申长路营业厅",
+          "address": "上海市闵行区申长路1588弄3、5号106室",
+          "detail": "호텔 프런트에 한국 여권 신규 개통·직영 여부·당일 마지막 접수 시간을 전화 확인해 달라고 요청한다. 공식 목록상 18:00 마감이므로 개통까지 가능한 경우에만 방문한다. 한국 SMS 로밍·최저 월요금 조건이 맞지 않거나 늦으면 10/28 오전으로 넘긴다. 공항에서 개통했으면 이 일정은 생략한다.",
+          "type": "통신·유심",
+          "status": "조건부 방문",
+          "sourceUrl": "https://www.10086.cn/support/service/channel/entityen/",
+          "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8%20%E7%94%B3%E9%95%BF%E8%B7%AF%E8%90%A5%E4%B8%9A%E5%8E%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E7%94%B3%E9%95%BF%E8%B7%AF1588%E5%BC%843%E3%80%815%E5%8F%B7106%E5%AE%A4&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "priority": "선택",
+          "placeId": "sim"
+        },
+        {
+          "time": "18:30 이후",
+          "title": "호텔 주변에서 첫 저녁",
           "zh": "上海虹桥新华联索菲特大酒店",
           "address": "上海市闵行区泰虹路666号",
-          "detail": "호텔 또는 근처 편의점에서 알리페이 소액 결제와 데이터 연결을 확인한다. SIM 개통 전이면 프런트에서 아래 유심 안내의 중국이동 申长路점(매일 09:00–18:00)에 한국 여권 신규 개통·직영 여부·당일 마감 접수 시간을 전화 확인해 달라고 요청한다. 시간이 빠듯하면 10/28 오전으로 넘긴다. 개통 뒤 +86 문자·미투안 인증과 드론 주문 화면을 살펴본다.",
-          "type": "준비",
-          "status": "추천",
-          "sourceUrl": "https://english.shanghai.gov.cn/en-PaymentsInShanghai/20260920/f22b7e0f606c407e9da9d26b089eac48.html",
+          "detail": "가까운 식당이나 호텔에서 저녁을 먹고 알리페이 소액 결제·데이터 연결을 확인한다. SIM을 개통했다면 문자 수신과 미투안 본인 계정 인증을 점검한다. 피곤하면 별도 산책 없이 쉬고, 첫날 늦은 시내 왕복은 생략한다.",
+          "type": "식사·휴식",
+          "status": "자유 일정",
+          "priority": "선택",
+          "placeId": "hotel",
           "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E6%96%B0%E5%8D%8E%E8%81%94%E7%B4%A2%E8%8F%B2%E7%89%B9%E5%A4%A7%E9%85%92%E5%BA%97%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%B3%B0%E8%99%B9%E8%B7%AF666%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1"
         }
+      ],
+      "focus": [
+        "필수 · SIM 상담·결제 연결",
+        "필수 · 소피텔 체크인",
+        "선택 · 홍차오 저녁 산책"
       ]
     },
     {
@@ -87,19 +110,19 @@ window.TRIP_DATA = {
       "label": "10.28",
       "weekday": "수",
       "kicker": "HUMANOID / FUTURE RETAIL",
-      "title": "영상 속 로봇을 눈앞에서",
+      "title": "휴머노이드와 인사하고, 왕홍 공간으로",
       "area": "정안 → 화이하이루",
-      "summary": "휴머노이드와 로봇개를 먼저 만나고, 미래형 브랜드 공간에서 왕홍 영상 한 편을 만든다.",
+      "summary": "오전에는 Unitree, 오후에는 HAUS NOWHERE. 두 핵심 공간을 충분히 보고 정안과 화이하이루의 산책은 체력에 맞춰 붙인다.",
       "route": [
         "Unitree 久光",
         "정안·난징서루",
         "HAUS NOWHERE"
       ],
-      "travelNote": "호텔→정안은 차량 약 40–70분 예상. SIM 개통이 남았으면 중국이동 申长路점(09:00–18:00) 또는 华漕점(09:00–17:30)의 여권 접수 가능 여부를 확인하고 오전에 방문한다. 중국전신 외국인 센터를 이용한다면 온라인 예약 시간을 우선한다. 개통이 늦어지면 Unitree 10:30 방문을 늦추고 나머지 일정을 조정한다.",
-      "weatherPlan": "비가 와도 Unitree와 HAUS NOWHERE는 실내 중심으로 진행 가능.",
+      "travelNote": "09:30 호텔 출발을 기준으로 정안까지 차량 40–70분을 확보한 계획이다. Unitree와 HAUS 사이에는 차량·지하철로 이동하고 도심에서 호텔 왕복은 하지 않는다. 첫날 SIM 개통이 남았으면 오전 여권 접수 시간을 먼저 확보하고 Unitree 방문을 점심 이후로 늦춘다.",
+      "weatherPlan": "비가 오면 두 매장과 실내 카페 위주로 진행한다. 촬영 동선보다 기기 체험 시간을 우선하고 거리 산책은 생략한다.",
       "stops": [
         {
-          "time": "10:30",
+          "time": "11:00–12:15",
           "title": "Unitree 휴머노이드 체험관",
           "zh": "宇树具身智能体验馆 久光百货店",
           "address": "南京西路1618号 久光百货2楼",
@@ -108,10 +131,12 @@ window.TRIP_DATA = {
           "status": "공개 체험 확인",
           "sourceUrl": "https://www.jingan.gov.cn/rmtzx/003001/20260602/d37d57f4-e81c-4352-a819-c94d38562240.html",
           "mapUrl": "https://uri.amap.com/search?keyword=%E5%AE%87%E6%A0%91%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E4%BD%93%E9%AA%8C%E9%A6%86%20%E4%B9%85%E5%85%89%E7%99%BE%E8%B4%A7%E5%BA%97%20%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF1618%E5%8F%B7%20%E4%B9%85%E5%85%89%E7%99%BE%E8%B4%A72%E6%A5%BC&city=310000&view=map&src=shanghaitech2026&callnative=1",
-          "accessId": "unitree"
+          "accessId": "unitree",
+          "priority": "핵심",
+          "placeId": "unitree"
         },
         {
-          "time": "12:30",
+          "time": "12:30–13:30",
           "title": "정안에서 점심과 짧은 산책",
           "zh": "静安寺 南京西路",
           "address": "",
@@ -119,10 +144,11 @@ window.TRIP_DATA = {
           "type": "식사·촬영",
           "status": "자유 일정",
           "sourceUrl": null,
-          "mapUrl": "https://uri.amap.com/search?keyword=%E9%9D%99%E5%AE%89%E5%AF%BA%20%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF%20&city=310000&view=map&src=shanghaitech2026&callnative=1"
+          "mapUrl": "https://uri.amap.com/search?keyword=%E9%9D%99%E5%AE%89%E5%AF%BA%20%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF%20&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "priority": "선택"
         },
         {
-          "time": "14:30",
+          "time": "14:00–15:30",
           "title": "HAUS NOWHERE · 왕홍 콘텐츠 촬영",
           "zh": "HAUS NOWHERE 上海",
           "address": "淮海中路798–812号",
@@ -130,19 +156,27 @@ window.TRIP_DATA = {
           "type": "왕홍·리테일",
           "status": "매장 운영 확인",
           "sourceUrl": "https://www.gentlemonster.com/cn/zh-CN/stores/detail/779149670609076624",
-          "mapUrl": "https://uri.amap.com/search?keyword=HAUS%20NOWHERE%20%E4%B8%8A%E6%B5%B7%20%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF798%E2%80%93812%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1"
+          "mapUrl": "https://uri.amap.com/search?keyword=HAUS%20NOWHERE%20%E4%B8%8A%E6%B5%B7%20%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF798%E2%80%93812%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "priority": "핵심",
+          "placeId": "haus"
         },
         {
-          "time": "17:30",
-          "title": "화이하이루 저녁 후 호텔",
+          "time": "16:00–18:00",
+          "title": "화이하이루 카페·저녁, 일찍 호텔로",
           "zh": "淮海中路",
           "address": "",
-          "detail": "오늘 찍은 영상 세 장면을 골라 한 편으로 편집. 휴머노이드의 반응·브랜드 공간·상하이 거리를 한 컷씩 묶어본다.",
+          "detail": "마음에 드는 거리와 카페 한 곳만 더 들른다. 매장에서 찍은 로봇과 브랜드 공간을 15–30초 영상으로 정리하고, 저녁 뒤 호텔로 돌아온다. SIM 개통으로 오전이 늦어지면 이 선택 일정부터 줄인다.",
           "type": "식사·휴식",
           "status": "자유 일정",
           "sourceUrl": null,
-          "mapUrl": "https://uri.amap.com/search?keyword=%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF%20&city=310000&view=map&src=shanghaitech2026&callnative=1"
+          "mapUrl": "https://uri.amap.com/search?keyword=%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF%20&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "priority": "선택"
         }
+      ],
+      "focus": [
+        "핵심 · Unitree 휴머노이드",
+        "핵심 · HAUS NOWHERE",
+        "선택 · 거리 산책·카페"
       ]
     },
     {
@@ -150,19 +184,19 @@ window.TRIP_DATA = {
       "label": "10.29",
       "weekday": "목",
       "kicker": "AI PLAYGROUND / PUDONG",
-      "title": "AI를 구경하는 대신 써보는 날",
+      "title": "장장의 AI, 황푸강의 두 얼굴",
       "area": "장장 → 루자쭈이 → 와이탄",
-      "summary": "AI 안경부터 메이커 기기까지 직접 살펴보고, 황푸강의 두 얼굴을 함께 본다.",
+      "summary": "먼 장장 권역은 하루에 묶는다. AI Matrix에 체험 시간을 넉넉히 두고, 루자쭈이와 와이탄 중 날씨·체력에 맞는 강변 장면을 더한다.",
       "route": [
-        "AI Matrix Store",
+        "장장 AI Matrix",
         "루자쭈이",
-        "와이탄"
+        "와이탄 · 선택"
       ],
-      "travelNote": "가장 긴 이동일. 호텔→장장은 차량 약 70–110분, 장장→루자쭈이는 약 35–60분을 계획상 확보. 실시간 경로는 고덕지도로 확인.",
-      "weatherPlan": "우천 시 루자쭈이 쇼핑몰에 머물고 와이탄 산책을 생략한다.",
+      "travelNote": "08:45 호텔 출발을 기준으로 장장까지 차량 70–100분을 여유 있게 잡은 계획이다. 장장→루자쭈이는 약 35–60분, 루자쭈이→와이탄은 강을 건너는 차량·지하철 경로를 당일 지도에서 선택한다. 지도 연결선은 방문 순서이며 실제 도로 경로가 아니다.",
+      "weatherPlan": "비가 오거나 장장에서 체험이 길어지면 와이탄을 생략하고 루자쭈이 실내 몰에서 쉬며 귀환한다. Galbot은 현재 정확한 위치·운영이 미확인이므로 필수 동선에서 뺐다.",
       "stops": [
         {
-          "time": "10:30–13:00",
+          "time": "10:30–12:30",
           "title": "장장 AI Matrix Store",
           "zh": "META AI HUB 张江AI应用商店",
           "address": "浦东新区海科路1650号",
@@ -171,10 +205,12 @@ window.TRIP_DATA = {
           "status": "무료·예약 없이 참관",
           "sourceUrl": "https://whlyj.sh.gov.cn/cysc/20260811/dc091d0c1bd24e1984662851d9297da7.html",
           "mapUrl": "https://uri.amap.com/search?keyword=META%20AI%20HUB%20%E5%BC%A0%E6%B1%9FAI%E5%BA%94%E7%94%A8%E5%95%86%E5%BA%97%20%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E6%B5%B7%E7%A7%91%E8%B7%AF1650%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
-          "accessId": "matrix"
+          "accessId": "matrix",
+          "priority": "핵심",
+          "placeId": "matrix"
         },
         {
-          "time": "13:00",
+          "time": "12:30–14:00",
           "title": "장장에서 점심 후 루자쭈이 이동",
           "zh": "张江",
           "address": "",
@@ -185,27 +221,35 @@ window.TRIP_DATA = {
           "mapUrl": "https://uri.amap.com/search?keyword=%E5%BC%A0%E6%B1%9F%20&city=310000&view=map&src=shanghaitech2026&callnative=1"
         },
         {
-          "time": "15:00",
-          "title": "Galbot 로봇 음료점 찾아보기",
-          "zh": "银河太空舱 Galbot Shop 正大广场",
-          "address": "陆家嘴 正大广场 인근",
-          "detail": "로봇이 음료·과자를 집어 건네는 매장이 공식 보도됐다. 다만 현재 정확한 자리·영업시간을 확인하지 못했으므로 보조 목적지로 둔다. 찾지 못하면 20분 안에 종료하고 루자쭈이 산책으로 전환.",
-          "type": "로봇 리테일",
-          "status": "위치·운영 재확인",
-          "sourceUrl": "https://english.shanghai.gov.cn/en-Latest-WhatsNew/20260123/fd37e5488dd24b928deac020f468effa.html",
-          "mapUrl": "https://uri.amap.com/search?keyword=%E9%93%B6%E6%B2%B3%E5%A4%AA%E7%A9%BA%E8%88%B1%20Galbot%20Shop%20%E6%AD%A3%E5%A4%A7%E5%B9%BF%E5%9C%BA%20%E9%99%86%E5%AE%B6%E5%98%B4%20%E6%AD%A3%E5%A4%A7%E5%B9%BF%E5%9C%BA%20%EC%9D%B8%EA%B7%BC&city=310000&view=map&src=shanghaitech2026&callnative=1"
+          "time": "14:00–16:00",
+          "title": "루자쭈이 · 미래 도시의 실루엣",
+          "zh": "陆家嘴 滨江大道",
+          "address": "浦东新区陆家嘴 滨江大道沿线",
+          "detail": "초고층 건물과 강변을 함께 보고 실내 몰에서 잠시 쉰다. 유료 전망대 입장은 기본 일정에 넣지 않았다. Galbot 음료점은 최신 위치와 운영을 확인했을 때만 추가하고, 찾느라 오래 헤매지 않는다.",
+          "type": "도시·촬영",
+          "status": "자유 관람",
+          "priority": "핵심",
+          "placeId": "lujiazui",
+          "mapUrl": "https://uri.amap.com/search?keyword=%E9%99%86%E5%AE%B6%E5%98%B4%20%E6%BB%A8%E6%B1%9F%E5%A4%A7%E9%81%93&city=310000&view=map&src=shanghaitech2026&callnative=1"
         },
         {
           "time": "17:00–18:30",
           "title": "와이탄 스카이라인 촬영",
           "zh": "外滩",
           "address": "",
-          "detail": "강변 조도와 날씨를 보고 야경을 촬영한다. 강을 건너는 경로는 현장 지도에서 선택하고, 저녁 후 호텔로 돌아온다. 전망대 유료 입장은 기본 일정에 포함하지 않았다.",
+          "detail": "체력이 남으면 와이탄 쪽으로 강을 건너 스카이라인을 촬영하고 저녁을 먹는다. 날씨가 흐리거나 이동이 늦어지면 루자쭈이에서 마무리한다. 야경·외벽 조명과 강변 운영은 당일 상황에 따른다.",
           "type": "왕홍·야경",
           "status": "자유 일정",
           "sourceUrl": null,
-          "mapUrl": "https://uri.amap.com/search?keyword=%E5%A4%96%E6%BB%A9%20&city=310000&view=map&src=shanghaitech2026&callnative=1"
+          "mapUrl": "https://uri.amap.com/search?keyword=%E5%A4%96%E6%BB%A9%20&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "priority": "선택",
+          "placeId": "bund"
         }
+      ],
+      "focus": [
+        "핵심 · AI Matrix 기기 체험",
+        "핵심 · 루자쭈이 강변",
+        "선택 · 와이탄 야경"
       ]
     },
     {
@@ -213,19 +257,19 @@ window.TRIP_DATA = {
       "label": "10.30",
       "weekday": "금",
       "kicker": "DRONE DELIVERY / WEST BUND",
-      "title": "하늘에서 도착하는 점심",
+      "title": "직접 조작한 로봇, 하늘에서 온 점심",
       "area": "쉬자후이 → 쉬후이 강변",
-      "summary": "로봇개를 조작해 보고, 강변에서 드론 배달이 일상이 되는 장면을 기다린다.",
+      "summary": "쉬자후이에서 로봇개 조작을 시도하고 서안 강변으로 이동한다. 오늘의 우선순위는 드론 주문 성공 여부를 현장에서 확인하는 것.",
       "route": [
-        "机时租 로봇체험",
-        "西岸滑板公园",
-        "西岸梦中心"
+        "쉬자후이 机时租",
+        "서안 스케이트공원",
+        "서안 강변 · 선택"
       ],
-      "travelNote": "호텔→쉬자후이 약 40–70분, 쉬자후이→서안 강변 약 20–35분을 계획. 야외 드론 방문은 날씨가 더 나은 날과 바꿀 수 있다.",
-      "weatherPlan": "비·강풍·운항 중단 또는 주문 실패 시 신리우바이 실내 체험을 늘리고 서안 드림센터에서 식사. 장장 일정과 맞바꿔도 된다.",
+      "travelNote": "호텔→쉬자후이 차량 40–70분, 쉬자후이→서안 강변 20–35분을 확보한 계획이다. 로봇 매장 체험이 길어져도 드론 수령점은 오후 초반에 도착하도록 조정한다. 드론은 당일 운항·주문 마감이 우선이며 미리 예약된 체험이 아니다.",
+      "weatherPlan": "비·강풍이나 주문 불가 시 드론 수령점에서 안내를 확인하고 실내 카페·상업시설로 전환한다. 기상이 좋고 아직 드론을 못 해봤다면 남은 날짜의 운영 상황을 보고 재시도 여부를 정한다.",
       "stops": [
         {
-          "time": "10:30",
+          "time": "11:00–12:00",
           "title": "机时租 · 직접 조작하는 로봇",
           "zh": "机时租具身智能体验店",
           "address": "徐汇区衡山路932号 新六百YOUNG 3楼",
@@ -234,41 +278,52 @@ window.TRIP_DATA = {
           "status": "공개 체험 확인",
           "sourceUrl": "https://www.jfdaily.com/sgh/detail?id=4045817",
           "mapUrl": "https://uri.amap.com/search?keyword=%E6%9C%BA%E6%97%B6%E7%A7%9F%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E4%BD%93%E9%AA%8C%E5%BA%97%20%E5%BE%90%E6%B1%87%E5%8C%BA%E8%A1%A1%E5%B1%B1%E8%B7%AF932%E5%8F%B7%20%E6%96%B0%E5%85%AD%E7%99%BEYOUNG%203%E6%A5%BC&city=310000&view=map&src=shanghaitech2026&callnative=1",
-          "accessId": "robot"
+          "accessId": "robot",
+          "priority": "핵심",
+          "placeId": "robot"
         },
         {
           "time": "13:00–14:30",
           "title": "미투안 드론 배달 체험 시도",
           "zh": "西岸滑板公园 美团无人机",
           "address": "徐汇滨江 龙腾大道沿线",
-          "detail": "스케이트공원 지정 수령점을 찾고, 현장 QR 또는 미투안에서 당일 주문한다. 상하이에서 직접 개통할 +86 번호와 문자 수신을 확인하고 당일 연락처 입력·해외 카드 결제·운항 상태를 주문 화면에서 확인한다. 중국 번호만으로 주문이 보장되지는 않는다. 지정 수령점에서 QR로 찾고, 실패 시 운항 관찰 또는 강변 산책으로 전환한다.",
+          "detail": "스케이트공원 지정 수령점을 찾고, 현장 QR 또는 미투안에서 당일 주문한다. 상하이에서 직접 개통할 +86 번호와 문자 수신을 확인하고 당일 연락처 입력·해외 카드 결제·운항 상태를 주문 화면에서 확인한다. 중국 번호만으로 주문이 보장되지는 않는다. 지정 수령점에서 QR로 찾고, 실패 시 운항 관찰 또는 강변 산책으로 전환한다. 이 시간은 방문 목표이며 운항시간을 보장하는 예약이 아니다. 주문이 불가능하면 가까운 곳에서 일반 점심을 먹는다.",
           "type": "드론 배송",
           "status": "조건부 체험",
           "sourceUrl": "https://www.shanghai.gov.cn/nw15343/20260923/1fe30fe4e6194afbbacdf1b40179f159.html",
           "mapUrl": "https://uri.amap.com/search?keyword=%E8%A5%BF%E5%B2%B8%E6%BB%91%E6%9D%BF%E5%85%AC%E5%9B%AD%20%E7%BE%8E%E5%9B%A2%E6%97%A0%E4%BA%BA%E6%9C%BA%20%E5%BE%90%E6%B1%87%E6%BB%A8%E6%B1%9F%20%E9%BE%99%E8%85%BE%E5%A4%A7%E9%81%93%E6%B2%BF%E7%BA%BF&city=310000&view=map&src=shanghaitech2026&callnative=1",
-          "accessId": "drone"
+          "accessId": "drone",
+          "priority": "핵심",
+          "placeId": "drone"
         },
         {
-          "time": "15:00",
-          "title": "서안 드림센터 · 기술을 찍는 산책",
+          "time": "14:30–16:00",
+          "title": "서안 강변에서 쉬며 촬영",
           "zh": "西岸梦中心",
           "address": "",
-          "detail": "드론 수령함, 강변, 옛 산업시설을 배경으로 짧은 콘텐츠 촬영. 다른 이용자의 주문번호나 얼굴은 담기 전에 허락을 구한다. 공원에서 드론을 직접 날리는 일정은 아니다.",
+          "detail": "드론 수령 후 강변과 옛 산업시설을 배경으로 짧은 영상을 남긴다. 여유가 있으면 드림센터 방향을 당일 지도에서 확인하고 이동한다. 타인의 주문번호와 얼굴은 담기 전에 허락을 구한다. 산책이 길어지면 카페 한 곳에서 쉬는 것으로 마무리한다.",
           "type": "왕홍·강변",
           "status": "자유 일정",
           "sourceUrl": "https://www.meituan.com/news/NN260911177010407",
-          "mapUrl": "https://uri.amap.com/search?keyword=%E8%A5%BF%E5%B2%B8%E6%A2%A6%E4%B8%AD%E5%BF%83%20&city=310000&view=map&src=shanghaitech2026&callnative=1"
+          "mapUrl": "https://uri.amap.com/search?keyword=%E8%A5%BF%E5%B2%B8%E6%A2%A6%E4%B8%AD%E5%BF%83%20&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "priority": "선택"
         },
         {
-          "time": "17:00",
+          "time": "17:30–19:00",
           "title": "이른 저녁 후 호텔",
           "zh": "上海虹桥新华联索菲特大酒店",
           "address": "上海市闵行区泰虹路666号",
           "detail": "연속 숙박 중 예약 구간이 이어지는 날. 프런트에서 키 갱신이나 체크인 확인이 필요한지 묻고 다음 날을 가볍게 준비한다.",
           "type": "호텔",
           "status": "예약 전환일",
-          "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E6%96%B0%E5%8D%8E%E8%81%94%E7%B4%A2%E8%8F%B2%E7%89%B9%E5%A4%A7%E9%85%92%E5%BA%97%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%B3%B0%E8%99%B9%E8%B7%AF666%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1"
+          "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E6%96%B0%E5%8D%8E%E8%81%94%E7%B4%A2%E8%8F%B2%E7%89%B9%E5%A4%A7%E9%85%92%E5%BA%97%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%B3%B0%E8%99%B9%E8%B7%AF666%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "placeId": "hotel"
         }
+      ],
+      "focus": [
+        "핵심 · 机时租 로봇 조작",
+        "핵심 · 미투안 드론 주문 시도",
+        "선택 · 서안 강변 산책"
       ]
     },
     {
@@ -276,20 +331,20 @@ window.TRIP_DATA = {
       "label": "10.31",
       "weekday": "토",
       "kicker": "AGIBOT / LAST AFTERNOON",
-      "title": "마지막 악수, 마지막 장바구니",
+      "title": "AGIBOT와 IT 쇼핑, 마지막 날은 여유롭게",
       "area": "칠보 · 호텔에서 가까운 서쪽",
-      "summary": "AGIBOT와 중국 전자제품을 한곳에서 살펴보고, 다음 날 새벽 출발을 위해 일찍 돌아온다.",
+      "summary": "AGIBOT와 JD MALL을 한 건물에서 이어 본다. 칠보 산책은 선택으로 두고 17시에는 호텔에 돌아와 귀국 준비를 마친다.",
       "route": [
         "JD MALL 七宝",
         "AGIBOT",
         "칠보 짧은 산책",
         "호텔"
       ],
-      "travelNote": "호텔→JD MALL 약 25–45분 예상. 시내 동쪽 장거리 일정은 피하고 17시경 호텔 복귀를 목표로 한다.",
-      "weatherPlan": "비가 오면 칠보 산책은 생략하고 JD MALL 안에서 마무리.",
+      "travelNote": "호텔→칠보 JD MALL은 차량 25–45분을 잡은 계획이다. AGIBOT와 전자제품 매장을 같은 건물에서 돌아보고 이동 횟수를 줄인다. 주말이므로 칠보고진 대기줄이 길면 생략하고, 호텔 복귀 17:00을 우선한다.",
+      "weatherPlan": "비가 오면 칠보 옛 거리 대신 JD MALL 실내에서 마무리한다. 전날 드론에 실패했고 당일 운항이 확인되면 칠보 산책 대신 드론 재시도를 검토하되 새벽 귀국 준비 시간을 확보한다.",
       "stops": [
         {
-          "time": "10:30",
+          "time": "11:00–12:00",
           "title": "AGIBOT · 로봇이 맞이하는 매장",
           "zh": "智元京东线下首店 京东MALL上海七宝店",
           "address": "闵行区漕宝路3509号",
@@ -298,10 +353,12 @@ window.TRIP_DATA = {
           "status": "공개 매장 확인",
           "sourceUrl": "https://japanese.shanghai.gov.cn/ja-FirstStores/20260608/24f3a7ad2426446e9b31ba6b764f64cf.html",
           "mapUrl": "https://uri.amap.com/search?keyword=%E6%99%BA%E5%85%83%E4%BA%AC%E4%B8%9C%E7%BA%BF%E4%B8%8B%E9%A6%96%E5%BA%97%20%E4%BA%AC%E4%B8%9CMALL%E4%B8%8A%E6%B5%B7%E4%B8%83%E5%AE%9D%E5%BA%97%20%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%BC%95%E5%AE%9D%E8%B7%AF3509%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
-          "accessId": "agibot"
+          "accessId": "agibot",
+          "priority": "핵심",
+          "placeId": "agibot"
         },
         {
-          "time": "12:30–14:00",
+          "time": "12:00–14:00",
           "title": "JD MALL · 중국 IT 리테일",
           "zh": "京东MALL 上海七宝店",
           "address": "漕宝路3509号",
@@ -309,10 +366,12 @@ window.TRIP_DATA = {
           "type": "IT·쇼핑",
           "status": "자유 일정",
           "sourceUrl": "https://japanese.shanghai.gov.cn/ja-FirstStores/20260608/24f3a7ad2426446e9b31ba6b764f64cf.html",
-          "mapUrl": "https://uri.amap.com/search?keyword=%E4%BA%AC%E4%B8%9CMALL%20%E4%B8%8A%E6%B5%B7%E4%B8%83%E5%AE%9D%E5%BA%97%20%E6%BC%95%E5%AE%9D%E8%B7%AF3509%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1"
+          "mapUrl": "https://uri.amap.com/search?keyword=%E4%BA%AC%E4%B8%9CMALL%20%E4%B8%8A%E6%B5%B7%E4%B8%83%E5%AE%9D%E5%BA%97%20%E6%BC%95%E5%AE%9D%E8%B7%AF3509%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "priority": "핵심",
+          "placeId": "agibot"
         },
         {
-          "time": "14:30",
+          "time": "14:30–15:30",
           "title": "칠보고진 한 바퀴 · 선택",
           "zh": "七宝古镇",
           "address": "",
@@ -320,18 +379,26 @@ window.TRIP_DATA = {
           "type": "산책·간식",
           "status": "선택 일정",
           "sourceUrl": null,
-          "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%83%E5%AE%9D%E5%8F%A4%E9%95%87%20&city=310000&view=map&src=shanghaitech2026&callnative=1"
+          "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%83%E5%AE%9D%E5%8F%A4%E9%95%87%20&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "priority": "선택"
         },
         {
           "time": "17:00–20:00",
           "title": "짐 정리와 새벽 출국 준비",
           "zh": "上海虹桥新华联索菲特大酒店",
           "address": "上海市闵行区泰虹路666号",
-          "detail": "11/1 약 04:20 차량 출발·05:00 홍차오 T1 도착 목표를 호텔과 확인한다. 예약만 요청한 차량과 확정된 차량은 구분하고, 여권·수하물·기내 반입 배터리 규정을 마지막으로 확인한다.",
+          "detail": "11/1 약 04:20 차량 출발·05:00 홍차오 T1 도착 목표를 호텔과 확인한다. 예약만 요청한 차량과 확정된 차량은 구분하고, 여권·수하물·기내 반입 배터리 규정을 마지막으로 확인한다. 중국 SIM의 한국 SMS 로밍 권한·다음 월요금 차감일·원격 충전 방법도 오늘까지 확인한다.",
           "type": "귀국 준비",
           "status": "차량 예약 필요",
-          "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E6%96%B0%E5%8D%8E%E8%81%94%E7%B4%A2%E8%8F%B2%E7%89%B9%E5%A4%A7%E9%85%92%E5%BA%97%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%B3%B0%E8%99%B9%E8%B7%AF666%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1"
+          "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E6%96%B0%E5%8D%8E%E8%81%94%E7%B4%A2%E8%8F%B2%E7%89%B9%E5%A4%A7%E9%85%92%E5%BA%97%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%B3%B0%E8%99%B9%E8%B7%AF666%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "priority": "핵심",
+          "placeId": "hotel"
         }
+      ],
+      "focus": [
+        "핵심 · AGIBOT 휴머노이드",
+        "핵심 · JD MALL IT 리테일",
+        "선택 · 칠보고진 짧은 산책"
       ]
     },
     {
@@ -339,7 +406,7 @@ window.TRIP_DATA = {
       "label": "11.01",
       "weekday": "일",
       "kicker": "HOME / EARLY DEPARTURE",
-      "title": "아침 비행기로, 집으로",
+      "title": "새벽 체크아웃, 홍차오 T1에서 귀국",
       "area": "호텔 → 홍차오 T1 → 김포",
       "summary": "귀국편은 오전 8시. 오늘은 관광 없이 이동에만 집중한다.",
       "route": [
@@ -359,18 +426,20 @@ window.TRIP_DATA = {
           "type": "호텔",
           "status": "계획 시간",
           "sourceUrl": null,
-          "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E6%96%B0%E5%8D%8E%E8%81%94%E7%B4%A2%E8%8F%B2%E7%89%B9%E5%A4%A7%E9%85%92%E5%BA%97%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%B3%B0%E8%99%B9%E8%B7%AF666%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1"
+          "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E6%96%B0%E5%8D%8E%E8%81%94%E7%B4%A2%E8%8F%B2%E7%89%B9%E5%A4%A7%E9%85%92%E5%BA%97%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%B3%B0%E8%99%B9%E8%B7%AF666%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "placeId": "hotel"
         },
         {
           "time": "04:20 → 05:00",
-          "title": "예약 차량으로 홍차오 T1",
+          "title": "호텔 차량·택시로 홍차오 T1",
           "zh": "上海虹桥国际机场 T1 国际出发",
           "address": "",
-          "detail": "목적지는 홍차오 공항 국제선 T1. T2나 홍차오 기차역이 아니다. 호텔 출발 시 운전기사에게 중문 목적지를 보여준다.",
+          "detail": "10/31까지 호텔과 차량 출발 시각·요금·목적지를 확정한다. 현재 차량 예약 완료로 가정하지 않는다. 목적지는 홍차오 공항 국제선 T1이며 T2나 홍차오 기차역과 구분한다. 약 05:00 공항 도착은 준비 목표이고 항공사 수속 개시 시간을 확인한다.",
           "type": "공항 이동",
           "status": "차량 예약 필요",
           "sourceUrl": null,
-          "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BA%20T1%20%E5%9B%BD%E9%99%85%E5%87%BA%E5%8F%91%20&city=310000&view=map&src=shanghaitech2026&callnative=1"
+          "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BA%20T1%20%E5%9B%BD%E9%99%85%E5%87%BA%E5%8F%91%20&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "placeId": "airport"
         },
         {
           "time": "08:00 → 11:00",
@@ -380,8 +449,14 @@ window.TRIP_DATA = {
           "detail": "상하이 08:00 출발, 한국 11:00 도착. 체크인·탑승구·좌석·시각은 항공사 최신 안내를 따른다.",
           "type": "항공",
           "status": "발권 완료",
-          "mapUrl": null
+          "mapUrl": null,
+          "placeId": "airport"
         }
+      ],
+      "focus": [
+        "필수 · 새벽 체크아웃",
+        "필수 · 홍차오 T1 국제선",
+        "관광 없이 귀국"
       ]
     }
   ],
@@ -949,10 +1024,22 @@ window.TRIP_DATA = {
       "url": "https://korean.shanghai.gov.cn/ko-AboutUs/20240522/505a45dc23134fa49473accebd983069.html",
       "date": "2026-10-22 확인",
       "note": "淞虹路377号 T5栋2楼, 월–금 08:30–17:00. 센터 일반 운영시간이며 SIM 접수 슬롯은 예약 화면 기준."
+    },
+    {
+      "title": "Accor · 소피텔 홍차오 공식 위치",
+      "url": "https://all.accor.com/hotel/9933/index.en.shtml",
+      "date": "2026-10-23 확인",
+      "note": "호텔 공식 좌표. 공개 지도에는 호텔의 공개 위치만 표시."
+    },
+    {
+      "title": "OpenStreetMap · 여정 지도 위치 자료",
+      "url": "https://www.openstreetmap.org/#map=12/31.207/121.45",
+      "date": "2026-10-23 확인",
+      "note": "핵심 장소의 건물·권역 중심을 WGS84로 표시. AI Matrix는 일대 근사이며 매장 입구·드론 수령함은 고덕지도·현장 표지로 확인."
     }
   ],
   "notes": {
-    "plan": "출발 전 제안 일정 · SIM 현장 개통 예정 · 유료 체험·식당·차량 미예약",
+    "plan": "출발 전 제안 일정 · 핵심 체험과 선택 산책 · 현장 운영·SIM 개통 조건 확인 필요",
     "assumption": "왕홍 체험은 로봇·드론·브랜드 공간에서 짧은 영상을 직접 찍는 동선으로 구성했다. 전문 스튜디오·메이크업 서비스는 포함하지 않았다.",
     "privacy": "공개 여행 가이드. 체크와 메모는 현재 브라우저에만 저장되며 다른 방문자에게 공개되거나 기기 간 자동 동기화되지 않는다."
   },
@@ -1057,5 +1144,217 @@ window.TRIP_DATA = {
       "body": "직영 여부와 한국 여권 신규 개통을 먼저 물어본 뒤, 한국에서 문자를 받을 수 있는 최저 월요금을 확인해 달라고 요청하세요.",
       "copy": "我住在虹桥新华联索菲特酒店，想用韩国护照开通中国大陆实体SIM卡。请帮我联系中国移动申长路营业厅（申长路1588弄3、5号106室，17821210086），确认是否为自办营业厅、今天能否用外国护照新开户、需要哪些材料和最晚受理时间。我回韩国后只接收中国App验证码，需要可在韩国接收短信的最低月租正常套餐，不要停机保号。请确认国际漫游、短信接收费用、开卡费、押金、合约期、远程充值和证件续验要求。"
     }
+  },
+  "journeyMap": {
+    "updated": "2026-10-23",
+    "note": "핵심 장소 10곳을 날짜별로 묶은 여정 지도입니다. 연결선은 방문 순서를 나타내며 실제 도로·대중교통 경로가 아닙니다. 일부 핀은 건물·공원 중심 또는 권역 근사 위치입니다. 특히 AI Matrix는 정확한 매장 점이 아닌 일대 표시이므로 주소와 고덕지도에서 입구를 확인하세요. 식사·선택 산책과 조건부 SIM점은 상세 일정과 유심 안내에서 확인합니다.",
+    "places": [
+      {
+        "id": "hotel",
+        "name": "소피텔 홍차오",
+        "zh": "上海虹桥新华联索菲特大酒店",
+        "address": "闵行区泰虹路666号",
+        "lat": 31.2003159,
+        "lng": 121.3060846,
+        "precision": "호텔 공식 좌표",
+        "note": "5박의 베이스. 시내 일정은 아침에 나가 권역별로 이어 본다.",
+        "sourceUrl": "https://all.accor.com/hotel/9933/index.en.shtml",
+        "kind": "hotel",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E6%96%B0%E5%8D%8E%E8%81%94%E7%B4%A2%E8%8F%B2%E7%89%B9%E5%A4%A7%E9%85%92%E5%BA%97%20%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%B3%B0%E8%99%B9%E8%B7%AF666%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1"
+      },
+      {
+        "id": "airport",
+        "name": "홍차오 공항 T1",
+        "zh": "上海虹桥国际机场 T1",
+        "address": "虹桥机场1号航站楼",
+        "lat": 31.1959147,
+        "lng": 121.3428512,
+        "precision": "T1 건물 중심 · 출입구 위치 아님",
+        "note": "10/27 12:55 도착, 11/1 08:00 출발. 국제선 T1을 확인한다.",
+        "sourceUrl": "https://www.openstreetmap.org/way/93184730",
+        "kind": "airport",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BA%20T1%20%E8%99%B9%E6%A1%A5%E6%9C%BA%E5%9C%BA1%E5%8F%B7%E8%88%AA%E7%AB%99%E6%A5%BC&city=310000&view=map&src=shanghaitech2026&callnative=1"
+      },
+      {
+        "id": "unitree",
+        "name": "Unitree · 久光",
+        "zh": "宇树具身智能体验馆 久光百货店",
+        "address": "南京西路1618号 久光百货2楼",
+        "lat": 31.2258172,
+        "lng": 121.441134,
+        "precision": "久光百货 건물 위치",
+        "note": "10/28 핵심. 휴머노이드·로봇개 전시와 상호작용. 직접 조작·예약·시연은 별도 확인.",
+        "sourceUrl": "https://www.openstreetmap.org/node/573339616",
+        "kind": "experience",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E5%AE%87%E6%A0%91%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E4%BD%93%E9%AA%8C%E9%A6%86%20%E4%B9%85%E5%85%89%E7%99%BE%E8%B4%A7%E5%BA%97%20%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF1618%E5%8F%B7%20%E4%B9%85%E5%85%89%E7%99%BE%E8%B4%A72%E6%A5%BC&city=310000&view=map&src=shanghaitech2026&callnative=1"
+      },
+      {
+        "id": "haus",
+        "name": "HAUS NOWHERE",
+        "zh": "HAUS NOWHERE 上海",
+        "address": "淮海中路798–812号",
+        "lat": 31.2200923,
+        "lng": 121.4575034,
+        "precision": "지도 POI · 실제 입구 현장 확인",
+        "note": "10/28 핵심. 미래형 브랜드 공간에서 짧은 영상을 남긴다. 공식 10:00–22:00.",
+        "sourceUrl": "https://www.openstreetmap.org/node/14301435101",
+        "kind": "experience",
+        "mapUrl": "https://uri.amap.com/search?keyword=HAUS%20NOWHERE%20%E4%B8%8A%E6%B5%B7%20%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF798%E2%80%93812%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1"
+      },
+      {
+        "id": "matrix",
+        "name": "AI Matrix · 장장",
+        "zh": "META AI HUB / AI Matrix Store",
+        "address": "浦东新区海科路1650号",
+        "lat": 31.1872939,
+        "lng": 121.6151318,
+        "precision": "科学之门 일대 근사 · 매장 좌표 미확인",
+        "note": "10/29 핵심. 이 핀은 권역 개요용이다. 정확한 매장은 海科路1650号와 고덕지도 검색 결과로 찾는다. 일반 참관 무료·무예약, 개별 제작 체험 별도 확인.",
+        "sourceUrl": "https://www.openstreetmap.org/way/1258224479",
+        "kind": "experience",
+        "mapUrl": "https://uri.amap.com/search?keyword=META%20AI%20HUB%20%2F%20AI%20Matrix%20Store%20%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E6%B5%B7%E7%A7%91%E8%B7%AF1650%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1"
+      },
+      {
+        "id": "lujiazui",
+        "name": "루자쭈이",
+        "zh": "陆家嘴 滨江大道",
+        "address": "浦东新区陆家嘴 滨江大道沿线",
+        "lat": 31.2401683,
+        "lng": 121.4979446,
+        "precision": "루자쭈이 중심 지점 · 산책 시작점은 자유",
+        "note": "10/29 핵심. 초고층 도시와 강변을 보고 실내 몰에서 쉰다.",
+        "sourceUrl": "https://www.openstreetmap.org/way/264721081",
+        "kind": "sight",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E9%99%86%E5%AE%B6%E5%98%B4%20%E6%BB%A8%E6%B1%9F%E5%A4%A7%E9%81%93%20%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E9%99%86%E5%AE%B6%E5%98%B4%20%E6%BB%A8%E6%B1%9F%E5%A4%A7%E9%81%93%E6%B2%BF%E7%BA%BF&city=310000&view=map&src=shanghaitech2026&callnative=1"
+      },
+      {
+        "id": "bund",
+        "name": "와이탄",
+        "zh": "外滩",
+        "address": "黄浦区中山东一路 外滩沿线",
+        "lat": 31.2353356,
+        "lng": 121.487632,
+        "precision": "와이탄 권역 중심",
+        "note": "10/29 선택. 날씨와 체력이 좋을 때 강을 건너 야경을 본다.",
+        "sourceUrl": "https://www.openstreetmap.org/relation/2142077",
+        "kind": "sight",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E5%A4%96%E6%BB%A9%20%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%B8%AD%E5%B1%B1%E4%B8%9C%E4%B8%80%E8%B7%AF%20%E5%A4%96%E6%BB%A9%E6%B2%BF%E7%BA%BF&city=310000&view=map&src=shanghaitech2026&callnative=1"
+      },
+      {
+        "id": "robot",
+        "name": "机时租 · 로봇 조작",
+        "zh": "机时租具身智能体验店",
+        "address": "徐汇区衡山路932号 新六百YOUNG 3楼",
+        "lat": 31.1967669,
+        "lng": 121.4340122,
+        "precision": "衡山路932号 건물 위치 · 3층 현장 확인",
+        "note": "10/30 핵심. 로봇개 조작과 회차별 체험. 기기·요금·예약은 당일 확인.",
+        "sourceUrl": "https://www.openstreetmap.org/node/6298348685",
+        "kind": "experience",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E6%9C%BA%E6%97%B6%E7%A7%9F%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E4%BD%93%E9%AA%8C%E5%BA%97%20%E5%BE%90%E6%B1%87%E5%8C%BA%E8%A1%A1%E5%B1%B1%E8%B7%AF932%E5%8F%B7%20%E6%96%B0%E5%85%AD%E7%99%BEYOUNG%203%E6%A5%BC&city=310000&view=map&src=shanghaitech2026&callnative=1"
+      },
+      {
+        "id": "drone",
+        "name": "서안 드론 수령점",
+        "zh": "西岸滑板公园 美团无人机",
+        "address": "徐汇滨江 龙腾大道沿线 西岸滑板公园",
+        "lat": 31.1870414,
+        "lng": 121.4621964,
+        "precision": "스케이트공원 중심 · 수령함 정확점 아님",
+        "note": "10/30 핵심. 현장 표지·QR로 지정 수령함을 찾는다. 운항과 계정·연락처·결제 조건을 주문 화면에서 확인.",
+        "sourceUrl": "https://www.openstreetmap.org/way/793718848",
+        "kind": "experience",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E8%A5%BF%E5%B2%B8%E6%BB%91%E6%9D%BF%E5%85%AC%E5%9B%AD%20%E7%BE%8E%E5%9B%A2%E6%97%A0%E4%BA%BA%E6%9C%BA%20%E5%BE%90%E6%B1%87%E6%BB%A8%E6%B1%9F%20%E9%BE%99%E8%85%BE%E5%A4%A7%E9%81%93%E6%B2%BF%E7%BA%BF%20%E8%A5%BF%E5%B2%B8%E6%BB%91%E6%9D%BF%E5%85%AC%E5%9B%AD&city=310000&view=map&src=shanghaitech2026&callnative=1"
+      },
+      {
+        "id": "agibot",
+        "name": "AGIBOT · JD MALL",
+        "zh": "智元京东线下首店 京东MALL上海七宝店",
+        "address": "闵行区漕宝路3509号",
+        "lat": 31.1580639,
+        "lng": 121.3451774,
+        "precision": "漕宝路3509号 건물 중심 · 층·입구 현장 확인",
+        "note": "10/31 핵심. 휴머노이드와 중국 IT 기기를 한 건물에서 살펴본다.",
+        "sourceUrl": "https://www.openstreetmap.org/way/306984718",
+        "kind": "experience",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E6%99%BA%E5%85%83%E4%BA%AC%E4%B8%9C%E7%BA%BF%E4%B8%8B%E9%A6%96%E5%BA%97%20%E4%BA%AC%E4%B8%9CMALL%E4%B8%8A%E6%B5%B7%E4%B8%83%E5%AE%9D%E5%BA%97%20%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%BC%95%E5%AE%9D%E8%B7%AF3509%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1"
+      }
+    ],
+    "days": [
+      {
+        "date": "2026-10-27",
+        "label": "10.27",
+        "title": "도착일은 가볍게, 중국 번호부터",
+        "color": "#b74c3b",
+        "summary": "필수 · SIM 상담·결제 연결 · 필수 · 소피텔 체크인 · 선택 · 홍차오 저녁 산책",
+        "placeIds": [
+          "airport",
+          "hotel"
+        ]
+      },
+      {
+        "date": "2026-10-28",
+        "label": "10.28",
+        "title": "휴머노이드와 인사하고, 왕홍 공간으로",
+        "color": "#286e73",
+        "summary": "핵심 · Unitree 휴머노이드 · 핵심 · HAUS NOWHERE · 선택 · 거리 산책·카페",
+        "placeIds": [
+          "hotel",
+          "unitree",
+          "haus",
+          "hotel"
+        ]
+      },
+      {
+        "date": "2026-10-29",
+        "label": "10.29",
+        "title": "장장의 AI, 황푸강의 두 얼굴",
+        "color": "#426baa",
+        "summary": "핵심 · AI Matrix 기기 체험 · 핵심 · 루자쭈이 강변 · 선택 · 와이탄 야경",
+        "placeIds": [
+          "hotel",
+          "matrix",
+          "lujiazui",
+          "bund",
+          "hotel"
+        ]
+      },
+      {
+        "date": "2026-10-30",
+        "label": "10.30",
+        "title": "직접 조작한 로봇, 하늘에서 온 점심",
+        "color": "#bb7438",
+        "summary": "핵심 · 机时租 로봇 조작 · 핵심 · 미투안 드론 주문 시도 · 선택 · 서안 강변 산책",
+        "placeIds": [
+          "hotel",
+          "robot",
+          "drone",
+          "hotel"
+        ]
+      },
+      {
+        "date": "2026-10-31",
+        "label": "10.31",
+        "title": "AGIBOT와 IT 쇼핑, 마지막 날은 여유롭게",
+        "color": "#7b5c93",
+        "summary": "핵심 · AGIBOT 휴머노이드 · 핵심 · JD MALL IT 리테일 · 선택 · 칠보고진 짧은 산책",
+        "placeIds": [
+          "hotel",
+          "agibot",
+          "hotel"
+        ]
+      },
+      {
+        "date": "2026-11-01",
+        "label": "11.01",
+        "title": "새벽 체크아웃, 홍차오 T1에서 귀국",
+        "color": "#657168",
+        "summary": "필수 · 새벽 체크아웃 · 필수 · 홍차오 T1 국제선 · 관광 없이 귀국",
+        "placeIds": [
+          "hotel",
+          "airport"
+        ]
+      }
+    ]
   }
 };
