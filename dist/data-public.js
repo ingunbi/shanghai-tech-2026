@@ -5,7 +5,7 @@ window.TRIP_DATA = {
     "startDate": "2026-10-27",
     "endDate": "2026-11-01",
     "travelers": "두 사람",
-    "updated": "2026-10-23",
+    "updated": "2026-10-25",
     "heroImage": "assets/hero.jpg",
     "heroCaption": "WEST BUND · DRONE DELIVERY",
     "heroCredit": "쉬후이구 공식 보도 자료사진 · 직접 촬영 사진 아님",
@@ -311,160 +311,164 @@ window.TRIP_DATA = {
       "date": "2026-10-29",
       "label": "10.29",
       "weekday": "목",
-      "kicker": "AI PLAYGROUND / PUDONG",
-      "title": "장장의 AI, 황푸강의 두 얼굴",
-      "area": "장장 → 루자쭈이 → 와이탄",
-      "summary": "장장 AI Matrix의 체험 시간을 유지하고, 루자쭈이에서는 푸둥미술관 바깥 강변을 짧게 걷고 쉰다. 영상 속 일락장랑 권역을 기존 강변 시간 안에 넣었으며, 와이탄은 체력이 남을 때만 간다.",
+      "kicker": "SLOW DAY / PANLONG",
+      "title": "숙소 가까이, 판룽톈디에서 쉬어가기",
+      "area": "홍차오 호텔 ↔ 판룽톈디",
+      "summary": "점심과 수변 산책, 카페를 판룽톈디 한 권역에서 이어 본다. 걷기는 30–45분만 하고 오후에는 호텔로 돌아와 쉰다.",
       "route": [
-        "장장 AI Matrix",
-        "Marriott 점심",
-        "푸둥 강변",
-        "SPACELAB 저녁",
-        "와이탄 · 여유 시"
+        "판룽톈디 점심",
+        "수변 산책",
+        "카페·휴식",
+        "호텔 복귀·저녁"
       ],
-      "travelNote": "08:45 호텔 출발을 기준으로 장장까지 차량 70–100분을 여유 있게 잡은 계획이다. 장장→루자쭈이는 약 35–60분, 루자쭈이→와이탄은 강을 건너는 차량·지하철 경로를 당일 지도에서 선택한다. 지도 연결선은 방문 순서이며 실제 도로 경로가 아니다. 점심과 이동이 길어지면 푸둥 강변 30분과 휴식만 남기고 와이탄부터 생략한다. 일락장랑의 특정 촬영 점을 찾느라 강변을 길게 왕복하지 않는다. 점심·이동 여유를 위해 루자쭈이는14:30부터, 저녁은16:15부터로 조정했다. 강 건너 와이탄은17:45 이후 선택이며 지연되면 생략한다.",
-      "weatherPlan": "비가 오거나 AI 체험이 길어지면 강변과 와이탄을 줄이고 루자쭈이 실내 몰에서 쉰다. 전망대·바·미술관 실내를 추가하지 않는다. Galbot은 정확한 현재 위치·운영이 미확인이므로 찾으러 이동하지 않는다.",
+      "travelNote": "10:45 호텔 출발, 11:15 전후 판룽톈디 도착을 목표로 한다. 택시·차량 이동은 편도 20–30분, 왕복 40–60분을 일정상 여유로 확보했으며 실시간 길안내 예측은 아니다. 실제 출발 전 고덕지도에서 교통과 하차 지점을 확인한다. 점심·산책·카페는 모두 같은 단지 안에서 이어 보고 15:30경 출발해 16:00 전후 호텔 복귀를 목표로 한다.",
+      "weatherPlan": "비가 오면 수변 산책을 생략하고 같은 단지의 실내 식당·카페에서 쉰다. 비가 많이 오거나 피곤하면 점심 후 바로 호텔로 돌아간다.",
       "stops": [
         {
-          "time": "10:30–12:30",
-          "title": "장장 AI Matrix Store",
-          "zh": "META AI HUB 张江AI应用商店",
-          "address": "浦东新区海科路1650号",
-          "detail": "관광국 최신 안내 10:00–20:00, 무료·예약 없이 일반 참관 가능. AI 안경·동반로봇과 메이커 공간을 둘러본다. 3D 프린팅·레이저 각인 등 개별 제작 체험의 예약·비용·전화번호 조건은 별도 확인한다.",
-          "type": "AI·메이커",
-          "status": "무료·예약 없이 참관",
-          "sourceUrl": "https://whlyj.sh.gov.cn/cysc/20260811/dc091d0c1bd24e1984662851d9297da7.html",
-          "mapUrl": "https://uri.amap.com/search?keyword=META%20AI%20HUB%20%E5%BC%A0%E6%B1%9FAI%E5%BA%94%E7%94%A8%E5%95%86%E5%BA%97%20%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E6%B5%B7%E7%A7%91%E8%B7%AF1650%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
-          "accessId": "matrix",
-          "priority": "핵심",
-          "placeId": "matrix",
-          "displayTitle": "장장 AI Matrix · 기기 체험",
-          "shortNote": "AI 안경과 로봇을 둘러보고, 개별 제작 체험은 현장에서 확인해요.",
-          "quickStatus": ""
-        },
-        {
-          "time": "12:30–14:30 · 식사 후 이동",
-          "title": "RESIDENT’S LOUNGE · 장장 점심",
-          "zh": "RESIDENT’S LOUNGE 上海张江万豪行政公寓",
-          "address": "浦东新区海科路1666号 上海张江万豪行政公寓1楼",
-          "detail": "AI Matrix의 海科路1650号와 같은 도로 인접 주소의 호텔 식당에서 점심과 휴식을 해결한다. 12:30–13:20 식사, 이후 루자쭈이 이동을 계획한다. 도보 출입구와 실제 이동 시간은 당일 지도에서 확인한다.",
-          "type": "점심·이동",
-          "status": "전화·공식 테이블 예약 가능",
-          "sourceUrl": "https://www.marriott.com/en-us/hotels/shazr-marriott-executive-apartments-shanghai-zhangjiang/dining/",
-          "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E5%BC%A0%E6%B1%9F%E4%B8%87%E8%B1%AA%E8%A1%8C%E6%94%BF%E5%85%AC%E5%AF%93+RESIDENT%E2%80%99S+LOUNGE+%E6%B5%B7%E7%A7%91%E8%B7%AF1666%E5%8F%B71%E6%A5%BC&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "time": "11:30–12:30",
+          "title": "Tapa Tapa 판룽톈디점 · 점심",
+          "zh": "Tapa Tapa 蟠龙天地店",
+          "address": "青浦区蟠鼎路123弄1号 蟠龙天地滨水市街2层BW210号",
+          "detail": "11:15 전후 단지에 도착해 가까운 식당에서 먼저 점심을 먹는다. 공식 도시 가이드에 등재된 스페인식 식당으로 타파스와 해산물 파에야 등을 소개한다. 점심 영업과 당일 메뉴·가격은 확인 후 주문하고, 이 식당이 닫혔거나 대기가 길면 같은 단지에서 바로 앉을 수 있는 식당을 고른다.",
+          "type": "점심",
+          "status": "점심 영업·좌석 확인",
+          "priority": "추천",
+          "placeId": "video-panlong",
+          "sourceUrl": "https://english.shanghai.gov.cn/en-EditorsPick-ShopinShanghai/20260123/e2d3d081256341aa8df07ff652705f5d.html",
+          "mapUrl": "https://uri.amap.com/search?keyword=Tapa%20Tapa%20%E8%9F%A0%E9%BE%99%E5%A4%A9%E5%9C%B0%E5%BA%97%20%E9%9D%92%E6%B5%A6%E5%8C%BA%E8%9F%A0%E9%BC%8E%E8%B7%AF123%E5%BC%841%E5%8F%B7%20%E8%9F%A0%E9%BE%99%E5%A4%A9%E5%9C%B0%E6%BB%A8%E6%B0%B4%E5%B8%82%E8%A1%972%E5%B1%82BW210%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
           "meal": {
-            "checkedAt": "2026-10-23",
-            "queuePlan": "대기 안내가15분을 넘으면 아래 대안의 좌석부터 확인한다. 대안도 붐비면 줄을 옮겨 서지 않고 빈자리 있는 식당으로 바꾼다.",
-            "cuisine": "국제요리·호텔 점심",
-            "dishes": "당일 점심 단품 메뉴와 가격을 확인해 주문. 공개 메뉴가 없어 특정 요리를 미리 정하지 않는다.",
-            "why": "AI 체험 뒤 먼 식당을 찾아 움직이는 시간을 줄인다.",
-            "seating": "공식 전화 또는 Book a Table로12:30 2인 좌석과 점심 식사 가능 여부 확인. 예약은 아직 하지 않았다.",
-            "hoursNote": "공식 매일06:30–21:30. 점심 메뉴·주문 가능 시간은 문의.",
-            "priceNote": "호텔 식당 가격대. 메뉴·서비스료를 확인한 뒤 주문.",
-            "phone": "+86 21 2050 1666",
+            "checkedAt": "2026-10-25",
+            "cuisine": "스페인식·타파스",
+            "dishes": "타파스 몇 가지를 나누거나 해산물 파에야를 고른다. 당일 메뉴·가격·조리시간 확인 후 주문.",
+            "why": "산책할 단지 안에서 식사해 추가 차량 이동을 줄인다.",
+            "queuePlan": "대기가 15분을 넘으면 단지 안에서 바로 앉을 수 있는 식당으로 바꾼다.",
+            "seating": "방문 전 11:30 점심 영업과 2인 좌석을 문의한다. 예약은 하지 않았다.",
+            "hoursNote": "공식 가이드·인증 목록에서 현행 영업시간은 확인되지 않았다. 계획 시각은 영업 보장이 아니다.",
+            "priceNote": "현장 메뉴의 가격과 서비스료를 보고 주문. 과거 기사 가격은 적용하지 않는다.",
+            "phone": "+86 21 6880 5018",
             "sources": [
               {
-                "label": "Marriott 공식 식당·예약 안내",
-                "url": "https://www.marriott.com/en-us/hotels/shazr-marriott-executive-apartments-shanghai-zhangjiang/dining/"
+                "label": "상하이시 공식 지점·음식 소개",
+                "url": "https://english.shanghai.gov.cn/en-EditorsPick-ShopinShanghai/20260123/e2d3d081256341aa8df07ff652705f5d.html"
+              },
+              {
+                "label": "ICEX 공식 지점·연락처",
+                "url": "https://www.foodswinesfromspain.com/en/certified-restaurants-from-spain/restaurants/t/tapa-tapa-panlong-tiandi"
               }
             ],
             "backup": {
-              "name": "JV壹聚海派菜 · 상하이 요리 대안",
-              "zh": "JV壹聚海派菜 上海张江科学城希尔顿酒店",
-              "address": "浦东新区海科路1398号 上海张江科学城希尔顿酒店1楼",
-              "detail": "해파이 상하이 요리. 정확한 점심 영업과 2인 좌석을 전화 확인한 경우에만 이동한다. 호텔 안내번호로 식당 연결 요청.",
-              "phone": "+86 21 3817 8888",
-              "sourceUrl": "https://www.hilton.com/en/hotels/shazjhi-hilton-shanghai-zhangjiang-science-city/dining/",
-              "mapUrl": "https://uri.amap.com/search?keyword=JV%E5%A3%B9%E8%81%9A%E6%B5%B7%E6%B4%BE%E8%8F%9C+%E4%B8%8A%E6%B5%B7%E5%BC%A0%E6%B1%9F%E7%A7%91%E5%AD%A6%E5%9F%8E%E5%B8%8C%E5%B0%94%E9%A1%BF%E9%85%92%E5%BA%97+%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E6%B5%B7%E7%A7%91%E8%B7%AF1398%E5%8F%B7+%E4%B8%8A%E6%B5%B7%E5%BC%A0%E6%B1%9F%E7%A7%91%E5%AD%A6%E5%9F%8E%E5%B8%8C%E5%B0%94%E9%A1%BF%E9%85%92%E5%BA%971%E6%A5%BC&city=310000&view=map&src=shanghaitech2026&callnative=1"
+              "name": "Lenbach · 같은 판룽톈디 단지",
+              "zh": "兰巴赫 蟠龙天地店",
+              "address": "青浦区蟠鼎路123弄1号 蟠龙天地滨水市街BW118室",
+              "detail": "공식 도시 가이드에 소개된 독일식 비스트로. 플랫브레드·나눠 먹는 요리를 소개한다. 점심 영업·좌석·당일 메뉴를 확인하고, 여기도 대기하면 주변 빈자리 있는 식당을 고른다.",
+              "sourceUrl": "https://english.shanghai.gov.cn/en-EditorsPick-ShopinShanghai/20260123/e2d3d081256341aa8df07ff652705f5d.html",
+              "mapUrl": "https://uri.amap.com/search?keyword=%E5%85%B0%E5%B7%B4%E8%B5%AB%20%E8%9F%A0%E9%BE%99%E5%A4%A9%E5%9C%B0%E5%BA%97%20%E9%9D%92%E6%B5%A6%E5%8C%BA%E8%9F%A0%E9%BC%8E%E8%B7%AF123%E5%BC%841%E5%8F%B7%20BW118%E5%AE%A4&city=310000&view=map&src=shanghaitech2026&callnative=1"
             }
           },
-          "displayTitle": "장장 Marriott · 점심",
-          "shortNote": "AI Matrix 인근 호텔에서 점심을 먹고 루자쭈이로 이동해요.",
-          "quickStatus": "예약 권장"
+          "displayTitle": "판룽 Tapa Tapa · 점심",
+          "shortNote": "같은 단지에서 타파스나 파에야로 점심. 대기가 길면 가까운 빈자리 식당으로.",
+          "quickStatus": "점심 영업 확인"
         },
         {
-          "time": "14:30–16:00",
-          "title": "루자쭈이·일락장랑 권역 · 푸둥 강변",
-          "zh": "陆家嘴 滨江大道 / 浦东美术馆外侧",
-          "address": "定位参考：浦东新区滨江大道2777号 浦东美术馆",
-          "detail": "영상의 일락장랑(日落长廊) 권역에서 와이탄을 마주 보는 강변을 30–40분 걷고, 남은 시간은 몰·카페에서 앉아 쉰다. 지도는 푸둥미술관 건물을 기준점으로 쓰며 영상의 정확한 촬영 지점은 현장에서 확인한다. 미술관 실내·유료 전망대는 포함하지 않았다. 일몰을 기다리는 일정이 아니므로 16시 전후 다음 이동 여부를 결정한다.",
-          "type": "영상·강변·휴식",
-          "status": "산책 30–40분 · 나머지 휴식",
+          "time": "12:45–13:30",
+          "title": "판룽톈디 · 짧은 수변 산책",
+          "zh": "蟠龙天地 香花桥 / 十字街 / 烟雨廊桥",
+          "address": "青浦区蟠鼎路123弄8号",
+          "detail": "단지 안 향화교·십자거리·연우낭교 일대에서 마음에 드는 수변 구간만 30–45분 걷고 사진을 남긴다. 전체 수변길을 다 돌지 않고 지치기 전에 가까운 카페로 이동한다. 유료 전시·보트 체험은 포함하지 않았다.",
+          "type": "영상·수향 산책",
+          "status": "공개 거리 무료 · 30–45분 산책",
           "priority": "핵심",
-          "placeId": "lujiazui",
-          "mapUrl": "https://uri.amap.com/search?keyword=%E6%B5%A6%E4%B8%9C%E7%BE%8E%E6%9C%AF%E9%A6%86+%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E6%BB%A8%E6%B1%9F%E5%A4%A7%E9%81%932777%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
-          "sourceUrl": "https://www.museumofartpd.org.cn/business",
-          "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=1455s",
-          "displayTitle": "푸둥 강변 · 일락장랑 권역",
-          "shortNote": "푸둥미술관 바깥 강변을 30–40분 걷고 카페나 몰에서 쉬어요.",
+          "placeId": "video-panlong",
+          "sourceUrl": "https://mzj.sh.gov.cn/lnb-xw/20240506/c3ae02af22154306b3fd4de41a21c1d4.html",
+          "mapUrl": "https://uri.amap.com/search?keyword=%E8%9F%A0%E9%BE%99%E5%A4%A9%E5%9C%B0%20%E9%9D%92%E6%B5%A6%E5%8C%BA%E8%9F%A0%E9%BC%8E%E8%B7%AF123%E5%BC%848%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=1155s",
+          "displayTitle": "판룽톈디 · 수변 산책",
+          "shortNote": "다리와 골목 주변만 30–45분 걷고 사진을 남겨요.",
           "quickStatus": ""
         },
         {
-          "time": "16:15–17:15 · 이른 저녁",
-          "title": "SPACELAB · 레일로 음식이 오는 저녁",
-          "zh": "SPACELAB失重餐厅 正大广场店",
-          "address": "浦东新区陆家嘴西路168号 正大广场5楼35–36",
-          "detail": "루자쭈이 산책 뒤 정다광장에서 기술식당 체험을 겸해 일찍 저녁을 먹는다. 공식 몰은 레일·장치를 이용한 음식 전달을 소개한다. 음식 전달 방식·가동 상태는 당일 확인한다. 식사 때문에 와이탄으로 서둘러 건너지 않는다.",
-          "type": "저녁·기술식당",
-          "status": "영업·좌석 문의 · 예약 규정 미공개",
-          "sourceUrl": "https://www.superbrandmall.com/cn/store/677e110a4ef30ee9445a3e95",
-          "mapUrl": "https://uri.amap.com/search?keyword=SPACELAB%E5%A4%B1%E9%87%8D%E9%A4%90%E5%8E%85+%E6%AD%A3%E5%A4%A7%E5%B9%BF%E5%9C%BA%E5%BA%97+%E9%99%86%E5%AE%B6%E5%98%B4%E8%A5%BF%E8%B7%AF168%E5%8F%B7+%E6%AD%A3%E5%A4%A7%E5%B9%BF%E5%9C%BA5%E6%A5%BC35%E2%80%9336&city=310000&view=map&src=shanghaitech2026&callnative=1",
-          "priority": "선택",
-          "meal": {
-            "checkedAt": "2026-10-23",
-            "queuePlan": "대기 안내가15분을 넘으면 아래 대안의 좌석부터 확인한다. 대안도 붐비면 줄을 옮겨 서지 않고 빈자리 있는 식당으로 바꾼다.",
-            "cuisine": "서양식·기술식당",
-            "dishes": "失重烧烤汉堡(버거), 岩火烤肋排(구운 립), 肉酱意大利面(미트소스 파스타) 중 선택.",
-            "why": "IT·왕홍 체험 취향에 맞고 루자쭈이 동선을 벗어나지 않는다.",
-            "seating": "16:15 식사 가능 여부와 2인 좌석·예약 가능 여부를 지점에 문의한다. 공식 몰 페이지에는 정확한 영업시간·예약 규정이 없다.",
-            "hoursNote": "계획 시각은 영업 보장이 아니다. 당일 영업을 확인한 뒤 방문.",
-            "phone": "+86 133 1013 7964",
-            "sources": [
-              {
-                "label": "정다광장 공식 지점·메뉴",
-                "url": "https://www.superbrandmall.com/cn/store/677e110a4ef30ee9445a3e95"
-              }
-            ],
-            "backup": {
-              "name": "苏小柳 · 같은 몰 샤오롱바오",
-              "zh": "苏小柳 正大广场店",
-              "address": "浦东新区陆家嘴西路168号 正大广场B2E-1+2+3",
-              "detail": "돼지고기 육즙 샤오롱바오로 간단한 저녁. 같은 몰이라 전환이 쉽다. 영업·좌석을 확인하고 이곳도 줄이 길면 바로 앉을 수 있는 몰 식당을 고른다.",
-              "phone": "+86 21 6856 5218",
-              "sourceUrl": "https://www.superbrandmall.com/cn/store/691af4c7a00a2a955e99aaf8",
-              "mapUrl": "https://uri.amap.com/search?keyword=%E8%8B%8F%E5%B0%8F%E6%9F%B3+%E6%AD%A3%E5%A4%A7%E5%B9%BF%E5%9C%BA%E5%BA%97+%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E9%99%86%E5%AE%B6%E5%98%B4%E8%A5%BF%E8%B7%AF168%E5%8F%B7+%E6%AD%A3%E5%A4%A7%E5%B9%BF%E5%9C%BAB2E-1%2B2%2B3&city=310000&view=map&src=shanghaitech2026&callnative=1"
-            }
-          },
-          "displayTitle": "SPACELAB · 레일 식당",
-          "shortNote": "레일로 음식이 오는 식당에서 버거·립·파스타 중 골라 먹어요.",
-          "quickStatus": "영업·좌석 확인"
+          "time": "13:30–15:00",
+          "title": "판룽톈디 · 카페와 쉬는 시간",
+          "zh": "蟠龙天地",
+          "address": "青浦区蟠鼎路123弄8号",
+          "detail": "줄을 서는 유명 카페를 정해두기보다 산책을 마친 곳 가까이에서 자리가 있는 카페를 고른다. 앉아서 쉬고, 여유가 남으면 주변 브랜드 매장만 짧게 본다. 다른 관광지를 더 넣지 않고 피곤하면 일찍 호텔로 돌아간다.",
+          "type": "카페·휴식",
+          "status": "현장 선택",
+          "priority": "여유",
+          "placeId": "video-panlong",
+          "sourceUrl": "https://www.shanghai.gov.cn/nw31406/20260824/700558227dc44cf1a4181d08ec973009.html",
+          "mapUrl": "https://uri.amap.com/search?keyword=%E8%9F%A0%E9%BE%99%E5%A4%A9%E5%9C%B0%20%E9%9D%92%E6%B5%A6%E5%8C%BA%E8%9F%A0%E9%BC%8E%E8%B7%AF123%E5%BC%848%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "displayTitle": "같은 단지 카페에서 쉬기",
+          "shortNote": "자리 있는 카페에서 충분히 쉬고, 여유가 있을 때만 가까운 매장을 둘러봐요.",
+          "quickStatus": ""
         },
         {
-          "time": "17:45–18:30 · 체력 여유 시",
-          "title": "와이탄 스카이라인 촬영",
-          "zh": "外滩",
-          "address": "",
-          "detail": "저녁 식사를 마친 뒤 체력이 남고 강 건너 이동이 수월할 때만 와이탄 스카이라인을 본다. 식사·교통이 늦어지면 푸둥에서 마무리하고 호텔로 돌아간다. 와이탄에서 두 번째 저녁이나 별도 맛집 대기를 추가하지 않는다.",
-          "type": "왕홍·야경",
+          "time": "15:30–16:00 · 복귀 목표",
+          "title": "소피텔 복귀 · 오후 휴식",
+          "zh": "上海虹桥新华联索菲特大酒店",
+          "address": "闵行区泰虹路666号",
+          "detail": "15:30경 택시로 출발해 16:00 전후 호텔 복귀를 목표로 한다. 실제 귀환 시각은 교통에 따라 달라진다. 객실에서 쉬고 저녁 전까지 새 외출을 잡지 않는다.",
+          "type": "호텔·휴식",
           "status": "자유 일정",
-          "sourceUrl": null,
-          "mapUrl": "https://uri.amap.com/search?keyword=%E5%A4%96%E6%BB%A9%20&city=310000&view=map&src=shanghaitech2026&callnative=1",
-          "priority": "선택",
-          "placeId": "bund",
-          "displayTitle": "와이탄 · 짧은 야경 산책",
-          "shortNote": "식사와 이동이 여유로울 때만 강을 건너 스카이라인을 봐요.",
-          "quickStatus": "여유 있을 때"
+          "placeId": "hotel",
+          "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E6%96%B0%E5%8D%8E%E8%81%94%E7%B4%A2%E8%8F%B2%E7%89%B9%E5%A4%A7%E9%85%92%E5%BA%97%20%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%B3%B0%E8%99%B9%E8%B7%AF666%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "sourceUrl": "https://all.accor.com/hotel/9933/index.en.shtml",
+          "displayTitle": "호텔로 돌아와 오후 휴식",
+          "shortNote": "16시 전후 복귀를 목표로 잡고 저녁까지 편하게 쉬어요.",
+          "quickStatus": ""
+        },
+        {
+          "time": "18:00–19:00 · 호텔 안 저녁",
+          "title": "Kwee Zeen · 호텔 저녁",
+          "zh": "Kwee Zeen 锦厨全日制餐厅",
+          "address": "闵行区泰虹路666号 上海虹桥新华联索菲特大酒店",
+          "detail": "추가 차량 이동 없이 호텔 올데이 다이닝에서 저녁을 먹는다. 프런트에 당일 단품·뷔페 운영과 가격을 확인한 뒤 선택한다. 객실에서 쉬고 싶으면 같은 호텔 룸서비스를 확인한다.",
+          "type": "저녁·호텔",
+          "status": "저녁 영업·메뉴 확인",
+          "priority": "추천",
+          "placeId": "hotel",
+          "sourceUrl": "https://sofitel.accor.com/en/hotels/9933/restaurants.html",
+          "mapUrl": "https://uri.amap.com/search?keyword=Kwee%20Zeen%20%E9%94%A6%E5%8E%A8%E5%85%A8%E6%97%A5%E5%88%B6%E9%A4%90%E5%8E%85%20%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%B3%B0%E8%99%B9%E8%B7%AF666%E5%8F%B7%20%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E6%96%B0%E5%8D%8E%E8%81%94%E7%B4%A2%E8%8F%B2%E7%89%B9%E5%A4%A7%E9%85%92%E5%BA%97&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "meal": {
+            "checkedAt": "2026-10-25",
+            "cuisine": "호텔 올데이 다이닝",
+            "dishes": "당일 단품과 뷔페의 메뉴·가격을 비교해 선택. 룸서비스도 가능 여부 확인.",
+            "why": "호텔 복귀 뒤 저녁을 위해 다시 차량으로 이동하지 않는다.",
+            "queuePlan": "좌석이 없으면 프런트에 호텔 룸서비스 메뉴와 대기시간을 문의한다.",
+            "seating": "프런트에서 10/29 18시 2인 좌석과 당일 운영을 확인. 예약은 하지 않았다.",
+            "hoursNote": "현행 저녁 영업·단품/뷔페 운영은 호텔에 확인.",
+            "priceNote": "당일 메뉴 가격·서비스료 확인. 뷔페 이용을 미리 전제하지 않는다.",
+            "phone": "+86 21 3669 6666",
+            "sources": [
+              {
+                "label": "호텔 공식 식당·룸서비스 안내",
+                "url": "https://sofitel.accor.com/en/hotels/9933/restaurants.html"
+              }
+            ],
+            "backup": {
+              "name": "같은 호텔 룸서비스",
+              "zh": "上海虹桥新华联索菲特大酒店",
+              "address": "闵行区泰虹路666号",
+              "detail": "식당 대신 객실에서 먹고 싶을 때 프런트에 메뉴·가격·대기시간을 문의한다.",
+              "phone": "+86 21 3669 6666",
+              "sourceUrl": "https://sofitel.accor.com/en/hotels/9933/restaurants.html",
+              "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E6%96%B0%E5%8D%8E%E8%81%94%E7%B4%A2%E8%8F%B2%E7%89%B9%E5%A4%A7%E9%85%92%E5%BA%97%20%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%B3%B0%E8%99%B9%E8%B7%AF666%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1"
+            }
+          },
+          "displayTitle": "Kwee Zeen · 호텔 저녁",
+          "shortNote": "호텔 안에서 저녁을 먹고 쉬어요. 단품·뷔페 운영은 프런트에서 확인.",
+          "quickStatus": "저녁 운영 확인"
         }
       ],
       "focus": [
-        "핵심 · AI Matrix 기기 체험",
-        "영상 · 일락장랑 권역 30–40분",
-        "선택 · 와이탄 야경"
+        "핵심 · 판룽톈디 한 권역",
+        "산책 30–45분 · 카페에서 휴식",
+        "16시 전후 호텔 복귀 목표"
       ],
-      "mealNote": "장장 점심은 AI Matrix 인접 도로의 Marriott에서, 저녁은 루자쭈이 SPACELAB에서 이르게 먹는다. 식사가 길어지면 선택 일정인 와이탄부터 빼고 푸둥에서 마무리한다.",
-      "displayTitle": "장장의 AI, 푸둥 강변과 저녁",
-      "displaySummary": "AI Matrix를 둘러본 뒤 푸둥에서 쉬고, SPACELAB에서 저녁.",
-      "shortArea": "장장 · 루자쭈이"
+      "mealNote": "점심은 판룽톈디 안 Tapa Tapa를 우선 확인하고, 대기하면 같은 단지 안에서 바꾼다. 저녁은 호텔 Kwee Zeen 또는 룸서비스로 추가 이동을 줄인다.",
+      "displayTitle": "가까운 판룽톈디에서 쉬어가는 하루",
+      "displaySummary": "한 단지 안에서 점심·수변 산책·카페를 이어 보고, 오후에는 호텔로.",
+      "shortArea": "판룽톈디 · 홍차오"
     },
     {
       "date": "2026-10-30",
@@ -920,33 +924,6 @@ window.TRIP_DATA = {
       }
     },
     {
-      "id": "matrix",
-      "title": "AI를 손에 쥐어보기",
-      "zh": "META AI HUB / AI Matrix Store",
-      "area": "장장 · 10/29",
-      "address": "海科路1650号",
-      "detail": "AI 안경·동반로봇·메이커 장비를 모아 놓은 공개 매장. 관광국 최신 안내 10:00–20:00. 무료 일반 참관과 개별 제작 체험을 구분해 방문한다.",
-      "tag": "AI PLAYGROUND",
-      "status": "무료·예약 없이 참관",
-      "image": "assets/ai-matrix.jpg",
-      "imageCredit": "장장 AI Innovation Park 공식계정 / 상하이시",
-      "sourceUrl": "https://whlyj.sh.gov.cn/cysc/20260811/dc091d0c1bd24e1984662851d9297da7.html",
-      "mapUrl": "https://uri.amap.com/search?keyword=%E5%BC%A0%E6%B1%9FAI%E5%BA%94%E7%94%A8%E5%95%86%E5%BA%97%20%E6%B5%B7%E7%A7%91%E8%B7%AF1650%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
-      "access": {
-        "reservation": "일반 참관은 무료·사전예약 불필요(관광국 명시). 3D 프린팅·공방·장비 이용의 예약과 비용은 별도 미확인.",
-        "phone": "일반 참관은 온라인 예약 없이 현장 방문 가능. 별도 체험의 +82 등록·인증 지원은 확인되지 않았다.",
-        "action": "10:00–20:00에 방문하고, 제작 체험이 목표면 공개 매장 번호 +86 185 1674 7001로 조건을 확인한다.",
-        "evidenceLabel": "일반 참관 조건 확정 · 개별 체험 별도",
-        "checkedAt": "2026-10-21",
-        "sources": [
-          {
-            "label": "관광국 무료·무예약 안내",
-            "url": "https://whlyj.sh.gov.cn/cysc/20260811/dc091d0c1bd24e1984662851d9297da7.html"
-          }
-        ]
-      }
-    },
-    {
       "id": "drone",
       "title": "드론이 가져오는 한 끼",
       "zh": "美团无人机 / 西岸滑板公园",
@@ -1175,10 +1152,10 @@ window.TRIP_DATA = {
     {
       "id": "venues",
       "title": "로봇 조작 체험의 예약·비용 확인",
-      "detail": "AI Matrix 일반 참관은 무료·예약 불필요. Unitree·机时租·AGIBOT의 직접 조작 예약·요금·+82 지원은 공개 규정 미확인이라 매장에 따로 확인한다. Galbot 위치와 드론 당일 운항도 재확인. 유료 체험 예약은 하지 않았다.",
+      "detail": "Unitree·机时租·AGIBOT의 직접 조작 예약·요금·+82 지원은 공개 규정 미확인이라 매장에 따로 확인한다. Galbot 위치와 드론 당일 운항도 재확인. 유료 체험 예약은 하지 않았다.",
       "when": "10/25 / 방문 당일",
       "done": false,
-      "sourceUrl": "https://whlyj.sh.gov.cn/cysc/20260811/dc091d0c1bd24e1984662851d9297da7.html"
+      "sourceUrl": "https://www.jingan.gov.cn/rmtzx/003001/20260602/d37d57f4-e81c-4352-a819-c94d38562240.html"
     },
     {
       "id": "arrivalcard",
@@ -1285,12 +1262,6 @@ window.TRIP_DATA = {
       "note": "공개 상호작용 확인. 예약·비용·+82 규정 미공개. 공연 부정기."
     },
     {
-      "title": "장장 AI Matrix · 매장·제품 소개",
-      "url": "https://english.shanghai.gov.cn/en-FirstStores/20260512/682a303b3b1044c7ae1b94c8fd9fe47f.html",
-      "date": "2026-05-12",
-      "note": "주소·기기 소개. 운영시간은 아래 8/11 관광국의 더 최신 안내 10:00–20:00을 적용."
-    },
-    {
       "title": "AGIBOT × JD MALL 七宝",
       "url": "https://japanese.shanghai.gov.cn/ja-FirstStores/20260608/24f3a7ad2426446e9b31ba6b764f64cf.html",
       "date": "2026-06-08",
@@ -1357,22 +1328,10 @@ window.TRIP_DATA = {
       "note": "실제 여행 사진이 아닌 참고 보도 사진. 원출처를 함께 표기."
     },
     {
-      "title": "AI Matrix 사진",
-      "url": "https://english.shanghai.gov.cn/en-FirstStores/20260512/682a303b3b1044c7ae1b94c8fd9fe47f.html",
-      "date": "장장 AI Innovation Park",
-      "note": "상하이시 공식 안내에 게재된 자료사진."
-    },
-    {
       "title": "AGIBOT 사진",
       "url": "https://english.shanghai.gov.cn/en-Latest-WhatsNew/20260709/05d456edac9b471093610ebdd5a01705.html",
       "date": "2026-07-09",
       "note": "2026-06-15 방문객 악수 자료사진 / Photo IC."
-    },
-    {
-      "title": "상하이 문화관광국 · AI Matrix 무료·무예약 참관",
-      "url": "https://whlyj.sh.gov.cn/cysc/20260811/dc091d0c1bd24e1984662851d9297da7.html",
-      "date": "2026-08-11",
-      "note": "무료 일반 참관, 사전예약 불필요, 10:00–20:00, 매장 문의 18516747001. 개별 제작 체험 규정은 미확인."
     },
     {
       "title": "맥도날드 · 서안 드론 주문·수령 절차",
@@ -1468,7 +1427,7 @@ window.TRIP_DATA = {
       "title": "OpenStreetMap · 여정 지도 위치 자료",
       "url": "https://www.openstreetmap.org/#map=12/31.207/121.45",
       "date": "2026-10-23 확인",
-      "note": "핵심 장소의 건물·권역 중심을 WGS84로 표시. AI Matrix는 일대 근사이며 매장 입구·드론 수령함은 고덕지도·현장 표지로 확인."
+      "note": "핵심 장소의 건물·권역 중심을 WGS84로 표시. 판룽톈디는 단지 대표 중심이며 하차 지점과 실제 출입구는 고덕지도·현장 표지에서 확인."
     },
     {
       "title": "트립콤파니 · 사용자 제공 상하이 여행 영상",
@@ -1517,24 +1476,6 @@ window.TRIP_DATA = {
       "note": "지점·메뉴·좌석 확인 방법. 실시간 대기·예약 확정 정보 아님."
     },
     {
-      "title": "Marriott张江 · 점심·테이블 예약",
-      "url": "https://www.marriott.com/en-us/hotels/shazr-marriott-executive-apartments-shanghai-zhangjiang/dining/",
-      "date": "2026-10-23",
-      "note": "지점·메뉴·좌석 확인 방법. 실시간 대기·예약 확정 정보 아님."
-    },
-    {
-      "title": "SPACELAB · 정다광장 공식 지점·메뉴",
-      "url": "https://www.superbrandmall.com/cn/store/677e110a4ef30ee9445a3e95",
-      "date": "2026-10-23",
-      "note": "지점·메뉴·좌석 확인 방법. 실시간 대기·예약 확정 정보 아님."
-    },
-    {
-      "title": "苏小柳 · 정다광장 공식 대안",
-      "url": "https://www.superbrandmall.com/cn/store/691af4c7a00a2a955e99aaf8",
-      "date": "2026-10-23",
-      "note": "지점·메뉴·좌석 확인 방법. 실시간 대기·예약 확정 정보 아님."
-    },
-    {
       "title": "Paulaner西岸 · 당일 전화 예약",
       "url": "https://www.bln-restaurants.com/zh-hans/paulaner/west-bund/location/",
       "date": "2026-10-23",
@@ -1569,6 +1510,30 @@ window.TRIP_DATA = {
       "url": "https://sofitel.accor.com/en/hotels/9933/restaurants.html",
       "date": "2026-10-23",
       "note": "지점·메뉴·좌석 확인 방법. 실시간 대기·예약 확정 정보 아님."
+    },
+    {
+      "title": "판룽톈디 · 주소·무료 거리·산책 지점",
+      "url": "https://mzj.sh.gov.cn/lnb-xw/20240506/c3ae02af22154306b3fd4de41a21c1d4.html",
+      "date": "2026-10-25 확인",
+      "note": "단지 주소와 향화교·십자거리·연우낭교 안내. 과거 행사·가격은 적용하지 않는다."
+    },
+    {
+      "title": "홍차오 관리위원회 · 판룽 수변 현황",
+      "url": "https://www.shanghai.gov.cn/nw31406/20260824/700558227dc44cf1a4181d08ec973009.html",
+      "date": "2026-08-24",
+      "note": "수변길·녹지 현황 확인. 전체 길을 걷는 일정이 아니다."
+    },
+    {
+      "title": "판룽 점심 · Tapa Tapa·Lenbach 공식 지점 소개",
+      "url": "https://english.shanghai.gov.cn/en-EditorsPick-ShopinShanghai/20260123/e2d3d081256341aa8df07ff652705f5d.html",
+      "date": "2026-01-23 / 10-25 확인",
+      "note": "두 식당의 판룽 지점 주소·음식 종류 확인. 현행 영업시간·당일 좌석은 별도 확인."
+    },
+    {
+      "title": "ICEX · Tapa Tapa 판룽 지점",
+      "url": "https://www.foodswinesfromspain.com/en/certified-restaurants-from-spain/restaurants/t/tapa-tapa-panlong-tiandi",
+      "date": "2026-10-25 확인",
+      "note": "공식 인증 목록 지점 주소·문의번호. 영업시간·예약 정책 미공개."
     }
   ],
   "notes": {
@@ -1679,8 +1644,8 @@ window.TRIP_DATA = {
     }
   },
   "journeyMap": {
-    "updated": "2026-10-23",
-    "note": "일정에 넣은 13곳을 날짜별로 표시했습니다. 영상에서 고른 산책은 선택 일정이며 체험이 길어지면 생략해요. 연결선은 방문 순서이며 실제 도로·대중교통 경로가 아닙니다. 일부 핀은 건물·공원 중심 또는 권역 기준점입니다. 푸둥 강변 핀은 푸둥미술관 건물 중심으로, 일락장랑의 정확한 촬영 지점이 아닙니다. AI Matrix도 일대 표시이므로 입구는 주소와 고덕지도로 확인하세요. 식당은 지도 핀을 더 늘리지 않고 상세 일정의 지점별 고덕지도에서 확인합니다.",
+    "updated": "2026-10-25",
+    "note": "일정에 넣은 11곳을 날짜별로 표시했습니다. 10/29는 호텔과 판룽톈디만 오가며, 단지 안 식당·카페는 상세 일정에서 확인합니다. 연결선은 방문 순서이며 실제 도로·대중교통 경로가 아닙니다. 일부 핀은 건물·공원·상업구역의 대표 중심이므로 실제 출입구·드론 수령점은 고덕지도와 현장 표지에서 확인합니다. 영상 후보는 선택했을 때만 지도에 표시합니다.",
     "places": [
       {
         "id": "hotel",
@@ -1739,20 +1704,6 @@ window.TRIP_DATA = {
         "mapLabel": "하우스 노웨어"
       },
       {
-        "id": "matrix",
-        "name": "AI Matrix · 장장",
-        "zh": "META AI HUB / AI Matrix Store",
-        "address": "浦东新区海科路1650号",
-        "lat": 31.1872939,
-        "lng": 121.6151318,
-        "precision": "科学之门 일대 근사 · 매장 좌표 미확인",
-        "note": "10/29 핵심. 이 핀은 권역 개요용이다. 정확한 매장은 海科路1650号와 고덕지도 검색 결과로 찾는다. 일반 참관 무료·무예약, 개별 제작 체험 별도 확인.",
-        "sourceUrl": "https://www.openstreetmap.org/way/1258224479",
-        "kind": "experience",
-        "mapUrl": "https://uri.amap.com/search?keyword=META%20AI%20HUB%20%2F%20AI%20Matrix%20Store%20%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E6%B5%B7%E7%A7%91%E8%B7%AF1650%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
-        "mapLabel": "AI 매트릭스"
-      },
-      {
         "id": "lujiazui",
         "name": "루자쭈이·푸둥 강변",
         "zh": "陆家嘴 滨江大道 / 浦东美术馆外侧",
@@ -1760,11 +1711,12 @@ window.TRIP_DATA = {
         "lat": 31.2402395,
         "lng": 121.49203395,
         "precision": "푸둥미술관 건물 대표 중심 · 일락장랑의 정확한 촬영 지점이나 입구가 아님",
-        "note": "10/29 AI Matrix 뒤 기존 루자쭈이 체류 시간에 30–40분만 걷고 쉰다. 영상의 일락장랑 권역을 보되 일몰까지 대기하거나 미술관 실내에 입장하는 일정은 아니다.",
+        "note": "별도 푸둥 코스를 고를 때 볼 수 있는 영상 후보. 현재 날짜별 일정에는 포함하지 않았다. 지도는 푸둥미술관 기준점이며 일락장랑 촬영 지점은 현장에서 확인.",
         "sourceUrl": "https://www.openstreetmap.org/way/803292747",
         "kind": "sight",
         "mapUrl": "https://uri.amap.com/search?keyword=%E6%B5%A6%E4%B8%9C%E7%BE%8E%E6%9C%AF%E9%A6%86+%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E6%BB%A8%E6%B1%9F%E5%A4%A7%E9%81%932777%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
-        "mapLabel": "푸둥 강변"
+        "mapLabel": "푸둥 강변",
+        "candidate": true
       },
       {
         "id": "bund",
@@ -1774,11 +1726,12 @@ window.TRIP_DATA = {
         "lat": 31.2353356,
         "lng": 121.487632,
         "precision": "와이탄 권역 중심",
-        "note": "10/29 선택. 날씨와 체력이 좋을 때 강을 건너 야경을 본다.",
+        "note": "별도 도심·야경 코스를 고를 때 볼 수 있는 후보. 현재 날짜별 일정에는 포함하지 않았다.",
         "sourceUrl": "https://www.openstreetmap.org/relation/2142077",
         "kind": "sight",
         "mapUrl": "https://uri.amap.com/search?keyword=%E5%A4%96%E6%BB%A9%20%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%B8%AD%E5%B1%B1%E4%B8%9C%E4%B8%80%E8%B7%AF%20%E5%A4%96%E6%BB%A9%E6%B2%BF%E7%BA%BF&city=310000&view=map&src=shanghaitech2026&callnative=1",
-        "mapLabel": "와이탄"
+        "mapLabel": "와이탄",
+        "candidate": true
       },
       {
         "id": "robot",
@@ -1921,11 +1874,11 @@ window.TRIP_DATA = {
         "lat": 31.190999,
         "lng": 121.2715607,
         "precision": "수향 상업구역 대표 중심 · 출입구 현장 확인",
-        "note": "영상에서 본 선택 후보. 홍차오 숙소 서쪽에서 수향마을 분위기와 브랜드 공간을 함께 보는 대안. 주가각을 고르면 같은 17호선 방향의 하루 코스로 검토한다.",
+        "note": "10/29 방문. 점심·30–45분 수변 산책·카페를 같은 단지에서 이어 보고 오후 호텔로 돌아온다. 단지 대표 중심 핀이며 실제 식당·하차 지점은 상세 일정의 고덕지도로 확인.",
         "mapUrl": "https://uri.amap.com/search?keyword=%E8%9F%A0%E9%BE%99%E5%A4%A9%E5%9C%B0%20%E9%9D%92%E6%B5%A6%E5%8C%BA%E8%9F%A0%E9%BC%8E%E8%B7%AF123%E5%BC%848%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
         "sourceUrl": "https://www.openstreetmap.org/way/1244930932",
         "kind": "sight",
-        "candidate": true
+        "candidate": false
       },
       {
         "id": "video-zhujiajiao",
@@ -2002,14 +1955,12 @@ window.TRIP_DATA = {
       {
         "date": "2026-10-29",
         "label": "10.29",
-        "title": "장장의 AI, 황푸강의 두 얼굴",
+        "title": "숙소 가까이, 판룽톈디에서 쉬어가기",
         "color": "#426baa",
-        "summary": "핵심 · AI Matrix 기기 체험 · 영상 · 일락장랑 권역 30–40분 · 선택 · 와이탄 야경",
+        "summary": "판룽톈디 한 권역 · 점심·짧은 산책·카페 · 오후 호텔 휴식",
         "placeIds": [
           "hotel",
-          "matrix",
-          "lujiazui",
-          "bund",
+          "video-panlong",
           "hotel"
         ]
       },
@@ -2068,8 +2019,8 @@ window.TRIP_DATA = {
         "zh": "南京东路步行街",
         "area": "와이탄·루자쭈이",
         "category": "거리·쇼핑",
-        "fit": "nearby",
-        "suggestedDay": "10/29 와이탄 전후",
+        "fit": "halfday",
+        "suggestedDay": "별도 도심·와이탄 코스 교체 후보",
         "detail": "와이탄으로 이어지는 대표 보행가. 저녁 산책 한 구간으로 고르고 별도 쇼핑 시간을 길게 잡지 않아도 된다.",
         "address": "黄浦区南京东路",
         "status": "선택 후보 · 운영조건 확인",
@@ -2315,8 +2266,8 @@ window.TRIP_DATA = {
         "zh": "外白渡桥",
         "area": "와이탄·루자쭈이",
         "category": "야경·강변",
-        "fit": "nearby",
-        "suggestedDay": "10/29 와이탄 북쪽 산책",
+        "fit": "halfday",
+        "suggestedDay": "별도 도심·와이탄 코스 교체 후보",
         "detail": "와이탄 북단에서 쑤저우허를 건너는 다리. 락번드·우정박물관 중 원하는 곳과 짧게 묶을 수 있다.",
         "address": "苏州河口，外滩北端",
         "status": "선택 후보 · 운영조건 확인",
@@ -2332,8 +2283,8 @@ window.TRIP_DATA = {
         "zh": "上海邮政博物馆",
         "area": "쑤저우허·홍커우",
         "category": "문화·전시",
-        "fit": "nearby",
-        "suggestedDay": "10/29 북쪽 강변 대안",
+        "fit": "halfday",
+        "suggestedDay": "별도 도심·와이탄 코스 교체 후보",
         "detail": "쑤저우허 강변 건물과 전시를 보는 후보. 박물관 관람은 와이탄 야경 뒤로 미루지 말고 개방일·입장 시간을 먼저 확인한다.",
         "address": "虹口区天潼路395号",
         "status": "선택 후보 · 운영조건 확인",
@@ -2368,7 +2319,7 @@ window.TRIP_DATA = {
         "area": "정안·난징서루",
         "category": "공원·산책",
         "fit": "nearby",
-        "suggestedDay": "10/28 또는 10/29 도심 산책",
+        "suggestedDay": "10/28 도심 산책 교체 후보",
         "detail": "도심에서 잠깐 쉬거나 산책하고 싶을 때의 후보. 영상에 나온 주말 풍경을 평일에도 볼 수 있다고 가정하지 않는다.",
         "address": "黄浦区南京西路231号",
         "status": "선택 후보 · 운영조건 확인",
@@ -2466,8 +2417,8 @@ window.TRIP_DATA = {
         "zh": "豫园 / 豫园商城",
         "area": "신천지·황푸",
         "category": "문화·전시",
-        "fit": "nearby",
-        "suggestedDay": "10/29 루자쭈이 시간을 줄이는 대안",
+        "fit": "halfday",
+        "suggestedDay": "별도 도심·와이탄 코스 교체 후보",
         "detail": "정원 내부 관람과 바깥 상가 산책을 구분한다. 정원을 원하면 입장 마감 전에 도착해야 하므로 야경 뒤 추가 일정으로 잡지 않는다.",
         "address": "黄浦区豫园老街279号",
         "status": "선택 후보 · 운영조건 확인",
@@ -2647,8 +2598,8 @@ window.TRIP_DATA = {
         "zh": "洛克·外滩源 / ROCKBUND",
         "area": "와이탄·루자쭈이",
         "category": "거리·쇼핑",
-        "fit": "nearby",
-        "suggestedDay": "10/29 와이탄 북쪽 산책",
+        "fit": "halfday",
+        "suggestedDay": "별도 도심·와이탄 코스 교체 후보",
         "detail": "와이탄 북쪽의 건축·상점 거리. 다리나 강변 촬영 동선에 한 구간만 더하고 개별 매장 영업시간은 따로 확인한다.",
         "address": "黄浦区圆明园路185号",
         "status": "선택 후보 · 운영조건 확인",
@@ -2665,16 +2616,17 @@ window.TRIP_DATA = {
         "area": "홍차오·서쪽 교외",
         "category": "수향마을",
         "fit": "nearby",
-        "suggestedDay": "10/31 칠보 산책과 교체",
-        "detail": "홍차오 숙소 서쪽에서 수향마을 분위기와 브랜드 공간을 함께 보는 대안. 주가각을 고르면 같은 17호선 방향의 하루 코스로 검토한다.",
+        "suggestedDay": "10/29 상세 일정에 반영",
+        "detail": "숙소 가까운 판룽 한 권역에서 점심·30–45분 수변 산책·카페를 이어 보고 오후 호텔로 돌아온다. 다른 교외 관광지를 묶지 않는다.",
         "address": "青浦区蟠鼎路123弄8号",
-        "status": "선택 후보 · 운영조건 확인",
+        "status": "일정 반영 · 여유 산책",
         "videoSeconds": 1155,
         "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=1155s",
         "sourceUrl": "https://english.shanghai.gov.cn/en-SpecialtyShoppingAreas/20241113/401573bf13e5495eb189191e20884780.html",
         "mapUrl": "https://uri.amap.com/search?keyword=%E8%9F%A0%E9%BE%99%E5%A4%A9%E5%9C%B0%20%E9%9D%92%E6%B5%A6%E5%8C%BA%E8%9F%A0%E9%BC%8E%E8%B7%AF123%E5%BC%848%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
         "subPlaces": [],
-        "mapPlaceId": "video-panlong"
+        "mapPlaceId": "video-panlong",
+        "includedDate": "2026-10-29"
       },
       {
         "id": "disney",
@@ -2736,8 +2688,8 @@ window.TRIP_DATA = {
         "zh": "上海中心大厦 上海之巅",
         "area": "와이탄·루자쭈이",
         "category": "야경·강변",
-        "fit": "nearby",
-        "suggestedDay": "10/29 루자쭈이에서 선택",
+        "fit": "halfday",
+        "suggestedDay": "별도 푸둥 코스 교체 후보",
         "detail": "도시를 높은 곳에서 보는 유료 전망대 후보. 날씨·시야와 공식 입장권 조건을 확인한 뒤 와이탄 이동과 비교해 고른다.",
         "address": "浦东新区银城中路501号",
         "status": "선택 후보 · 운영조건 확인",
@@ -2753,8 +2705,8 @@ window.TRIP_DATA = {
         "zh": "FLAIR Rooftop Restaurant & Bar",
         "area": "와이탄·루자쭈이",
         "category": "야경·바",
-        "fit": "nearby",
-        "suggestedDay": "10/29 루자쭈이 야경 대안",
+        "fit": "halfday",
+        "suggestedDay": "별도 푸둥 코스 교체 후보",
         "detail": "동방명주 가까이에서 야경을 보는 바. 현재 좌석·패키지·최소 이용금액·연령 규정을 확인해야 하므로 영상 속 한 잔 가격으로 예산을 잡지 않는다.",
         "address": "浦东新区世纪大道8号 丽思卡尔顿58楼",
         "status": "예약·이용금액 확인",
@@ -2770,8 +2722,8 @@ window.TRIP_DATA = {
         "zh": "CHAR bar 上海外滩英迪格酒店",
         "area": "와이탄·루자쭈이",
         "category": "야경·바",
-        "fit": "nearby",
-        "suggestedDay": "10/29 와이탄 남쪽 야경 대안",
+        "fit": "halfday",
+        "suggestedDay": "별도 도심·와이탄 코스 교체 후보",
         "detail": "와이탄과 푸둥을 함께 바라보는 호텔 바 후보. 현재 영업·좌석 예약·총 이용금액을 IHG 공식 안내에서 확인하고 선택한다.",
         "address": "黄浦区中山东二路585号 上海外滩英迪格酒店30楼",
         "status": "예약·이용금액 확인",
@@ -2787,17 +2739,16 @@ window.TRIP_DATA = {
         "zh": "日落长廊",
         "area": "와이탄·루자쭈이",
         "category": "야경·강변",
-        "fit": "nearby",
-        "suggestedDay": "10/29 상세 일정에 반영",
-        "detail": "루자쭈이 체류 시간 안에서 푸둥미술관 바깥 강변을 30–40분 걷는다. 일락장랑은 영상 속 이름이며 일몰 시각까지 대기하는 계획은 아니다. 지도 핀은 미술관 기준점이고 촬영 지점은 현장에서 확인한다.",
+        "fit": "halfday",
+        "suggestedDay": "별도 푸둥 일정 교체 후보",
+        "detail": "푸둥을 따로 둘러보는 날 선택할 강변 후보. 현재 날짜별 일정에는 포함하지 않았다. 지도 핀은 푸둥미술관 기준점이며 영상의 정확한 촬영 지점은 현장에서 확인.",
         "address": "定位参考：浦东新区滨江大道2777号 浦东美术馆",
-        "status": "일정 반영 · 여유 산책",
+        "status": "선택 후보 · 별도 이동",
         "videoSeconds": 1455,
         "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=1455s",
         "sourceUrl": "https://edu.sh.gov.cn/study_cn_news/20251118/638a3648f2a54e71862055fad93ccb25.html",
         "mapUrl": "https://uri.amap.com/search?keyword=%E6%B5%A6%E4%B8%9C%E7%BE%8E%E6%9C%AF%E9%A6%86+%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E6%BB%A8%E6%B1%9F%E5%A4%A7%E9%81%932777%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
         "subPlaces": [],
-        "includedDate": "2026-10-29",
         "mapPlaceId": "lujiazui"
       },
       {
@@ -2806,11 +2757,11 @@ window.TRIP_DATA = {
         "zh": "外滩",
         "area": "와이탄·루자쭈이",
         "category": "야경·강변",
-        "fit": "nearby",
-        "suggestedDay": "10/29 기존 선택 야경",
-        "detail": "이미 여행 일정에 있는 강변. 영상 속 고정 점등 시각을 그대로 적용하지 않고 당일 날씨와 운영 상황에 맞춰 산책한다.",
+        "fit": "halfday",
+        "suggestedDay": "별도 도심·야경 코스 후보",
+        "detail": "현재 날짜별 일정에는 넣지 않은 야경 후보. 보고 싶으면 도심 하루 코스와 함께 검토하고, 영상 속 점등 시각은 그대로 적용하지 않는다.",
         "address": "黄浦区中山东一路沿线",
-        "status": "기존 일정에 포함",
+        "status": "선택 후보 · 별도 이동",
         "videoSeconds": 1481,
         "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=1481s",
         "sourceUrl": "https://french.shanghai.gov.cn/cmsres/38/38256663e5134a45847c8bd89544ab05/30a2d34a4cd10093285aba68015582d3.pdf",

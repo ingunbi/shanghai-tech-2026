@@ -29,8 +29,8 @@
     return [...new Map([...(hotel ? [hotel] : []),...points].map(place => [place.id,place])).values()];
   };
   const mapLabel = place => place.mapLabel || place.name;
-  const labelOffsets = {hotel:[1,14,-24],airport:[1,14,20],unitree:[-1,-14,-28],haus:[1,14,24],matrix:[-1,-14,2],lujiazui:[1,14,-30],bund:[-1,-14,20],robot:[-1,-14,20],drone:[1,14,24],agibot:[1,14,10]};
-  const mobileOffsets = {hotel:[1,12,-24],airport:[1,12,20],unitree:[-1,-12,-42],haus:[1,12,22],matrix:[-1,-12,8],lujiazui:[1,12,-48],bund:[-1,-12,-8],robot:[-1,-12,32],drone:[1,12,40],agibot:[1,12,20]};
+  const labelOffsets = {hotel:[1,14,-24],airport:[1,14,20],unitree:[-1,-14,-28],haus:[1,14,24],'video-panlong':[-1,-14,10],lujiazui:[1,14,-30],bund:[-1,-14,20],robot:[-1,-14,20],drone:[1,14,24],agibot:[1,14,10]};
+  const mobileOffsets = {hotel:[1,12,-24],airport:[1,12,20],unitree:[-1,-12,-42],haus:[1,12,22],'video-panlong':[-1,-12,12],lujiazui:[1,12,-48],bund:[-1,-12,-8],robot:[-1,-12,32],drone:[1,12,40],agibot:[1,12,20]};
   const markerLabel = place => {
     if (place.kind === 'hotel') return 'H';
     if (place.kind === 'airport') return '✈';
@@ -102,7 +102,7 @@
     $('journey-live-map').classList.toggle('is-ready',!overview);
     $('journey-map-view-label').textContent = overview ? '좌표 기준 위치 개요' : candidateId ? '선택한 영상 장소의 위치' : '우리의 상하이 여행 지도';
     $('journey-map-mode').textContent = overview ? '거리 지도 보기' : '위치 개요 보기';
-    $('journey-map-notice').textContent = failed ? '거리 지도를 불러오기 어려워 위치 개요를 표시해요. 장소별 고덕지도는 계속 이용할 수 있어요.' : overview ? '위치 개요의 선은 방문 순서예요. 실제 이동은 고덕지도에서 확인하세요.' : candidateId ? '선택한 영상 장소를 보고 있어요. 날짜 버튼으로 그날의 여정에 돌아갈 수 있어요.' : (activeDate === 'all' ? '호텔과 가볼 곳을 한글로 표시했어요. 날짜를 고르면 그날의 방문지만 확대합니다.' : '그날의 방문지를 확대했어요. 숙소 위치는 전체 여정에서 볼 수 있습니다. 선은 방문 순서예요.');
+    $('journey-map-notice').textContent = failed ? '거리 지도를 불러오기 어려워 위치 개요를 표시해요. 장소별 고덕지도는 계속 이용할 수 있어요.' : overview ? '위치 개요의 선은 방문 순서예요. 실제 이동은 고덕지도에서 확인하세요.' : candidateId ? '선택한 영상 장소를 보고 있어요. 날짜 버튼으로 그날의 여정에 돌아갈 수 있어요.' : (activeDate === 'all' ? '호텔과 가볼 곳을 한글로 표시했어요. 날짜를 고르면 그날의 방문지만 확대합니다.' : '그날의 방문지를 확대했어요. 선은 방문 순서예요.');
   };
   const layoutLabels = () => {
     if (!map) return;
@@ -136,7 +136,8 @@
     if (!map || !currentPoints.length) return;
     map.invalidateSize({pan:false});
     const visits = activeDate === 'all' ? currentPoints : currentPoints.filter(place=>place.kind !== 'hotel' && place.kind !== 'airport');
-    const focus = visits.length ? visits : currentPoints;
+    const includeHotel = activeDate !== 'all' && currentPoints.length <= 2 && currentPoints.some(place => place.kind === 'hotel');
+    const focus = includeHotel || !visits.length ? currentPoints : visits;
     map.fitBounds(window.L.latLngBounds(focus.map(p => [p.lat,p.lng])),{padding:[32,48],maxZoom:14.25,animate:false});
     window.requestAnimationFrame(layoutLabels);
   };
