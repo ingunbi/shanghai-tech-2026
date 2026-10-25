@@ -326,47 +326,56 @@ window.TRIP_DATA = {
       "stops": [
         {
           "time": "11:30–12:30",
-          "title": "Tapa Tapa 판룽톈디점 · 점심",
-          "zh": "Tapa Tapa 蟠龙天地店",
-          "address": "青浦区蟠鼎路123弄1号 蟠龙天地滨水市街2层BW210号",
-          "detail": "11:15 전후 단지에 도착해 가까운 식당에서 먼저 점심을 먹는다. 공식 도시 가이드에 등재된 스페인식 식당으로 타파스와 해산물 파에야 등을 소개한다. 점심 영업과 당일 메뉴·가격은 확인 후 주문하고, 이 식당이 닫혔거나 대기가 길면 같은 단지에서 바로 앉을 수 있는 식당을 고른다.",
-          "type": "점심",
+          "title": "치위안·주후이 판룽톈디점 · 중식 점심",
+          "zh": "柒园·竹荟 蟠龙天地店",
+          "address": "青浦区蟠鼎路123弄 蟠龙天地滨水市街LY103",
+          "detail": "11:15 전후 판룽에 도착해 수변의 항저우식 중식당 치위안·주후이에서 점심을 먹는다. 홍차오 공식 소개에서 창작 항저우 요리와 수변 공간을 확인했고, 2026년 10월 청포구 상업 안내에도 이 지점이 등재됐다. 두 사람은 새우요리와 채소·밥 위주로 가볍게 주문한다. 점심 영업·좌석·당일 메뉴는 방문 전 확인한다.",
+          "type": "점심·항저우 요리",
           "status": "점심 영업·좌석 확인",
           "priority": "추천",
           "placeId": "video-panlong",
-          "sourceUrl": "https://english.shanghai.gov.cn/en-EditorsPick-ShopinShanghai/20260123/e2d3d081256341aa8df07ff652705f5d.html",
-          "mapUrl": "https://uri.amap.com/search?keyword=Tapa%20Tapa%20%E8%9F%A0%E9%BE%99%E5%A4%A9%E5%9C%B0%E5%BA%97%20%E9%9D%92%E6%B5%A6%E5%8C%BA%E8%9F%A0%E9%BC%8E%E8%B7%AF123%E5%BC%841%E5%8F%B7%20%E8%9F%A0%E9%BE%99%E5%A4%A9%E5%9C%B0%E6%BB%A8%E6%B0%B4%E5%B8%82%E8%A1%972%E5%B1%82BW210%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "sourceUrl": "https://www.shhqcbd.gov.cn/ywdt/mtjj/11522.html",
+          "mapUrl": "https://uri.amap.com/search?keyword=%E6%9F%92%E5%9B%AD%C2%B7%E7%AB%B9%E8%8D%9F%20%E8%9F%A0%E9%BE%99%E5%A4%A9%E5%9C%B0%E5%BA%97%20%E9%9D%92%E6%B5%A6%E5%8C%BA%E8%9F%A0%E9%BC%8E%E8%B7%AF123%E5%BC%84%20%E8%9F%A0%E9%BE%99%E5%A4%A9%E5%9C%B0%E6%BB%A8%E6%B0%B4%E5%B8%82%E8%A1%97LY103&city=310000&view=map&src=shanghaitech2026&callnative=1",
           "meal": {
             "checkedAt": "2026-10-25",
-            "cuisine": "스페인식·타파스",
-            "dishes": "타파스 몇 가지를 나누거나 해산물 파에야를 고른다. 당일 메뉴·가격·조리시간 확인 후 주문.",
-            "why": "산책할 단지 안에서 식사해 추가 차량 이동을 줄인다.",
-            "queuePlan": "대기가 15분을 넘으면 단지 안에서 바로 앉을 수 있는 식당으로 바꾼다.",
-            "seating": "방문 전 11:30 점심 영업과 2인 좌석을 문의한다. 예약은 하지 않았다.",
-            "hoursNote": "공식 가이드·인증 목록에서 현행 영업시간은 확인되지 않았다. 계획 시각은 영업 보장이 아니다.",
-            "priceNote": "현장 메뉴의 가격과 서비스료를 보고 주문. 과거 기사 가격은 적용하지 않는다.",
-            "phone": "+86 21 6880 5018",
+            "cuisine": "중식·항저우/장쑤·저장 요리",
+            "dishes": "双味大虾(두 가지 맛 새우)와 清炒豆苗(완두순 볶음), 밥을 주문 후보로 둔다. 지점 후기에서 확인한 메뉴이며 당일 판매·가격을 보고 선택한다.",
+            "why": "산책할 판룽 단지 안의 중식당이라 식사 후 수변과 카페를 걸어서 이어 보기 좋다.",
+            "queuePlan": "대기가 15분을 넘으면 같은 단지의 수샤오류 딤섬에서 영업·좌석을 먼저 확인한다. 이곳도 붐비면 바로 앉을 수 있는 중식당을 고른다.",
+            "seating": "방문 전 11:30 점심 영업과 2인 일반석·단품 주문을 문의한다. 예약은 하지 않았다.",
+            "hoursNote": "공식 현행 영업시간은 미확인. 방문 전 점심 영업을 확인한다.",
+            "priceNote": "해산물·요리별 가격과 서비스료를 현장 메뉴에서 확인. 세트나 고가 요리를 미리 고정하지 않는다.",
+            "phone": "+86 21 5988 7797",
             "sources": [
               {
-                "label": "상하이시 공식 지점·음식 소개",
-                "url": "https://english.shanghai.gov.cn/en-EditorsPick-ShopinShanghai/20260123/e2d3d081256341aa8df07ff652705f5d.html"
+                "label": "홍차오 공식 식당·요리 소개",
+                "url": "https://www.shhqcbd.gov.cn/ywdt/mtjj/11522.html"
               },
               {
-                "label": "ICEX 공식 지점·연락처",
-                "url": "https://www.foodswinesfromspain.com/en/certified-restaurants-from-spain/restaurants/t/tapa-tapa-panlong-tiandi"
+                "label": "2026년 10월 판룽 입점 근거",
+                "url": "https://www.jfdaily.com/sgh/detail?id=4070064"
+              },
+              {
+                "label": "고덕 지점·주소·전화",
+                "url": "https://www.amap.com/place/B0JDPHF041"
+              },
+              {
+                "label": "지점 메뉴·방문 후기",
+                "url": "https://us.trip.com/restaurant/china/shanghai/detail/restaurant-142209903/"
               }
             ],
             "backup": {
-              "name": "Lenbach · 같은 판룽톈디 단지",
-              "zh": "兰巴赫 蟠龙天地店",
-              "address": "青浦区蟠鼎路123弄1号 蟠龙天地滨水市街BW118室",
-              "detail": "공식 도시 가이드에 소개된 독일식 비스트로. 플랫브레드·나눠 먹는 요리를 소개한다. 점심 영업·좌석·당일 메뉴를 확인하고, 여기도 대기하면 주변 빈자리 있는 식당을 고른다.",
-              "sourceUrl": "https://english.shanghai.gov.cn/en-EditorsPick-ShopinShanghai/20260123/e2d3d081256341aa8df07ff652705f5d.html",
-              "mapUrl": "https://uri.amap.com/search?keyword=%E5%85%B0%E5%B7%B4%E8%B5%AB%20%E8%9F%A0%E9%BE%99%E5%A4%A9%E5%9C%B0%E5%BA%97%20%E9%9D%92%E6%B5%A6%E5%8C%BA%E8%9F%A0%E9%BC%8E%E8%B7%AF123%E5%BC%841%E5%8F%B7%20BW118%E5%AE%A4&city=310000&view=map&src=shanghaitech2026&callnative=1"
+              "name": "수샤오류 · 같은 판룽 단지 딤섬",
+              "zh": "苏小柳点心 蟠龙天地分院",
+              "address": "青浦区蟠鼎路177弄2号 BS113–BS115",
+              "detail": "샤오롱바오와 딤섬으로 간단히 먹는 중식 대안. 고덕지도에서 판룽 지점을 확인하고 점심 영업·좌석·당일 메뉴를 먼저 확인한다.",
+              "phone": "+86 21 5972 7737",
+              "sourceUrl": "https://www.amap.com/place/B0JDPHJ0YS",
+              "mapUrl": "https://uri.amap.com/search?keyword=%E8%8B%8F%E5%B0%8F%E6%9F%B3%E7%82%B9%E5%BF%83%20%E8%9F%A0%E9%BE%99%E5%A4%A9%E5%9C%B0%E5%88%86%E9%99%A2%20%E8%9F%A0%E9%BC%8E%E8%B7%AF177%E5%BC%842%E5%8F%B7%20BS113%20BS115&city=310000&view=map&src=shanghaitech2026&callnative=1"
             }
           },
-          "displayTitle": "판룽 Tapa Tapa · 점심",
-          "shortNote": "같은 단지에서 타파스나 파에야로 점심. 대기가 길면 가까운 빈자리 식당으로.",
+          "displayTitle": "치위안·주후이 · 중식 점심",
+          "shortNote": "판룽 수변에서 항저우식 중식으로 점심. 새우요리·채소·밥 위주로 가볍게.",
           "quickStatus": "점심 영업 확인"
         },
         {
@@ -465,7 +474,7 @@ window.TRIP_DATA = {
         "산책 30–45분 · 카페에서 휴식",
         "16시 전후 호텔 복귀 목표"
       ],
-      "mealNote": "점심은 판룽톈디 안 Tapa Tapa를 우선 확인하고, 대기하면 같은 단지 안에서 바꾼다. 저녁은 호텔 Kwee Zeen 또는 룸서비스로 추가 이동을 줄인다.",
+      "mealNote": "점심은 판룽톈디 안 치위안·주후이에서 항저우식 중식으로 먹고, 대기하면 같은 단지의 수샤오류 딤섬을 확인한다. 저녁은 호텔 Kwee Zeen 또는 룸서비스로 추가 이동을 줄인다.",
       "displayTitle": "가까운 판룽톈디에서 쉬어가는 하루",
       "displaySummary": "한 단지 안에서 점심·수변 산책·카페를 이어 보고, 오후에는 호텔로.",
       "shortArea": "판룽톈디 · 홍차오"
@@ -1524,16 +1533,28 @@ window.TRIP_DATA = {
       "note": "수변길·녹지 현황 확인. 전체 길을 걷는 일정이 아니다."
     },
     {
-      "title": "판룽 점심 · Tapa Tapa·Lenbach 공식 지점 소개",
-      "url": "https://english.shanghai.gov.cn/en-EditorsPick-ShopinShanghai/20260123/e2d3d081256341aa8df07ff652705f5d.html",
-      "date": "2026-01-23 / 10-25 확인",
-      "note": "두 식당의 판룽 지점 주소·음식 종류 확인. 현행 영업시간·당일 좌석은 별도 확인."
+      "title": "판룽 중식 점심 · 柒园·竹荟 공식 소개",
+      "url": "https://www.shhqcbd.gov.cn/ywdt/mtjj/11522.html",
+      "date": "2023-07-10 / 2026-10-25 확인",
+      "note": "창작 항저우 요리와 수변 공간 소개. 현재 영업시간·메뉴·가격은 별도 확인."
     },
     {
-      "title": "ICEX · Tapa Tapa 판룽 지점",
-      "url": "https://www.foodswinesfromspain.com/en/certified-restaurants-from-spain/restaurants/t/tapa-tapa-panlong-tiandi",
+      "title": "청포구 상업 안내 · 판룽 柒园竹荟 지점 근거",
+      "url": "https://www.jfdaily.com/sgh/detail?id=4070064",
+      "date": "2026-10-07",
+      "note": "판룽 신톈디 입점 목록에 지점 등재. 해당 소비권 행사는 10/14 종료되어 여행일 혜택으로 적용하지 않는다."
+    },
+    {
+      "title": "柒园·竹荟 판룽 · 고덕 위치·문의",
+      "url": "https://www.amap.com/place/B0JDPHF041",
       "date": "2026-10-25 확인",
-      "note": "공식 인증 목록 지점 주소·문의번호. 영업시간·예약 정책 미공개."
+      "note": "滨水市街LY103 지점과 문의번호. 플랫폼 간 건물 호수 차이가 있어 상호·구역명으로 검색."
+    },
+    {
+      "title": "판룽 중식 대안 · 苏小柳点心 고덕 지점",
+      "url": "https://www.amap.com/place/B0JDPHJ0YS",
+      "date": "2026-10-25 확인",
+      "note": "판룽 지점 위치·문의. 점심 영업·당일 좌석은 별도 확인."
     }
   ],
   "notes": {
@@ -2010,7 +2031,7 @@ window.TRIP_DATA = {
     "date": "2024-12-06",
     "url": "https://www.youtube.com/watch?v=avRg0Ee-E8s",
     "startUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=888s",
-    "intro": "영상에서 동선에 맞는 신톈디·일락장랑 권역·서안 강변·칠보고진을 골라 기존 산책·식사 시간에 반영했어요. 로봇·드론 시간은 유지하고 나머지 장소는 후보로 남겼습니다. 일정 반영 카드에서 해당 날짜를 바로 볼 수 있어요.",
+    "intro": "영상에서 고른 신톈디·판룽톈디·서안 강변·칠보고진을 날짜별 산책·식사 시간에 반영했어요. 현재 일정에 들어간 곳은 카드에서 날짜를 바로 볼 수 있고, 나머지 장소는 지역별 후보로 둘러볼 수 있어요.",
     "note": "영상 소개와 자막에서 장소·등장 시각을 확인했습니다. 2024년 영상의 가격·영업시간·점등 시각을 현재 조건으로 적용하지 않았습니다. 주소는 공식 자료로 대조했으며 실내 관람·테마파크·바의 현재 입장·예약·비용은 방문 전 확인합니다. 일부 세부 가게는 현재 지점·영업이 미확인입니다. 일정에 반영한 장소는 여정 지도에 보이며, 나머지 후보는 선택했을 때 한 곳씩 표시합니다.",
     "places": [
       {
@@ -2369,7 +2390,7 @@ window.TRIP_DATA = {
         "id": "expo",
         "name": "엑스포공원",
         "zh": "世博公园",
-        "area": "우캉·쉬후이",
+        "area": "푸둥·엑스포",
         "category": "공원·산책",
         "fit": "halfday",
         "suggestedDay": "10/30 강변 코스 교체 후보",
