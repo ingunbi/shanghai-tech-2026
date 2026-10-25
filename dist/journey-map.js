@@ -29,8 +29,8 @@
     return [...new Map([...(hotel ? [hotel] : []),...points].map(place => [place.id,place])).values()];
   };
   const mapLabel = place => place.mapLabel || place.name;
-  const labelOffsets = {hotel:[1,14,-24],airport:[1,14,20],unitree:[-1,-14,-28],haus:[1,14,24],'video-panlong':[-1,-14,10],lujiazui:[1,14,-30],bund:[-1,-14,20],robot:[-1,-14,20],drone:[1,14,24],agibot:[1,14,10]};
-  const mobileOffsets = {hotel:[1,12,-24],airport:[1,12,20],unitree:[-1,-12,-42],haus:[1,12,22],'video-panlong':[-1,-12,12],lujiazui:[1,12,-48],bund:[-1,-12,-8],robot:[-1,-12,32],drone:[1,12,40],agibot:[1,12,20]};
+  const labelOffsets = {hotel:[1,14,-24],airport:[1,14,20],unitree:[-1,-14,-28],haus:[1,14,24],'video-panlong':[-1,-14,10],'video-jingan':[1,14,28],'video-korean-gov':[1,14,-32],'video-wukang':[-1,-14,-16],lujiazui:[1,14,-30],bund:[-1,-14,20],robot:[-1,-14,20],drone:[1,14,24],agibot:[1,14,10]};
+  const mobileOffsets = {hotel:[1,12,-24],airport:[1,12,20],unitree:[-1,-12,-42],haus:[1,12,22],'video-panlong':[-1,-12,12],'video-jingan':[1,12,30],'video-korean-gov':[1,12,-36],'video-wukang':[-1,-12,-24],lujiazui:[1,12,-48],bund:[-1,-12,-8],robot:[-1,-12,32],drone:[1,12,40],agibot:[1,12,20]};
   const markerLabel = place => {
     if (place.kind === 'hotel') return 'H';
     if (place.kind === 'airport') return '✈';

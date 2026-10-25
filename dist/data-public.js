@@ -167,16 +167,35 @@ window.TRIP_DATA = {
       "kicker": "HUMANOID / FUTURE RETAIL",
       "title": "휴머노이드와 인사하고, 왕홍 공간으로",
       "area": "정안 → 화이하이루 → 신톈디",
-      "summary": "Unitree와 HAUS NOWHERE를 충분히 본 뒤 신톈디에서 짧게 걷고 이른 저녁을 먹는다. 영상 속 신톈디는 기존 카페·저녁 시간을 바꾼 선택 산책이며 관광 정차를 더 늘리지 않았다.",
+      "summary": "Unitree·HAUS 방문과 점심·이른 저녁을 유지하고, 정안사 주변과 신톈디 옆 임시정부 청사를 짧게 본다. 도착이나 입장이 늦어지면 추가 방문부터 생략한다.",
       "route": [
+        "정안사 주변 · 여유 시",
         "Unitree 久光",
         "COVA 점심",
         "HAUS NOWHERE",
-        "신톈디 산책·夜上海 저녁"
+        "임시정부 청사 · 선택",
+        "신톈디·夜上海 저녁"
       ],
-      "travelNote": "09:30 호텔 출발을 기준으로 정안까지 차량 40–70분을 확보한 계획이다. Unitree와 HAUS 사이에는 차량·지하철로 이동하고 도심에서 호텔 왕복은 하지 않는다. 첫날 SIM 개통이 남았으면 오전 여권 접수 시간을 먼저 확보하고 Unitree 방문을 점심 이후로 늦춘다. HAUS→신톈디는 차량 10–20분 또는 도보 약 25–35분을 예상하되 당일 길찾기로 확인한다. 걷기를 아끼려면 차량으로 이동하고 신톈디 안에서만 30–45분 걷는다. 줄 서는 식당보다 바로 앉아 쉴 수 있는 곳을 고른다. 저녁은 夜上海의 현재 湖滨路168号 지점까지 이동 여유를 두고, 식사 예약이 잡히면 산책을 짧게 마친다.",
-      "weatherPlan": "비가 오면 두 매장과 실내 식사 위주로 진행한다. SIM 개통이나 로봇 체험이 길어지면 신톈디 산책을 줄이고 가까운 곳에서 저녁을 먹는다.",
+      "travelNote": "09:30 호텔 출발을 기준으로 정안까지 차량 40–70분을 확보한 계획이다. 일찍 도착했을 때만 久光 바로 옆 정안사·맞은편 공원 주변에서 10–15분 걷고 11시 Unitree로 간다. 10:45 이후 도착하면 이 산책을 생략한다. Unitree 점심은 같은 久光 건물, HAUS까지는 기존 차량 이동을 유지한다. HAUS에서 15:30경 출발해 신톈디 남쪽 马当路306弄 부근에서 하차하고, 16시 임시정부 청사 선택 관람 뒤 신톈디 한 구간을 거쳐 湖滨路168号 식당으로 이어간다. 추가 장소마다 차량을 다시 타지 않는다. 교통·매표가 늦어지면 청사를 생략해 17시 식사를 지킨다. 첫날 SIM 업무가 남았으면 로봇과 식사부터 우선한다. 이동시간은 실시간 길안내가 아닌 계획상 여유다.",
+      "weatherPlan": "비가 오거나 SIM·교통이 늦어지면 정안사 주변 산책을 생략한다. 청사 대기가 10분을 넘으면 신톈디 산책으로 바꾸고 17시 저녁을 우선한다.",
       "stops": [
+        {
+          "time": "10:30–10:50 · 일찍 도착했을 때",
+          "title": "정안사 외관·정안공원 주변",
+          "zh": "静安寺 / 静安公园",
+          "address": "静安寺：南京西路1686号；静安公园：南京西路1649号",
+          "detail": "Unitree가 있는 久光 바로 옆 정안사 외관이나 맞은편 공원 입구 주변 중 가까운 한 구간만 10–15분 본다. 사찰 내부 입장과 공원 전체 일주는 넣지 않는다. 10:45 이후 도착하거나 첫날 SIM 업무가 남았으면 생략하고 11시 로봇 방문부터 진행한다.",
+          "type": "영상·짧은 산책",
+          "status": "도착 여유 시",
+          "priority": "선택",
+          "placeId": "video-jingan",
+          "sourceUrl": "https://english.jingan.gov.cn/fw/003006/foreign-singledetail.html",
+          "mapUrl": "https://uri.amap.com/search?keyword=%E9%9D%99%E5%AE%89%E5%AF%BA%20%E9%9D%99%E5%AE%89%E5%8C%BA%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF1686%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=756s",
+          "displayTitle": "정안사 외관·공원 주변",
+          "shortNote": "Unitree 바로 옆에서 10–15분만. 늦게 도착하면 바로 로봇 매장으로 가요.",
+          "quickStatus": ""
+        },
         {
           "time": "11:00–12:15",
           "title": "Unitree 휴머노이드 체험관",
@@ -251,11 +270,28 @@ window.TRIP_DATA = {
           "quickStatus": ""
         },
         {
-          "time": "16:00–18:00 · 산책 후 17:00 식사",
-          "title": "신톈디 산책 → 夜上海 이른 저녁",
+          "time": "16:00–16:30 · 대기 짧을 때",
+          "title": "대한민국 임시정부 청사 · 선택 관람",
+          "zh": "大韩民国临时政府旧址",
+          "address": "马当路306弄4号",
+          "detail": "HAUS 방문 뒤 신톈디 남쪽 마당루에서 내려 임시정부 청사를 먼저 본다. 2026년 9월 재개관 공지 기준 2인 개별 방문은 현장 매표 후 관람할 수 있고, 평일 오후 13:30–17:00·16:30 매표 종료다. 현장 가격·입장과 촬영 안내를 확인하고 대기를 포함해 총30분만 머문다. 대기가 있으면 관람을20분 안팎으로 줄이고 늦어도16:30에는 나온다. 대기가 10분을 넘거나 관람이 지연되면 생략해 17시 저녁을 지킨다. 골목·외관을 무료로 자유 관람할 수 있다고 전제하지 않는다.",
+          "type": "영상·역사",
+          "status": "현장 매표 · 대기 시 생략",
+          "priority": "선택",
+          "placeId": "video-korean-gov",
+          "sourceUrl": "https://www.jfdaily.com/sgh/detail?id=4052204",
+          "mapUrl": "https://uri.amap.com/search?keyword=%E5%A4%A7%E9%9F%A9%E6%B0%91%E5%9B%BD%E4%B8%B4%E6%97%B6%E6%94%BF%E5%BA%9C%E6%97%A7%E5%9D%80%20%E9%A9%AC%E5%BD%93%E8%B7%AF306%E5%BC%844%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=233s",
+          "displayTitle": "임시정부 청사 · 짧은 관람",
+          "shortNote": "대기 포함30분 안에 짧게 관람. 16:30에는 나와 신톈디와17시 저녁으로 이어가요.",
+          "quickStatus": "현장 매표"
+        },
+        {
+          "time": "16:30–18:00 · 산책 후 17:00 식사",
+          "title": "신톈디 짧은 산책 → 夜上海 이른 저녁",
           "zh": "夜上海 yè Shanghai",
           "address": "黄浦区湖滨路168号 无限极荟3楼",
-          "detail": "신톈디 골목은 30–45분만 걷고, 인근 夜上海에서 17시 이른 저녁을 먹는다. 식당은 湖滨路168号의 현재 지점으로 찾아간다. 산책이 길어지면 식사 좌석 시간을 우선하며 18시 전후 귀환을 시작한다.",
+          "detail": "임시정부 청사에서 북쪽으로 이어 신톈디 한 구간을 15–20분만 걷고, 식당으로 이동해 17시 이른 저녁을 먹는다. 청사를 생략하면 원래처럼 신톈디에서 30–45분 산책한다. 식당은 湖滨路168号의 현재 지점으로 찾아가며 18시 전후 귀환을 시작한다.",
           "type": "영상·산책·저녁",
           "status": "17시 예약 권장 · 예약 전",
           "sourceUrl": "https://www.elite-concepts.com/our-concepts/shanghai/ye-shanghai/",
@@ -293,18 +329,18 @@ window.TRIP_DATA = {
             }
           },
           "displayTitle": "신톈디 산책 · 夜上海 저녁",
-          "shortNote": "30–45분 산책 뒤 상하이 요리로 17시 이른 저녁을 계획해요.",
+          "shortNote": "청사 관람 뒤 신톈디 한 구간만 걷고 17시 저녁. 청사를 생략하면 산책을 길게 해요.",
           "quickStatus": "예약 권장"
         }
       ],
       "focus": [
-        "핵심 · Unitree 휴머노이드",
-        "핵심 · HAUS NOWHERE",
-        "영상 · 신톈디 산책·이른 저녁"
+        "핵심 · Unitree 휴머노이드·HAUS",
+        "영상 · 정안사 주변 10–15분",
+        "영상 · 임시정부 청사 20–30분·신톈디"
       ],
       "mealNote": "점심은 Unitree와 같은 久光 건물에서, 저녁은 신톈디 산책 뒤 17시 예약을 목표로 한다. 두 끼 모두 기존 식사 시간 안에 넣었으며 좌석을 기다리느라 HAUS 방문을 줄이지 않는다.",
-      "displayTitle": "로봇을 만나고, 신톈디에서 저녁",
-      "displaySummary": "Unitree와 HAUS를 충분히 보고, 신톈디 산책 뒤 이른 저녁.",
+      "displayTitle": "로봇과 브랜드 공간, 가까운 역사 산책",
+      "displaySummary": "정안사 주변과 임시정부 청사를 짧게 더하고, 로봇·식사 시간은 그대로.",
       "shortArea": "정안 · 신톈디"
     },
     {
@@ -485,18 +521,36 @@ window.TRIP_DATA = {
       "weekday": "금",
       "kicker": "DRONE DELIVERY / WEST BUND",
       "title": "직접 조작한 로봇, 하늘에서 온 점심",
-      "area": "쉬자후이 → 쉬후이 강변",
-      "summary": "로봇개 조작과 미투안 드론 방문 시간을 그대로 두었다. 드론 뒤에는 서안미술관 외관·강변만 짧게 보고 쉬며, 체험이 길어지면 산책부터 생략한다.",
+      "area": "우캉맨션 → 쉬자후이 → 서안",
+      "summary": "오전에 우캉맨션 외관만 짧게 보고 11시 로봇·13시 드론 일정을 이어간다. 늦게 출발하면 우캉을 생략하며, 오후는 기존 강변 산책과 휴식으로 둔다.",
       "route": [
+        "우캉맨션 외관 · 선택",
         "쉬자후이 机时租",
         "드론 맥도날드 점심",
         "서안미술관 외관 · 선택",
         "Paulaner 저녁",
         "호텔"
       ],
-      "travelNote": "호텔→쉬자후이 차량 40–70분, 쉬자후이→서안 강변 20–35분을 확보한 계획이다. 로봇 매장 체험이 길어져도 드론 수령점은 오후 초반에 도착하도록 조정한다. 드론은 당일 운항·주문 마감이 우선이며 미리 예약된 체험이 아니다. 드론 수령점→서안미술관은 당일 지도에서 짧은 차량 이동과 도보를 비교한다. 걷기가 길면 차량으로 이동하거나 수령점 주변 강변에서 쉬는 것으로 마무리한다.",
-      "weatherPlan": "비·강풍이나 주문 불가 시 드론 수령점 안내를 확인하고 실내 카페에서 쉰다. 드론 대기·로봇 체험이 길어지면 서안미술관 외관 산책부터 생략한다. 기상이 좋고 아직 드론을 못 해봤다면 남은 날 운영 상황을 보고 재시도를 검토한다.",
+      "travelNote": "우캉맨션을 볼 때는 09:00 호텔 출발을 목표로 하고, 기존 도심행 차량 시간과 비슷하게 40–70분의 여유를 잡아 10시 전후 도착을 계획한다. 우캉맨션과 新六百YOUNG 로봇점은 직선 약 1.1km로 가까운 권역이다. 이는 도로 이동거리가 아니며, 10:25–11:00은 차량 호출·이동·3층 매장 도착을 위한 여유로 비운다. 출발 전 고덕지도에서 실제 경로를 보고 11시 도착이 어렵다면 우캉을 생략한다. 로봇을 본 뒤 북쪽 우캉으로 되돌아가지 않고 서안 강변으로 이동한다. 쉬자후이→서안은 기존 20–35분 여유를 유지하고 13시 드론 방문을 우선한다. 이동시간은 실시간 예측이 아닌 계획상 여유다.",
+      "weatherPlan": "비가 오거나 오전 출발이 늦어지면 우캉맨션을 생략하고 로봇 매장으로 바로 간다. 드론 운항·주문이 안 되면 일반 점심과 실내 휴식으로 전환하고, 체험이 길어지면 오후 강변 산책부터 생략한다.",
       "stops": [
+        {
+          "time": "10:00–10:25 · 아침 여유 시",
+          "title": "우캉맨션 · 외관 사진 산책",
+          "zh": "武康大楼",
+          "address": "徐汇区淮海中路1850号",
+          "detail": "호텔에서 쉬자후이로 가는 오전에 우캉맨션 모서리와 외벽을 공공보도에서 15–20분만 보고 이동한다. 주민이 사는 건물이라 실내 관람은 넣지 않는다. 우캉루·안푸루 전체 산책이나 카페 대기는 더하지 않는다. 10:25에는 출발해 가까운 新六百YOUNG 로봇 매장으로 이동하고, 호텔 출발이 늦거나 교통이 막히면 이 방문을 생략한다.",
+          "type": "영상·건축 외관",
+          "status": "짧은 외관 산책",
+          "priority": "선택",
+          "placeId": "video-wukang",
+          "sourceUrl": "https://whlyj.sh.gov.cn/gqfc/20251203/a1174c2de60a4524bbd58144be95c49c.html",
+          "mapUrl": "https://uri.amap.com/search?keyword=%E6%AD%A6%E5%BA%B7%E5%A4%A7%E6%A5%BC%20%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF1850%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=324s",
+          "displayTitle": "우캉맨션 · 외관 15–20분",
+          "shortNote": "로봇 매장으로 가기 전 건물 외관만 짧게. 10:25에는 이동해요.",
+          "quickStatus": "지연 시 생략"
+        },
         {
           "time": "11:00–12:00",
           "title": "机时租 · 직접 조작하는 로봇",
@@ -638,14 +692,14 @@ window.TRIP_DATA = {
         }
       ],
       "focus": [
-        "핵심 · 机时租 로봇 조작",
-        "핵심 · 미투안 드론 주문 시도",
-        "영상 · 서안미술관 외관·강변"
+        "영상 · 우캉맨션 외관 15–20분",
+        "핵심 · 11시 로봇·13시 드론 유지",
+        "영상 · 서안 강변·휴식"
       ],
       "mealNote": "점심은 드론 맥도날드 주문 자체가 체험이다. 실패하면 발송 식당에서 일반 식사를 하고, 저녁은 서안 강변에서 예약·좌석 확인 후 독일식으로 먹는다.",
-      "displayTitle": "로봇개를 조작하고, 드론 점심",
-      "displaySummary": "로봇개 체험과 드론 주문을 우선하고, 강변은 짧게 걸어요.",
-      "shortArea": "쉬자후이 · 서안"
+      "displayTitle": "우캉맨션에서 시작해, 로봇과 드론",
+      "displaySummary": "오전에 우캉맨션 외관만 짧게 보고 로봇·드론 시간에 맞춰 이동해요.",
+      "shortArea": "우캉 · 쉬자후이 · 서안"
     },
     {
       "date": "2026-10-31",
@@ -1555,6 +1609,24 @@ window.TRIP_DATA = {
       "url": "https://www.amap.com/place/B0JDPHJ0YS",
       "date": "2026-10-25 확인",
       "note": "판룽 지점 위치·문의. 점심 영업·당일 좌석은 별도 확인."
+    },
+    {
+      "title": "임시정부 청사 · 2026 재개관·개별 매표 안내",
+      "url": "https://www.jfdaily.com/sgh/detail?id=4052204",
+      "date": "2026-09-08",
+      "note": "관리처 공지 원문. 평일 오후13:30–17:00·16:30 매표 마감, 개별 현장 매표. 당일 가격·제한은 현장 확인."
+    },
+    {
+      "title": "정안공원 · 2026 재개방 공식 안내",
+      "url": "https://lhsr.sh.gov.cn/ywdt/20260922/ad43aacc-b721-4d79-8092-9e633f957313.html",
+      "date": "2026-09-22",
+      "note": "공원 재개방·주변 거리 연결 확인. 방문은 사찰 외관·공원 주변 짧은 구간에 한정."
+    },
+    {
+      "title": "우캉맨션 · 공식 주소·거리 산책",
+      "url": "https://whlyj.sh.gov.cn/gqfc/20251203/a1174c2de60a4524bbd58144be95c49c.html",
+      "date": "2025-12-03 / 2026-10-25 확인",
+      "note": "淮海中路1850号. 10/30 건물 외관만 짧게 방문."
     }
   ],
   "notes": {
@@ -1666,7 +1738,7 @@ window.TRIP_DATA = {
   },
   "journeyMap": {
     "updated": "2026-10-25",
-    "note": "일정에 넣은 11곳을 날짜별로 표시했습니다. 10/29는 호텔과 판룽톈디만 오가며, 단지 안 식당·카페는 상세 일정에서 확인합니다. 연결선은 방문 순서이며 실제 도로·대중교통 경로가 아닙니다. 일부 핀은 건물·공원·상업구역의 대표 중심이므로 실제 출입구·드론 수령점은 고덕지도와 현장 표지에서 확인합니다. 영상 후보는 선택했을 때만 지도에 표시합니다.",
+    "note": "일정에 넣은 14곳을 날짜별로 표시했습니다. 선택 방문도 포함한 최대 동선이며, 생략해도 되는 곳은 장소 안내에 표시했습니다. 10/29는 호텔과 판룽톈디만 오갑니다. 연결선은 방문 순서이며 실제 도로·대중교통 경로가 아닙니다. 핀은 건물·권역 대표 위치이므로 출입구와 실제 길찾기는 고덕지도를 확인하세요.",
     "places": [
       {
         "id": "hotel",
@@ -1820,7 +1892,7 @@ window.TRIP_DATA = {
         "lat": 31.2219311,
         "lng": 121.4704371,
         "precision": "상업·역사 구역 중심 · 특정 입구 아님",
-        "note": "HAUS 뒤 30–45분 산책과 이른 저녁으로 일정에 반영했다. 기존 화이하이루 카페·저녁 시간을 바꾼 코스이며, 늦어지면 산책을 줄이고 식사만 한다.",
+        "note": "임시정부 청사 선택 관람 뒤 신톈디 한 구간을15–20분 걷고17시 이른 저녁으로 이어간다. 청사를 생략하면 기존처럼30–45분 산책한다. 지연 시 식사 시간을 우선한다.",
         "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E6%96%B0%E5%A4%A9%E5%9C%B0%20%E5%A4%AA%E4%BB%93%E8%B7%AF181%E5%BC%84&city=310000&view=map&src=shanghaitech2026&callnative=1",
         "sourceUrl": "https://www.openstreetmap.org/way/40325255",
         "kind": "sight",
@@ -1828,18 +1900,18 @@ window.TRIP_DATA = {
       },
       {
         "id": "video-wukang",
-        "name": "우캉루·안푸루 산책",
-        "mapLabel": "우캉루·안푸루 산책",
-        "zh": "武康路 / 安福路",
-        "address": "徐汇区武康路·安福路，武康大楼位于淮海中路1850号",
+        "name": "우캉맨션 · 외관",
+        "mapLabel": "우캉맨션",
+        "zh": "武康大楼",
+        "address": "淮海中路1850号",
         "lat": 31.2062561,
         "lng": 121.4337292,
         "precision": "우캉맨션 건물 중심 · 안푸루 전체 위치가 아님",
-        "note": "영상에서 본 선택 후보. 우캉맨션 외관과 카페·브랜드 거리를 보는 코스. 주거 건물 내부 방문을 전제로 하지 않고 거리 산책 위주로 고른다.",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E6%AD%A6%E5%BA%B7%E8%B7%AF%20%2F%20%E5%AE%89%E7%A6%8F%E8%B7%AF%20%E5%BE%90%E6%B1%87%E5%8C%BA%E6%AD%A6%E5%BA%B7%E8%B7%AF%C2%B7%E5%AE%89%E7%A6%8F%E8%B7%AF%EF%BC%8C%E6%AD%A6%E5%BA%B7%E5%A4%A7%E6%A5%BC%E4%BD%8D%E4%BA%8E%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF1850%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "note": "10/30 오전 로봇점 방문 전 외관만 15–20분 본다. 우캉루·안푸루 전체 산책은 포함하지 않는다. 10:25 출발, 11시 로봇 매장 도착을 우선하며 지연 시 생략.",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E6%AD%A6%E5%BA%B7%E5%A4%A7%E6%A5%BC%20%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF1850%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
         "sourceUrl": "https://www.openstreetmap.org/way/293434151",
         "kind": "sight",
-        "candidate": true
+        "candidate": false
       },
       {
         "id": "video-m50",
@@ -1945,6 +2017,36 @@ window.TRIP_DATA = {
         "sourceUrl": "https://www.openstreetmap.org/way/745277168",
         "kind": "sight",
         "candidate": false
+      },
+      {
+        "id": "video-jingan",
+        "name": "정안사 외관·공원 주변",
+        "mapLabel": "정안사 주변",
+        "zh": "静安寺 / 静安公园",
+        "address": "南京西路1686号；公园：南京西路1649号",
+        "lat": 31.225215,
+        "lng": 121.4407923,
+        "precision": "정안사 건물 대표 중심 · 공공보도·공원 입구는 현장 확인",
+        "note": "10/28 Unitree 방문 전 도착 여유가 있을 때만 10–15분 산책. 사찰 내부 입장은 포함하지 않으며 11시 로봇 방문을 우선한다.",
+        "sourceUrl": "https://www.openstreetmap.org/way/13981430",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E9%9D%99%E5%AE%89%E5%AF%BA%20%E9%9D%99%E5%AE%89%E5%8C%BA%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF1686%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "kind": "sight",
+        "candidate": false
+      },
+      {
+        "id": "video-korean-gov",
+        "name": "대한민국 임시정부 청사",
+        "mapLabel": "임시정부 청사",
+        "zh": "大韩民国临时政府旧址",
+        "address": "马当路306弄4号",
+        "lat": 31.2192213,
+        "lng": 121.4701593,
+        "precision": "청사 주변 지도 POI · 골목 입구·매표 위치는 현장 확인",
+        "note": "10/28 신톈디 기존 산책 시간에 선택 관람. 대기 포함 총30분·16:30퇴장, 개별 현장 매표. 평일 오후 매표 마감16:30. 대기 길면 생략해17시 저녁을 지킨다.",
+        "sourceUrl": "https://www.openstreetmap.org/node/5530017323",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E5%A4%A7%E9%9F%A9%E6%B0%91%E5%9B%BD%E4%B8%B4%E6%97%B6%E6%94%BF%E5%BA%9C%E6%97%A7%E5%9D%80%20%E9%A9%AC%E5%BD%93%E8%B7%AF306%E5%BC%844%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "kind": "sight",
+        "candidate": false
       }
     ],
     "days": [
@@ -1964,11 +2066,13 @@ window.TRIP_DATA = {
         "label": "10.28",
         "title": "휴머노이드와 인사하고, 왕홍 공간으로",
         "color": "#286e73",
-        "summary": "핵심 · Unitree 휴머노이드 · 핵심 · HAUS NOWHERE · 영상 · 신톈디 산책·이른 저녁",
+        "summary": "정안사 주변·임시정부 청사 선택 방문 · Unitree·HAUS·17시 저녁 유지",
         "placeIds": [
           "hotel",
+          "video-jingan",
           "unitree",
           "haus",
+          "video-korean-gov",
           "video-xintiandi",
           "hotel"
         ]
@@ -1990,9 +2094,10 @@ window.TRIP_DATA = {
         "label": "10.30",
         "title": "직접 조작한 로봇, 하늘에서 온 점심",
         "color": "#bb7438",
-        "summary": "핵심 · 机时租 로봇 조작 · 핵심 · 미투안 드론 주문 시도 · 영상 · 서안미술관 외관·강변",
+        "summary": "오전 우캉맨션 외관 선택 · 11시 로봇·13시 드론 · 서안 강변",
         "placeIds": [
           "hotel",
+          "video-wukang",
           "robot",
           "drone",
           "video-westbund",
@@ -2031,7 +2136,7 @@ window.TRIP_DATA = {
     "date": "2024-12-06",
     "url": "https://www.youtube.com/watch?v=avRg0Ee-E8s",
     "startUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=888s",
-    "intro": "영상에서 고른 신톈디·판룽톈디·서안 강변·칠보고진을 날짜별 산책·식사 시간에 반영했어요. 현재 일정에 들어간 곳은 카드에서 날짜를 바로 볼 수 있고, 나머지 장소는 지역별 후보로 둘러볼 수 있어요.",
+    "intro": "영상 속 장소 7개 묶음을 날짜별 동선에 맞춰 넣었어요. 새로 더한 정안사 주변·임시정부 청사·우캉맨션은 짧은 선택 방문이며, 늦어지면 생략해 로봇·드론과 식사 시간을 지켜요. 우캉 권역은 맨션 외관만 반영했습니다.",
     "note": "영상 소개와 자막에서 장소·등장 시각을 확인했습니다. 2024년 영상의 가격·영업시간·점등 시각을 현재 조건으로 적용하지 않았습니다. 주소는 공식 자료로 대조했으며 실내 관람·테마파크·바의 현재 입장·예약·비용은 방문 전 확인합니다. 일부 세부 가게는 현재 지점·영업이 미확인입니다. 일정에 반영한 장소는 여정 지도에 보이며, 나머지 후보는 선택했을 때 한 곳씩 표시합니다.",
     "places": [
       {
@@ -2130,7 +2235,7 @@ window.TRIP_DATA = {
         "category": "거리·쇼핑",
         "fit": "nearby",
         "suggestedDay": "10/28 상세 일정에 반영",
-        "detail": "HAUS 뒤 30–45분 산책과 이른 저녁으로 일정에 반영했다. 기존 화이하이루 카페·저녁 시간을 바꾼 코스이며, 늦어지면 산책을 줄이고 식사만 한다.",
+        "detail": "임시정부 청사 선택 관람 뒤 신톈디 한 구간을15–20분 걷고17시 이른 저녁으로 이어간다. 청사를 생략하면 기존처럼30–45분 산책한다. 지연 시 식사 시간을 우선한다.",
         "address": "太仓路181弄",
         "status": "일정 반영 · 여유 산책",
         "videoSeconds": 187,
@@ -2148,15 +2253,17 @@ window.TRIP_DATA = {
         "area": "신천지·황푸",
         "category": "문화·전시",
         "fit": "nearby",
-        "suggestedDay": "10/28 신톈디와 한 묶음",
-        "detail": "신톈디 산책에 역사 방문 한 곳을 더하는 대안. 실내 입장 시간·촬영·관람 조건을 공식 안내에서 확인하고 방문한다.",
+        "suggestedDay": "10/28 신톈디 산책 시간에 반영",
+        "detail": "16시경 대기 포함 총30분 안에 선택 관람하고16:30에 나와 신톈디를 거쳐 17시 저녁으로 이어간다. 최신 공지상 개별 방문은 현장 매표 후 입장하며, 평일 오후13:30–17:00·16:30 매표 종료. 대기가 10분을 넘으면 생략한다.",
         "address": "马当路306弄4号",
-        "status": "선택 후보 · 운영조건 확인",
+        "status": "일정 반영 · 현장 매표",
         "videoSeconds": 233,
         "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=233s",
-        "sourceUrl": "https://whlyj.sh.gov.cn/cmsres/fc/fc3eaf97a9784e588e24fb8d64cee960/c271cdd34a5e0e8cb32cec5909978088.pdf",
+        "sourceUrl": "https://www.jfdaily.com/sgh/detail?id=4052204",
         "mapUrl": "https://uri.amap.com/search?keyword=%E5%A4%A7%E9%9F%A9%E6%B0%91%E5%9B%BD%E4%B8%B4%E6%97%B6%E6%94%BF%E5%BA%9C%E6%97%A7%E5%9D%80%20%E9%A9%AC%E5%BD%93%E8%B7%AF306%E5%BC%844%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
-        "subPlaces": []
+        "subPlaces": [],
+        "includedDate": "2026-10-28",
+        "mapPlaceId": "video-korean-gov"
       },
       {
         "id": "tianzifang",
@@ -2199,10 +2306,10 @@ window.TRIP_DATA = {
         "area": "우캉·쉬후이",
         "category": "거리·쇼핑",
         "fit": "nearby",
-        "suggestedDay": "10/30 로봇 체험 전후 선택",
-        "detail": "우캉맨션 외관과 카페·브랜드 거리를 보는 코스. 주거 건물 내부 방문을 전제로 하지 않고 거리 산책 위주로 고른다.",
+        "suggestedDay": "10/30 오전 우캉맨션 외관만 반영",
+        "detail": "이 권역 중 우캉맨션 외관만 오전 로봇 방문 전에15–20분 본다. 10:25에는 출발해11시 로봇 매장에 도착하며 지연 시 생략한다. 안푸루·카페·다른 하위 장소는 추가하지 않는다.",
         "address": "徐汇区武康路·安福路，武康大楼位于淮海中路1850号",
-        "status": "선택 후보 · 운영조건 확인",
+        "status": "일정 반영 · 우캉맨션만",
         "videoSeconds": 308,
         "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=308s",
         "sourceUrl": "https://english.shanghai.gov.cn/en-SpecialtyShoppingAreas/20231217/b15a12afaa1c4fdcbca0f7638b05727b.html",
@@ -2213,9 +2320,9 @@ window.TRIP_DATA = {
             "zh": "武康大楼",
             "videoSeconds": 324,
             "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=324s",
-            "note": "주거 건물 외관을 보는 후보. · 淮海中路1850号",
+            "note": "10/30 오전15–20분 외관 산책으로 반영. 실내 관람은 넣지 않으며10:25에 로봇 매장으로 이동한다. · 淮海中路1850号",
             "mapUrl": "https://uri.amap.com/search?keyword=%E6%AD%A6%E5%BA%B7%E5%A4%A7%E6%A5%BC%20%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF1850%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
-            "sourceUrl": "https://english.shanghai.gov.cn/en-CityTour/20231210/42df0b28496d4f80a260191deb9c3c32.html"
+            "sourceUrl": "https://whlyj.sh.gov.cn/gqfc/20251203/a1174c2de60a4524bbd58144be95c49c.html"
           },
           {
             "name": "퍼거슨 레인",
@@ -2279,7 +2386,8 @@ window.TRIP_DATA = {
             "mapUrl": "https://uri.amap.com/search?keyword=%E6%B1%BE%E9%98%B3%E8%B7%AF%20%E4%B8%8A%E6%B5%B7%20%E6%B1%BE%E9%98%B3%E8%B7%AF&city=310000&view=map&src=shanghaitech2026&callnative=1"
           }
         ],
-        "mapPlaceId": "video-wukang"
+        "mapPlaceId": "video-wukang",
+        "includedDate": "2026-10-30"
       },
       {
         "id": "waibaidu",
@@ -2456,10 +2564,10 @@ window.TRIP_DATA = {
         "area": "정안·난징서루",
         "category": "문화·전시",
         "fit": "nearby",
-        "suggestedDay": "10/28 Unitree 바로 주변",
-        "detail": "Unitree가 있는 정안 권역에서 사찰·공원 중 한 곳을 고르는 대안. 사찰 내부 입장과 바깥 산책의 조건을 구분한다.",
+        "suggestedDay": "10/28 도착 여유 시 반영",
+        "detail": "Unitree가 있는 久光 바로 옆에서 사찰 외관·공원 입구 주변 한 구간만 10–15분 본다. 늦게 도착하면 생략하며 사찰 내부 입장·공원 전체 일주는 포함하지 않는다.",
         "address": "静安区南京西路1686号",
-        "status": "선택 후보 · 운영조건 확인",
+        "status": "일정 반영 · 짧은 선택 산책",
         "videoSeconds": 756,
         "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=756s",
         "sourceUrl": "https://english.jingan.gov.cn/fw/003006/foreign-singledetail.html",
@@ -2474,7 +2582,9 @@ window.TRIP_DATA = {
             "mapUrl": "https://uri.amap.com/search?keyword=%E9%9D%99%E5%AE%89%E5%85%AC%E5%9B%AD%20%E9%9D%99%E5%AE%89%E5%AF%BA%E5%B9%BF%E5%9C%BA%20%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF%20%E9%9D%99%E5%AE%89%E5%AF%BA%E5%AF%B9%E9%9D%A2&city=310000&view=map&src=shanghaitech2026&callnative=1",
             "sourceUrl": ""
           }
-        ]
+        ],
+        "includedDate": "2026-10-28",
+        "mapPlaceId": "video-jingan"
       },
       {
         "id": "guangfulin",
