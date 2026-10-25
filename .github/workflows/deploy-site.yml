@@ -1,0 +1,40 @@
+name: Publish Shanghai site
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'dist/**'
+      - 'scripts/publish-site.mjs'
+      - 'scripts/validate-public-site.mjs'
+      - '.github/workflows/deploy-site.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: shanghai-production
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: github.repository == 'ingunbi/shanghai-tech-2026' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out public site source
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Set up Node.js
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: '24'
+      - name: Validate public assets
+        run: node scripts/validate-public-site.mjs
+      - name: Publish and verify active release
+        run: node scripts/publish-site.mjs
+        env:
+          SHANGHAI_DEPLOY_URL: https://shanghai-tech-2026.chris-ingunbi.chatgpt.site/__deploy
+          SHANGHAI_DEPLOY_TOKEN: ${{ secrets.SHANGHAI_DEPLOY_TOKEN }}

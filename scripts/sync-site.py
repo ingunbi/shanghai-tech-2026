@@ -256,6 +256,17 @@ def synchronize(source, public, old):
 
 
 def main(argv=None):
+    # GitHub is the source of truth after the automatic publishing migration.
+    # Refuse every legacy mode, including hook installation and read-only checks,
+    # before reading the former Sites checkout or its local private-marker list.
+    if (MIRROR / ".github" / "workflows" / "deploy-site.yml").is_file():
+        print(
+            "Legacy Sites-to-GitHub sync is disabled: edit this repository's dist/ "
+            "and push main for automatic publication. Use node scripts/validate-public-site.mjs "
+            "to check files. Do not reinstall the old source hook.",
+            file=sys.stderr,
+        )
+        return 1
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--source", type=Path, default=DEFAULT_SOURCE, help="Sites checkout root (default: sibling shanghai-tech-2026)")
     mode = parser.add_mutually_exclusive_group()
