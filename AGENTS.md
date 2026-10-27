@@ -1,7 +1,10 @@
 # Shanghai travel site editing
 
 This private repository is the source of truth for the public travel site:
-https://shanghai-tech-2026.chris-ingunbi.chatgpt.site
+https://ingunbi.github.io/shanghai-2026/ (primary, reachable from mainland China)
+https://shanghai-tech-2026.chris-ingunbi.chatgpt.site (older address, kept in sync)
+
+The Pages address is served from the public repository `ingunbi/shanghai-2026`, which contains only the published `dist/` files. `.github/workflows/deploy-pages.yml` mirrors `dist/` there using the `PAGES_DEPLOY_KEY` deploy-key secret. Never edit that public repository by hand or push anything but reviewed `dist/` files to it.
 
 ## Changes and publication
 

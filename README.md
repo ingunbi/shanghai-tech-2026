@@ -2,8 +2,9 @@
 
 두 사람의 상하이 5박 6일 여행 홈페이지입니다. 이 비공개 GitHub 저장소가 일정과 공개 화면의 편집 원본입니다.
 
-- 홈페이지: https://shanghai-tech-2026.chris-ingunbi.chatgpt.site
-- `main`의 공개 파일을 수정하면 GitHub Actions가 검사 후 **같은 홈페이지 주소**에 자동 반영합니다.
+- 홈페이지(중국에서 접속 가능): https://ingunbi.github.io/shanghai-2026/
+- 이전 주소(중국에서 차단될 수 있음): https://shanghai-tech-2026.chris-ingunbi.chatgpt.site
+- `main`의 공개 파일을 수정하면 GitHub Actions가 검사 후 두 주소에 자동 반영합니다. GitHub Pages 주소는 **Publish GitHub Pages mirror**가 `dist/`만 공개 저장소 `ingunbi/shanghai-2026`에 복사해 게시합니다.
 - Claude Code와 Codex 모두 이 저장소에서 작업합니다. 별도로 Codex에 배포를 요청할 필요가 없습니다.
 
 ## 수정하고 반영하기
