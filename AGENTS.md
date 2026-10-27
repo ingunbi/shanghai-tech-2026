@@ -1,10 +1,7 @@
 # Shanghai travel site editing
 
-This private repository is the source of truth for the public travel site:
-https://ingunbi.github.io/shanghai-2026/ (primary, reachable from mainland China)
-https://shanghai-tech-2026.chris-ingunbi.chatgpt.site (older address, kept in sync)
-
-The Pages address is served from the public repository `ingunbi/shanghai-2026`, which contains only the published `dist/` files. `.github/workflows/deploy-pages.yml` mirrors `dist/` there using the `PAGES_DEPLOY_KEY` deploy-key secret. Never edit that public repository by hand or push anything but reviewed `dist/` files to it.
+This public repository is the source of truth for the travel site, served by GitHub Pages:
+https://ingunbi.github.io/shanghai-tech-2026/ (reachable from mainland China)
 
 ## Changes and publication
 
@@ -13,17 +10,16 @@ The Pages address is served from the public repository `ingunbi/shanghai-2026`, 
 - Keep the concise responsive layout and short travel routes. Preserve unrelated dates and core activities unless the user requests changes.
 - When changing itinerary data, keep `days`, `journeyMap.days`, map place IDs and `videoGuide.places` inclusion dates/order consistent. State partial visits precisely.
 - Verify current venue details with official sources and retain useful source links. Do not treat old video prices/hours as current.
-- Run `node scripts/validate-public-site.mjs` and `node scripts/publish-site.mjs --dry-run`, then inspect the affected screen.
-- A branch/PR does not publish. A relevant push or merge to `main` starts **Publish Shanghai site**. Use a PR when review is requested; publish `main` only within the user's authorization.
+- Run `node scripts/validate-public-site.mjs`, then inspect the affected screen.
+- A branch/PR does not publish. A relevant push or merge to `main` starts **Publish Shanghai site** (`.github/workflows/pages.yml`). Use a PR when review is requested; publish `main` only within the user's authorization.
 - Confirm the Actions result and affected public screen. Do not claim successful deployment solely from a commit or push.
 
-## Privacy and deployment boundaries
+## Privacy boundaries
 
-- The repository stays private. Only reviewed `dist/` assets are published.
-- Exclude personal booking references, passport details, personal contacts, private email/reservation originals and credentials. Public business contacts and source links may be retained.
-- Never print, commit or transmit deployment secrets in file content, URLs, command arguments or logs. Live publication uses the GitHub Actions secret `SHANGHAI_DEPLOY_TOKEN` in an HTTP header.
-- Do not run or reinstall `scripts/sync-site.py`; the former Sites-to-GitHub direction is disabled. Do not copy any Sites Git history, Worker/server source, local marker lists or deployment credentials here.
-- Do not edit publishing workflow or server credentials as a workaround for a failed content check. Fix the underlying public-file issue.
+- The repository and its history are public. Everything committed is visible.
+- Exclude personal booking references, passport details, personal contacts (including the travellers' own phone numbers), private email/reservation originals and credentials. Public business contacts and source links may be retained.
+- Do not edit the publishing workflow as a workaround for a failed content check. Fix the underlying public-file issue.
+- Do not create mirror repositories or other hosting copies; this repository's Pages site is the only address.
 
 ## Local preview
 
