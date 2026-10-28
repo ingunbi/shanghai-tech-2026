@@ -102,7 +102,7 @@
     $('journey-live-map').classList.toggle('is-ready',!overview);
     $('journey-map-view-label').textContent = overview ? '좌표 기준 위치 개요' : candidateId ? '선택한 영상 장소의 위치' : '우리의 상하이 여행 지도';
     $('journey-map-mode').textContent = overview ? '거리 지도 보기' : '위치 개요 보기';
-    $('journey-map-notice').textContent = failed ? '거리 지도를 불러오기 어려워 위치 개요를 표시해요. 장소별 고덕지도는 계속 이용할 수 있어요.' : overview ? '위치 개요의 선은 방문 순서예요. 실제 이동은 고덕지도에서 확인하세요.' : candidateId ? '선택한 영상 장소를 보고 있어요. 날짜 버튼으로 그날의 여정에 돌아갈 수 있어요.' : (activeDate === 'all' ? '호텔과 가볼 곳을 한글로 표시했어요. 날짜를 고르면 그날의 방문지만 확대합니다.' : '그날의 방문지를 확대했어요. 선은 방문 순서예요.');
+    $('journey-map-notice').textContent = failed ? '지도 타일을 불러오지 못해 위치 개요를 표시해요. 장소별 고덕지도는 계속 이용할 수 있어요.' : overview ? '위치 개요의 선은 방문 순서예요. 실제 이동은 고덕지도에서 확인하세요.' : candidateId ? '선택한 영상 장소를 보고 있어요. 날짜 버튼으로 그날의 여정에 돌아갈 수 있어요.' : (activeDate === 'all' ? '호텔과 가볼 곳을 한글로 표시했어요. 날짜를 고르면 그날의 방문지만 확대합니다.' : '그날의 방문지를 확대했어요. 선은 방문 순서예요.');
   };
   const layoutLabels = () => {
     if (!map) return;
@@ -168,13 +168,29 @@
     map.on('zoomend moveend',layoutLabels);
     routeLayer = window.L.layerGroup().addTo(map);
     markerLayer = window.L.layerGroup().addTo(map);
-    const tileUrl = safeUrl(config.tileUrl) || 'https://tile.openstreetmap.org/{z}/{x}/{y}.png';
-    tiles = window.L.tileLayer(tileUrl,{maxZoom:18,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors'});
-    let errors = 0;
-    tiles.on('tileload',()=>{ tileReady = true; failed = false; showMode(); });
-    tiles.on('tileerror',()=>{ errors += 1; if (!tileReady && errors >= 3) { failed = true; showMode(); } });
-    tiles.addTo(map); updateMap(); showMode();
-    window.setTimeout(()=>{ if (!tileReady) { failed = true; showMode(); } },8000);
+    const amapUrl = 'https://webrd0{s}.is.autonavi.com/appmaptile?lang=zh_cn&size=1&scale=1&style=8&x={x}&y={y}&z={z}';
+    const osmUrl = 'https://tile.openstreetmap.org/{z}/{x}/{y}.png';
+    const tileUrl = safeUrl(config.tileUrl) || amapUrl;
+    let mirrorTried = false;
+    const attachTiles = (url, attribution, subdomains) => {
+      tiles = window.L.tileLayer(url,{maxZoom:18,subdomains,attribution});
+      let errors = 0;
+      tiles.on('tileload',()=>{ tileReady = true; failed = false; showMode(); });
+      tiles.on('tileerror',()=>{ errors += 1; if (!tileReady && errors >= 3) useMirror(); });
+      tiles.addTo(map);
+    };
+    const useMirror = () => {
+      if (tileReady || mirrorTried) { if (!tileReady) { failed = true; showMode(); } return; }
+      mirrorTried = true;
+      if (tiles && map) map.removeLayer(tiles);
+      attachTiles(osmUrl,'&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors','abc');
+      window.setTimeout(()=>{ if (!tileReady) { failed = true; showMode(); } },7000);
+    };
+    const amapAttribution='&copy; <a href="https://www.amap.com/" target="_blank" rel="noopener">高德地图</a>';
+    const osmAttribution='&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors';
+    attachTiles(tileUrl, tileUrl === osmUrl ? osmAttribution : amapAttribution, tileUrl === osmUrl ? 'abc' : '1234');
+    updateMap(); showMode();
+    window.setTimeout(()=>{ if (!tileReady) useMirror(); },6000);
   }
   const selectDate = date => {
     candidateId = null;
