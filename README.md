@@ -2,7 +2,7 @@
 
 두 사람의 상하이 5박 6일 여행 홈페이지입니다. 이 GitHub 저장소가 일정과 화면의 편집 원본이며, GitHub Pages로 바로 게시합니다.
 
-- 홈페이지: https://ingunbi.github.io/shanghai-tech-2026/ (중국 현지에서도 접속 가능)
+- 홈페이지: https://ingunbi.github.io/shanghai-tech-2026/ (중국 본토 접속은 통신사·지역에 따라 불안정할 수 있음)
 - `main`의 `dist/`를 수정하면 GitHub Actions의 **Publish Shanghai site**가 검사 후 자동 반영합니다.
 - Claude Code와 Codex 모두 이 저장소에서 작업합니다.
 

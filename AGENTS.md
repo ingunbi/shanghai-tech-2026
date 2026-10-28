@@ -1,7 +1,7 @@
 # Shanghai travel site editing
 
 This public repository is the source of truth for the travel site, served by GitHub Pages:
-https://ingunbi.github.io/shanghai-tech-2026/ (reachable from mainland China)
+https://ingunbi.github.io/shanghai-tech-2026/ (mainland China access varies by carrier and region)
 
 ## Changes and publication
 
