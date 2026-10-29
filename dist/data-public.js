@@ -554,19 +554,19 @@ window.TRIP_DATA = {
           "quickStatus": "예약 권장"
         },
         {
-          "time": "18:45–19:25",
-          "title": "지하철 1호선 · 마시청 이동",
+          "time": "18:45–19:15",
+          "title": "택시로 마시청 이동",
           "zh": "地铁1号线",
           "address": "新天地站 → 上海马戏城站",
-          "detail": "지하철 1호선으로 이동해 19:25까지 공연장에 도착한다. 택시보다 지하철이 예측 가능하다.",
+          "detail": "신톈디에서 택시로 25분. 19:15 도착해 입장한다.",
           "type": "이동",
-          "status": "35분",
+          "status": "택시 25분",
           "priority": "준비",
           "placeId": "era-circus",
           "mapUrl": "https://uri.amap.com/search?keyword=上海马戏城&city=310000&view=map&src=shanghaitech2026&callnative=1",
           "displayTitle": "마시청 이동",
           "shortNote": "1호선으로 35분.",
-          "quickStatus": "이동"
+          "quickStatus": "택시"
         },
         {
           "time": "19:30–21:00",
@@ -575,13 +575,13 @@ window.TRIP_DATA = {
           "address": "静安区共和新路2266号",
           "detail": "상하이 마시청의 대표 아크로바틱 공연. 회차는 월별 일정표로 확인하고 클룩 등에서 미리 예매한다.",
           "type": "공연·체험",
-          "status": "티켓 예매 필요",
+          "status": "예매 완료 · 19:30",
           "priority": "핵심",
           "placeId": "era-circus",
           "mapUrl": "https://uri.amap.com/search?keyword=上海马戏城&city=310000&view=map&src=shanghaitech2026&callnative=1",
           "displayTitle": "ERA 서커스",
-          "shortNote": "19:30 회차 예매.",
-          "quickStatus": "예매 필요"
+          "shortNote": "클룩 예매 완료. 19:30 공연.",
+          "quickStatus": "예매 완료"
         },
         {
           "time": "21:10–21:55",
