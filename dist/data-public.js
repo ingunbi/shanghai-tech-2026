@@ -439,14 +439,15 @@ window.TRIP_DATA = {
       "kicker": "FRENCH CONCESSION / ROBOT / ERA",
       "title": "조계지 골목, 로봇과 드론, 서커스",
       "area": "쉬후이 → 신톈디 → 마시청",
-      "summary": "우캉루·안푸루 골목을 걷고 机时租와 드론 배달을 체험한 뒤, 임시정부와 신톈디를 거쳐 저녁에 ERA 서커스를 본다.",
+      "summary": "우캉루·안푸루 골목을 걷고 机时租와 드론 배달을 체험한 뒤, 임시정부와 신톈디를 거쳐 海底捞에서 이른 저녁을 먹고 ERA 서커스를 본다.",
       "route": [
         "우캉맨션",
         "우캉루·안푸루",
         "机时租",
         "드론 배달 점심",
         "임시정부",
-        "신톈디 저녁",
+        "신톈디",
+        "海底捞 저녁",
         "ERA 서커스"
       ],
       "travelNote": "09:00 우캉맨션 도착, 09:45부터 우캉루·안푸루 골목을 40분 걷는다. 10:45 机时租(형산루)까지 차량 10분, 12:00 서안으로 이동해 13:00 드론 배달을 시도한다. 15:00 임시정부(16:30 매표 마감), 15:45 신톈디 산책, 17:15 저녁. 18:45 지하철 1호선으로 마시청까지 35분, 19:30 ERA 관람. 21:10 차량으로 호텔 복귀(40–50분).",
@@ -454,9 +455,9 @@ window.TRIP_DATA = {
       "focus": [
         "핵심 · 드론 배달·机时租",
         "신규 · ERA 19:30",
-        "예약 · ERA 티켓"
+        "저녁 · 海底捞 훠궈"
       ],
-      "mealNote": "점심은 드론 배달(맥도날드) 시도, 실패 시 서안 일반 식당. 저녁은 17:15 신톈디에서 이른 식사 후 서커스로 이동한다.",
+      "mealNote": "점심은 드론 배달(맥도날드) 시도, 실패 시 서안 일반 식당. 저녁은 17:15 신톈디 海底捞에서 쓰촨 훠궈를 먹고 18:45 지하철로 서커스장에 간다.",
       "displayTitle": "조계지 골목과 서커스의 밤",
       "displaySummary": "프랑스 조계지 산책을 늘리고 ERA를 더했다.",
       "shortArea": "쉬후이 · 마시청",
@@ -555,18 +556,18 @@ window.TRIP_DATA = {
         },
         {
           "time": "17:15–18:30",
-          "title": "야상하이 · 이른 저녁",
-          "zh": "夜上海 新天地",
-          "address": "黄浦区太仓路181弄 新天地",
-          "detail": "신톈디 안 상하이 요리점에서 이른 저녁. 19:30 공연에 맞추려면 18:30에는 일어선다.",
-          "type": "저녁·상하이 요리",
-          "status": "17:15 예약",
+          "title": "海底捞 · 쓰촨 훠궈 저녁",
+          "zh": "海底捞 新天地店",
+          "address": "黄浦区 新天地 일대",
+          "detail": "신톈디 인근 海底捞. ERA 19:30에 맞추려면 18:30에는 일어선다. 두 사람 모두 매운탕·맑은탕 반반 가능. 대기가 길면 18:00까지 기다리고 넘어간다. 상하이 본방채(人和馆)와 겹치지 않도록 훠궈로 바꿨다.",
+          "type": "저녁·쓰촨 훠궈",
+          "status": "17:15 입장 · 18:30 종료",
           "priority": "추천",
           "placeId": "video-xintiandi",
-          "mapUrl": "https://uri.amap.com/search?keyword=夜上海 新天地&city=310000&view=map&src=shanghaitech2026&callnative=1",
-          "displayTitle": "야상하이 저녁",
-          "shortNote": "18:30 종료 목표.",
-          "quickStatus": "예약 필요"
+          "mapUrl": "https://uri.amap.com/search?keyword=海底捞 新天地&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "displayTitle": "海底捞 저녁",
+          "shortNote": "18:30 종료 목표. 매운탕·맑은탕 반반.",
+          "quickStatus": "예약 권장"
         },
         {
           "time": "18:45–19:25",
@@ -622,23 +623,24 @@ window.TRIP_DATA = {
       "kicker": "JING'AN / AGIBOT / LAST DAY",
       "title": "로봇과 커피, 마지막 오후",
       "area": "징안 → 칠보 → 호텔",
-      "summary": "Unitree와 스타벅스 리저브, 징안사를 오전에 보고 칠보에서 AGIBOT·JD몰을 둘러본 뒤 17시 호텔로 돌아와 새벽 출국을 준비한다.",
+      "summary": "Unitree와 스타벅스 리저브, 징안사를 오전에 보고 点都德에서 얌차 점심을 한 뒤, 칠보에서 AGIBOT·JD몰을 둘러보고 16시경 호텔로 돌아와 Kwee Zeen에서 저녁을 먹고 새벽 출국을 준비한다.",
       "route": [
         "Unitree",
         "스타벅스 리저브",
         "징안사 외관",
+        "点都德 얌차",
         "AGIBOT·JD몰",
         "칠보고진",
         "호텔 복귀"
       ],
-      "travelNote": "09:00 호텔 출발, 09:40 Unitree. 스타벅스 리저브까지 도보 12분, 11:25 징안사 외관. 11:40 칠보로 이동(40분)해 12:30 AGIBOT·JD몰, 13:30 점심. 14:30 칠보고진 45분, 15:30 출발해 16:30 호텔 복귀. 17:30 호텔 저녁, 20:00 취침.",
+      "travelNote": "09:00 호텔 출발, 09:40 Unitree. 스타벅스 리저브까지 도보 12분, 11:20 징안사 외관. 11:40 点都德에서 얌차 점심 후 12:50 칠보로 이동(40분)해 13:30 AGIBOT·JD몰, 14:30 칠보고진. 15:25 출발해 16:15 호텔 복귀. 17:30 호텔 锦厨 저녁, 20:00 취침.",
       "weatherPlan": "비가 오면 칠보고진 산책을 생략하고 JD몰 실내에서 마무리한다. 새벽 출국 준비를 위해 17시 복귀를 우선한다.",
       "focus": [
         "핵심 · AGIBOT·Unitree",
-        "신규 · 스타벅스 리저브",
+        "신규 · 点都德 얌차",
         "귀국 준비 · 20시 취침"
       ],
-      "mealNote": "점심은 칠보링크플라자 13:30, 저녁은 호텔 Le Chinois 17:30. 다음 날 04:00 기상이므로 20:00 취침을 지킨다.",
+      "mealNote": "점심은 11:40 징안 点都德에서 광둥 얌차, 저녁은 17:30 호텔 锦厨 뷔페. 다음 날 04:00 기상이므로 20:00 취침을 지킨다.",
       "displayTitle": "로봇과 커피, 마지막 오후",
       "displaySummary": "징안 로봇·커피와 칠보 AGIBOT을 하루에 묶고 17시 귀환한다.",
       "shortArea": "징안 · 칠보",
@@ -660,7 +662,7 @@ window.TRIP_DATA = {
           "accessId": "unitree"
         },
         {
-          "time": "10:35–11:20",
+          "time": "10:35–11:15",
           "title": "스타벅스 리저브 로스터리",
           "zh": "星巴克臻选上海烘焙工坊",
           "address": "南京西路789号",
@@ -675,7 +677,7 @@ window.TRIP_DATA = {
           "quickStatus": "자유 일정"
         },
         {
-          "time": "11:25–11:40",
+          "time": "11:20–11:35",
           "title": "징안사 외관",
           "zh": "静安寺",
           "address": "静安区南京西路1686号",
@@ -690,7 +692,22 @@ window.TRIP_DATA = {
           "quickStatus": "외관만"
         },
         {
-          "time": "12:30–13:20",
+          "time": "11:40–12:40",
+          "title": "点都德 · 광둥 얌차 점심",
+          "zh": "点都德 静安店",
+          "address": "静安区 南京西路 일대",
+          "detail": "광둥식 얌차 전문점. 새우 딤섬·창펀·차를 곁들여 먹는다. 징안사에서 도보권이라 이동이 짧다. 12:40에 일어나 칠보로 이동한다. 같은 광둥이라도 10/27 Le Chinois(정찬)와 겹치지 않게 얌차로 골랐다.",
+          "type": "점심·광둥 얌차",
+          "status": "대기 20분 기준",
+          "priority": "추천",
+          "placeId": "video-jingan",
+          "mapUrl": "https://uri.amap.com/search?keyword=点都德 静安&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "displayTitle": "点都德 · 얌차",
+          "shortNote": "딤섬과 차로 가볍게.",
+          "quickStatus": "대기 확인"
+        },
+        {
+          "time": "13:30–14:20",
           "title": "AGIBOT · JD MALL",
           "zh": "智元京东线下首店 京东MALL上海七宝店",
           "address": "闵行区漕宝路3509号",
@@ -704,21 +721,6 @@ window.TRIP_DATA = {
           "shortNote": "로봇 시연 여부 확인.",
           "quickStatus": "현장 확인",
           "accessId": "agibot"
-        },
-        {
-          "time": "13:30–14:15",
-          "title": "청년성주 · 칠보링크플라자 점심",
-          "zh": "青年星厨 七宝领展店",
-          "address": "闵行区漕宝路3366号 七宝领展广场L4",
-          "detail": "JD몰에서 이동해 북경식·가정식 점심. 토요일 대기가 길면 바로 옆 식당으로 바꾼다.",
-          "type": "점심·중식",
-          "status": "대기 15분 기준",
-          "priority": "추천",
-          "placeId": "agibot",
-          "mapUrl": "https://uri.amap.com/search?keyword=青年星厨 七宝领展店&city=310000&view=map&src=shanghaitech2026&callnative=1",
-          "displayTitle": "청년성주 점심",
-          "shortNote": "13:30 늦은 점심.",
-          "quickStatus": "대기 확인"
         },
         {
           "time": "14:30–15:15",
@@ -736,7 +738,7 @@ window.TRIP_DATA = {
           "quickStatus": "혼잡 시 생략"
         },
         {
-          "time": "15:30–16:30",
+          "time": "15:25–16:15",
           "title": "소피텔 홍차오 복귀",
           "zh": "上海虹桥新华联索菲特大酒店",
           "address": "闵行区泰虹路666号",
@@ -752,17 +754,17 @@ window.TRIP_DATA = {
         },
         {
           "time": "17:30–18:30",
-          "title": "Le Chinois · 호텔 저녁",
-          "zh": "Le Chinois 乐轩华中餐厅",
+          "title": "Kwee Zeen · 호텔 뷔페 저녁",
+          "zh": "锦厨 上海虹桥新华联索菲特大酒店",
           "address": "闵行区泰虹路666号 索菲特",
-          "detail": "새벽 출국 전 마지막 저녁은 호텔 중식당에서. 단품 위주로 가볍게 먹는다.",
-          "type": "저녁·호텔 중식",
+          "detail": "호텔 올데이 다이닝 锦厨 뷔페. 새벽 출국 전이라 이동 없이 호텔에서 마무리한다. 10/27에 먹은 Le Chinois(광둥)와 겹치지 않도록 인터내셔널 뷔페로 바꿨다. 단품 주문도 가능하다.",
+          "type": "저녁·호텔 뷔페",
           "status": "프런트 예약",
           "priority": "추천",
           "placeId": "hotel",
-          "mapUrl": "https://uri.amap.com/search?keyword=Le Chinois 乐轩华中餐厅&city=310000&view=map&src=shanghaitech2026&callnative=1",
-          "displayTitle": "호텔 저녁",
-          "shortNote": "단품 위주로 가볍게.",
+          "mapUrl": "https://uri.amap.com/search?keyword=锦厨 上海虹桥新华联索菲特大酒店&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "displayTitle": "Kwee Zeen 호텔 저녁",
+          "shortNote": "호텔 뷔페로 가볍게.",
           "quickStatus": "예약 요청"
         },
         {
@@ -2182,7 +2184,7 @@ window.TRIP_DATA = {
         "label": "10.30",
         "title": "조계지 골목과 서커스의 밤",
         "color": "#bb7438",
-        "summary": "우캉루·안푸루 · 机时租·드론 · 임시정부·신톈디 · ERA",
+        "summary": "우캉루·안푸루 · 机时租·드론 · 임시정부·신톈디 · 海底捞 · ERA",
         "placeIds": [
           "hotel",
           "video-wukang",
@@ -2199,7 +2201,7 @@ window.TRIP_DATA = {
         "label": "10.31",
         "title": "로봇과 커피, 마지막 오후",
         "color": "#7b5c93",
-        "summary": "Unitree·스타벅스·징안사 · AGIBOT·칠보 · 17시 귀환",
+        "summary": "Unitree·스타벅스·징안사 · 点都德 얌차 · AGIBOT·칠보 · 호텔 저녁",
         "placeIds": [
           "hotel",
           "unitree",
