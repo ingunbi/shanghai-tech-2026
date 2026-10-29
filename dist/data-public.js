@@ -1030,6 +1030,13 @@ window.TRIP_DATA = {
   },
   "prep": [
     {
+      "id": "bk-hanfu",
+      "title": "한푸 스냅 — 10/29 14:15 (2인)",
+      "when": "예약 현황",
+      "done": true,
+      "detail": "豫见汉服体验馆(예원점) · 총 1,096위안 · 예약금 200위안 완납, 잔금 896위안 현장 결제. 2인 동시 진행, 16:45 종료 목표. 위치 丽水路81号 紫锦城百货 负一层 B39."
+    },
+    {
       "id": "apps",
       "title": "여행 앱 설치",
       "detail": "알리페이·고덕지도·파파고·위챗 설치 완료. 이제 계정과 결제 준비 단계로 넘어간다.",
@@ -1159,6 +1166,41 @@ window.TRIP_DATA = {
       "when": "10/31까지",
       "done": false,
       "sourceUrl": "https://english.shanghai.gov.cn/en-Individuals-MobileandInternet-SIMcard/index.html"
+    },
+    {
+      "id": "bk-lostheaven",
+      "title": "로스트 헤븐 와이탄점 — 10/29 18:30",
+      "when": "예약 현황",
+      "done": false,
+      "detail": "2인 예약 필요. 예원상장에서 차량 10분. 저녁 17:30–22:00."
+    },
+    {
+      "id": "bk-yeshanghai",
+      "title": "야상하이(신톈디) — 10/30 17:15",
+      "when": "예약 현황",
+      "done": false,
+      "detail": "ERA 19:30 공연에 맞추려면 18:30에는 일어나야 한다. 이른 저녁으로 예약."
+    },
+    {
+      "id": "bk-era",
+      "title": "ERA 서커스 — 10/30 19:30",
+      "when": "예약 현황",
+      "done": false,
+      "detail": "上海马戏城. 클룩 또는 공식 채널로 예매. 금요일 19:30 회차 확인 필요. 신톈디에서 지하철 1호선 35분."
+    },
+    {
+      "id": "bk-lechinois",
+      "title": "Le Chinois — 10/31 17:30",
+      "when": "예약 현황",
+      "done": false,
+      "detail": "호텔 중식당. 프런트에 예약 요청. 다음 날 04:00 기상이라 20:00 취침."
+    },
+    {
+      "id": "bk-car",
+      "title": "11/1 04:20 공항 차량",
+      "when": "예약 현황",
+      "done": false,
+      "detail": "홍차오 T1 국제선. 호텔 컨시어지 또는 디디추싱 예약. 새벽이라 전날 확정 필수."
     }
   ],
   "practical": [
