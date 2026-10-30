@@ -511,14 +511,14 @@ window.TRIP_DATA = {
         {
           "time": "11:50–12:25",
           "title": "중국우체국 · 엽서 보내기",
-          "zh": "中国邮政 打浦桥邮政所",
+          "zh": "中国邮政（打浦桥周边）",
           "address": "黄浦区 打浦桥·建国东路 일대",
           "detail": "티엔즈팡에서 가까운 中国邮政 지점에서 엽서와 우표를 산다. 우표는 창구에서 구입하고 바로 부치면 된다. 정확한 지점 위치는 지도 앱에서 '中国邮政'으로 확인한다. (上海邮政博物馆은 수·목·토·일만 운영이라 오늘은 휴관)",
           "type": "우체국",
           "status": "현장 확인",
           "priority": "추천",
           "placeId": "tianzifang",
-          "mapUrl": "https://uri.amap.com/search?keyword=中国邮政 打浦桥&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%AD%E5%9B%BD%E9%82%AE%E6%94%BF&city=310000&view=map&src=shanghaitech2026&callnative=1",
           "displayTitle": "우체국 엽서",
           "shortNote": "엽서·우표 구입 후 발송.",
           "quickStatus": "현장 확인"
@@ -1267,6 +1267,13 @@ window.TRIP_DATA = {
       "copy": "我的流量用完了，想订购19.9元8天20GB的假日包。订购后什么时候生效？",
       "link": "https://u.10010.cn/",
       "label": "데이터 충전"
+    },
+    {
+      "title": "우체국에서 엽서 보내기",
+      "body": "중국우체국(中国邮政) 지점에서 엽서와 우표를 사서 한국으로 부친다. 여권은 필요 없고 우표는 창구에서 구입한다. 上海邮政博物馆(北苏州路250号)은 수·목·토·일 09:00–17:00(16:00 입장 마감)만 운영하니 요일을 확인한다. 티엔즈팡·다푸차오 주변에는 도보권에 지점이 있다.",
+      "copy": "我想买明信片和邮票，寄到韩国。请问国际明信片的邮资是多少？需要贴几张邮票？",
+      "link": "https://uri.amap.com/search?keyword=%E4%B8%AD%E5%9B%BD%E9%82%AE%E6%94%BF&city=310000&view=map&src=shanghaitech2026&callnative=1",
+      "label": "가까운 우체국 찾기"
     },
     {
       "title": "못 간 곳 · 다음에 갈 후보",
