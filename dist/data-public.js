@@ -589,25 +589,25 @@ window.TRIP_DATA = {
       "kicker": "JING'AN / AGIBOT / LAST DAY",
       "title": "로봇과 커피, 마지막 오후",
       "area": "징안 → 칠보 → 호텔",
-      "summary": "마지막 날은 징안에서 로봇과 커피, 얌차 점심을 하고 어제 못 본 티엔즈팡과 우캉맨션을 들른 뒤 15:40에 호텔로 돌아와 짐을 싸고 일찍 쉰다.",
+      "summary": "마지막 날은 징안에서 로봇과 커피를 보고, 어코르 계열 풀만에서 런치를 한 뒤 티엔즈팡과 우캉맨션을 들러 16:15에 호텔로 돌아와 짐을 싼다.",
       "route": [
         "징안 이동",
         "Unitree",
         "스타벅스 리저브",
         "징안사 외관",
-        "点都德 얌차",
+        "풀만 런치",
         "티엔즈팡",
         "우캉맨션",
         "호텔 복귀"
       ],
-      "travelNote": "09:00 호텔 출발, 09:40 Unitree. 스타벅스 리저브까지 도보 12분, 11:20 징안사 외관, 11:40 点都德 얌차. 12:45 차량으로 티엔즈팡(20–25분) 13:10–13:55, 14:20 우캉맨션 30분. 15:00 출발해 15:40 호텔 복귀, 17:30 호텔 锦厨 저녁, 20:00 취침.",
+      "travelNote": "09:00 호텔 출발, 09:40 Unitree. 스타벅스 리저브까지 도보 12분, 11:20 징안사 외관. 11:40 출발해 12:15 풀만 스카이웨이(차량 25–30분) 런치. 13:35 티엔즈팡 도보 10분, 14:55 우캉맨션(차량 20–25분), 15:35 출발해 16:15 호텔 복귀. 17:30 锦厨 저녁, 20:00 취침.",
       "weatherPlan": "비가 오면 칠보고진 산책을 생략하고 JD몰 실내에서 마무리한다. 새벽 출국 준비를 위해 17시 복귀를 우선한다.",
       "focus": [
         "핵심 · Unitree",
-        "신규 · 티엔즈팡·우캉맨션",
-        "귀국 준비 · 일찍 휴식"
+        "신규 · 풀만 런치·티엔즈팡·우캉맨션",
+        "귀국 준비 · 20시 취침"
       ],
-      "mealNote": "점심은 11:40 点都德 얌차, 저녁은 17:30 호텔 锦厨 뷔페. 다음 날 04:00 기상이므로 20:00 취침.",
+      "mealNote": "점심은 풀만 스카이웨이 뷔페(어코르 계열, ALL 포인트 적립). 저녁은 호텔 锦厨. 点都德 얌차는 이번 일정에서 뺐다.",
       "displayTitle": "로봇과 커피, 마지막 오후",
       "displaySummary": "징안 로봇·커피와 칠보 AGIBOT을 하루에 묶고 17시 귀환한다.",
       "shortArea": "징안 · 칠보",
@@ -673,26 +673,26 @@ window.TRIP_DATA = {
           "quickStatus": "외관만"
         },
         {
-          "time": "11:40–12:40",
-          "title": "点都德 · 광둥 얌차 점심",
-          "zh": "点都德 静安店",
-          "address": "静安区 南京西路 일대",
-          "detail": "광둥식 얌차. 새우 딤섬·창펀·차를 곁들여 먹는다. 12:40에 티엔즈팡으로 이동.",
-          "type": "점심·광둥 얌차",
-          "status": "대기 20분 기준",
+          "time": "12:15–13:20",
+          "title": "풀만 스카이웨이 · 런치",
+          "zh": "上海斯格威铂尔曼大酒店",
+          "address": "黄浦区打浦路15号",
+          "detail": "어코르 계열 풀만. 징안에서 차량 25–30분, 티엔즈팡 도보 10분 거리라 동선 손실이 없다. 12:15 도착이면 런치 부페, 14:00 이후면 애프터눈티 세트로 이용한다. 알리페이로 결제하고 ALL 포인트 적립을 요청한다.",
+          "type": "점심·호텔 뷔페",
+          "status": "예약 권장",
           "priority": "추천",
-          "placeId": "video-jingan",
-          "mapUrl": "https://uri.amap.com/search?keyword=点都德 静安&city=310000&view=map&src=shanghaitech2026&callnative=1",
-          "displayTitle": "点都德 얌차",
-          "shortNote": "딤섬과 차로 점심.",
-          "quickStatus": "대기 확인"
+          "placeId": "pullman-skyway",
+          "mapUrl": "https://uri.amap.com/search?keyword=上海斯格威铂尔曼大酒店&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "displayTitle": "풀만 런치",
+          "shortNote": "런치 부페 또는 애프터눈티.",
+          "quickStatus": "예약 권장"
         },
         {
-          "time": "13:10–13:55",
+          "time": "13:35–14:25",
           "title": "티엔즈팡 · 골목 산책",
           "zh": "田子坊",
           "address": "黄浦区泰康路210弄",
-          "detail": "이틀 연속 못 간 곳이라 마지막 날 짧게 넣었다. 차량 20–25분. 골목 한 바퀴만 돌고 칠보로 이동한다.",
+          "detail": "풀만에서 도보 10분. 골목 상점과 공방을 50분 정도 보고 우캉맨션으로 이동한다.",
           "type": "골목·쇼핑",
           "status": "45분",
           "priority": "추천",
@@ -703,11 +703,11 @@ window.TRIP_DATA = {
           "quickStatus": "자유 일정"
         },
         {
-          "time": "14:20–14:50",
+          "time": "14:55–15:25",
           "title": "우캉맨션 · 외관",
           "zh": "武康大楼",
           "address": "徐汇区淮海中路1850号",
-          "detail": "어제 못 본 우캉맨션. 모서리와 외벽을 공공보도에서 보고 사진을 남긴다. 14:50에 칠보로 출발한다.",
+          "detail": "티엔즈팡에서 차량 20–25분. 모서리와 외벽을 공공보도에서 보고 사진을 남긴다. 15:30에 호텔로 출발.",
           "type": "건축·사진",
           "status": "30분",
           "priority": "추천",
@@ -718,11 +718,11 @@ window.TRIP_DATA = {
           "quickStatus": "자유 일정"
         },
         {
-          "time": "15:00–15:40",
+          "time": "15:35–16:15",
           "title": "소피텔 홍차오 복귀",
           "zh": "上海虹桥新华联索菲特大酒店",
           "address": "闵行区泰虹路666号",
-          "detail": "우캉맨션에서 차량 25–30분. 짐 정리와 새벽 출국 준비를 위해 일찍 들어간다.",
+          "detail": "우캉맨션에서 차량 25–30분. 짐 정리와 새벽 출국 준비를 위해 16시 전후에 들어간다.",
           "type": "호텔·휴식",
           "status": "귀환 목표",
           "priority": "핵심",
@@ -733,7 +733,7 @@ window.TRIP_DATA = {
           "quickStatus": ""
         },
         {
-          "time": "15:40–17:00",
+          "time": "16:15–17:15",
           "title": "호텔에서 휴식 · 짐 정리",
           "zh": "上海虹桥新华联索菲特大酒店",
           "address": "闵行区泰虹路666号",
@@ -2139,6 +2139,19 @@ window.TRIP_DATA = {
         "kind": "food",
         "sourceUrl": "https://www.dianping.com/",
         "mapUrl": "https://uri.amap.com/search?keyword=人和馆 静安寺店&city=310000&view=map&src=shanghaitech2026&callnative=1"
+      },
+      {
+        "id": "pullman-skyway",
+        "name": "풀만 스카이웨이",
+        "zh": "上海斯格威铂尔曼大酒店",
+        "address": "黄浦区打浦路15号",
+        "lat": 31.2046,
+        "lng": 121.4698,
+        "precision": "대략 좌표",
+        "note": "打浦桥 인근 어코르 계열. 애프터눈티·뷔페. 티엔즈팡 도보 10분.",
+        "kind": "hotel",
+        "sourceUrl": "https://all.accor.com/",
+        "mapUrl": "https://uri.amap.com/search?keyword=上海斯格威铂尔曼大酒店&city=310000&view=map&src=shanghaitech2026&callnative=1"
       }
     ],
     "days": [
@@ -2203,12 +2216,13 @@ window.TRIP_DATA = {
         "label": "10.31",
         "title": "로봇과 커피, 마지막 오후",
         "color": "#7b5c93",
-        "summary": "Unitree·스타벅스·징안사 · 点都德 · 티엔즈팡·우캉맨션 · 15:40 귀환",
+        "summary": "Unitree·스타벅스·징안사 · 풀만 런치 · 티엔즈팡·우캉맨션 · 16:15 귀환",
         "placeIds": [
           "hotel",
           "unitree",
           "video-roastery",
           "video-jingan",
+          "pullman-skyway",
           "tianzifang",
           "video-wukang",
           "hotel"
