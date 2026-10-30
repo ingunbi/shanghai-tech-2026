@@ -439,9 +439,8 @@ window.TRIP_DATA = {
       "kicker": "FRENCH CONCESSION / ROBOT / ERA",
       "title": "조계지와 티엔즈팡, 서커스의 밤",
       "area": "쉬후이 → 신톈디 → 마시청",
-      "summary": "우캉루·안푸루 골목과 티엔즈팡은 시간이 없어 건너뛰고, 우체국에서 엽서를 부쳤다. 임시정부와 신톈디를 보고 인민광장까지 걸은 뒤, 신톈디광장의 강서요리 전문점 胡恰에서 저녁을 먹고 ERA 서커스를 봤다.",
+      "summary": "우캉맨션·골목과 티엔즈팡은 시간이 없어 건너뛰고, 우체국에서 엽서를 부쳤다. 임시정부와 신톈디를 보고 인민광장까지 걸은 뒤, 신톈디광장의 강서요리 胡恰에서 저녁을 먹고 ERA 서커스를 봤다.",
       "route": [
-        "우캉맨션",
         "우체국",
         "임시정부",
         "신톈디",
@@ -449,33 +448,18 @@ window.TRIP_DATA = {
         "호차 저녁",
         "ERA"
       ],
-      "travelNote": "09:00 우캉맨션 외관만 보고 이동, 11:50 中国邮政에서 엽서. 14:00 임시정부(현장 매표), 15:00 신톈디, 16:40 인민광장까지 도보권 산책. 17:40 신톈디광장 胡恰에서 저녁, 19:30 ERA 관람 후 21:10 차량으로 호텔 복귀. 시각은 실제 흐름을 기준으로 정리했다.",
+      "travelNote": "11:50 中国邮政에서 엽서 발송, 14:00 임시정부(현장 매표), 15:00 신톈디, 16:40 인민광장. 17:40 신톈디광장 胡恰에서 저녁, 19:30 ERA 관람 후 21:10 차량으로 호텔 복귀. 우캉맨션·우캉루 골목은 가지 못해 10/31로 옮겼다.",
       "weatherPlan": "비가 오면 우캉루 골목 산책을 줄이고 机时租 실내 체험으로 시간을 옮긴다. 드론이 뜨지 않으면 서안에서 일반 점심으로 바꾼다.",
       "focus": [
         "완료 · ERA 19:30",
         "완료 · 우체국 엽서",
-        "변경 · 우캉루 골목·티엔즈팡 생략"
+        "변경 · 우캉맨션·티엔즈팡 생략"
       ],
       "mealNote": "저녁은 신톈디광장 胡恰·景德江西菜에서 2–3인 세트(198위안). 점심은 따로 기록하지 못했다.",
       "displayTitle": "조계지 골목과 서커스의 밤",
       "displaySummary": "프랑스 조계지 산책을 늘리고 ERA를 더했다.",
       "shortArea": "쉬후이 · 마시청",
       "stops": [
-        {
-          "time": "09:00–09:40",
-          "title": "우캉맨션 · 외관",
-          "zh": "武康大楼",
-          "address": "徐汇区淮海中路1850号",
-          "detail": "건물 모서리와 외벽만 보고 왔다. 우캉루·안푸루 골목 산책은 시간이 없어 생략했다.",
-          "type": "건축·사진",
-          "status": "완료",
-          "priority": "추천",
-          "placeId": "video-wukang",
-          "mapUrl": "https://uri.amap.com/search?keyword=武康大楼&city=310000&view=map&src=shanghaitech2026&callnative=1",
-          "displayTitle": "우캉맨션",
-          "shortNote": "외관만 보고 이동.",
-          "quickStatus": "완료"
-        },
         {
           "time": "11:50–12:25",
           "title": "중국우체국 · 엽서 보내기",
@@ -584,15 +568,15 @@ window.TRIP_DATA = {
         {
           "time": "생략",
           "title": "이번 일정에서 빠진 곳 · 10/30",
-          "zh": "武康路·安福路 / 田子坊",
+          "zh": "武康大楼 / 武康路·安福路 / 田子坊",
           "address": "",
-          "detail": "우캉루·안푸루 골목 산책과 티엔즈팡은 시간이 모자라 가지 못했다. 티엔즈팡은 10/31로 옮겼다.",
+          "detail": "우캉맨션과 우캉루·안푸루 골목은 시간이 없어 보지 못했고, 티엔즈팡도 가지 못했다. 우캉맨션·티엔즈팡은 10/31로 옮겼다.",
           "type": "일정 변경",
           "status": "생략",
           "priority": "선택",
           "placeId": "tianzifang",
           "mapUrl": "https://uri.amap.com/search?keyword=田子坊&city=310000&view=map&src=shanghaitech2026&callnative=1",
-          "displayTitle": "못 간 곳 · 우캉루 골목·티엔즈팡",
+          "displayTitle": "못 간 곳 · 우캉맨션·골목·티엔즈팡",
           "shortNote": "시간이 모자라 생략했어요.",
           "quickStatus": "생략"
         }
@@ -605,7 +589,7 @@ window.TRIP_DATA = {
       "kicker": "JING'AN / AGIBOT / LAST DAY",
       "title": "로봇과 커피, 마지막 오후",
       "area": "징안 → 칠보 → 호텔",
-      "summary": "마지막 날은 징안에서 로봇과 커피, 얌차 점심을 하고 티엔즈팡을 짧게 들른 뒤, 칠보고진에서 수향 골목을 걷고 16:30에 호텔로 돌아와 짐을 싼다.",
+      "summary": "마지막 날은 징안에서 로봇과 커피, 얌차 점심을 하고 티엔즈팡과 어제 못 본 우캉맨션을 들른 뒤, 칠보에서 AGIBOT을 보고 16:50에 호텔로 돌아와 짐을 싼다.",
       "route": [
         "징안 이동",
         "Unitree",
@@ -613,14 +597,15 @@ window.TRIP_DATA = {
         "징안사 외관",
         "点都德 얌차",
         "티엔즈팡",
-        "칠보고진",
+        "우캉맨션",
+        "AGIBOT",
         "호텔 복귀"
       ],
-      "travelNote": "09:00 호텔 출발, 09:40 Unitree. 스타벅스 리저브까지 도보 12분, 11:20 징안사 외관, 11:40 点都德 얌차. 12:45 차량으로 티엔즈팡(20–25분) 13:10–13:55, 14:05 칠보로 이동(30–40분), 14:50 칠보고진 45분. 15:45 출발해 16:30 호텔 복귀. 17:30 호텔 锦厨 저녁, 19:00 짐 정리, 20:00 취침.",
+      "travelNote": "09:00 호텔 출발, 09:40 Unitree. 스타벅스 리저브까지 도보 12분, 11:20 징안사 외관, 11:40 点都德 얌차. 12:45 차량으로 티엔즈팡(20–25분) 13:10–13:55, 14:20 우캉맨션 30분, 14:50 칠보로 이동(30–35분). 15:25 AGIBOT·JD MALL, 16:10 출발해 16:50 호텔 복귀. 17:30 호텔 锦厨 저녁, 20:00 취침.",
       "weatherPlan": "비가 오면 칠보고진 산책을 생략하고 JD몰 실내에서 마무리한다. 새벽 출국 준비를 위해 17시 복귀를 우선한다.",
       "focus": [
-        "핵심 · Unitree",
-        "신규 · 티엔즈팡·칠보고진",
+        "핵심 · Unitree·AGIBOT",
+        "신규 · 티엔즈팡·우캉맨션",
         "귀국 준비 · 20시 취침"
       ],
       "mealNote": "점심은 11:40 点都德 얌차, 저녁은 17:30 호텔 锦厨 뷔페. 다음 날 04:00 기상이므로 20:00 취침.",
@@ -719,26 +704,41 @@ window.TRIP_DATA = {
           "quickStatus": "자유 일정"
         },
         {
-          "time": "14:50–15:35",
-          "title": "칠보고진 · 수향 산책",
-          "zh": "七宝古镇",
-          "address": "闵行区七宝镇横沥路108号",
-          "detail": "AGIBOT·JD몰을 빼고 그 시간에 칠보고진을 넣었다. 운하·돌다리·옛 거리가 남은 미니 수향마을로, 티엔즈팡에서 차량 30–40분. 간식 하나만 고르고 45분 걷는다.",
-          "type": "수향마을·산책",
-          "status": "45분",
+          "time": "14:20–14:50",
+          "title": "우캉맨션 · 외관",
+          "zh": "武康大楼",
+          "address": "徐汇区淮海中路1850号",
+          "detail": "어제 못 본 우캉맨션. 모서리와 외벽을 공공보도에서 보고 사진을 남긴다. 14:50에 칠보로 출발한다.",
+          "type": "건축·사진",
+          "status": "30분",
           "priority": "추천",
-          "placeId": "video-qibao",
-          "mapUrl": "https://uri.amap.com/search?keyword=七宝古镇&city=310000&view=map&src=shanghaitech2026&callnative=1",
-          "displayTitle": "칠보고진",
-          "shortNote": "수향 골목 45분.",
+          "placeId": "video-wukang",
+          "mapUrl": "https://uri.amap.com/search?keyword=武康大楼&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "displayTitle": "우캉맨션",
+          "shortNote": "외관 사진 30분.",
           "quickStatus": "자유 일정"
         },
         {
-          "time": "15:45–16:30",
+          "time": "15:25–16:00",
+          "title": "AGIBOT · JD MALL",
+          "zh": "智元京东线下首店 京东MALL上海七宝店",
+          "address": "闵行区漕宝路3509号",
+          "detail": "우캉맨션에서 차량 30–35분. 휴머노이드 전시 매장에서 시연 여부를 확인하고, 같은 건물 JD MALL을 짧게 본다. 16:00에 호텔로 출발한다.",
+          "type": "휴머노이드·IT",
+          "status": "공개 매장 확인",
+          "priority": "추천",
+          "placeId": "agibot",
+          "mapUrl": "https://uri.amap.com/search?keyword=智元京东线下首店&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "displayTitle": "AGIBOT",
+          "shortNote": "로봇 전시 확인.",
+          "quickStatus": "현장 확인"
+        },
+        {
+          "time": "16:10–16:50",
           "title": "소피텔 홍차오 복귀",
           "zh": "上海虹桥新华联索菲特大酒店",
           "address": "闵行区泰虹路666号",
-          "detail": "차량 25–35분. 짐 정리와 새벽 출국 준비를 위해 17시 이전에 들어간다.",
+          "detail": "차량 25–35분. 짐 정리와 새벽 출국 준비를 위해 17시 전후에 들어간다.",
           "type": "호텔·휴식",
           "status": "귀환 목표",
           "priority": "핵심",
@@ -2191,7 +2191,6 @@ window.TRIP_DATA = {
         "summary": "우캉맨션 · 우체국 · 임시정부 · 신톈디 · 인민광장 · 호차 저녁 · ERA",
         "placeIds": [
           "hotel",
-          "video-wukang",
           "tianzifang",
           "video-korean-gov",
           "video-xintiandi",
@@ -2205,14 +2204,15 @@ window.TRIP_DATA = {
         "label": "10.31",
         "title": "로봇과 커피, 마지막 오후",
         "color": "#7b5c93",
-        "summary": "Unitree·스타벅스·징안사 · 点都德 얌차 · 티엔즈팡 · 칠보고진 · 16:30 귀환",
+        "summary": "Unitree·스타벅스·징안사 · 点都德 · 티엔즈팡·우캉맨션 · AGIBOT · 16:50 귀환",
         "placeIds": [
           "hotel",
           "unitree",
           "video-roastery",
           "video-jingan",
           "tianzifang",
-          "video-qibao",
+          "video-wukang",
+          "agibot",
           "hotel"
         ]
       },
@@ -2410,10 +2410,10 @@ window.TRIP_DATA = {
         "area": "우캉·쉬후이",
         "category": "거리·쇼핑",
         "fit": "nearby",
-        "suggestedDay": "10/30 오전 우캉맨션 외관만 반영",
+        "suggestedDay": "10/31 오후",
         "detail": "이 권역 중 우캉맨션 외관만 오전 로봇 방문 전에15–20분 본다. 10:25에는 출발해11시 로봇 매장에 도착하며 지연 시 생략한다. 안푸루·카페·다른 하위 장소는 추가하지 않는다.",
         "address": "徐汇区武康路·安福路，武康大楼位于淮海中路1850号",
-        "status": "일정 반영 · 우캉맨션만",
+        "status": "일정 반영",
         "videoSeconds": 308,
         "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=308s",
         "sourceUrl": "https://english.shanghai.gov.cn/en-SpecialtyShoppingAreas/20231217/b15a12afaa1c4fdcbca0f7638b05727b.html",
@@ -2491,7 +2491,7 @@ window.TRIP_DATA = {
           }
         ],
         "mapPlaceId": "video-wukang",
-        "includedDate": "2026-10-30"
+        "includedDate": "2026-10-31"
       },
       {
         "id": "waibaidu",
@@ -2755,17 +2755,17 @@ window.TRIP_DATA = {
         "area": "홍차오·서쪽 교외",
         "category": "수향마을",
         "fit": "nearby",
-        "suggestedDay": "10/31 오후",
+        "suggestedDay": "10/31 시간 부족",
         "detail": "AGIBOT·JD MALL 뒤 기존 선택 산책을 45–60분 고진 산책과 간식으로 구체화했다. 주말 혼잡 시 생략하고 호텔 17시 복귀와 새벽 귀국 준비를 우선한다.",
         "address": "旅游咨询点：闵行区七宝镇横沥路108号",
-        "status": "일정 반영",
+        "status": "다음 기회",
         "videoSeconds": 946,
         "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=946s",
         "sourceUrl": "https://whlyj.sh.gov.cn/4ajjq/20191008/0022-28627.html",
         "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%83%E5%AE%9D%E5%8F%A4%E9%95%87%20%E6%97%85%E6%B8%B8%E5%92%A8%E8%AF%A2%E7%82%B9%EF%BC%9A%E9%97%B5%E8%A1%8C%E5%8C%BA%E4%B8%83%E5%AE%9D%E9%95%87%E6%A8%AA%E6%B2%A5%E8%B7%AF108%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
         "subPlaces": [],
         "mapPlaceId": "video-qibao",
-        "includedDate": "2026-10-31"
+        "includedDate": null
       },
       {
         "id": "xinchang",
