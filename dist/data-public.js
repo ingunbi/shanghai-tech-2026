@@ -605,7 +605,7 @@ window.TRIP_DATA = {
       "kicker": "JING'AN / AGIBOT / LAST DAY",
       "title": "로봇과 커피, 마지막 오후",
       "area": "징안 → 칠보 → 호텔",
-      "summary": "마지막 날은 징안에서 로봇과 커피, 얌차 점심을 하고 이틀 연속 못 간 티엔즈팡을 짧게 들른 뒤, 칠보에서 AGIBOT을 보고 16:30에 호텔로 돌아와 짐을 싼다.",
+      "summary": "마지막 날은 징안에서 로봇과 커피, 얌차 점심을 하고 티엔즈팡을 짧게 들른 뒤, 칠보고진에서 수향 골목을 걷고 16:30에 호텔로 돌아와 짐을 싼다.",
       "route": [
         "징안 이동",
         "Unitree",
@@ -613,14 +613,14 @@ window.TRIP_DATA = {
         "징안사 외관",
         "点都德 얌차",
         "티엔즈팡",
-        "AGIBOT",
+        "칠보고진",
         "호텔 복귀"
       ],
-      "travelNote": "09:00 호텔 출발, 09:40 Unitree. 스타벅스 리저브까지 도보 12분, 11:20 징안사 외관, 11:40 点都德 얌차. 12:45 차량으로 티엔즈팡(20–25분) 13:10–13:55, 14:05 칠보로 이동(30–40분), 14:50 AGIBOT·JD MALL. 15:40 출발해 16:30 호텔 복귀. 17:30 호텔 锦厨 저녁, 19:00 짐 정리, 20:00 취침.",
+      "travelNote": "09:00 호텔 출발, 09:40 Unitree. 스타벅스 리저브까지 도보 12분, 11:20 징안사 외관, 11:40 点都德 얌차. 12:45 차량으로 티엔즈팡(20–25분) 13:10–13:55, 14:05 칠보로 이동(30–40분), 14:50 칠보고진 45분. 15:45 출발해 16:30 호텔 복귀. 17:30 호텔 锦厨 저녁, 19:00 짐 정리, 20:00 취침.",
       "weatherPlan": "비가 오면 칠보고진 산책을 생략하고 JD몰 실내에서 마무리한다. 새벽 출국 준비를 위해 17시 복귀를 우선한다.",
       "focus": [
-        "핵심 · AGIBOT·Unitree",
-        "신규 · 티엔즈팡(짧게)",
+        "핵심 · Unitree",
+        "신규 · 티엔즈팡·칠보고진",
         "귀국 준비 · 20시 취침"
       ],
       "mealNote": "점심은 11:40 点都德 얌차, 저녁은 17:30 호텔 锦厨 뷔페. 다음 날 04:00 기상이므로 20:00 취침.",
@@ -719,22 +719,22 @@ window.TRIP_DATA = {
           "quickStatus": "자유 일정"
         },
         {
-          "time": "14:50–15:30",
-          "title": "AGIBOT · JD MALL",
-          "zh": "智元京东线下首店 京东MALL上海七宝店",
-          "address": "闵行区漕宝路3509号",
-          "detail": "휴머노이드 안내·체험 매장. 현장 악수·시연 가능 여부는 직원 안내를 따른다.",
-          "type": "휴머노이드",
-          "status": "공개 매장 확인",
-          "priority": "핵심",
-          "placeId": "agibot",
-          "mapUrl": "https://uri.amap.com/search?keyword=智元京东线下首店&city=310000&view=map&src=shanghaitech2026&callnative=1",
-          "displayTitle": "AGIBOT",
-          "shortNote": "로봇 시연 확인.",
-          "quickStatus": "현장 확인"
+          "time": "14:50–15:35",
+          "title": "칠보고진 · 수향 산책",
+          "zh": "七宝古镇",
+          "address": "闵行区七宝镇横沥路108号",
+          "detail": "AGIBOT·JD몰을 빼고 그 시간에 칠보고진을 넣었다. 운하·돌다리·옛 거리가 남은 미니 수향마을로, 티엔즈팡에서 차량 30–40분. 간식 하나만 고르고 45분 걷는다.",
+          "type": "수향마을·산책",
+          "status": "45분",
+          "priority": "추천",
+          "placeId": "video-qibao",
+          "mapUrl": "https://uri.amap.com/search?keyword=七宝古镇&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "displayTitle": "칠보고진",
+          "shortNote": "수향 골목 45분.",
+          "quickStatus": "자유 일정"
         },
         {
-          "time": "15:40–16:30",
+          "time": "15:45–16:30",
           "title": "소피텔 홍차오 복귀",
           "zh": "上海虹桥新华联索菲特大酒店",
           "address": "闵行区泰虹路666号",
@@ -2205,14 +2205,14 @@ window.TRIP_DATA = {
         "label": "10.31",
         "title": "로봇과 커피, 마지막 오후",
         "color": "#7b5c93",
-        "summary": "Unitree·스타벅스·징안사 · 点都德 얌차 · 티엔즈팡 · AGIBOT · 16:30 귀환",
+        "summary": "Unitree·스타벅스·징안사 · 点都德 얌차 · 티엔즈팡 · 칠보고진 · 16:30 귀환",
         "placeIds": [
           "hotel",
           "unitree",
           "video-roastery",
           "video-jingan",
           "tianzifang",
-          "agibot",
+          "video-qibao",
           "hotel"
         ]
       },
@@ -2755,17 +2755,17 @@ window.TRIP_DATA = {
         "area": "홍차오·서쪽 교외",
         "category": "수향마을",
         "fit": "nearby",
-        "suggestedDay": "10/31 시간 부족으로 생략",
+        "suggestedDay": "10/31 오후",
         "detail": "AGIBOT·JD MALL 뒤 기존 선택 산책을 45–60분 고진 산책과 간식으로 구체화했다. 주말 혼잡 시 생략하고 호텔 17시 복귀와 새벽 귀국 준비를 우선한다.",
         "address": "旅游咨询点：闵行区七宝镇横沥路108号",
-        "status": "다음 기회",
+        "status": "일정 반영",
         "videoSeconds": 946,
         "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=946s",
         "sourceUrl": "https://whlyj.sh.gov.cn/4ajjq/20191008/0022-28627.html",
         "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%83%E5%AE%9D%E5%8F%A4%E9%95%87%20%E6%97%85%E6%B8%B8%E5%92%A8%E8%AF%A2%E7%82%B9%EF%BC%9A%E9%97%B5%E8%A1%8C%E5%8C%BA%E4%B8%83%E5%AE%9D%E9%95%87%E6%A8%AA%E6%B2%A5%E8%B7%AF108%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
         "subPlaces": [],
         "mapPlaceId": "video-qibao",
-        "includedDate": null
+        "includedDate": "2026-10-31"
       },
       {
         "id": "xinchang",
