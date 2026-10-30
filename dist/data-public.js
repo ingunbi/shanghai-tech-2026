@@ -589,7 +589,7 @@ window.TRIP_DATA = {
       "kicker": "JING'AN / AGIBOT / LAST DAY",
       "title": "로봇과 커피, 마지막 오후",
       "area": "징안 → 칠보 → 호텔",
-      "summary": "마지막 날은 징안에서 로봇과 커피, 얌차 점심을 하고 티엔즈팡과 어제 못 본 우캉맨션을 들른 뒤, 칠보에서 AGIBOT을 보고 16:50에 호텔로 돌아와 짐을 싼다.",
+      "summary": "마지막 날은 징안에서 로봇과 커피, 얌차 점심을 하고 어제 못 본 티엔즈팡과 우캉맨션을 들른 뒤 15:40에 호텔로 돌아와 짐을 싸고 일찍 쉰다.",
       "route": [
         "징안 이동",
         "Unitree",
@@ -598,15 +598,14 @@ window.TRIP_DATA = {
         "点都德 얌차",
         "티엔즈팡",
         "우캉맨션",
-        "AGIBOT",
         "호텔 복귀"
       ],
-      "travelNote": "09:00 호텔 출발, 09:40 Unitree. 스타벅스 리저브까지 도보 12분, 11:20 징안사 외관, 11:40 点都德 얌차. 12:45 차량으로 티엔즈팡(20–25분) 13:10–13:55, 14:20 우캉맨션 30분, 14:50 칠보로 이동(30–35분). 15:25 AGIBOT·JD MALL, 16:10 출발해 16:50 호텔 복귀. 17:30 호텔 锦厨 저녁, 20:00 취침.",
+      "travelNote": "09:00 호텔 출발, 09:40 Unitree. 스타벅스 리저브까지 도보 12분, 11:20 징안사 외관, 11:40 点都德 얌차. 12:45 차량으로 티엔즈팡(20–25분) 13:10–13:55, 14:20 우캉맨션 30분. 15:00 출발해 15:40 호텔 복귀, 17:30 호텔 锦厨 저녁, 20:00 취침.",
       "weatherPlan": "비가 오면 칠보고진 산책을 생략하고 JD몰 실내에서 마무리한다. 새벽 출국 준비를 위해 17시 복귀를 우선한다.",
       "focus": [
-        "핵심 · Unitree·AGIBOT",
+        "핵심 · Unitree",
         "신규 · 티엔즈팡·우캉맨션",
-        "귀국 준비 · 20시 취침"
+        "귀국 준비 · 일찍 휴식"
       ],
       "mealNote": "점심은 11:40 点都德 얌차, 저녁은 17:30 호텔 锦厨 뷔페. 다음 날 04:00 기상이므로 20:00 취침.",
       "displayTitle": "로봇과 커피, 마지막 오후",
@@ -719,26 +718,11 @@ window.TRIP_DATA = {
           "quickStatus": "자유 일정"
         },
         {
-          "time": "15:25–16:00",
-          "title": "AGIBOT · JD MALL",
-          "zh": "智元京东线下首店 京东MALL上海七宝店",
-          "address": "闵行区漕宝路3509号",
-          "detail": "우캉맨션에서 차량 30–35분. 휴머노이드 전시 매장에서 시연 여부를 확인하고, 같은 건물 JD MALL을 짧게 본다. 16:00에 호텔로 출발한다.",
-          "type": "휴머노이드·IT",
-          "status": "공개 매장 확인",
-          "priority": "추천",
-          "placeId": "agibot",
-          "mapUrl": "https://uri.amap.com/search?keyword=智元京东线下首店&city=310000&view=map&src=shanghaitech2026&callnative=1",
-          "displayTitle": "AGIBOT",
-          "shortNote": "로봇 전시 확인.",
-          "quickStatus": "현장 확인"
-        },
-        {
-          "time": "16:10–16:50",
+          "time": "15:00–15:40",
           "title": "소피텔 홍차오 복귀",
           "zh": "上海虹桥新华联索菲特大酒店",
           "address": "闵行区泰虹路666号",
-          "detail": "차량 25–35분. 짐 정리와 새벽 출국 준비를 위해 17시 전후에 들어간다.",
+          "detail": "우캉맨션에서 차량 25–30분. 짐 정리와 새벽 출국 준비를 위해 일찍 들어간다.",
           "type": "호텔·휴식",
           "status": "귀환 목표",
           "priority": "핵심",
@@ -747,6 +731,21 @@ window.TRIP_DATA = {
           "displayTitle": "호텔 복귀",
           "shortNote": "16시 30분 복귀.",
           "quickStatus": ""
+        },
+        {
+          "time": "15:40–17:00",
+          "title": "호텔에서 휴식 · 짐 정리",
+          "zh": "上海虹桥新华联索菲特大酒店",
+          "address": "闵行区泰虹路666号",
+          "detail": "마지막 날 오후는 호텔에서 쉬며 짐을 싼다. 11/1 04:20 차량 출발과 05:00 T1 도착을 확인하고, 여권·배터리 규정·중국 SIM 로밍을 점검한다.",
+          "type": "귀국 준비",
+          "status": "여유",
+          "priority": "핵심",
+          "placeId": "hotel",
+          "mapUrl": "https://uri.amap.com/search?keyword=上海虹桥新华联索菲特大酒店&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "displayTitle": "휴식·짐 정리",
+          "shortNote": "짐 싸고 로밍 점검.",
+          "quickStatus": "여유"
         },
         {
           "time": "17:30–18:30",
@@ -2204,7 +2203,7 @@ window.TRIP_DATA = {
         "label": "10.31",
         "title": "로봇과 커피, 마지막 오후",
         "color": "#7b5c93",
-        "summary": "Unitree·스타벅스·징안사 · 点都德 · 티엔즈팡·우캉맨션 · AGIBOT · 16:50 귀환",
+        "summary": "Unitree·스타벅스·징안사 · 点都德 · 티엔즈팡·우캉맨션 · 15:40 귀환",
         "placeIds": [
           "hotel",
           "unitree",
@@ -2212,7 +2211,6 @@ window.TRIP_DATA = {
           "video-jingan",
           "tianzifang",
           "video-wukang",
-          "agibot",
           "hotel"
         ]
       },
