@@ -127,27 +127,69 @@ window.TRIP_DATA = {
       "displayTitle": "도착일은 가볍게, 홍차오에서",
       "displaySummary": "SIM 개통 완료 · 체크인 · 저녁은 호텔 Le Chinois.",
       "shortArea": "도착 · 홍차오",
-      "photos": [
+      "photoStory": [
         {
-          "src": "assets/photos/10-27-01.webp",
-          "caption": "상하이로 가는 길",
-          "alt": "비행기 좌석에서 찍은 인권의 셀카",
-          "width": 960,
-          "height": 1280
+          "time": "11:35",
+          "title": "김포에서 출발",
+          "text": "출국 수속을 마치고 공항에서 잠깐 쉬었다가 탑승교를 지나 MU512에 올랐다.",
+          "photos": [
+            {
+              "src": "assets/photos/10-27-01.webp",
+              "caption": "출발 전",
+              "alt": "김포공항에서 함께 찍은 인권과 연주",
+              "width": 675,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-27-02.webp",
+              "caption": "공항에서",
+              "alt": "김포공항 테이블에 앉은 연주",
+              "width": 507,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-27-03.webp",
+              "caption": "탑승교",
+              "alt": "비행기로 이어지는 탑승교",
+              "width": 507,
+              "height": 900
+            }
+          ]
         },
         {
-          "src": "assets/photos/10-27-02.webp",
-          "caption": "첫 저녁",
-          "alt": "호텔 중식당 Le Chinois의 저녁 상",
-          "width": 721,
-          "height": 1280
+          "time": "12:51",
+          "title": "상하이 도착",
+          "text": "12:55 홍차오 T1 도착. 착륙 직전 기내에서 한 장을 남겼다.",
+          "photos": [
+            {
+              "src": "assets/photos/10-27-04.webp",
+              "caption": "기내에서",
+              "alt": "비행기 좌석에서 찍은 인권의 셀카",
+              "width": 675,
+              "height": 900
+            }
+          ]
         },
         {
-          "src": "assets/photos/10-27-03.webp",
-          "caption": "호텔 중식당",
-          "alt": "접시에 담긴 Le Chinois의 요리",
-          "width": 721,
-          "height": 1280
+          "time": "19:57",
+          "title": "호텔 Le Chinois",
+          "text": "SIM을 개통하고 체크인한 뒤 첫 저녁은 호텔 중식당 Le Chinois에서 먹었다.",
+          "photos": [
+            {
+              "src": "assets/photos/10-27-05.webp",
+              "caption": "호텔 중식당",
+              "alt": "접시에 담긴 Le Chinois의 요리",
+              "width": 507,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-27-06.webp",
+              "caption": "첫 저녁",
+              "alt": "호텔 중식당 Le Chinois의 저녁 상",
+              "width": 507,
+              "height": 900
+            }
+          ]
         }
       ]
     },
@@ -301,83 +343,244 @@ window.TRIP_DATA = {
           "quickStatus": "생략"
         }
       ],
-      "photos": [
+      "photoStory": [
         {
-          "src": "assets/photos/10-28-01.webp",
-          "caption": "118층에서",
-          "alt": "상하이타워 전망대에서 내려다본 루자쭈이와 황푸강",
-          "width": 721,
-          "height": 1280
+          "time": "14:08",
+          "title": "루자쭈이 도착",
+          "text": "환불 처리로 50분 늦게 출발해 오후에 루자쭈이에 닿았다. 고개를 들면 상하이타워가 바로 위에 있었다.",
+          "photos": [
+            {
+              "src": "assets/photos/10-28-01.webp",
+              "caption": "올려다본 타워",
+              "alt": "루자쭈이에서 올려다본 상하이타워와 고층 빌딩",
+              "width": 507,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-28-02.webp",
+              "caption": "상하이타워 입구",
+              "alt": "上海之品商场 간판이 보이는 상하이타워 입구",
+              "width": 507,
+              "height": 900
+            }
+          ]
         },
         {
-          "src": "assets/photos/10-28-02.webp",
-          "caption": "전망대 창가",
-          "alt": "전망대 유리창 앞에서 상하이 시내를 바라보는 연주",
-          "width": 960,
-          "height": 1280
+          "time": "14:27",
+          "title": "상하이타워 118층",
+          "text": "엘리베이터 전시를 지나 118층 전망대에 올랐다. 맑은 날이라 황푸강이 굽어 흐르는 모습이 멀리까지 보였다.",
+          "photos": [
+            {
+              "src": "assets/photos/10-28-03.webp",
+              "caption": "올라가는 길",
+              "alt": "빛의 띠가 이어지는 전망대 가는 통로",
+              "width": 507,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-28-04.webp",
+              "caption": "118층에서",
+              "alt": "상하이타워 전망대에서 내려다본 루자쭈이와 황푸강",
+              "width": 507,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-28-05.webp",
+              "caption": "창가의 인권",
+              "alt": "전망대 창가에서 시내를 내려다보는 인권의 뒷모습",
+              "width": 675,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-28-06.webp",
+              "caption": "창가의 연주",
+              "alt": "전망대 유리창 앞에서 상하이 시내를 바라보는 연주",
+              "width": 675,
+              "height": 900
+            }
+          ]
         },
         {
-          "src": "assets/photos/10-28-03.webp",
-          "caption": "루자쭈이에서",
-          "alt": "고층 빌딩을 배경으로 함께 찍은 인권과 연주",
-          "width": 960,
-          "height": 1280
+          "time": "16:00",
+          "title": "타워 아래, 동방명주까지",
+          "text": "내려와서 세 빌딩을 올려다보고 육교를 건너 동방명주 앞까지 걸었다. 동방명주는 오르지 않고 바깥에서 사진만 남겼다.",
+          "photos": [
+            {
+              "src": "assets/photos/10-28-07.webp",
+              "caption": "세 개의 빌딩",
+              "alt": "아래에서 올려다본 루자쭈이의 고층 빌딩 세 동",
+              "width": 900,
+              "height": 675
+            },
+            {
+              "src": "assets/photos/10-28-08.webp",
+              "caption": "루자쭈이에서",
+              "alt": "고층 빌딩을 배경으로 함께 찍은 인권과 연주",
+              "width": 675,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-28-09.webp",
+              "caption": "육교 위 인권",
+              "alt": "동방명주를 배경으로 육교 위에 선 인권",
+              "width": 675,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-28-10.webp",
+              "caption": "동방명주",
+              "alt": "해 질 무렵의 동방명주",
+              "width": 507,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-28-11.webp",
+              "caption": "동방명주 앞 연주",
+              "alt": "노을빛 하늘 아래 동방명주 앞에 선 연주",
+              "width": 675,
+              "height": 900
+            }
+          ]
         },
         {
-          "src": "assets/photos/10-28-04.webp",
-          "caption": "동방명주 앞",
-          "alt": "노을빛 하늘 아래 동방명주 앞에 선 연주",
-          "width": 960,
-          "height": 1280
+          "time": "17:16",
+          "title": "우주와 달",
+          "text": "해가 질 무렵 들어간 전시장에서 로켓 모형과 우주선 세트, 커다란 달 앞에서 사진을 찍었다.",
+          "photos": [
+            {
+              "src": "assets/photos/10-28-12.webp",
+              "caption": "로켓 모형",
+              "alt": "유리 진열장 안의 로켓 모형들",
+              "width": 507,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-28-13.webp",
+              "caption": "우주선 세트",
+              "alt": "지구가 보이는 우주선 세트 안에서 팔을 벌린 연주",
+              "width": 675,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-28-14.webp",
+              "caption": "달 앞의 두 사람",
+              "alt": "커다란 달 조형 앞에서 손을 든 두 사람의 실루엣",
+              "width": 675,
+              "height": 900
+            }
+          ]
         },
         {
-          "src": "assets/photos/10-28-05.webp",
-          "caption": "우주선 세트",
-          "alt": "지구가 보이는 우주선 세트 안에서 팔을 벌린 연주",
-          "width": 960,
-          "height": 1280
+          "time": "17:33",
+          "title": "관광터널로 강 건너기",
+          "text": "관광터널 열차를 타고 황푸강 아래를 지나 와이탄으로 건너갔다.",
+          "photos": [
+            {
+              "src": "assets/photos/10-28-15.webp",
+              "caption": "터널 열차",
+              "alt": "번호가 붙은 관광터널 열차 칸",
+              "width": 507,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-28-16.webp",
+              "caption": "푸른 터널",
+              "alt": "푸른 조명이 이어지는 관광터널",
+              "width": 507,
+              "height": 900
+            }
+          ]
         },
         {
-          "src": "assets/photos/10-28-06.webp",
-          "caption": "달 앞의 두 사람",
-          "alt": "커다란 달 조형 앞에서 손을 든 두 사람의 실루엣",
-          "width": 960,
-          "height": 1280
+          "time": "18:01",
+          "title": "와이탄의 밤",
+          "text": "와이탄에 도착하니 강 건너 푸둥 스카이라인에 불이 들어와 있었다.",
+          "photos": [
+            {
+              "src": "assets/photos/10-28-17.webp",
+              "caption": "푸둥을 등지고",
+              "alt": "푸둥 야경을 배경으로 선 인권",
+              "width": 675,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-28-18.webp",
+              "caption": "푸둥 야경",
+              "alt": "푸둥 스카이라인을 등지고 선 연주",
+              "width": 675,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-28-19.webp",
+              "caption": "와이탄 건물들",
+              "alt": "조명이 켜진 와이탄의 건물들",
+              "width": 900,
+              "height": 675
+            },
+            {
+              "src": "assets/photos/10-28-20.webp",
+              "caption": "시계탑",
+              "alt": "불이 켜진 와이탄의 시계탑 건물",
+              "width": 507,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-28-21.webp",
+              "caption": "강 건너를 보며",
+              "alt": "푸둥 야경을 바라보는 인권의 뒷모습",
+              "width": 675,
+              "height": 900
+            }
+          ]
         },
         {
-          "src": "assets/photos/10-28-07.webp",
-          "caption": "관광터널",
-          "alt": "푸른 조명이 이어지는 관광터널",
-          "width": 721,
-          "height": 1280
-        },
-        {
-          "src": "assets/photos/10-28-08.webp",
-          "caption": "와이탄의 밤",
-          "alt": "조명이 켜진 와이탄의 건물들",
-          "width": 1280,
-          "height": 960
-        },
-        {
-          "src": "assets/photos/10-28-09.webp",
-          "caption": "푸둥 야경",
-          "alt": "푸둥 스카이라인을 등지고 선 연주",
-          "width": 960,
-          "height": 1280
-        },
-        {
-          "src": "assets/photos/10-28-10.webp",
-          "caption": "강 건너를 보며",
-          "alt": "등 번호 7이 보이는 옷을 입고 푸둥 야경을 바라보는 인권",
-          "width": 960,
-          "height": 1280
-        },
-        {
-          "src": "assets/photos/10-28-11.webp",
-          "caption": "人和馆 저녁",
-          "alt": "人和馆 테이블에 앉은 연주",
-          "width": 960,
-          "height": 1280
+          "time": "19:39",
+          "title": "징안사 人和馆",
+          "text": "지하철 14호선으로 징안사에 가서 人和馆에서 상하이 본방채로 저녁을 먹었다.",
+          "photos": [
+            {
+              "src": "assets/photos/10-28-22.webp",
+              "caption": "人和馆",
+              "alt": "저녁을 먹은 人和馆 입구",
+              "width": 507,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-28-23.webp",
+              "caption": "미쉐린 표시",
+              "alt": "미쉐린 1스타 표시가 붙은 벽",
+              "width": 507,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-28-24.webp",
+              "caption": "테이블의 연주",
+              "alt": "人和馆 테이블에 앉은 연주",
+              "width": 675,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-28-25.webp",
+              "caption": "테이블의 인권",
+              "alt": "人和馆 테이블에 앉은 인권",
+              "width": 675,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-28-26.webp",
+              "caption": "본방채",
+              "alt": "소스를 끼얹은 생선 요리",
+              "width": 675,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-28-27.webp",
+              "caption": "뚝배기",
+              "alt": "버섯과 두부가 든 뚝배기",
+              "width": 675,
+              "height": 900
+            }
+          ]
         }
       ]
     },
@@ -530,104 +733,279 @@ window.TRIP_DATA = {
           "quickStatus": "생략"
         }
       ],
-      "photos": [
+      "photoStory": [
         {
-          "src": "assets/photos/10-29-01.webp",
-          "caption": "예원상장 점심",
-          "alt": "예원상장에서 점심을 앞두고 장난스럽게 찍은 두 사람",
-          "width": 960,
-          "height": 1280
+          "time": "13:08",
+          "title": "예원상장에 도착",
+          "text": "티엔즈팡·인민광장은 건너뛰고 예원으로 바로 왔다. 골목마다 등불이 걸려 있었고, 점심도 상장 안에서 먹었다.",
+          "photos": [
+            {
+              "src": "assets/photos/10-29-01.webp",
+              "caption": "예원상장",
+              "alt": "처마가 겹쳐진 예원상장 골목",
+              "width": 507,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-29-02.webp",
+              "caption": "예원상장 점심",
+              "alt": "예원상장에서 점심을 앞두고 장난스럽게 찍은 두 사람",
+              "width": 675,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-29-03.webp",
+              "caption": "등불 골목",
+              "alt": "예원상장 골목 위에 걸린 등불들",
+              "width": 675,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-29-04.webp",
+              "caption": "등불 구경",
+              "alt": "고개를 들어 등불을 올려다보는 연주",
+              "width": 675,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-29-05.webp",
+              "caption": "흐린 오후",
+              "alt": "우산을 든 사람들이 지나는 예원 연못가",
+              "width": 675,
+              "height": 900
+            }
+          ]
         },
         {
-          "src": "assets/photos/10-29-02.webp",
-          "caption": "등불 골목",
-          "alt": "예원상장 골목 위에 걸린 등불들",
-          "width": 960,
-          "height": 1280
+          "time": "15:41",
+          "title": "메이크업과 한푸",
+          "text": "14:15 예약으로 메이크업을 받고 한푸를 골라 입었다. 머리 장식까지 올리니 거울 속 얼굴이 완전히 달라졌다.",
+          "photos": [
+            {
+              "src": "assets/photos/10-29-06.webp",
+              "caption": "푸른 머리 장식",
+              "alt": "메이크업 숍에서 푸른 머리 장식을 쓴 모습",
+              "width": 675,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-29-07.webp",
+              "caption": "분홍 머리 장식",
+              "alt": "분홍 꽃 머리 장식을 쓴 셀카",
+              "width": 675,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-29-08.webp",
+              "caption": "준비 완료",
+              "alt": "푸른 머리 장식을 쓰고 웃는 얼굴",
+              "width": 675,
+              "height": 900
+            }
+          ]
         },
         {
-          "src": "assets/photos/10-29-03.webp",
-          "caption": "머리 장식",
-          "alt": "푸른 머리 장식을 쓰고 웃는 얼굴",
-          "width": 960,
-          "height": 1280
+          "time": "15:50",
+          "title": "오후 촬영",
+          "text": "흐린 오후, 등롱이 걸린 난간과 누각 앞을 옮겨 다니며 촬영했다.",
+          "photos": [
+            {
+              "src": "assets/photos/10-29-09.webp",
+              "caption": "푸른 한푸",
+              "alt": "부채를 들고 소매를 펼친 푸른 한푸 차림",
+              "width": 600,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-29-10.webp",
+              "caption": "분홍 한푸",
+              "alt": "등롱이 걸린 난간 앞에서 소매를 펼친 분홍 한푸 차림",
+              "width": 600,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-29-11.webp",
+              "caption": "나란히",
+              "alt": "부채를 들고 나란히 선 두 사람",
+              "width": 600,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-29-12.webp",
+              "caption": "누각 앞에서",
+              "alt": "높은 누각이 보이는 광장에 선 분홍 한푸 차림",
+              "width": 675,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-29-13.webp",
+              "caption": "종이우산",
+              "alt": "종이우산을 든 분홍 한푸 차림",
+              "width": 600,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-29-14.webp",
+              "caption": "꽃가지",
+              "alt": "꽃가지를 든 분홍 한푸 차림",
+              "width": 600,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-29-15.webp",
+              "caption": "푸른 한푸와 우산",
+              "alt": "종이우산을 든 푸른 한푸 차림",
+              "width": 600,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-29-16.webp",
+              "caption": "둘이서",
+              "alt": "꽃가지와 우산을 들고 나란히 선 두 사람",
+              "width": 600,
+              "height": 900
+            }
+          ]
         },
         {
-          "src": "assets/photos/10-29-04.webp",
-          "caption": "분홍 한푸",
-          "alt": "등롱이 걸린 난간 앞에서 소매를 펼친 분홍 한푸 차림",
-          "width": 853,
-          "height": 1280
+          "time": "16:50",
+          "title": "촬영 사이",
+          "text": "촬영 틈틈이 둘이서 셀카도 찍었다.",
+          "photos": [
+            {
+              "src": "assets/photos/10-29-17.webp",
+              "caption": "쉬는 틈에",
+              "alt": "한푸 차림으로 함께 찍은 셀카",
+              "width": 506,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-29-18.webp",
+              "caption": "함께 찍은 셀카",
+              "alt": "한푸 차림으로 함께 찍은 두 사람의 셀카",
+              "width": 675,
+              "height": 900
+            }
+          ]
         },
         {
-          "src": "assets/photos/10-29-05.webp",
-          "caption": "누각 앞에서",
-          "alt": "높은 누각이 보이는 광장에 선 분홍 한푸 차림",
-          "width": 960,
-          "height": 1280
+          "time": "17:29",
+          "title": "불이 켜진 예원",
+          "text": "해가 지자 예원상장 건물과 나무에 조명이 하나둘 들어왔다.",
+          "photos": [
+            {
+              "src": "assets/photos/10-29-19.webp",
+              "caption": "불이 켜진 예원",
+              "alt": "해가 진 뒤 조명이 들어온 예원상장",
+              "width": 675,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-29-20.webp",
+              "caption": "등불 나무",
+              "alt": "등불이 가득 달린 나무",
+              "width": 675,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-29-21.webp",
+              "caption": "광장에서",
+              "alt": "조명이 켜진 건물 앞 광장에 선 분홍 한푸 차림",
+              "width": 675,
+              "height": 900
+            }
+          ]
         },
         {
-          "src": "assets/photos/10-29-06.webp",
-          "caption": "종이우산",
-          "alt": "종이우산을 든 분홍 한푸 차림",
-          "width": 853,
-          "height": 1280
+          "time": "18:07",
+          "title": "야경 촬영",
+          "text": "조명이 들어온 뒤 누각과 등불 거리, 연못가 다리에서 한 번 더 찍었다.",
+          "photos": [
+            {
+              "src": "assets/photos/10-29-22.webp",
+              "caption": "누각 앞 푸른 한푸",
+              "alt": "붉게 빛나는 누각 앞의 푸른 한푸 차림",
+              "width": 600,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-29-23.webp",
+              "caption": "야경 촬영",
+              "alt": "조명이 켜진 누각 앞에서 손을 흔드는 두 사람",
+              "width": 600,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-29-24.webp",
+              "caption": "등불 천장",
+              "alt": "둥근 등불이 가득한 거리에 선 분홍 한푸 차림",
+              "width": 600,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-29-25.webp",
+              "caption": "등불 아래",
+              "alt": "둥근 등불 아래에 선 두 사람",
+              "width": 600,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-29-26.webp",
+              "caption": "밤의 우산",
+              "alt": "불이 켜진 건물 앞에서 우산을 든 분홍 한푸 차림",
+              "width": 600,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-29-27.webp",
+              "caption": "다리 위에서",
+              "alt": "밤의 다리 위에 함께 선 두 사람",
+              "width": 675,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-29-28.webp",
+              "caption": "연못가",
+              "alt": "연못가 난간 앞에서 소매를 펼친 분홍 한푸 차림",
+              "width": 675,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-29-29.webp",
+              "caption": "밤하늘 아래",
+              "alt": "불 켜진 지붕을 배경으로 선 분홍 한푸 차림",
+              "width": 675,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-29-30.webp",
+              "caption": "마지막 한 장",
+              "alt": "연못가에서 얼굴을 맞대고 찍은 두 사람",
+              "width": 506,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-29-31.webp",
+              "caption": "등불 거리",
+              "alt": "둥근 등불이 이어지는 밤의 예원상장",
+              "width": 675,
+              "height": 900
+            }
+          ]
         },
         {
-          "src": "assets/photos/10-29-07.webp",
-          "caption": "푸른 한푸",
-          "alt": "종이우산을 든 푸른 한푸 차림",
-          "width": 853,
-          "height": 1280
-        },
-        {
-          "src": "assets/photos/10-29-08.webp",
-          "caption": "오후 촬영",
-          "alt": "꽃가지와 우산을 들고 나란히 선 두 사람",
-          "width": 853,
-          "height": 1280
-        },
-        {
-          "src": "assets/photos/10-29-09.webp",
-          "caption": "함께 찍은 셀카",
-          "alt": "한푸 차림으로 함께 찍은 두 사람의 셀카",
-          "width": 960,
-          "height": 1280
-        },
-        {
-          "src": "assets/photos/10-29-10.webp",
-          "caption": "불이 켜진 예원",
-          "alt": "해가 진 뒤 조명이 들어온 예원상장",
-          "width": 960,
-          "height": 1280
-        },
-        {
-          "src": "assets/photos/10-29-11.webp",
-          "caption": "야경 촬영",
-          "alt": "조명이 켜진 누각 앞에서 손을 흔드는 두 사람",
-          "width": 853,
-          "height": 1280
-        },
-        {
-          "src": "assets/photos/10-29-12.webp",
-          "caption": "등불 천장",
-          "alt": "둥근 등불이 가득한 거리에 선 분홍 한푸 차림",
-          "width": 853,
-          "height": 1280
-        },
-        {
-          "src": "assets/photos/10-29-13.webp",
-          "caption": "등불 아래",
-          "alt": "둥근 등불 아래에 선 두 사람",
-          "width": 853,
-          "height": 1280
-        },
-        {
-          "src": "assets/photos/10-29-14.webp",
-          "caption": "밤의 우산",
-          "alt": "불이 켜진 건물 앞에서 우산을 든 분홍 한푸 차림",
-          "width": 853,
-          "height": 1280
+          "time": "20:06",
+          "title": "하이디라오",
+          "text": "한푸를 반납하고 저녁은 하이디라오에서 먹었다.",
+          "photos": [
+            {
+              "src": "assets/photos/10-29-32.webp",
+              "caption": "소스 바",
+              "alt": "하이디라오의 소스 바",
+              "width": 675,
+              "height": 900
+            }
+          ]
         }
       ]
     },
@@ -779,69 +1157,146 @@ window.TRIP_DATA = {
           "quickStatus": "생략"
         }
       ],
-      "photos": [
+      "photoStory": [
         {
-          "src": "assets/photos/10-30-01.webp",
-          "caption": "임시정부 유적지",
-          "alt": "대한민국 임시정부 유적지 표지판이 붙은 벽돌 벽",
-          "width": 960,
-          "height": 1280
+          "time": "13:33",
+          "title": "지하철로 임시정부",
+          "text": "우체국에서 엽서를 부친 뒤 지하철을 타고 대한민국 임시정부 청사로 갔다. 현장에서 표를 사서 관람했다.",
+          "photos": [
+            {
+              "src": "assets/photos/10-30-01.webp",
+              "caption": "지하철에서",
+              "alt": "지하철 좌석에 앉은 연주",
+              "width": 675,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-30-02.webp",
+              "caption": "임시정부 유적지",
+              "alt": "대한민국 임시정부 유적지 표지판이 붙은 벽돌 벽",
+              "width": 675,
+              "height": 900
+            }
+          ]
         },
         {
-          "src": "assets/photos/10-30-02.webp",
-          "caption": "가로수 길",
-          "alt": "플라타너스 가로수 길에 선 연주",
-          "width": 960,
-          "height": 1280
+          "time": "14:10",
+          "title": "신톈디 산책",
+          "text": "플라타너스 가로수가 늘어선 신톈디 골목을 걸었다.",
+          "photos": [
+            {
+              "src": "assets/photos/10-30-03.webp",
+              "caption": "가로수 길",
+              "alt": "플라타너스 가로수 길에 선 연주",
+              "width": 675,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-30-04.webp",
+              "caption": "골목 건물",
+              "alt": "오래된 벽돌 건물 앞의 연주",
+              "width": 675,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-30-05.webp",
+              "caption": "조 말론 조형물",
+              "alt": "조 말론 조형물 앞에 선 연주",
+              "width": 675,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-30-06.webp",
+              "caption": "빨간 공중전화",
+              "alt": "빨간 공중전화 부스에서 수화기를 든 연주",
+              "width": 675,
+              "height": 900
+            }
+          ]
         },
         {
-          "src": "assets/photos/10-30-03.webp",
-          "caption": "조 말론 조형물",
-          "alt": "조 말론 조형물 앞에 선 연주",
-          "width": 960,
-          "height": 1280
+          "time": "15:08",
+          "title": "인민광장까지 걷기",
+          "text": "신톈디에서 인민광장까지 걸었다. 해가 낮아지면서 그림자가 길게 늘어졌다.",
+          "photos": [
+            {
+              "src": "assets/photos/10-30-07.webp",
+              "caption": "오후의 거리",
+              "alt": "오토바이가 지나는 상하이 거리",
+              "width": 507,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-30-08.webp",
+              "caption": "높은 빌딩",
+              "alt": "파란 하늘 아래의 흰 고층 빌딩",
+              "width": 675,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-30-09.webp",
+              "caption": "오후의 긴 그림자",
+              "alt": "낮은 햇살에 긴 그림자가 드리운 보행로",
+              "width": 675,
+              "height": 900
+            }
+          ]
         },
         {
-          "src": "assets/photos/10-30-04.webp",
-          "caption": "빨간 공중전화",
-          "alt": "빨간 공중전화 부스에서 수화기를 든 연주",
-          "width": 960,
-          "height": 1280
+          "time": "16:55",
+          "title": "저녁, 그리고 공연장으로",
+          "text": "저녁은 신톈디광장의 강서요리 胡恰에서 먹고 ERA를 보러 이동했다.",
+          "photos": [
+            {
+              "src": "assets/photos/10-30-10.webp",
+              "caption": "저녁 상",
+              "alt": "고기와 셀러리를 볶은 요리",
+              "width": 675,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-30-11.webp",
+              "caption": "둘이서 셀카",
+              "alt": "놀란 표정으로 함께 찍은 두 사람의 셀카",
+              "width": 675,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-30-12.webp",
+              "caption": "쇼핑몰",
+              "alt": "공연 전 들른 쇼핑몰 안의 연주",
+              "width": 675,
+              "height": 900
+            }
+          ]
         },
         {
-          "src": "assets/photos/10-30-05.webp",
-          "caption": "오후의 긴 그림자",
-          "alt": "낮은 햇살에 긴 그림자가 드리운 보행로",
-          "width": 960,
-          "height": 1280
-        },
-        {
-          "src": "assets/photos/10-30-06.webp",
-          "caption": "둘이서 셀카",
-          "alt": "놀란 표정으로 함께 찍은 두 사람의 셀카",
-          "width": 960,
-          "height": 1280
-        },
-        {
-          "src": "assets/photos/10-30-07.webp",
-          "caption": "빛으로 그린 풍경",
-          "alt": "폭포와 붉은 나무 영상이 비친 어두운 공간",
-          "width": 960,
-          "height": 1280
-        },
-        {
-          "src": "assets/photos/10-30-08.webp",
-          "caption": "ERA",
-          "alt": "ERA 공연장 앞의 연주",
-          "width": 960,
-          "height": 1280
-        },
-        {
-          "src": "assets/photos/10-30-09.webp",
-          "caption": "ERA 앞에서",
-          "alt": "ERA 공연장 계단 옆에 선 인권",
-          "width": 960,
-          "height": 1280
+          "time": "19:13",
+          "title": "ERA 서커스",
+          "text": "ERA 공연장에 도착했다. 공연이 끝난 뒤 21:10 차량으로 호텔에 돌아왔다.",
+          "photos": [
+            {
+              "src": "assets/photos/10-30-13.webp",
+              "caption": "빛으로 그린 풍경",
+              "alt": "폭포와 붉은 나무 영상이 비친 어두운 공간",
+              "width": 675,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-30-14.webp",
+              "caption": "ERA",
+              "alt": "ERA 공연장 앞의 연주",
+              "width": 675,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-30-15.webp",
+              "caption": "ERA 앞에서",
+              "alt": "ERA 공연장 계단 옆에 선 인권",
+              "width": 675,
+              "height": 900
+            }
+          ]
         }
       ]
     },
@@ -962,62 +1417,160 @@ window.TRIP_DATA = {
           "quickStatus": "생략"
         }
       ],
-      "photos": [
+      "photoStory": [
         {
-          "src": "assets/photos/10-31-01.webp",
-          "caption": "풀만 창가",
-          "alt": "풀만 창가 자리에 앉은 연주",
-          "width": 960,
-          "height": 1280
+          "time": "14:41",
+          "title": "풀만 런치",
+          "text": "마지막 날 점심은 풀만 스카이웨이 창가 자리에서 뷔페 50% 쿠폰으로 먹었다.",
+          "photos": [
+            {
+              "src": "assets/photos/10-31-01.webp",
+              "caption": "풀만 창가",
+              "alt": "풀만 창가 자리에 앉은 연주",
+              "width": 675,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-31-02.webp",
+              "caption": "풀만 건물",
+              "alt": "파란 하늘 아래의 풀만 호텔 건물",
+              "width": 675,
+              "height": 900
+            }
+          ]
         },
         {
-          "src": "assets/photos/10-31-02.webp",
-          "caption": "티엔즈팡",
-          "alt": "티엔즈팡 입구의 꽃 장식 앞에 선 연주",
-          "width": 960,
-          "height": 1280
+          "time": "15:16",
+          "title": "티엔즈팡",
+          "text": "좁은 골목을 따라 가게와 그림 벽을 구경하며 걸었다.",
+          "photos": [
+            {
+              "src": "assets/photos/10-31-03.webp",
+              "caption": "가는 길",
+              "alt": "티엔즈팡으로 가는 길의 거리",
+              "width": 675,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-31-04.webp",
+              "caption": "티엔즈팡 입구",
+              "alt": "티엔즈팡 입구의 꽃 장식 앞에 선 연주",
+              "width": 675,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-31-05.webp",
+              "caption": "그림 벽",
+              "alt": "작은 그림이 빼곡히 걸린 벽",
+              "width": 675,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-31-06.webp",
+              "caption": "초록 가게",
+              "alt": "초록빛으로 꾸민 가게 안",
+              "width": 675,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-31-07.webp",
+              "caption": "골목의 인권",
+              "alt": "티엔즈팡 골목에 선 인권",
+              "width": 675,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-31-08.webp",
+              "caption": "골목 산책",
+              "alt": "티엔즈팡 골목을 걷는 연주의 뒷모습",
+              "width": 675,
+              "height": 900
+            }
+          ]
         },
         {
-          "src": "assets/photos/10-31-03.webp",
-          "caption": "골목 산책",
-          "alt": "티엔즈팡 골목을 걷는 연주의 뒷모습",
-          "width": 960,
-          "height": 1280
+          "time": "17:27",
+          "title": "스타벅스 리저브 로스터리",
+          "text": "징안으로 넘어가 스타벅스 리저브 로스터리에 들렀다. 커다란 구리 통 앞에 앉아 한 잔씩 마셨다.",
+          "photos": [
+            {
+              "src": "assets/photos/10-31-09.webp",
+              "caption": "로스터리",
+              "alt": "해 질 무렵의 스타벅스 리저브 로스터리",
+              "width": 675,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-31-10.webp",
+              "caption": "로스터리 안 연주",
+              "alt": "커피를 들고 로스터리 안에 앉은 연주",
+              "width": 675,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-31-11.webp",
+              "caption": "로스터리 안 인권",
+              "alt": "로스터리 안에서 음료를 마시는 인권",
+              "width": 675,
+              "height": 900
+            }
+          ]
         },
         {
-          "src": "assets/photos/10-31-04.webp",
-          "caption": "로스터리",
-          "alt": "해 질 무렵의 스타벅스 리저브 로스터리",
-          "width": 960,
-          "height": 1280
+          "time": "18:18",
+          "title": "The Louis 앞에서",
+          "text": "밖으로 나오니 배 모양의 The Louis 건물에 불이 켜져 있었다. 그 앞 거리를 한참 걸었다.",
+          "photos": [
+            {
+              "src": "assets/photos/10-31-12.webp",
+              "caption": "The Louis",
+              "alt": "해 질 무렵 불이 켜진 배 모양의 The Louis",
+              "width": 675,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-31-13.webp",
+              "caption": "올려다보며",
+              "alt": "The Louis를 올려다보는 연주",
+              "width": 675,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-31-14.webp",
+              "caption": "The Louis 앞 인권",
+              "alt": "배 모양의 The Louis 건물 앞에 선 인권",
+              "width": 675,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-31-15.webp",
+              "caption": "밤거리",
+              "alt": "사람들로 붐비는 밤거리",
+              "width": 675,
+              "height": 900
+            },
+            {
+              "src": "assets/photos/10-31-16.webp",
+              "caption": "돌아가는 길",
+              "alt": "가로등이 켜진 밤의 길",
+              "width": 675,
+              "height": 900
+            }
+          ]
         },
         {
-          "src": "assets/photos/10-31-05.webp",
-          "caption": "로스터리 안",
-          "alt": "커피를 들고 로스터리 안에 앉은 연주",
-          "width": 960,
-          "height": 1280
-        },
-        {
-          "src": "assets/photos/10-31-06.webp",
-          "caption": "커피 한 잔",
-          "alt": "로스터리 안에서 음료를 마시는 인권",
-          "width": 960,
-          "height": 1280
-        },
-        {
-          "src": "assets/photos/10-31-07.webp",
-          "caption": "The Louis 앞",
-          "alt": "배 모양의 The Louis 건물 앞에 선 인권",
-          "width": 960,
-          "height": 1280
-        },
-        {
-          "src": "assets/photos/10-31-08.webp",
-          "caption": "탕후루",
-          "alt": "손에 든 탕후루",
-          "width": 960,
-          "height": 1280
+          "time": "21:50",
+          "title": "마지막 간식",
+          "text": "호텔로 돌아가기 전 탕후루 하나. 23시에 호텔로 돌아와 짐을 쌌다.",
+          "photos": [
+            {
+              "src": "assets/photos/10-31-17.webp",
+              "caption": "탕후루",
+              "alt": "손에 든 탕후루",
+              "width": 675,
+              "height": 900
+            }
+          ]
         }
       ]
     },
