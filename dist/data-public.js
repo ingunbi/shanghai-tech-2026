@@ -130,13 +130,20 @@ window.TRIP_DATA = {
       "photos": [
         {
           "src": "assets/photos/10-27-01.webp",
+          "caption": "상하이로 가는 길",
+          "alt": "비행기 좌석에서 찍은 인권의 셀카",
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "src": "assets/photos/10-27-02.webp",
           "caption": "첫 저녁",
           "alt": "호텔 중식당 Le Chinois의 저녁 상",
           "width": 721,
           "height": 1280
         },
         {
-          "src": "assets/photos/10-27-02.webp",
+          "src": "assets/photos/10-27-03.webp",
           "caption": "호텔 중식당",
           "alt": "접시에 담긴 Le Chinois의 요리",
           "width": 721,
@@ -318,37 +325,58 @@ window.TRIP_DATA = {
         },
         {
           "src": "assets/photos/10-28-04.webp",
-          "caption": "동방명주",
-          "alt": "해 질 무렵의 동방명주",
-          "width": 721,
+          "caption": "동방명주 앞",
+          "alt": "노을빛 하늘 아래 동방명주 앞에 선 연주",
+          "width": 960,
           "height": 1280
         },
         {
           "src": "assets/photos/10-28-05.webp",
+          "caption": "우주선 세트",
+          "alt": "지구가 보이는 우주선 세트 안에서 팔을 벌린 연주",
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "src": "assets/photos/10-28-06.webp",
           "caption": "달 앞의 두 사람",
           "alt": "커다란 달 조형 앞에서 손을 든 두 사람의 실루엣",
           "width": 960,
           "height": 1280
         },
         {
-          "src": "assets/photos/10-28-06.webp",
+          "src": "assets/photos/10-28-07.webp",
+          "caption": "관광터널",
+          "alt": "푸른 조명이 이어지는 관광터널",
+          "width": 721,
+          "height": 1280
+        },
+        {
+          "src": "assets/photos/10-28-08.webp",
           "caption": "와이탄의 밤",
           "alt": "조명이 켜진 와이탄의 건물들",
           "width": 1280,
           "height": 960
         },
         {
-          "src": "assets/photos/10-28-07.webp",
+          "src": "assets/photos/10-28-09.webp",
           "caption": "푸둥 야경",
           "alt": "푸둥 스카이라인을 등지고 선 연주",
           "width": 960,
           "height": 1280
         },
         {
-          "src": "assets/photos/10-28-08.webp",
-          "caption": "人和馆",
-          "alt": "저녁을 먹은 人和馆 입구",
-          "width": 721,
+          "src": "assets/photos/10-28-10.webp",
+          "caption": "강 건너를 보며",
+          "alt": "등 번호 7이 보이는 옷을 입고 푸둥 야경을 바라보는 인권",
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "src": "assets/photos/10-28-11.webp",
+          "caption": "人和馆 저녁",
+          "alt": "人和馆 테이블에 앉은 연주",
+          "width": 960,
           "height": 1280
         }
       ]
@@ -505,50 +533,99 @@ window.TRIP_DATA = {
       "photos": [
         {
           "src": "assets/photos/10-29-01.webp",
-          "caption": "등불 골목",
-          "alt": "예원상장 골목 위에 걸린 등불들",
-          "width": 960,
-          "height": 1280
-        },
-        {
-          "src": "assets/photos/10-29-02.webp",
           "caption": "예원상장 점심",
           "alt": "예원상장에서 점심을 앞두고 장난스럽게 찍은 두 사람",
           "width": 960,
           "height": 1280
         },
         {
+          "src": "assets/photos/10-29-02.webp",
+          "caption": "등불 골목",
+          "alt": "예원상장 골목 위에 걸린 등불들",
+          "width": 960,
+          "height": 1280
+        },
+        {
           "src": "assets/photos/10-29-03.webp",
-          "caption": "한푸 차림",
-          "alt": "한푸를 입고 예원상장에 선 두 사람",
-          "width": 853,
+          "caption": "머리 장식",
+          "alt": "푸른 머리 장식을 쓰고 웃는 얼굴",
+          "width": 960,
           "height": 1280
         },
         {
           "src": "assets/photos/10-29-04.webp",
-          "caption": "오후 촬영",
-          "alt": "누각 앞에서 한푸를 입고 선 두 사람",
+          "caption": "분홍 한푸",
+          "alt": "등롱이 걸린 난간 앞에서 소매를 펼친 분홍 한푸 차림",
           "width": 853,
           "height": 1280
         },
         {
           "src": "assets/photos/10-29-05.webp",
+          "caption": "누각 앞에서",
+          "alt": "높은 누각이 보이는 광장에 선 분홍 한푸 차림",
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "src": "assets/photos/10-29-06.webp",
+          "caption": "종이우산",
+          "alt": "종이우산을 든 분홍 한푸 차림",
+          "width": 853,
+          "height": 1280
+        },
+        {
+          "src": "assets/photos/10-29-07.webp",
+          "caption": "푸른 한푸",
+          "alt": "종이우산을 든 푸른 한푸 차림",
+          "width": 853,
+          "height": 1280
+        },
+        {
+          "src": "assets/photos/10-29-08.webp",
+          "caption": "오후 촬영",
+          "alt": "꽃가지와 우산을 들고 나란히 선 두 사람",
+          "width": 853,
+          "height": 1280
+        },
+        {
+          "src": "assets/photos/10-29-09.webp",
+          "caption": "함께 찍은 셀카",
+          "alt": "한푸 차림으로 함께 찍은 두 사람의 셀카",
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "src": "assets/photos/10-29-10.webp",
           "caption": "불이 켜진 예원",
           "alt": "해가 진 뒤 조명이 들어온 예원상장",
           "width": 960,
           "height": 1280
         },
         {
-          "src": "assets/photos/10-29-06.webp",
+          "src": "assets/photos/10-29-11.webp",
           "caption": "야경 촬영",
           "alt": "조명이 켜진 누각 앞에서 손을 흔드는 두 사람",
           "width": 853,
           "height": 1280
         },
         {
-          "src": "assets/photos/10-29-07.webp",
+          "src": "assets/photos/10-29-12.webp",
+          "caption": "등불 천장",
+          "alt": "둥근 등불이 가득한 거리에 선 분홍 한푸 차림",
+          "width": 853,
+          "height": 1280
+        },
+        {
+          "src": "assets/photos/10-29-13.webp",
           "caption": "등불 아래",
           "alt": "둥근 등불 아래에 선 두 사람",
+          "width": 853,
+          "height": 1280
+        },
+        {
+          "src": "assets/photos/10-29-14.webp",
+          "caption": "밤의 우산",
+          "alt": "불이 켜진 건물 앞에서 우산을 든 분홍 한푸 차림",
           "width": 853,
           "height": 1280
         }
@@ -719,22 +796,50 @@ window.TRIP_DATA = {
         },
         {
           "src": "assets/photos/10-30-03.webp",
+          "caption": "조 말론 조형물",
+          "alt": "조 말론 조형물 앞에 선 연주",
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "src": "assets/photos/10-30-04.webp",
           "caption": "빨간 공중전화",
           "alt": "빨간 공중전화 부스에서 수화기를 든 연주",
           "width": 960,
           "height": 1280
         },
         {
-          "src": "assets/photos/10-30-04.webp",
-          "caption": "쇼핑몰",
-          "alt": "공연 전 들른 쇼핑몰 안의 연주",
+          "src": "assets/photos/10-30-05.webp",
+          "caption": "오후의 긴 그림자",
+          "alt": "낮은 햇살에 긴 그림자가 드리운 보행로",
           "width": 960,
           "height": 1280
         },
         {
-          "src": "assets/photos/10-30-05.webp",
+          "src": "assets/photos/10-30-06.webp",
+          "caption": "둘이서 셀카",
+          "alt": "놀란 표정으로 함께 찍은 두 사람의 셀카",
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "src": "assets/photos/10-30-07.webp",
+          "caption": "빛으로 그린 풍경",
+          "alt": "폭포와 붉은 나무 영상이 비친 어두운 공간",
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "src": "assets/photos/10-30-08.webp",
           "caption": "ERA",
           "alt": "ERA 공연장 앞의 연주",
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "src": "assets/photos/10-30-09.webp",
+          "caption": "ERA 앞에서",
+          "alt": "ERA 공연장 계단 옆에 선 인권",
           "width": 960,
           "height": 1280
         }
@@ -895,13 +1000,20 @@ window.TRIP_DATA = {
         },
         {
           "src": "assets/photos/10-31-06.webp",
-          "caption": "The Louis",
-          "alt": "배 모양의 The Louis 건물",
+          "caption": "커피 한 잔",
+          "alt": "로스터리 안에서 음료를 마시는 인권",
           "width": 960,
           "height": 1280
         },
         {
           "src": "assets/photos/10-31-07.webp",
+          "caption": "The Louis 앞",
+          "alt": "배 모양의 The Louis 건물 앞에 선 인권",
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "src": "assets/photos/10-31-08.webp",
           "caption": "탕후루",
           "alt": "손에 든 탕후루",
           "width": 960,
