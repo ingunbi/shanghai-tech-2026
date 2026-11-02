@@ -1,15 +1,13 @@
 window.TRIP_DATA = {
   "meta": {
     "title": "상하이, 우리만의 6일",
-    "subtitle": "휴머노이드와 인사하고, 강변에서 드론이 가져온 점심을 기다린 두 사람의 상하이 — 다녀온 뒤 정리한 기록.",
+    "subtitle": "상하이타워와 와이탄, 예원의 한푸, ERA 서커스, 티엔즈팡과 로스터리까지 — 다녀온 뒤 정리한 기록.",
     "startDate": "2026-10-27",
     "endDate": "2026-11-01",
     "travelers": "두 사람",
-    "updated": "2026-11-01",
-    "heroImage": "assets/hero.jpg",
-    "heroCaption": "WEST BUND · DRONE DELIVERY",
-    "heroCredit": "쉬후이구 공식 보도 자료사진 · 직접 촬영 사진 아님",
-    "heroSourceUrl": "https://www.shanghai.gov.cn/nw15343/20260923/1fe30fe4e6194afbbacdf1b40179f159.html"
+    "updated": "2026-11-02",
+    "heroImage": "assets/hero-our-trip.webp",
+    "heroCaption": "LUJIAZUI · 10.28"
   },
   "days": [
     {
@@ -26,21 +24,20 @@ window.TRIP_DATA = {
         "소피텔 홍차오",
         "Le Chinois 저녁"
       ],
-      "travelNote": "12:55 도착 후 입국·수하물 60–90분, SIM 상담·개통 30–60분, 호텔 차량 이동 30–45분을 확보한 계획. 공항 상담이 길어지면 호텔로 먼저 이동한다. 申长路점은 공식 안내상 18:00 마감이므로 당일 접수 가능 여부를 확인하고, 빠듯하면 10/28 오전으로 넘긴다. 이동 시간은 예상이다.",
-      "weatherPlan": "도착 지연 시 호텔에서 쉬며 申长路점 또는 华漕점에 여권 접수 시간 확인을 요청한다. 현장 개통이 어려우면 쑹훙루의 중국전신 연계 센터를 온라인 예약한다. 아래 유심 안내에 주소·전화·지도·공식 출처를 모았다.",
+      "travelNote": "12:55 상하이에 도착해 입국과 SIM 개통을 마치고 호텔로 이동해 체크인했다.",
       "stops": [
         {
-          "time": "09:00 KST",
-          "title": "김포 국제선 도착 목표",
+          "time": "오전 KST",
+          "title": "김포공항 출발 준비",
           "zh": "金浦国际机场 国际航站楼",
           "address": "",
-          "detail": "항공권 메일의 출발 3시간 전 도착 권고를 반영했다. 여권·전자항공권·위탁수하물 확인.",
+          "detail": "여권과 전자항공권, 위탁수하물을 챙겨 공항으로 갔다.",
           "type": "항공",
-          "status": "준비",
+          "status": "완료",
           "mapUrl": null,
-          "displayTitle": "김포 국제선 출국 준비",
-          "shortNote": "출발 3시간 전 공항 도착을 목표로 여권과 수하물을 확인해요.",
-          "quickStatus": "",
+          "displayTitle": "김포공항 출발 준비",
+          "shortNote": "여권과 수하물을 챙겨 공항으로.",
+          "quickStatus": "완료",
           "secondary": true
         },
         {
@@ -48,9 +45,9 @@ window.TRIP_DATA = {
           "title": "MU512 · 김포에서 상하이로",
           "zh": "上海虹桥国际机场 T1",
           "address": "",
-          "detail": "출발은 한국 12:00, 도착은 상하이 12:55. 상하이는 한국보다 1시간 느리다.",
+          "detail": "한국 12:00 출발, 상하이 12:55 도착 항공편을 탔다.",
           "type": "항공",
-          "status": "발권 완료",
+          "status": "탑승 완료",
           "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BA%20T1%20&city=310000&view=map&src=shanghaitech2026&callnative=1",
           "placeId": "airport",
           "displayTitle": "MU512 · 김포 → 홍차오 T1",
@@ -62,14 +59,14 @@ window.TRIP_DATA = {
           "title": "차이나 유니콤 SIM 개통 완료",
           "zh": "虹桥机场T1 国际到达大厅 一站式服务中心",
           "address": "虹桥机场T1 国际到达大厅（通訊服務／SIM卡）",
-          "detail": "차이나 유니콤(中国联通)에서 +86 회선을 개통했다. 월 100위안 요금제이며 본인과 가족용 SIM 2장을 받았다. 번호는 공개 사이트에 적지 않는다. 남은 확인: 한국에서의 SMS 수신(로밍)·다음 달 요금 차감일·원격 충전 방법은 10/31 저녁까지 확인한다.",
+          "detail": "차이나 유니콤(中国联通)에서 +86 회선을 개통했다. 월 100위안 요금제이며 본인과 가족용 SIM 2장을 받았다.",
           "type": "통신·유심",
           "status": "개통 완료",
           "sourceUrl": "https://english.shanghai.gov.cn/en-LatestNews/20260319/526f61df226649a58acf4b174d18f8aa.html",
           "mapUrl": null,
           "placeId": "airport",
           "displayTitle": "차이나 유니콤 SIM · 개통 완료",
-          "shortNote": "차이나 유니콤 월 100위안 요금제로 개통했고, 두 사람이 쓸 SIM 2장을 받았어요.",
+          "shortNote": "차이나 유니콤 월 100위안 요금제, SIM 2장.",
           "quickStatus": "개통 완료"
         },
         {
@@ -77,22 +74,22 @@ window.TRIP_DATA = {
           "title": "소피텔 체크인",
           "zh": "上海虹桥新华联索菲特大酒店",
           "address": "上海市闵行区泰虹路666号",
-          "detail": "5박이 세 예약으로 나뉘어 있다. 같은 방 연속 투숙 가능 여부, 조식, 11/1 새벽 차량과 체크아웃을 프런트에 확인한다.",
+          "detail": "소피텔 상하이 홍차오에 체크인했다. 5박이 세 예약으로 나뉘어 있었다.",
           "type": "호텔",
-          "status": "예약 확정",
+          "status": "완료",
           "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E6%96%B0%E5%8D%8E%E8%81%94%E7%B4%A2%E8%8F%B2%E7%89%B9%E5%A4%A7%E9%85%92%E5%BA%97%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%B3%B0%E8%99%B9%E8%B7%AF666%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
           "placeId": "hotel",
           "priority": "핵심",
           "displayTitle": "소피텔 홍차오 체크인",
-          "shortNote": "짐을 풀고 연속 투숙과 귀국일 새벽 차량을 프런트에 확인해요.",
-          "quickStatus": ""
+          "shortNote": "5박 숙소에 짐을 풀었다.",
+          "quickStatus": "완료"
         },
         {
           "time": "16:30–18:00 · 필요 시",
           "title": "공항 개통이 안 됐다면 · 申长路점 문의",
           "zh": "中国移动 申长路营业厅",
           "address": "上海市闵行区申长路1588弄3、5号106室",
-          "detail": "호텔 프런트에 한국 여권 신규 개통·직영 여부·당일 마지막 접수 시간을 전화 확인해 달라고 요청한다. 공식 목록상 18:00 마감이므로 개통까지 가능한 경우에만 방문한다. 한국 SMS 로밍·최저 월요금 조건이 맞지 않거나 늦으면 10/28 오전으로 넘긴다. 공항에서 개통했으면 이 일정은 생략한다.",
+          "detail": "공항에서 SIM을 개통해 따로 가지 않았다.",
           "type": "통신·유심",
           "status": "생략 · 개통 완료",
           "sourceUrl": "https://www.10086.cn/support/service/channel/entityen/",
@@ -100,7 +97,7 @@ window.TRIP_DATA = {
           "priority": "선택",
           "placeId": "sim",
           "displayTitle": "유심이 남았다면 선창루점",
-          "shortNote": "SIM을 이미 개통해서 가지 않았어요.",
+          "shortNote": "SIM을 이미 개통해 가지 않았다.",
           "quickStatus": "생략",
           "secondary": true
         },
@@ -129,18 +126,34 @@ window.TRIP_DATA = {
       "mealNote": "저녁은 호텔 중식당 Le Chinois에서 30% 할인권을 써서 먹었다.",
       "displayTitle": "도착일은 가볍게, 홍차오에서",
       "displaySummary": "SIM 개통 완료 · 체크인 · 저녁은 호텔 Le Chinois.",
-      "shortArea": "도착 · 홍차오"
+      "shortArea": "도착 · 홍차오",
+      "photos": [
+        {
+          "src": "assets/photos/10-27-01.webp",
+          "caption": "첫 저녁",
+          "alt": "호텔 중식당 Le Chinois의 저녁 상",
+          "width": 721,
+          "height": 1280
+        },
+        {
+          "src": "assets/photos/10-27-02.webp",
+          "caption": "호텔 중식당",
+          "alt": "접시에 담긴 Le Chinois의 요리",
+          "width": 721,
+          "height": 1280
+        }
+      ]
     },
     {
       "date": "2026-10-28",
       "label": "10.28",
       "weekday": "수",
-      "kicker": "PUDONG / XINTIANDI / JING'AN",
+      "kicker": "PUDONG / BUND / JING'AN",
       "title": "상하이타워에서 동방명주, 그리고 징안사 저녁",
       "area": "루자쭈이 → 와이탄 → 징안",
       "summary": "출발이 늦어져 점심은 간단히 넘기고 상하이타워·동방명주·관광터널을 봤다. 와이탄에서 야경을 본 뒤 지하철 14호선으로 징안사에 가서 人和馆에서 저녁을 먹고 23시에 돌아왔다.",
       "route": [
-        "예원 직행",
+        "호텔 출발",
         "상하이타워 118F",
         "동방명주",
         "관광터널",
@@ -280,6 +293,64 @@ window.TRIP_DATA = {
           "shortNote": "저녁을 징안사로 바꾸면서 빠졌어요.",
           "quickStatus": "생략"
         }
+      ],
+      "photos": [
+        {
+          "src": "assets/photos/10-28-01.webp",
+          "caption": "118층에서",
+          "alt": "상하이타워 전망대에서 내려다본 루자쭈이와 황푸강",
+          "width": 721,
+          "height": 1280
+        },
+        {
+          "src": "assets/photos/10-28-02.webp",
+          "caption": "전망대 창가",
+          "alt": "전망대 유리창 앞에서 상하이 시내를 바라보는 연주",
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "src": "assets/photos/10-28-03.webp",
+          "caption": "루자쭈이에서",
+          "alt": "고층 빌딩을 배경으로 함께 찍은 인권과 연주",
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "src": "assets/photos/10-28-04.webp",
+          "caption": "동방명주",
+          "alt": "해 질 무렵의 동방명주",
+          "width": 721,
+          "height": 1280
+        },
+        {
+          "src": "assets/photos/10-28-05.webp",
+          "caption": "달 앞의 두 사람",
+          "alt": "커다란 달 조형 앞에서 손을 든 두 사람의 실루엣",
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "src": "assets/photos/10-28-06.webp",
+          "caption": "와이탄의 밤",
+          "alt": "조명이 켜진 와이탄의 건물들",
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "src": "assets/photos/10-28-07.webp",
+          "caption": "푸둥 야경",
+          "alt": "푸둥 스카이라인을 등지고 선 연주",
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "src": "assets/photos/10-28-08.webp",
+          "caption": "人和馆",
+          "alt": "저녁을 먹은 人和馆 입구",
+          "width": 721,
+          "height": 1280
+        }
       ]
     },
     {
@@ -299,7 +370,7 @@ window.TRIP_DATA = {
         "하이디라오 저녁"
       ],
       "travelNote": "오전에 예원으로 바로 이동해 티엔즈팡·인민광장·HAUS는 생략했다. 14:15 예약으로 메이크업과 의상을 준비했고, 오후 촬영 뒤 해가 지고 조명이 들어오자 예원상장에서 야경을 한 번 더 찍었다. 저녁은 19시에 하이디라오. 식사 뒤 이동해 23시에 숙소에 도착했다. 시간은 실제 흐름 기준이다.",
-      "weatherPlan": "맑아서 오후·야경 촬영을 모두 소화했다.",
+      "weatherPlan": "오후·야경 촬영을 모두 소화했다.",
       "focus": [
         "완료 · 한푸 메이크업·오후 촬영",
         "완료 · 야경 촬영",
@@ -430,15 +501,66 @@ window.TRIP_DATA = {
           "shortNote": "예원에 집중하느라 빠졌어요.",
           "quickStatus": "생략"
         }
+      ],
+      "photos": [
+        {
+          "src": "assets/photos/10-29-01.webp",
+          "caption": "등불 골목",
+          "alt": "예원상장 골목 위에 걸린 등불들",
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "src": "assets/photos/10-29-02.webp",
+          "caption": "예원상장 점심",
+          "alt": "예원상장에서 점심을 앞두고 장난스럽게 찍은 두 사람",
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "src": "assets/photos/10-29-03.webp",
+          "caption": "한푸 차림",
+          "alt": "한푸를 입고 예원상장에 선 두 사람",
+          "width": 853,
+          "height": 1280
+        },
+        {
+          "src": "assets/photos/10-29-04.webp",
+          "caption": "오후 촬영",
+          "alt": "누각 앞에서 한푸를 입고 선 두 사람",
+          "width": 853,
+          "height": 1280
+        },
+        {
+          "src": "assets/photos/10-29-05.webp",
+          "caption": "불이 켜진 예원",
+          "alt": "해가 진 뒤 조명이 들어온 예원상장",
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "src": "assets/photos/10-29-06.webp",
+          "caption": "야경 촬영",
+          "alt": "조명이 켜진 누각 앞에서 손을 흔드는 두 사람",
+          "width": 853,
+          "height": 1280
+        },
+        {
+          "src": "assets/photos/10-29-07.webp",
+          "caption": "등불 아래",
+          "alt": "둥근 등불 아래에 선 두 사람",
+          "width": 853,
+          "height": 1280
+        }
       ]
     },
     {
       "date": "2026-10-30",
       "label": "10.30",
       "weekday": "금",
-      "kicker": "FRENCH CONCESSION / ROBOT / ERA",
-      "title": "조계지와 티엔즈팡, 서커스의 밤",
-      "area": "쉬후이 → 신톈디 → 마시청",
+      "kicker": "POST OFFICE / XINTIANDI / ERA",
+      "title": "우체국과 신톈디, 서커스의 밤",
+      "area": "우체국 → 임시정부 → 신톈디 → 마시청",
       "summary": "우캉맨션·골목과 티엔즈팡은 시간이 없어 건너뛰고, 우체국에서 엽서를 부쳤다. 임시정부와 신톈디를 보고 인민광장까지 걸은 뒤, 신톈디광장의 강서요리 胡恰에서 저녁을 먹고 ERA 서커스를 봤다.",
       "route": [
         "우체국",
@@ -448,17 +570,16 @@ window.TRIP_DATA = {
         "호차 저녁",
         "ERA"
       ],
-      "travelNote": "11:50 中国邮政에서 엽서 발송, 14:00 임시정부(현장 매표), 15:00 신톈디, 16:40 인민광장. 17:40 신톈디광장 胡恰에서 저녁, 19:30 ERA 관람 후 21:10 차량으로 호텔 복귀. 우캉맨션·우캉루 골목은 가지 못해 10/31로 옮겼다.",
-      "weatherPlan": "비가 오면 우캉루 골목 산책을 줄이고 机时租 실내 체험으로 시간을 옮긴다. 드론이 뜨지 않으면 서안에서 일반 점심으로 바꾼다.",
+      "travelNote": "11:50 中国邮政에서 엽서 발송, 14:00 임시정부(현장 매표), 15:00 신톈디, 16:40 인민광장. 17:40 신톈디광장 胡恰에서 저녁, 19:30 ERA 관람 후 21:10 차량으로 호텔 복귀. 우캉맨션·우캉루 골목과 티엔즈팡은 이날 가지 못했다.",
       "focus": [
         "완료 · ERA 19:30",
         "완료 · 우체국 엽서",
         "변경 · 우캉맨션·티엔즈팡 생략"
       ],
       "mealNote": "저녁은 신톈디광장 胡恰·景德江西菜에서 2–3인 세트(198위안). 점심은 따로 기록하지 못했다.",
-      "displayTitle": "조계지 골목과 서커스의 밤",
-      "displaySummary": "프랑스 조계지 산책을 늘리고 ERA를 더했다.",
-      "shortArea": "쉬후이 · 마시청",
+      "displayTitle": "우체국과 신톈디, 서커스의 밤",
+      "displaySummary": "엽서를 부치고 임시정부와 신톈디를 본 뒤 저녁에 ERA 관람.",
+      "shortArea": "신톈디 · 마시청",
       "stops": [
         {
           "time": "11:50–12:25",
@@ -480,7 +601,7 @@ window.TRIP_DATA = {
           "title": "대한민국 임시정부 청사",
           "zh": "大韩民国临时政府旧址",
           "address": "黄浦区马当路306弄4号",
-          "detail": "현장 매표 후 관람. 2026년 9월 재개관 기준 평일 13:30–17:00, 16:30 매표 종료.",
+          "detail": "현장 매표 후 관람했다.",
           "type": "역사·관람",
           "status": "완료",
           "priority": "추천",
@@ -570,7 +691,7 @@ window.TRIP_DATA = {
           "title": "이번 일정에서 빠진 곳 · 10/30",
           "zh": "武康大楼 / 武康路·安福路 / 田子坊",
           "address": "",
-          "detail": "우캉맨션과 우캉루·안푸루 골목은 시간이 없어 보지 못했고, 티엔즈팡도 가지 못했다. 우캉맨션·티엔즈팡은 10/31로 옮겼다.",
+          "detail": "우캉맨션과 우캉루·안푸루 골목은 시간이 없어 보지 못했다. 티엔즈팡은 10/31에 들렀고, 우캉맨션은 끝내 가지 못했다.",
           "type": "일정 변경",
           "status": "생략",
           "priority": "선택",
@@ -580,15 +701,52 @@ window.TRIP_DATA = {
           "shortNote": "시간이 모자라 생략했어요.",
           "quickStatus": "생략"
         }
+      ],
+      "photos": [
+        {
+          "src": "assets/photos/10-30-01.webp",
+          "caption": "임시정부 유적지",
+          "alt": "대한민국 임시정부 유적지 표지판이 붙은 벽돌 벽",
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "src": "assets/photos/10-30-02.webp",
+          "caption": "가로수 길",
+          "alt": "플라타너스 가로수 길에 선 연주",
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "src": "assets/photos/10-30-03.webp",
+          "caption": "빨간 공중전화",
+          "alt": "빨간 공중전화 부스에서 수화기를 든 연주",
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "src": "assets/photos/10-30-04.webp",
+          "caption": "쇼핑몰",
+          "alt": "공연 전 들른 쇼핑몰 안의 연주",
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "src": "assets/photos/10-30-05.webp",
+          "caption": "ERA",
+          "alt": "ERA 공연장 앞의 연주",
+          "width": 960,
+          "height": 1280
+        }
       ]
     },
     {
       "date": "2026-10-31",
       "label": "10.31",
       "weekday": "토",
-      "kicker": "JING'AN / AGIBOT / LAST DAY",
-      "title": "로봇과 커피, 마지막 오후",
-      "area": "징안 → 칠보 → 호텔",
+      "kicker": "PULLMAN / TIANZIFANG / LAST DAY",
+      "title": "풀만과 티엔즈팡, 마지막 밤",
+      "area": "풀만 → 티엔즈팡 → 징안 → 호텔",
       "summary": "마지막 날은 풀만에서 뷔페 50% 쿠폰으로 런치를 하고 티엔즈팡 골목을 걸었다. 이어서 징안의 스타벅스 리저브 로스터리와 주변을 돌고 23시에 호텔로 돌아와 짐을 쌌다.",
       "route": [
         "호텔 출발",
@@ -598,16 +756,15 @@ window.TRIP_DATA = {
         "호텔 복귀"
       ],
       "travelNote": "오전 호텔 출발, 12:15 풀만 런치, 13:35 티엔즈팡. 15:30 징안으로 이동해 스타벅스 리저브 로스터리와 주변 상점을 둘러보고 23:00 호텔 복귀. 우캉맨션·Unitree·AGIBOT·JD MALL은 가지 못했다. 시각은 대략적인 흐름이다.",
-      "weatherPlan": "비가 오면 칠보고진 산책을 생략하고 JD몰 실내에서 마무리한다. 새벽 출국 준비를 위해 17시 복귀를 우선한다.",
       "focus": [
         "완료 · 풀만 뷔페 50%",
         "완료 · 티엔즈팡·스타벅스",
         "변경 · 우캉맨션·Unitree·AGIBOT 생략"
       ],
       "mealNote": "점심은 풀만 스카이웨이 런치 뷔페(뷔페 50% 쿠폰). 저녁은 시내에서 먹고 호텔로 돌아왔다.",
-      "displayTitle": "로봇과 커피, 마지막 오후",
-      "displaySummary": "징안 로봇·커피와 칠보 AGIBOT을 하루에 묶고 17시 귀환한다.",
-      "shortArea": "징안 · 칠보",
+      "displayTitle": "풀만과 티엔즈팡, 마지막 밤",
+      "displaySummary": "풀만 런치, 티엔즈팡, 스타벅스 리저브를 돌고 23시 귀환.",
+      "shortArea": "티엔즈팡 · 징안",
       "stops": [
         {
           "time": "오전",
@@ -699,6 +856,57 @@ window.TRIP_DATA = {
           "shortNote": "결국 못 갔어요.",
           "quickStatus": "생략"
         }
+      ],
+      "photos": [
+        {
+          "src": "assets/photos/10-31-01.webp",
+          "caption": "풀만 창가",
+          "alt": "풀만 창가 자리에 앉은 연주",
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "src": "assets/photos/10-31-02.webp",
+          "caption": "티엔즈팡",
+          "alt": "티엔즈팡 입구의 꽃 장식 앞에 선 연주",
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "src": "assets/photos/10-31-03.webp",
+          "caption": "골목 산책",
+          "alt": "티엔즈팡 골목을 걷는 연주의 뒷모습",
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "src": "assets/photos/10-31-04.webp",
+          "caption": "로스터리",
+          "alt": "해 질 무렵의 스타벅스 리저브 로스터리",
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "src": "assets/photos/10-31-05.webp",
+          "caption": "로스터리 안",
+          "alt": "커피를 들고 로스터리 안에 앉은 연주",
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "src": "assets/photos/10-31-06.webp",
+          "caption": "The Louis",
+          "alt": "배 모양의 The Louis 건물",
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "src": "assets/photos/10-31-07.webp",
+          "caption": "탕후루",
+          "alt": "손에 든 탕후루",
+          "width": 960,
+          "height": 1280
+        }
       ]
     },
     {
@@ -708,53 +916,52 @@ window.TRIP_DATA = {
       "kicker": "HOME / EARLY DEPARTURE",
       "title": "새벽 체크아웃, 홍차오 T1에서 귀국",
       "area": "호텔 → 홍차오 T1 → 김포",
-      "summary": "귀국편은 오전 8시. 오늘은 관광 없이 이동에만 집중한다.",
+      "summary": "새벽에 체크아웃하고 오전 8시 MU511로 귀국했다.",
       "route": [
         "호텔 새벽 체크아웃",
         "홍차오 T1",
         "김포"
       ],
-      "travelNote": "메일의 출발 3시간 전 도착 권고를 따라 05:00 T1 도착을 목표로 한 보수적 계획. 수속 개시시간·차량 소요시간은 전날 항공사와 호텔에 재확인.",
-      "weatherPlan": "차량이 오지 않으면 프런트에서 바로 대체 차량 요청. 지하철 첫차에 의존하지 않는다.",
+      "travelNote": "관광 없이 호텔에서 홍차오 T1로 이동해 귀국했다.",
       "stops": [
         {
-          "time": "04:00",
+          "time": "새벽",
           "title": "기상·체크아웃",
           "zh": "上海虹桥新华联索菲特大酒店",
           "address": "上海市闵行区泰虹路666号",
-          "detail": "남은 정산과 보증금 처리 확인. 객실·욕실·금고에 여권이나 충전기를 두고 나오지 않았는지 확인.",
+          "detail": "새벽에 정산을 마치고 체크아웃했다.",
           "type": "호텔",
-          "status": "계획 시간",
+          "status": "완료",
           "sourceUrl": null,
           "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E6%96%B0%E5%8D%8E%E8%81%94%E7%B4%A2%E8%8F%B2%E7%89%B9%E5%A4%A7%E9%85%92%E5%BA%97%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%B3%B0%E8%99%B9%E8%B7%AF666%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
           "placeId": "hotel",
           "displayTitle": "새벽 체크아웃",
-          "shortNote": "정산을 마치고 여권·휴대폰·충전기를 챙겨요.",
-          "quickStatus": ""
+          "shortNote": "새벽 체크아웃.",
+          "quickStatus": "완료"
         },
         {
-          "time": "04:20 → 05:00",
+          "time": "새벽",
           "title": "호텔 차량·택시로 홍차오 T1",
           "zh": "上海虹桥国际机场 T1 国际出发",
           "address": "",
-          "detail": "10/31까지 호텔과 차량 출발 시각·요금·목적지를 확정한다. 현재 차량 예약 완료로 가정하지 않는다. 목적지는 홍차오 공항 국제선 T1이며 T2나 홍차오 기차역과 구분한다. 약 05:00 공항 도착은 준비 목표이고 항공사 수속 개시 시간을 확인한다.",
+          "detail": "호텔에서 홍차오 공항 국제선 T1로 이동했다.",
           "type": "공항 이동",
-          "status": "차량 예약 필요",
+          "status": "완료",
           "sourceUrl": null,
           "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BA%20T1%20%E5%9B%BD%E9%99%85%E5%87%BA%E5%8F%91%20&city=310000&view=map&src=shanghaitech2026&callnative=1",
           "placeId": "airport",
           "displayTitle": "04:20 출발 목표 · 홍차오 T1",
-          "shortNote": "전날 확정할 차량·택시로 국제선 T1에 05시 도착을 목표로 해요.",
-          "quickStatus": "차량 사전 확인"
+          "shortNote": "국제선 T1로 이동.",
+          "quickStatus": "완료"
         },
         {
           "time": "08:00 → 11:00",
           "title": "MU511 · 상하이에서 김포로",
           "zh": "金浦国际机场",
           "address": "",
-          "detail": "상하이 08:00 출발, 한국 11:00 도착. 체크인·탑승구·좌석·시각은 항공사 최신 안내를 따른다.",
+          "detail": "상하이 08:00 출발, 한국 11:00 도착 항공편으로 귀국했다.",
           "type": "항공",
-          "status": "발권 완료",
+          "status": "탑승 완료",
           "mapUrl": null,
           "placeId": "airport",
           "displayTitle": "MU511 · 홍차오 T1 → 김포",
@@ -763,13 +970,12 @@ window.TRIP_DATA = {
         }
       ],
       "focus": [
-        "필수 · 새벽 체크아웃",
-        "필수 · 홍차오 T1 국제선",
-        "관광 없이 귀국"
+        "완료 · 새벽 체크아웃",
+        "완료 · 홍차오 T1 국제선",
+        "완료 · MU511 귀국"
       ],
-      "mealNote": "귀국일은08:00 항공편이 우선이다. 공항 식당 영업이나 기내식을 확정하지 않고, 전날 호텔에 포장 조식 가능 여부를 문의한다. 점심은11:00 김포 도착 뒤 컨디션에 맞춰 먹는다.",
       "displayTitle": "홍차오 T1에서 김포로 귀국",
-      "displaySummary": "04:20 호텔 출발 목표, 국제선 T1로 이동해요.",
+      "displaySummary": "새벽 체크아웃, MU511로 김포 귀국.",
       "shortArea": "홍차오 T1 · 김포"
     }
   ],
@@ -782,7 +988,7 @@ window.TRIP_DATA = {
       "address": "南京西路1618号 久光百货2楼",
       "detail": "G1·R1 휴머노이드와 Go2 로봇개. 손과 움직임을 가까이 보고 직원 안내에 따라 상호작용한다. 공연·기기별 조작은 당일 확인.",
       "tag": "HUMANOID",
-      "status": "공개 체험 확인",
+      "status": "가지 못함",
       "sourceUrl": "https://www.jingan.gov.cn/rmtzx/003001/20260602/d37d57f4-e81c-4352-a819-c94d38562240.html",
       "mapUrl": "https://uri.amap.com/search?keyword=%E5%AE%87%E6%A0%91%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E4%BD%93%E9%AA%8C%E9%A6%86%20%E4%B9%85%E5%85%89%E7%99%BE%E8%B4%A7%20%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF1618%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
       "access": {
@@ -807,7 +1013,7 @@ window.TRIP_DATA = {
       "address": "徐汇滨江 龙腾大道沿线 西岸滑板公园",
       "detail": "맥도날드 龙腾大道점 → 西岸滑板公园 노선 확인. 미투안에서 당일 주문하고 지정 수령점에서 QR로 찾는 방식이다. 주문 실패 시 운항 중이면 관찰, 운항 중단이면 강변 산책으로 전환한다.",
       "tag": "DRONE DELIVERY",
-      "status": "이번 일정 제외",
+      "status": "가지 못함",
       "image": "assets/hero.jpg",
       "imageCredit": "쉬후이구 공식 보도 자료사진",
       "sourceUrl": "https://www.shanghai.gov.cn/nw15343/20260923/1fe30fe4e6194afbbacdf1b40179f159.html",
@@ -846,7 +1052,7 @@ window.TRIP_DATA = {
       "address": "衡山路932号 新六百YOUNG 3楼",
       "detail": "로봇개 직접 조작과 회차별 체험이 소개된 공개 체험점. 사용 가능한 기기와 비용은 당일 확인한다. 개업 때의 무료 행사와 알리페이 이벤트를 현재 상시 이용 조건으로 적용하지 않는다.",
       "tag": "HANDS ON",
-      "status": "이번 일정 제외",
+      "status": "가지 못함",
       "sourceUrl": "https://www.jfdaily.com/sgh/detail?id=4045817",
       "mapUrl": "https://uri.amap.com/search?keyword=%E6%96%B0%E5%85%AD%E7%99%BEYOUNG%20%E8%A1%A1%E5%B1%B1%E8%B7%AF932%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
       "access": {
@@ -871,7 +1077,7 @@ window.TRIP_DATA = {
       "address": "漕宝路3509号 京东MALL上海七宝店",
       "detail": "휴머노이드 접객과 로봇 체험 공간을 갖춘 AGIBOT 공개 매장. JD MALL 쇼핑 동선에 함께 둘러보고, 직접 조작 세션은 직원에게 확인한다.",
       "tag": "EMBODIED AI",
-      "status": "매장 개업 확인",
+      "status": "가지 못함",
       "image": "assets/agibot.jpg",
       "imageCredit": "2026.6.15 AGIBOT 매장 자료사진 / IC·상하이시",
       "sourceUrl": "https://japanese.shanghai.gov.cn/ja-FirstStores/20260608/24f3a7ad2426446e9b31ba6b764f64cf.html",
@@ -902,7 +1108,7 @@ window.TRIP_DATA = {
       "address": "淮海中路798–812号",
       "detail": "현재의 설치물과 미래형 브랜드 공간을 배경으로 짧은 영상을 만든다. 매일 10:00–22:00. 전문 촬영이나 메이크업 서비스는 예약하지 않았다.",
       "tag": "CREATOR MOMENT",
-      "status": "공식 매장 확인",
+      "status": "가지 못함",
       "sourceUrl": "https://www.gentlemonster.com/cn/zh-CN/stores/detail/779149670609076624",
       "mapUrl": "https://uri.amap.com/search?keyword=HAUS%20NOWHERE%20%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF798%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1"
     }
@@ -1518,9 +1724,9 @@ window.TRIP_DATA = {
     }
   ],
   "notes": {
-    "plan": "5박 6일 · 로봇·드론·도시 산책",
-    "assumption": "왕홍 체험은 10/29 예원 주변 메이크업·한푸 스냅 숍으로 넣었다(숍 미정, 전날 예약). 10/28 재정리로 못 가는 곳: 판룽톈디·호텔 저녁 Kwee Zeen(10/29), 서안미술관 외관·강변 산책·Paulaner 저녁(10/30), 플레어 루프탑(차르 바로 대체).",
-    "privacy": "공개 여행 가이드. 체크와 메모는 현재 브라우저에만 저장되며 다른 방문자에게 공개되거나 기기 간 자동 동기화되지 않는다."
+    "plan": "다녀온 기록 · 5박 6일",
+    "assumption": "계획과 달라진 곳은 날짜별 일정의 ‘빠진 곳’에 남겼다. 이 항목은 출발 전에 조사한 내용이고, 실제로는 가지 못한 곳이다.",
+    "privacy": "공개 여행 기록. 체크와 메모는 현재 브라우저에만 저장되며 다른 방문자에게 공개되거나 기기 간 자동 동기화되지 않는다."
   },
   "simStores": {
     "updated": "2026-10-22",
@@ -1625,7 +1831,7 @@ window.TRIP_DATA = {
     }
   },
   "journeyMap": {
-    "updated": "2026-10-28",
+    "updated": "2026-11-02",
     "note": "일정에 넣은 17곳을 날짜별로 표시했습니다. 선택 방문도 포함한 최대 동선이며, 생략해도 되는 곳은 장소 안내에 표시했습니다. 10/29는 예원·와이탄·난징둥루 한 권역, 10/30은 서안에서 루자쭈이·와이탄으로 이어집니다. 연결선은 방문 순서이며 실제 도로·대중교통 경로가 아닙니다. 핀은 건물·권역 대표 위치이므로 출입구와 실제 길찾기는 고덕지도를 확인하세요.",
     "places": [
       {
@@ -2089,7 +2295,7 @@ window.TRIP_DATA = {
         "label": "10.27",
         "title": "도착일은 가볍게, 중국 번호부터",
         "color": "#b74c3b",
-        "summary": "필수 · SIM 상담·결제 연결 · 필수 · 소피텔 체크인 · 선택 · 홍차오 저녁 산책",
+        "summary": "SIM 개통 · 소피텔 체크인 · 호텔 Le Chinois 저녁",
         "placeIds": [
           "airport",
           "hotel"
@@ -2129,10 +2335,9 @@ window.TRIP_DATA = {
         "label": "10.30",
         "title": "우체국과 신톈디, 서커스의 밤",
         "color": "#bb7438",
-        "summary": "우캉맨션 · 우체국 · 임시정부 · 신톈디 · 인민광장 · 호차 저녁 · ERA",
+        "summary": "우체국 · 임시정부 · 신톈디 · 인민광장 · 호차 저녁 · ERA",
         "placeIds": [
           "hotel",
-          "tianzifang",
           "video-korean-gov",
           "video-xintiandi",
           "peoples-square",
@@ -2159,7 +2364,7 @@ window.TRIP_DATA = {
         "label": "11.01",
         "title": "새벽 체크아웃, 홍차오 T1에서 귀국",
         "color": "#657168",
-        "summary": "필수 · 새벽 체크아웃 · 필수 · 홍차오 T1 국제선 · 관광 없이 귀국",
+        "summary": "새벽 체크아웃 · 홍차오 T1 국제선 · 귀국",
         "placeIds": [
           "hotel",
           "airport"
@@ -2173,8 +2378,8 @@ window.TRIP_DATA = {
     "date": "2024-12-06",
     "url": "https://www.youtube.com/watch?v=avRg0Ee-E8s",
     "startUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=888s",
-    "intro": "영상 속 장소를 날짜별 동선에 맞춰 넣었어요. 10/29는 예원·와이탄·난징둥루, 10/30 저녁은 와이탄과 차르 바로 바꿨고, 판룽톈디·서안 강변·플레어는 이번 재정리로 빠졌어요.",
-    "note": "영상 소개와 자막에서 장소·등장 시각을 확인했습니다. 2024년 영상의 가격·영업시간·점등 시각을 현재 조건으로 적용하지 않았습니다. 주소는 공식 자료로 대조했으며 실내 관람·테마파크·바의 현재 입장·예약·비용은 방문 전 확인합니다. 일부 세부 가게는 현재 지점·영업이 미확인입니다. 일정에 반영한 장소는 여정 지도에 보이며, 나머지 후보는 선택했을 때 한 곳씩 표시합니다.",
+    "intro": "출발 전에 영상에서 본 장소를 모아 둔 목록이에요. 실제로 간 곳은 날짜별 일정을 기준으로 봐 주세요.",
+    "note": "영상 소개와 자막에서 장소·등장 시각을 확인했습니다. 2024년 영상의 가격·영업시간·점등 시각을 현재 조건으로 적용하지 않았습니다. 주소는 공식 자료로 대조했습니다. 2024년 영상의 가격·영업시간은 현재 조건이 아닙니다.",
     "places": [
       {
         "id": "nanjing-east",
@@ -2951,5 +3156,5 @@ window.TRIP_DATA = {
       }
     ]
   },
-  "diningPolicy": "일반 식사는 예약·좌석 확인을 먼저 하고, 식사당 전체 대기 안내가15분을 넘으면 가까운 대안으로 바꿔요. 대안도 줄이 길면 빈자리 있는 식당을 고릅니다. 실시간 웨이팅은 확인되지 않았고 예약은 아직 하지 않았어요. 드론 점심은 당일 운항·배달 절차를 따릅니다."
+  "diningPolicy": "식사는 실제로 먹은 곳을 기준으로 적었어요. 계획과 달라진 식당은 날짜별 일정에 남겼습니다."
 };
