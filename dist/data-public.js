@@ -5,7 +5,7 @@ window.TRIP_DATA = {
     "startDate": "2026-10-27",
     "endDate": "2026-11-01",
     "travelers": "두 사람",
-    "updated": "2026-11-02",
+    "updated": "2026-11-05",
     "heroImage": "assets/hero-our-trip.webp",
     "heroCaption": "LUJIAZUI · 10.28"
   },
@@ -48,7 +48,7 @@ window.TRIP_DATA = {
           "detail": "한국 12:00 출발, 상하이 12:55 도착 항공편을 탔다.",
           "type": "항공",
           "status": "탑승 완료",
-          "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BA%20T1%20&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BA%20T1%20&city=310000&view=map&src=shanghaitravel2026&callnative=1",
           "placeId": "airport",
           "displayTitle": "MU512 · 김포 → 홍차오 T1",
           "shortNote": "한국 12:00 출발, 상하이 12:55 도착이에요.",
@@ -77,7 +77,7 @@ window.TRIP_DATA = {
           "detail": "소피텔 상하이 홍차오에 체크인했다. 5박이 세 예약으로 나뉘어 있었다.",
           "type": "호텔",
           "status": "완료",
-          "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E6%96%B0%E5%8D%8E%E8%81%94%E7%B4%A2%E8%8F%B2%E7%89%B9%E5%A4%A7%E9%85%92%E5%BA%97%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%B3%B0%E8%99%B9%E8%B7%AF666%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E6%96%B0%E5%8D%8E%E8%81%94%E7%B4%A2%E8%8F%B2%E7%89%B9%E5%A4%A7%E9%85%92%E5%BA%97%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%B3%B0%E8%99%B9%E8%B7%AF666%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
           "placeId": "hotel",
           "priority": "핵심",
           "displayTitle": "소피텔 홍차오 체크인",
@@ -93,7 +93,7 @@ window.TRIP_DATA = {
           "type": "통신·유심",
           "status": "생략 · 개통 완료",
           "sourceUrl": "https://www.10086.cn/support/service/channel/entityen/",
-          "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8%20%E7%94%B3%E9%95%BF%E8%B7%AF%E8%90%A5%E4%B8%9A%E5%8E%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E7%94%B3%E9%95%BF%E8%B7%AF1588%E5%BC%843%E3%80%815%E5%8F%B7106%E5%AE%A4&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8%20%E7%94%B3%E9%95%BF%E8%B7%AF%E8%90%A5%E4%B8%9A%E5%8E%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E7%94%B3%E9%95%BF%E8%B7%AF1588%E5%BC%843%E3%80%815%E5%8F%B7106%E5%AE%A4&city=310000&view=map&src=shanghaitravel2026&callnative=1",
           "priority": "선택",
           "placeId": "sim",
           "displayTitle": "유심이 남았다면 선창루점",
@@ -111,7 +111,7 @@ window.TRIP_DATA = {
           "status": "식사 완료 · 30% 할인권 사용",
           "priority": "완료",
           "sourceUrl": "https://sofitel.accor.com/en/hotels/9933/R003.restaurant.html",
-          "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E6%96%B0%E5%8D%8E%E8%81%94%E7%B4%A2%E8%8F%B2%E7%89%B9%E5%A4%A7%E9%85%92%E5%BA%97%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%B3%B0%E8%99%B9%E8%B7%AF666%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E6%96%B0%E5%8D%8E%E8%81%94%E7%B4%A2%E8%8F%B2%E7%89%B9%E5%A4%A7%E9%85%92%E5%BA%97%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%B3%B0%E8%99%B9%E8%B7%AF666%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
           "placeId": "hotel",
           "displayTitle": "Le Chinois · 호텔에서 첫 저녁",
           "shortNote": "호텔 중식당에서 30% 할인권으로 먹었어요.",
@@ -171,9 +171,23 @@ window.TRIP_DATA = {
           ]
         },
         {
+          "time": "15:51",
+          "title": "호텔에서 짐을 풀고",
+          "text": "홍차오에서 SIM을 개통하고 소피텔에 체크인했다. 밖으로 나가는 대신 호텔에서 과일과 음료를 앞에 두고 잠깐 쉬었다. 첫날의 사진은 공항에서 기내로, 다시 호텔 안으로 이어진다.",
+          "photos": [
+            {
+              "src": "assets/photos/10-27-extra-01.webp",
+              "caption": "체크인 뒤, 호텔에서 잠깐",
+              "alt": "호텔 의자에 앉아 과일과 음료를 앞에 둔 연주",
+              "width": 450,
+              "height": 800
+            }
+          ]
+        },
+        {
           "time": "19:57",
           "title": "호텔 Le Chinois",
-          "text": "SIM을 개통하고 체크인한 뒤 첫 저녁은 호텔 중식당 Le Chinois에서 먹었다.",
+          "text": "첫 저녁은 호텔 중식당 Le Chinois에서 먹었다. 얼음 위에 담긴 한입 요리와 붉은 접시의 면·채소를 사진으로 남겼다. 30% 할인권을 쓰고, 멀리 나가지 않은 채 도착일을 마무리했다.",
           "photos": [
             {
               "src": "assets/photos/10-27-05.webp",
@@ -183,11 +197,25 @@ window.TRIP_DATA = {
               "height": 900
             },
             {
+              "src": "assets/photos/10-27-extra-02.webp",
+              "caption": "얼음 위에 담긴 첫 저녁의 요리",
+              "alt": "호텔 Le Chinois에서 얼음 위에 한입 크기로 담아 낸 요리",
+              "width": 450,
+              "height": 800
+            },
+            {
               "src": "assets/photos/10-27-06.webp",
               "caption": "첫 저녁",
               "alt": "호텔 중식당 Le Chinois의 저녁 상",
               "width": 507,
               "height": 900
+            },
+            {
+              "src": "assets/photos/10-27-extra-03.webp",
+              "caption": "붉은 접시 위, 채소와 면",
+              "alt": "호텔 중식당의 붉은 접시에 담긴 면과 채소 요리",
+              "width": 450,
+              "height": 800
             }
           ]
         }
@@ -232,7 +260,7 @@ window.TRIP_DATA = {
           "status": "지연 출발",
           "priority": "기록",
           "placeId": "hotel",
-          "mapUrl": "https://uri.amap.com/search?keyword=上海虹桥新华联索菲特大酒店&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "mapUrl": "https://uri.amap.com/search?keyword=上海虹桥新华联索菲特大酒店&city=310000&view=map&src=shanghaitravel2026&callnative=1",
           "displayTitle": "호텔 출발",
           "shortNote": "환불 처리로 50분 지연.",
           "quickStatus": "지연"
@@ -247,7 +275,7 @@ window.TRIP_DATA = {
           "status": "완료",
           "priority": "핵심",
           "placeId": "shanghai-tower",
-          "mapUrl": "https://uri.amap.com/search?keyword=上海中心大厦 上海之巅观光厅&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "mapUrl": "https://uri.amap.com/search?keyword=上海中心大厦 上海之巅观光厅&city=310000&view=map&src=shanghaitravel2026&callnative=1",
           "displayTitle": "상하이타워 전망대",
           "shortNote": "118층 전망대 올라감.",
           "quickStatus": "완료"
@@ -262,13 +290,13 @@ window.TRIP_DATA = {
           "status": "완료",
           "priority": "추천",
           "placeId": "oriental-pearl",
-          "mapUrl": "https://uri.amap.com/search?keyword=东方明珠广播电视塔&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "mapUrl": "https://uri.amap.com/search?keyword=东方明珠广播电视塔&city=310000&view=map&src=shanghaitravel2026&callnative=1",
           "displayTitle": "동방명주",
           "shortNote": "외관 사진 촬영.",
           "quickStatus": "완료"
         },
         {
-          "time": "16:40–17:00",
+          "time": "해 질 무렵",
           "title": "관광터널로 강 건너기",
           "zh": "外滩观光隧道",
           "address": "黄浦区中山东一路 陈毅广场",
@@ -277,13 +305,13 @@ window.TRIP_DATA = {
           "status": "완료",
           "priority": "추천",
           "placeId": "bund-tunnel",
-          "mapUrl": "https://uri.amap.com/search?keyword=外滩观光隧道&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "mapUrl": "https://uri.amap.com/search?keyword=外滩观光隧道&city=310000&view=map&src=shanghaitravel2026&callnative=1",
           "displayTitle": "관광터널",
           "shortNote": "강을 지하로 건넘.",
           "quickStatus": "완료"
         },
         {
-          "time": "17:00–18:00",
+          "time": "저녁",
           "title": "와이탄 야경",
           "zh": "外滩",
           "address": "黄浦区中山东一路",
@@ -292,13 +320,13 @@ window.TRIP_DATA = {
           "status": "완료",
           "priority": "핵심",
           "placeId": "bund",
-          "mapUrl": "https://uri.amap.com/search?keyword=外滩&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "mapUrl": "https://uri.amap.com/search?keyword=外滩&city=310000&view=map&src=shanghaitravel2026&callnative=1",
           "displayTitle": "와이탄 야경",
           "shortNote": "강변에서 푸둥 야경.",
           "quickStatus": "완료"
         },
         {
-          "time": "19:00–21:00",
+          "time": "저녁",
           "title": "人和馆 · 정안사점 저녁",
           "zh": "人和馆 静安寺店",
           "address": "静安区 静安寺 일대",
@@ -307,13 +335,13 @@ window.TRIP_DATA = {
           "status": "완료",
           "priority": "추천",
           "placeId": "renheguan",
-          "mapUrl": "https://uri.amap.com/search?keyword=人和馆 静安寺店&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "mapUrl": "https://uri.amap.com/search?keyword=人和馆 静安寺店&city=310000&view=map&src=shanghaitravel2026&callnative=1",
           "displayTitle": "人和馆 저녁",
           "shortNote": "본방채 저녁. 메르카토는 생략.",
           "quickStatus": "완료"
         },
         {
-          "time": "21:10–23:00",
+          "time": "밤 · 23시 호텔 도착",
           "title": "지하철 2호선으로 숙소 복귀",
           "zh": "地铁2号线 静安寺站 → 虹桥火车站",
           "address": "静安区 → 闵行区",
@@ -322,7 +350,7 @@ window.TRIP_DATA = {
           "status": "완료 · 23:00 도착",
           "priority": "기록",
           "placeId": "hotel",
-          "mapUrl": "https://uri.amap.com/search?keyword=地铁2号线 静安寺站&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "mapUrl": "https://uri.amap.com/search?keyword=地铁2号线 静安寺站&city=310000&view=map&src=shanghaitravel2026&callnative=1",
           "displayTitle": "숙소 복귀",
           "shortNote": "23시 도착.",
           "quickStatus": "완료"
@@ -337,7 +365,7 @@ window.TRIP_DATA = {
           "status": "생략",
           "priority": "선택",
           "placeId": "bund",
-          "mapUrl": "https://uri.amap.com/search?keyword=外滩三号&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "mapUrl": "https://uri.amap.com/search?keyword=外滩三号&city=310000&view=map&src=shanghaitravel2026&callnative=1",
           "displayTitle": "못 간 곳 · 메르카토·차르 바",
           "shortNote": "저녁을 징안사로 바꾸면서 빠졌어요.",
           "quickStatus": "생략"
@@ -368,7 +396,7 @@ window.TRIP_DATA = {
         {
           "time": "14:27",
           "title": "상하이타워 118층",
-          "text": "엘리베이터 전시를 지나 118층 전망대에 올랐다. 맑은 날이라 황푸강이 굽어 흐르는 모습이 멀리까지 보였다.",
+          "text": "세계 초고층 빌딩을 비교한 전시를 지나 118층 전망대에 올랐다. 유리창 너머로 황푸강과 빽빽한 빌딩들을 내려다보고, 손바닥만 한 상하이 모양 기념품도 사진에 담았다. 땅에서 올려다본 도시를 이번에는 위에서 바라봤다.",
           "photos": [
             {
               "src": "assets/photos/10-28-03.webp",
@@ -376,6 +404,13 @@ window.TRIP_DATA = {
               "alt": "빛의 띠가 이어지는 전망대 가는 통로",
               "width": 507,
               "height": 900
+            },
+            {
+              "src": "assets/photos/10-28-extra-01.webp",
+              "caption": "전망대에 오르기 전, 세계의 빌딩들",
+              "alt": "상하이타워 내부 벽에 전시된 세계 초고층 빌딩 높이 비교",
+              "width": 800,
+              "height": 450
             },
             {
               "src": "assets/photos/10-28-04.webp",
@@ -397,6 +432,13 @@ window.TRIP_DATA = {
               "alt": "전망대 유리창 앞에서 상하이 시내를 바라보는 연주",
               "width": 675,
               "height": 900
+            },
+            {
+              "src": "assets/photos/10-28-extra-02.webp",
+              "caption": "손바닥만 한 상하이",
+              "alt": "상하이 건물 그림과 작은 장식이 담긴 투명한 기념품",
+              "width": 450,
+              "height": 800
             }
           ]
         },
@@ -445,7 +487,7 @@ window.TRIP_DATA = {
         {
           "time": "17:16",
           "title": "우주와 달",
-          "text": "해가 질 무렵 들어간 전시장에서 로켓 모형과 우주선 세트, 커다란 달 앞에서 사진을 찍었다.",
+          "text": "전시장에서는 로켓 모형과 우주선 세트가 도시 풍경을 대신했다. 커다란 달 앞에서는 한 사람씩 실루엣을 남기고, 마지막에는 둘이 나란히 서서 사진을 찍었다.",
           "photos": [
             {
               "src": "assets/photos/10-28-12.webp",
@@ -460,6 +502,13 @@ window.TRIP_DATA = {
               "alt": "지구가 보이는 우주선 세트 안에서 팔을 벌린 연주",
               "width": 675,
               "height": 900
+            },
+            {
+              "src": "assets/photos/10-28-extra-03.webp",
+              "caption": "달 앞에 선 인권",
+              "alt": "커다란 달 영상 앞에 서 있는 인권의 실루엣",
+              "width": 600,
+              "height": 800
             },
             {
               "src": "assets/photos/10-28-14.webp",
@@ -494,8 +543,15 @@ window.TRIP_DATA = {
         {
           "time": "18:01",
           "title": "와이탄의 밤",
-          "text": "와이탄에 도착하니 강 건너 푸둥 스카이라인에 불이 들어와 있었다.",
+          "text": "관광터널을 빠져나오니 강 건너 푸둥의 불빛이 켜져 있었다. 조금 전 가까이서 올려다보던 동방명주를 이번에는 황푸강 건너에서 바라봤다. 각자 찍은 사진 사이에 둘이 함께한 셀카도 남겼다.",
           "photos": [
+            {
+              "src": "assets/photos/10-28-extra-04.webp",
+              "caption": "강 건너 불빛을 배경으로 둘이",
+              "alt": "와이탄에서 동방명주와 푸둥 야경을 뒤로하고 찍은 두 사람의 셀카",
+              "width": 800,
+              "height": 800
+            },
             {
               "src": "assets/photos/10-28-17.webp",
               "caption": "푸둥을 등지고",
@@ -536,7 +592,7 @@ window.TRIP_DATA = {
         {
           "time": "19:39",
           "title": "징안사 人和馆",
-          "text": "지하철 14호선으로 징안사에 가서 人和馆에서 상하이 본방채로 저녁을 먹었다.",
+          "text": "와이탄에서 지하철 14호선으로 징안사 쪽으로 이동했다. 人和馆의 저녁상에는 요리와 붉은 음료 두 잔이 놓였다. 전망대와 전시, 강변 야경을 지나 앉은 식탁까지가 이날의 사진 순서다.",
           "photos": [
             {
               "src": "assets/photos/10-28-22.webp",
@@ -579,6 +635,13 @@ window.TRIP_DATA = {
               "alt": "버섯과 두부가 든 뚝배기",
               "width": 675,
               "height": 900
+            },
+            {
+              "src": "assets/photos/10-28-extra-05.webp",
+              "caption": "저녁상에 놓인 음료 두 잔",
+              "alt": "人和馆 저녁상에 나란히 놓인 붉은 음료 두 잔",
+              "width": 600,
+              "height": 800
             }
           ]
         }
@@ -590,7 +653,7 @@ window.TRIP_DATA = {
       "weekday": "목",
       "kicker": "YU GARDEN / HANFU / HAIDILAO",
       "title": "예원에서 한푸 체험, 낮과 밤 모두 촬영",
-      "area": "예원상장 → 예원 정원 → 예원상장",
+      "area": "예원·예원상장 권역",
       "summary": "티엔즈팡·인민광장·HAUS는 가지 않고 예원으로 바로 갔다. 14:15부터 메이크업과 한푸 대여를 하고 오후에 한 차례, 조명이 들어온 뒤 야경으로 한 차례 더 촬영했다. 저녁은 하이디라오에서 먹고 23시에 숙소로 돌아왔다.",
       "route": [
         "예원 도착(오전)",
@@ -622,7 +685,7 @@ window.TRIP_DATA = {
           "status": "변경 · 직행",
           "priority": "기록",
           "placeId": "hotel",
-          "mapUrl": "https://uri.amap.com/search?keyword=上海虹桥新华联索菲特大酒店&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "mapUrl": "https://uri.amap.com/search?keyword=上海虹桥新华联索菲特大酒店&city=310000&view=map&src=shanghaitravel2026&callnative=1",
           "displayTitle": "예원 직행",
           "shortNote": "티엔즈팡 등 생략.",
           "quickStatus": "변경"
@@ -637,7 +700,7 @@ window.TRIP_DATA = {
           "status": "완료",
           "priority": "추천",
           "placeId": "video-yuyuan",
-          "mapUrl": "https://uri.amap.com/search?keyword=豫园商城&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "mapUrl": "https://uri.amap.com/search?keyword=豫园商城&city=310000&view=map&src=shanghaitravel2026&callnative=1",
           "displayTitle": "예원상장 점심",
           "shortNote": "메이크업 전 식사.",
           "quickStatus": "완료"
@@ -652,24 +715,24 @@ window.TRIP_DATA = {
           "status": "완료",
           "priority": "핵심",
           "placeId": "video-yuyuan",
-          "mapUrl": "https://uri.amap.com/search?keyword=豫见汉服体验馆&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "mapUrl": "https://uri.amap.com/search?keyword=豫见汉服体验馆&city=310000&view=map&src=shanghaitravel2026&callnative=1",
           "displayTitle": "한푸 메이크업",
           "shortNote": "2인 동시 진행.",
           "quickStatus": "완료"
         },
         {
           "time": "15:45–17:30",
-          "title": "오후 촬영 · 예원 정원·상장",
+          "title": "오후 촬영 · 예원·예원상장 권역",
           "zh": "豫园 · 九曲桥",
           "address": "黄浦区安仁街218号",
-          "detail": "한푸 차림으로 예원 정원과 구곡교, 상장 골목을 돌며 사진을 찍었다. 사진작가가 동선을 잡아줘 대기 없이 진행됐다.",
-          "type": "정원·사진",
+          "detail": "예원·예원상장 권역에서 한푸 차림으로 누각과 골목을 옮겨 다니며 사진을 찍었다.",
+          "type": "거리·사진",
           "status": "완료",
           "priority": "핵심",
           "placeId": "video-yuyuan",
-          "mapUrl": "https://uri.amap.com/search?keyword=豫园 九曲桥&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "mapUrl": "https://uri.amap.com/search?keyword=豫园 九曲桥&city=310000&view=map&src=shanghaitravel2026&callnative=1",
           "displayTitle": "오후 촬영",
-          "shortNote": "정원·구곡교·상장.",
+          "shortNote": "누각과 상장 골목에서 촬영.",
           "quickStatus": "완료"
         },
         {
@@ -682,7 +745,7 @@ window.TRIP_DATA = {
           "status": "완료",
           "priority": "핵심",
           "placeId": "video-yuyuan",
-          "mapUrl": "https://uri.amap.com/search?keyword=豫园商城 夜景&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "mapUrl": "https://uri.amap.com/search?keyword=豫园商城 夜景&city=310000&view=map&src=shanghaitravel2026&callnative=1",
           "displayTitle": "야경 촬영",
           "shortNote": "점등 후 추가 촬영.",
           "quickStatus": "완료"
@@ -697,7 +760,7 @@ window.TRIP_DATA = {
           "status": "완료",
           "priority": "추천",
           "placeId": "video-yuyuan",
-          "mapUrl": "https://uri.amap.com/search?keyword=海底捞&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "mapUrl": "https://uri.amap.com/search?keyword=海底捞&city=310000&view=map&src=shanghaitravel2026&callnative=1",
           "displayTitle": "하이디라오 저녁",
           "shortNote": "19시 저녁.",
           "quickStatus": "완료"
@@ -712,7 +775,7 @@ window.TRIP_DATA = {
           "status": "완료 · 23:00 도착",
           "priority": "기록",
           "placeId": "hotel",
-          "mapUrl": "https://uri.amap.com/search?keyword=上海虹桥新华联索菲特大酒店&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "mapUrl": "https://uri.amap.com/search?keyword=上海虹桥新华联索菲特大酒店&city=310000&view=map&src=shanghaitravel2026&callnative=1",
           "displayTitle": "숙소 복귀",
           "shortNote": "23시 도착.",
           "quickStatus": "완료"
@@ -727,7 +790,7 @@ window.TRIP_DATA = {
           "status": "생략",
           "priority": "선택",
           "placeId": "video-yuyuan",
-          "mapUrl": "https://uri.amap.com/search?keyword=豫园&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "mapUrl": "https://uri.amap.com/search?keyword=豫园&city=310000&view=map&src=shanghaitravel2026&callnative=1",
           "displayTitle": "못 간 곳 · 티엔즈팡·인민광장·HAUS",
           "shortNote": "예원에 집중하느라 빠졌어요.",
           "quickStatus": "생략"
@@ -779,7 +842,7 @@ window.TRIP_DATA = {
         {
           "time": "15:41",
           "title": "메이크업과 한푸",
-          "text": "14:15 예약으로 메이크업을 받고 한푸를 골라 입었다. 머리 장식까지 올리니 거울 속 얼굴이 완전히 달라졌다.",
+          "text": "14:15 예약으로 메이크업을 받고 한푸를 골라 입었다. 분홍색과 푸른색 머리 장식을 모두 갖춘 뒤, 본격적으로 촬영을 나가기 전 둘의 모습을 셀카로 남겼다.",
           "photos": [
             {
               "src": "assets/photos/10-29-06.webp",
@@ -787,6 +850,13 @@ window.TRIP_DATA = {
               "alt": "메이크업 숍에서 푸른 머리 장식을 쓴 모습",
               "width": 675,
               "height": 900
+            },
+            {
+              "src": "assets/photos/10-29-extra-01.webp",
+              "caption": "한푸와 머리 장식, 둘 다 준비 완료",
+              "alt": "분홍색과 푸른색 머리 장식을 하고 함께 찍은 셀카",
+              "width": 600,
+              "height": 800
             },
             {
               "src": "assets/photos/10-29-07.webp",
@@ -807,7 +877,7 @@ window.TRIP_DATA = {
         {
           "time": "15:50",
           "title": "오후 촬영",
-          "text": "흐린 오후, 등롱이 걸린 난간과 누각 앞을 옮겨 다니며 촬영했다.",
+          "text": "흐린 오후에는 등롱이 걸린 난간과 누각 앞을 옮겨 다니며 촬영했다. 완성된 인물 사진 사이에는 카메라를 든 촬영자와 포즈를 잡는 모습도 남아 있다. 소매와 부채, 처마의 선이 같은 장면 안에 겹쳤다.",
           "photos": [
             {
               "src": "assets/photos/10-29-09.webp",
@@ -843,6 +913,13 @@ window.TRIP_DATA = {
               "alt": "종이우산을 든 분홍 한푸 차림",
               "width": 600,
               "height": 900
+            },
+            {
+              "src": "assets/photos/10-29-extra-02.webp",
+              "caption": "사진이 만들어지는 순간",
+              "alt": "예원상장의 누각 앞에서 분홍 한푸 차림의 연주를 촬영하는 모습",
+              "width": 600,
+              "height": 800
             },
             {
               "src": "assets/photos/10-29-14.webp",
@@ -996,7 +1073,7 @@ window.TRIP_DATA = {
         {
           "time": "20:06",
           "title": "하이디라오",
-          "text": "한푸를 반납하고 저녁은 하이디라오에서 먹었다.",
+          "text": "한푸를 반납한 뒤 저녁은 하이디라오에서 먹었다. 얇게 썬 고기와 채소, 면이 놓인 식탁을 사진으로 남겼다. 오후와 야경 두 번의 촬영으로 채운 하루가 훠궈 저녁으로 이어졌다.",
           "photos": [
             {
               "src": "assets/photos/10-29-32.webp",
@@ -1004,6 +1081,20 @@ window.TRIP_DATA = {
               "alt": "하이디라오의 소스 바",
               "width": 675,
               "height": 900
+            },
+            {
+              "src": "assets/photos/10-29-extra-03.webp",
+              "caption": "촬영을 마치고, 훠궈 재료 한 접시",
+              "alt": "하이디라오 테이블 위에 가지런히 놓인 얇은 고기와 소스",
+              "width": 600,
+              "height": 800
+            },
+            {
+              "src": "assets/photos/10-29-extra-04.webp",
+              "caption": "채소와 면을 곁들인 저녁",
+              "alt": "하이디라오 저녁상 위의 채소와 면이 담긴 그릇들",
+              "width": 600,
+              "height": 800
             }
           ]
         }
@@ -1045,14 +1136,13 @@ window.TRIP_DATA = {
           "type": "우체국",
           "status": "완료",
           "priority": "추천",
-          "placeId": "tianzifang",
-          "mapUrl": "https://uri.amap.com/search?keyword=中国邮政&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "mapUrl": "https://uri.amap.com/search?keyword=中国邮政&city=310000&view=map&src=shanghaitravel2026&callnative=1",
           "displayTitle": "우체국 엽서",
           "shortNote": "엽서·우표 구입 후 발송.",
           "quickStatus": "완료"
         },
         {
-          "time": "14:00–14:40",
+          "time": "오후",
           "title": "대한민국 임시정부 청사",
           "zh": "大韩民国临时政府旧址",
           "address": "黄浦区马当路306弄4号",
@@ -1061,13 +1151,13 @@ window.TRIP_DATA = {
           "status": "완료",
           "priority": "추천",
           "placeId": "video-korean-gov",
-          "mapUrl": "https://uri.amap.com/search?keyword=大韩民国临时政府旧址&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "mapUrl": "https://uri.amap.com/search?keyword=大韩民国临时政府旧址&city=310000&view=map&src=shanghaitravel2026&callnative=1",
           "displayTitle": "임시정부 청사",
           "shortNote": "현장 매표 후 관람.",
           "quickStatus": "완료"
         },
         {
-          "time": "15:00–16:20",
+          "time": "오후",
           "title": "신톈디 · 산책",
           "zh": "新天地",
           "address": "黄浦区太仓路181弄",
@@ -1076,13 +1166,13 @@ window.TRIP_DATA = {
           "status": "완료",
           "priority": "추천",
           "placeId": "video-xintiandi",
-          "mapUrl": "https://uri.amap.com/search?keyword=新天地&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "mapUrl": "https://uri.amap.com/search?keyword=新天地&city=310000&view=map&src=shanghaitravel2026&callnative=1",
           "displayTitle": "신톈디",
           "shortNote": "광장·골목 산책.",
           "quickStatus": "완료"
         },
         {
-          "time": "16:40–17:20",
+          "time": "오후",
           "title": "인민광장",
           "zh": "人民广场",
           "address": "黄浦区人民大道",
@@ -1091,13 +1181,13 @@ window.TRIP_DATA = {
           "status": "완료 · 계획 외",
           "priority": "추천",
           "placeId": "peoples-square",
-          "mapUrl": "https://uri.amap.com/search?keyword=人民广场&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "mapUrl": "https://uri.amap.com/search?keyword=人民广场&city=310000&view=map&src=shanghaitravel2026&callnative=1",
           "displayTitle": "인민광장",
           "shortNote": "광장 산책.",
           "quickStatus": "완료"
         },
         {
-          "time": "17:40–18:40",
+          "time": "이른 저녁",
           "title": "호차 · 징더전 강서요리 저녁",
           "zh": "胡恰·景德江西菜（上海首店）",
           "address": "黄浦区淮海中路333号 新天地广场",
@@ -1106,13 +1196,13 @@ window.TRIP_DATA = {
           "status": "완료",
           "priority": "추천",
           "placeId": "video-xintiandi",
-          "mapUrl": "https://uri.amap.com/search?keyword=胡恰 景德江西菜&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "mapUrl": "https://uri.amap.com/search?keyword=胡恰 景德江西菜&city=310000&view=map&src=shanghaitravel2026&callnative=1",
           "displayTitle": "호차 강서요리",
           "shortNote": "2인 세트 198위안.",
           "quickStatus": "완료"
         },
         {
-          "time": "19:30–21:00",
+          "time": "19:30 시작",
           "title": "ERA 서커스 · 时空之旅",
           "zh": "上海马戏城 ERA时空之旅",
           "address": "静安区共和新路2266号",
@@ -1121,13 +1211,13 @@ window.TRIP_DATA = {
           "status": "완료",
           "priority": "핵심",
           "placeId": "era-circus",
-          "mapUrl": "https://uri.amap.com/search?keyword=上海马戏城&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "mapUrl": "https://uri.amap.com/search?keyword=上海马戏城&city=310000&view=map&src=shanghaitravel2026&callnative=1",
           "displayTitle": "ERA 서커스",
           "shortNote": "19:30 공연 관람.",
           "quickStatus": "완료"
         },
         {
-          "time": "21:10–21:55",
+          "time": "공연 후",
           "title": "소피텔 홍차오 복귀",
           "zh": "上海虹桥新华联索菲特大酒店",
           "address": "闵行区泰虹路666号",
@@ -1136,7 +1226,7 @@ window.TRIP_DATA = {
           "status": "완료",
           "priority": "선택",
           "placeId": "hotel",
-          "mapUrl": "https://uri.amap.com/search?keyword=上海虹桥新华联索菲特大酒店&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "mapUrl": "https://uri.amap.com/search?keyword=上海虹桥新华联索菲特大酒店&city=310000&view=map&src=shanghaitravel2026&callnative=1",
           "displayTitle": "호텔 복귀",
           "shortNote": "공연 뒤 귀환.",
           "quickStatus": "완료"
@@ -1151,7 +1241,7 @@ window.TRIP_DATA = {
           "status": "생략",
           "priority": "선택",
           "placeId": "tianzifang",
-          "mapUrl": "https://uri.amap.com/search?keyword=田子坊&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "mapUrl": "https://uri.amap.com/search?keyword=田子坊&city=310000&view=map&src=shanghaitravel2026&callnative=1",
           "displayTitle": "못 간 곳 · 우캉맨션·골목·티엔즈팡",
           "shortNote": "시간이 모자라 생략했어요.",
           "quickStatus": "생략"
@@ -1159,9 +1249,23 @@ window.TRIP_DATA = {
       ],
       "photoStory": [
         {
+          "time": "12:34",
+          "title": "한낮의 거리에서",
+          "text": "엽서를 부친 날, 한낮의 거리에서도 둘이 함께한 사진을 남겼다. 햇빛이 드는 횡단보도와 가로수 풍경을 지나 임시정부 청사 쪽으로 이동했다.",
+          "photos": [
+            {
+              "src": "assets/photos/10-30-extra-01.webp",
+              "caption": "한낮의 거리에서 함께",
+              "alt": "햇빛이 드는 상하이 횡단보도 앞에서 찍은 두 사람의 셀카",
+              "width": 600,
+              "height": 800
+            }
+          ]
+        },
+        {
           "time": "13:33",
           "title": "지하철로 임시정부",
-          "text": "우체국에서 엽서를 부친 뒤 지하철을 타고 대한민국 임시정부 청사로 갔다. 현장에서 표를 사서 관람했다.",
+          "text": "지하철로 이동해 대한민국 임시정부 청사에 도착했다. 현장에서 표를 사고 관람한 뒤, 붉은 벽돌과 청사 표지 앞에서 사진을 남겼다.",
           "photos": [
             {
               "src": "assets/photos/10-30-01.webp",
@@ -1176,13 +1280,20 @@ window.TRIP_DATA = {
               "alt": "대한민국 임시정부 유적지 표지판이 붙은 벽돌 벽",
               "width": 675,
               "height": 900
+            },
+            {
+              "src": "assets/photos/10-30-extra-02.webp",
+              "caption": "임시정부 청사 앞에서",
+              "alt": "대한민국 임시정부 청사 표지 앞에 서 있는 연주",
+              "width": 600,
+              "height": 800
             }
           ]
         },
         {
           "time": "14:10",
           "title": "신톈디 산책",
-          "text": "플라타너스 가로수가 늘어선 신톈디 골목을 걸었다.",
+          "text": "플라타너스 가로수가 늘어선 신톈디 골목을 둘러봤다. 붉은 전화 부스에서는 한 사람씩 수화기를 들고 사진을 찍었다. 건물 앞, 가게 진열, 전화 부스처럼 걷는 사이 눈에 들어온 장면들이 남았다.",
           "photos": [
             {
               "src": "assets/photos/10-30-03.webp",
@@ -1211,13 +1322,20 @@ window.TRIP_DATA = {
               "alt": "빨간 공중전화 부스에서 수화기를 든 연주",
               "width": 675,
               "height": 900
+            },
+            {
+              "src": "assets/photos/10-30-extra-03.webp",
+              "caption": "이번에는 인권 차례",
+              "alt": "신톈디의 붉은 공중전화 부스 안에서 수화기를 든 인권",
+              "width": 600,
+              "height": 800
             }
           ]
         },
         {
           "time": "15:08",
-          "title": "인민광장까지 걷기",
-          "text": "신톈디에서 인민광장까지 걸었다. 해가 낮아지면서 그림자가 길게 늘어졌다.",
+          "title": "인민광장 쪽으로",
+          "text": "신톈디에서 인민광장 쪽으로 이동하며 거리 풍경을 남겼다. 붉은 벽돌 건물 앞에서는 자전거와 함께 사진을 찍고, 높은 건물 사이로 길게 들어오는 오후 빛도 담았다.",
           "photos": [
             {
               "src": "assets/photos/10-30-07.webp",
@@ -1225,6 +1343,13 @@ window.TRIP_DATA = {
               "alt": "오토바이가 지나는 상하이 거리",
               "width": 507,
               "height": 900
+            },
+            {
+              "src": "assets/photos/10-30-extra-04.webp",
+              "caption": "거리 풍경 사이, 또 한 장",
+              "alt": "붉은 벽돌 건물과 자전거가 보이는 거리에서 찍은 인권과 연주",
+              "width": 600,
+              "height": 800
             },
             {
               "src": "assets/photos/10-30-08.webp",
@@ -1327,7 +1452,7 @@ window.TRIP_DATA = {
       "shortArea": "티엔즈팡 · 징안",
       "stops": [
         {
-          "time": "오전",
+          "time": "낮",
           "title": "호텔 출발",
           "zh": "上海虹桥新华联索菲特大酒店",
           "address": "闵行区泰虹路666号",
@@ -1336,13 +1461,13 @@ window.TRIP_DATA = {
           "status": "출발",
           "priority": "기록",
           "placeId": "hotel",
-          "mapUrl": "https://uri.amap.com/search?keyword=上海虹桥新华联索菲特大酒店&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "mapUrl": "https://uri.amap.com/search?keyword=上海虹桥新华联索菲特大酒店&city=310000&view=map&src=shanghaitravel2026&callnative=1",
           "displayTitle": "호텔 출발",
           "shortNote": "짐은 호텔에 두고.",
           "quickStatus": "출발"
         },
         {
-          "time": "12:15–13:20",
+          "time": "점심",
           "title": "풀만 스카이웨이 · 런치",
           "zh": "上海斯格威铂尔曼大酒店",
           "address": "黄浦区打浦路15号",
@@ -1351,13 +1476,13 @@ window.TRIP_DATA = {
           "status": "완료 · 뷔페 50%",
           "priority": "추천",
           "placeId": "pullman-skyway",
-          "mapUrl": "https://uri.amap.com/search?keyword=上海斯格威铂尔曼大酒店&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "mapUrl": "https://uri.amap.com/search?keyword=上海斯格威铂尔曼大酒店&city=310000&view=map&src=shanghaitravel2026&callnative=1",
           "displayTitle": "풀만 런치",
           "shortNote": "뷔페 50% 쿠폰 사용.",
           "quickStatus": "완료"
         },
         {
-          "time": "13:35–15:00",
+          "time": "오후",
           "title": "티엔즈팡 · 골목",
           "zh": "田子坊",
           "address": "黄浦区泰康路210弄",
@@ -1366,13 +1491,13 @@ window.TRIP_DATA = {
           "status": "완료",
           "priority": "추천",
           "placeId": "tianzifang",
-          "mapUrl": "https://uri.amap.com/search?keyword=田子坊&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "mapUrl": "https://uri.amap.com/search?keyword=田子坊&city=310000&view=map&src=shanghaitravel2026&callnative=1",
           "displayTitle": "티엔즈팡",
           "shortNote": "골목 구경.",
           "quickStatus": "완료"
         },
         {
-          "time": "15:30–18:00",
+          "time": "늦은 오후",
           "title": "스타벅스 리저브 로스터리 · 징안 일대",
           "zh": "星巴克臻选上海烘焙工坊",
           "address": "南京西路789号",
@@ -1381,13 +1506,13 @@ window.TRIP_DATA = {
           "status": "완료",
           "priority": "추천",
           "placeId": "video-roastery",
-          "mapUrl": "https://uri.amap.com/search?keyword=星巴克臻选上海烘焙工坊&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "mapUrl": "https://uri.amap.com/search?keyword=星巴克臻选上海烘焙工坊&city=310000&view=map&src=shanghaitravel2026&callnative=1",
           "displayTitle": "스타벅스 리저브",
           "shortNote": "로스터리와 주변 산책.",
           "quickStatus": "완료"
         },
         {
-          "time": "18:00–23:00",
+          "time": "밤 · 23시 호텔 도착",
           "title": "호텔 복귀 · 짐 정리",
           "zh": "上海虹桥新华联索菲特大酒店",
           "address": "闵行区泰虹路666号",
@@ -1396,7 +1521,7 @@ window.TRIP_DATA = {
           "status": "완료 · 23:00",
           "priority": "핵심",
           "placeId": "hotel",
-          "mapUrl": "https://uri.amap.com/search?keyword=上海虹桥新华联索菲特大酒店&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "mapUrl": "https://uri.amap.com/search?keyword=上海虹桥新华联索菲特大酒店&city=310000&view=map&src=shanghaitravel2026&callnative=1",
           "displayTitle": "호텔 복귀·짐 정리",
           "shortNote": "23시 도착.",
           "quickStatus": "완료"
@@ -1411,7 +1536,7 @@ window.TRIP_DATA = {
           "status": "생략",
           "priority": "선택",
           "placeId": "video-wukang",
-          "mapUrl": "https://uri.amap.com/search?keyword=武康大楼&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "mapUrl": "https://uri.amap.com/search?keyword=武康大楼&city=310000&view=map&src=shanghaitravel2026&callnative=1",
           "displayTitle": "못 간 곳 · 우캉맨션·Unitree·AGIBOT",
           "shortNote": "결국 못 갔어요.",
           "quickStatus": "생략"
@@ -1419,10 +1544,31 @@ window.TRIP_DATA = {
       ],
       "photoStory": [
         {
+          "time": "12:46",
+          "title": "마지막 시내 나들이를 시작하며",
+          "text": "관광을 할 수 있는 마지막 날에도 거리에는 볕이 들었다. 점심 사진에 앞서 파란 자전거와 나무 그림자 앞에서 남긴 한 장이 있다. 이날은 풀만에서 티엔즈팡, 징안으로 이어졌다.",
+          "photos": [
+            {
+              "src": "assets/photos/10-31-extra-01.webp",
+              "caption": "점심 전, 햇볕 아래 자전거",
+              "alt": "파란 자전거 옆에서 웃고 있는 연주와 나무 그림자",
+              "width": 600,
+              "height": 800
+            }
+          ]
+        },
+        {
           "time": "14:41",
           "title": "풀만 런치",
-          "text": "마지막 날 점심은 풀만 스카이웨이 창가 자리에서 뷔페 50% 쿠폰으로 먹었다.",
+          "text": "풀만 스카이웨이 창가에서 점심을 먹었다. 창밖으로 도시가 펼쳐지고, 테이블에는 음식 접시와 음료가 놓였다. 뷔페 50% 쿠폰을 쓴 런치 뒤에는 가까운 티엔즈팡으로 향했다.",
           "photos": [
+            {
+              "src": "assets/photos/10-31-extra-02.webp",
+              "caption": "창가의 런치, 도시를 바라보며",
+              "alt": "풀만 스카이웨이 창가에서 접시와 음료를 놓고 점심을 먹는 연주",
+              "width": 600,
+              "height": 800
+            },
             {
               "src": "assets/photos/10-31-01.webp",
               "caption": "풀만 창가",
@@ -1442,7 +1588,7 @@ window.TRIP_DATA = {
         {
           "time": "15:16",
           "title": "티엔즈팡",
-          "text": "좁은 골목을 따라 가게와 그림 벽을 구경하며 걸었다.",
+          "text": "큰길에서 골목 안으로 들어서자 작은 가게와 간판, 초록 차양이 가까이 붙어 있었다. 벽의 그림과 진열을 구경하고, 오가는 사람들 사이에서 서로의 사진을 찍었다. 마지막 시내 나들이는 골목을 천천히 둘러보는 쪽으로 흘렀다.",
           "photos": [
             {
               "src": "assets/photos/10-31-03.webp",
@@ -1450,6 +1596,13 @@ window.TRIP_DATA = {
               "alt": "티엔즈팡으로 가는 길의 거리",
               "width": 675,
               "height": 900
+            },
+            {
+              "src": "assets/photos/10-31-extra-03.webp",
+              "caption": "상점 사이로 이어지는 티엔즈팡",
+              "alt": "가게 간판과 좁은 통로, 오가는 사람들이 보이는 티엔즈팡 골목",
+              "width": 600,
+              "height": 800
             },
             {
               "src": "assets/photos/10-31-04.webp",
@@ -1471,6 +1624,13 @@ window.TRIP_DATA = {
               "alt": "초록빛으로 꾸민 가게 안",
               "width": 675,
               "height": 900
+            },
+            {
+              "src": "assets/photos/10-31-extra-04.webp",
+              "caption": "골목의 초록 차양 아래",
+              "alt": "티엔즈팡 골목의 초록색 차양과 가게들 사이에 선 인권",
+              "width": 600,
+              "height": 800
             },
             {
               "src": "assets/photos/10-31-07.webp",
@@ -1519,7 +1679,7 @@ window.TRIP_DATA = {
         {
           "time": "18:18",
           "title": "The Louis 앞에서",
-          "text": "밖으로 나오니 배 모양의 The Louis 건물에 불이 켜져 있었다. 그 앞 거리를 한참 걸었다.",
+          "text": "로스터리 밖으로 나오니 배 모양의 The Louis 건물에 불이 켜져 있었다. 외벽 가까이에서도, 맞은편 거리에서도 빛나는 배 모양을 사진에 담았다.",
           "photos": [
             {
               "src": "assets/photos/10-31-12.webp",
@@ -1555,13 +1715,34 @@ window.TRIP_DATA = {
               "alt": "가로등이 켜진 밤의 길",
               "width": 675,
               "height": 900
+            },
+            {
+              "src": "assets/photos/10-31-extra-05.webp",
+              "caption": "불이 켜진 배 모양 건물",
+              "alt": "THE LOUIS 글자와 조명이 보이는 배 모양 건물의 외벽",
+              "width": 600,
+              "height": 800
+            }
+          ]
+        },
+        {
+          "time": "20:32",
+          "title": "밤까지 남은 도시의 불빛",
+          "text": "저녁의 거리에는 건물 조명과 가로등, 자동차 불빛이 겹쳐 있었다. 밤이 된 뒤에도 시내 풍경을 사진으로 남기고, 마지막 간식을 거쳐 호텔로 돌아갔다.",
+          "photos": [
+            {
+              "src": "assets/photos/10-31-extra-06.webp",
+              "caption": "밤까지 이어진 시내 풍경",
+              "alt": "가로등과 자동차 불빛, 조명이 켜진 건물이 보이는 상하이의 밤거리",
+              "width": 600,
+              "height": 800
             }
           ]
         },
         {
           "time": "21:50",
           "title": "마지막 간식",
-          "text": "호텔로 돌아가기 전 탕후루 하나. 23시에 호텔로 돌아와 짐을 쌌다.",
+          "text": "호텔로 돌아가기 전 탕후루 한 꼬치를 사진에 남겼다. 23시에 호텔로 돌아와 짐을 정리했다. 다음 날은 새벽 체크아웃과 귀국만 남아 있었다.",
           "photos": [
             {
               "src": "assets/photos/10-31-17.webp",
@@ -1598,7 +1779,7 @@ window.TRIP_DATA = {
           "type": "호텔",
           "status": "완료",
           "sourceUrl": null,
-          "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E6%96%B0%E5%8D%8E%E8%81%94%E7%B4%A2%E8%8F%B2%E7%89%B9%E5%A4%A7%E9%85%92%E5%BA%97%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%B3%B0%E8%99%B9%E8%B7%AF666%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E6%96%B0%E5%8D%8E%E8%81%94%E7%B4%A2%E8%8F%B2%E7%89%B9%E5%A4%A7%E9%85%92%E5%BA%97%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%B3%B0%E8%99%B9%E8%B7%AF666%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
           "placeId": "hotel",
           "displayTitle": "새벽 체크아웃",
           "shortNote": "새벽 체크아웃.",
@@ -1613,9 +1794,9 @@ window.TRIP_DATA = {
           "type": "공항 이동",
           "status": "완료",
           "sourceUrl": null,
-          "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BA%20T1%20%E5%9B%BD%E9%99%85%E5%87%BA%E5%8F%91%20&city=310000&view=map&src=shanghaitech2026&callnative=1",
+          "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BA%20T1%20%E5%9B%BD%E9%99%85%E5%87%BA%E5%8F%91%20&city=310000&view=map&src=shanghaitravel2026&callnative=1",
           "placeId": "airport",
-          "displayTitle": "04:20 출발 목표 · 홍차오 T1",
+          "displayTitle": "홍차오 T1로 이동",
           "shortNote": "국제선 T1로 이동.",
           "quickStatus": "완료"
         },
@@ -1655,7 +1836,7 @@ window.TRIP_DATA = {
       "tag": "HUMANOID",
       "status": "가지 못함",
       "sourceUrl": "https://www.jingan.gov.cn/rmtzx/003001/20260602/d37d57f4-e81c-4352-a819-c94d38562240.html",
-      "mapUrl": "https://uri.amap.com/search?keyword=%E5%AE%87%E6%A0%91%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E4%BD%93%E9%AA%8C%E9%A6%86%20%E4%B9%85%E5%85%89%E7%99%BE%E8%B4%A7%20%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF1618%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+      "mapUrl": "https://uri.amap.com/search?keyword=%E5%AE%87%E6%A0%91%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E4%BD%93%E9%AA%8C%E9%A6%86%20%E4%B9%85%E5%85%89%E7%99%BE%E8%B4%A7%20%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF1618%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
       "access": {
         "reservation": "공개 매장과 로봇 상호작용은 확인. 일반 입장·직접 조작의 사전예약 규정은 공식 자료에 명시되지 않았다.",
         "phone": "+82 등록·인증 지원과 중국 번호 필요 여부는 미확인. 공개 매장이라는 사실만으로 조작 체험까지 보장하지 않는다.",
@@ -1682,7 +1863,7 @@ window.TRIP_DATA = {
       "image": "assets/hero.jpg",
       "imageCredit": "쉬후이구 공식 보도 자료사진",
       "sourceUrl": "https://www.shanghai.gov.cn/nw15343/20260923/1fe30fe4e6194afbbacdf1b40179f159.html",
-      "mapUrl": "https://uri.amap.com/search?keyword=%E8%A5%BF%E5%B2%B8%E6%BB%91%E6%9D%BF%E5%85%AC%E5%9B%AD%20%E7%BE%8E%E5%9B%A2%E6%97%A0%E4%BA%BA%E6%9C%BA&city=310000&view=map&src=shanghaitech2026&callnative=1",
+      "mapUrl": "https://uri.amap.com/search?keyword=%E8%A5%BF%E5%B2%B8%E6%BB%91%E6%9D%BF%E5%85%AC%E5%9B%AD%20%E7%BE%8E%E5%9B%A2%E6%97%A0%E4%BA%BA%E6%9C%BA&city=310000&view=map&src=shanghaitravel2026&callnative=1",
       "access": {
         "reservation": "당일 음식 주문형. 공식 절차에 별도 체험·시간대 예약은 안내되지 않았다. 현장 QR 또는 미투안의 해당 수령점에서 주문한다.",
         "phone": "미투안 일반 계정은 +82 선택 가능. 이번 계획은 상하이에서 +86 본토 번호와 SMS가 있는 실물 SIM 1장을 직접 개통해 인증 변수를 줄이는 방식이다. 중국 번호가 이 드론 노선의 필수 조건이라는 공식 규정은 확인되지 않았고, 인증·주문·결제 성공도 보장하지 않는다.",
@@ -1719,7 +1900,7 @@ window.TRIP_DATA = {
       "tag": "HANDS ON",
       "status": "가지 못함",
       "sourceUrl": "https://www.jfdaily.com/sgh/detail?id=4045817",
-      "mapUrl": "https://uri.amap.com/search?keyword=%E6%96%B0%E5%85%AD%E7%99%BEYOUNG%20%E8%A1%A1%E5%B1%B1%E8%B7%AF932%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+      "mapUrl": "https://uri.amap.com/search?keyword=%E6%96%B0%E5%85%AD%E7%99%BEYOUNG%20%E8%A1%A1%E5%B1%B1%E8%B7%AF932%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
       "access": {
         "reservation": "회차별 체험은 확인. 사전예약 필요 여부·현재 요금·대기 방식은 공식 공개 안내에서 확인되지 않았다.",
         "phone": "한국(+82) 계정의 체험 등록·결제 지원은 미확인. 개업 행사에 알리페이 연계가 있었지만 현재 필수 계정 조건은 알 수 없다.",
@@ -1746,7 +1927,7 @@ window.TRIP_DATA = {
       "image": "assets/agibot.jpg",
       "imageCredit": "2026.6.15 AGIBOT 매장 자료사진 / IC·상하이시",
       "sourceUrl": "https://japanese.shanghai.gov.cn/ja-FirstStores/20260608/24f3a7ad2426446e9b31ba6b764f64cf.html",
-      "mapUrl": "https://uri.amap.com/search?keyword=%E6%99%BA%E5%85%83%E4%BA%AC%E4%B8%9C%20%E4%BA%AC%E4%B8%9CMALL%20%E4%B8%8A%E6%B5%B7%E4%B8%83%E5%AE%9D%20%E6%BC%95%E5%AE%9D%E8%B7%AF3509%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+      "mapUrl": "https://uri.amap.com/search?keyword=%E6%99%BA%E5%85%83%E4%BA%AC%E4%B8%9C%20%E4%BA%AC%E4%B8%9CMALL%20%E4%B8%8A%E6%B5%B7%E4%B8%83%E5%AE%9D%20%E6%BC%95%E5%AE%9D%E8%B7%AF3509%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
       "access": {
         "reservation": "공개 매장·체험 공간은 확인. 일반 입장과 전용 조작 세션의 예약·요금 규정은 공식 자료에 명시되지 않았다.",
         "phone": "+82 예약·등록·인증 지원은 미확인. 중국 번호 필수라는 공식 규정도 확인되지 않았다.",
@@ -1775,7 +1956,7 @@ window.TRIP_DATA = {
       "tag": "CREATOR MOMENT",
       "status": "가지 못함",
       "sourceUrl": "https://www.gentlemonster.com/cn/zh-CN/stores/detail/779149670609076624",
-      "mapUrl": "https://uri.amap.com/search?keyword=HAUS%20NOWHERE%20%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF798%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1"
+      "mapUrl": "https://uri.amap.com/search?keyword=HAUS%20NOWHERE%20%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF798%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1"
     }
   ],
   "flight": {
@@ -1816,7 +1997,7 @@ window.TRIP_DATA = {
     "checkin": "14:00",
     "checkout": "12:00",
     "stay": "10/27 체크인 — 11/1 체크아웃 · 총 5박",
-    "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E6%96%B0%E5%8D%8E%E8%81%94%E7%B4%A2%E8%8F%B2%E7%89%B9%E5%A4%A7%E9%85%92%E5%BA%97%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%B3%B0%E8%99%B9%E8%B7%AF666%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1"
+    "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E6%96%B0%E5%8D%8E%E8%81%94%E7%B4%A2%E8%8F%B2%E7%89%B9%E5%A4%A7%E9%85%92%E5%BA%97%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%B3%B0%E8%99%B9%E8%B7%AF666%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1"
   },
   "prep": [
     {
@@ -1998,14 +2179,14 @@ window.TRIP_DATA = {
       "title": "기사님께 보여줄 호텔",
       "body": "소피텔 상하이 홍차오",
       "copy": "上海虹桥新华联索菲特大酒店\n上海市闵行区泰虹路666号",
-      "link": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E6%96%B0%E5%8D%8E%E8%81%94%E7%B4%A2%E8%8F%B2%E7%89%B9%E5%A4%A7%E9%85%92%E5%BA%97%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%B3%B0%E8%99%B9%E8%B7%AF666%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+      "link": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E6%96%B0%E5%8D%8E%E8%81%94%E7%B4%A2%E8%8F%B2%E7%89%B9%E5%A4%A7%E9%85%92%E5%BA%97%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%B3%B0%E8%99%B9%E8%B7%AF666%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
       "label": "고덕지도 열기"
     },
     {
       "title": "귀국 공항은 T1",
       "body": "11/1 MU511 · 홍차오 국제선 08:00 출발",
       "copy": "请送我们到上海虹桥国际机场1号航站楼，国际出发。\n请注意，不是2号航站楼，也不是虹桥火车站。",
-      "link": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BA%20T1%20%E5%9B%BD%E9%99%85%E5%87%BA%E5%8F%91&city=310000&view=map&src=shanghaitech2026&callnative=1",
+      "link": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BA%20T1%20%E5%9B%BD%E9%99%85%E5%87%BA%E5%8F%91&city=310000&view=map&src=shanghaitravel2026&callnative=1",
       "label": "공항 지도"
     },
     {
@@ -2068,7 +2249,7 @@ window.TRIP_DATA = {
       "title": "우체국에서 엽서 보내기",
       "body": "중국우체국(中国邮政) 지점에서 엽서와 우표를 사서 한국으로 부친다. 여권은 필요 없고 우표는 창구에서 구입한다. 上海邮政博物馆(北苏州路250号)은 수·목·토·일 09:00–17:00(16:00 입장 마감)만 운영하니 요일을 확인한다. 티엔즈팡·다푸차오 주변에는 도보권에 지점이 있다.",
       "copy": "我想买明信片和邮票，寄到韩国。请问国际明信片的邮资是多少？需要贴几张邮票？",
-      "link": "https://uri.amap.com/search?keyword=%E4%B8%AD%E5%9B%BD%E9%82%AE%E6%94%BF&city=310000&view=map&src=shanghaitech2026&callnative=1",
+      "link": "https://uri.amap.com/search?keyword=%E4%B8%AD%E5%9B%BD%E9%82%AE%E6%94%BF&city=310000&view=map&src=shanghaitravel2026&callnative=1",
       "label": "가까운 우체국 찾기"
     },
     {
@@ -2390,7 +2571,7 @@ window.TRIP_DATA = {
   ],
   "notes": {
     "plan": "다녀온 기록 · 5박 6일",
-    "assumption": "계획과 달라진 곳은 날짜별 일정의 ‘빠진 곳’에 남겼다. 이 항목은 출발 전에 조사한 내용이고, 실제로는 가지 못한 곳이다.",
+    "assumption": "날짜별 기록과 사진에 실제 방문을 정리했다. 출발 전 조사 목록은 당시 계획이며, 방문한 곳과 가지 못한 후보를 구분해 남겼다. 기록이 없는 식사·이동 시각은 확인 전까지 채우지 않았다.",
     "privacy": "공개 여행 기록. 체크와 메모는 현재 브라우저에만 저장되며 다른 방문자에게 공개되거나 기기 간 자동 동기화되지 않는다."
   },
   "simStores": {
@@ -2411,7 +2592,7 @@ window.TRIP_DATA = {
         "passport": "공식 여권 개통 가이드의 매장 검색에 등재. 한국 여권으로 신규 실물 SIM을 개통할 담당자와 직영 여부는 방문 전 확인한다.",
         "booking": "공개 매장 목록에 예약 필수 여부는 표시되지 않았다. 전화 또는 호텔 프런트를 통해 여권 접수 가능 시간·필요 서류를 확인하고 방문한다.",
         "retention": "최저 월요금의 정상 회선, 한국 국제로밍·수신 SMS 요금, 개통비·약정·원격 충전을 함께 확인. 특정 저가 요금제나 한국 인증 문자 수신은 아직 확정되지 않았다.",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8%20%E7%94%B3%E9%95%BF%E8%B7%AF%E8%90%A5%E4%B8%9A%E5%8E%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E7%94%B3%E9%95%BF%E8%B7%AF1588%E5%BC%843%E3%80%815%E5%8F%B7106%E5%AE%A4&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8%20%E7%94%B3%E9%95%BF%E8%B7%AF%E8%90%A5%E4%B8%9A%E5%8E%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E7%94%B3%E9%95%BF%E8%B7%AF1588%E5%BC%843%E3%80%815%E5%8F%B7106%E5%AE%A4&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "sources": [
           {
             "label": "공식 매장 검색 · 上海 / 申长路",
@@ -2436,7 +2617,7 @@ window.TRIP_DATA = {
         "passport": "중국이동 공식 외국인용 매장 목록에 등재. 한국 여권 신규 개통·직영 분류와 당일 담당자 유무는 확인 후 방문한다.",
         "booking": "방문 예약 규정은 공개 목록에 없다. 매장에 먼저 문의하고, 마감 직전 방문은 피한다.",
         "retention": "최저 월요금의 정상 회선, 한국 국제로밍·수신 SMS 요금, 개통비·약정·원격 충전을 함께 확인. 특정 저가 요금제나 한국 인증 문자 수신은 아직 확정되지 않았다.",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8%20%E5%8D%8E%E6%BC%95%E8%90%A5%E4%B8%9A%E5%8E%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E5%8C%97%E7%BF%9F%E6%94%AF%E8%B7%AF5190%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8%20%E5%8D%8E%E6%BC%95%E8%90%A5%E4%B8%9A%E5%8E%85%20%E4%B8%8A%E6%B5%B7%E5%B8%82%E9%97%B5%E8%A1%8C%E5%8C%BA%E5%8C%97%E7%BF%9F%E6%94%AF%E8%B7%AF5190%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "sources": [
           {
             "label": "공식 매장 검색 · 上海 / 华漕",
@@ -2461,7 +2642,7 @@ window.TRIP_DATA = {
         "passport": "상하이시가 관광객을 포함한 외국인의 여권 개통을 안내한다. 여권 원본을 지참하고 신청자가 직접 방문한다. 일반 통신사 직영점이 아닌 China Telecom 연계 창구다.",
         "booking": "공식 온라인 예약 후 지정 시각에 생활서비스 구역으로 방문. 홍차오 공항 T1 센터와 다른 장소이며, 예약은 아직 하지 않았다.",
         "retention": "장기형과 7·15·30일 단기형을 안내한다. 한국 SMS·번호 유지 목적에 맞는 장기형의 총비용과 로밍 조건을 예약·상담 때 별도로 확인한다.",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E6%B5%B7%E5%A4%96%E4%BA%BA%E6%89%8D%E4%B8%80%E7%AB%99%E5%BC%8F%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83%20%E6%B7%9E%E8%99%B9%E8%B7%AF377%E5%8F%B7%20%E5%85%89%E5%A4%A7%E5%AE%89%E7%9F%B3%E8%99%B9%E6%A1%A5%E4%B8%AD%E5%BF%83T5%E6%A0%8B2%E6%A5%BC&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E6%B5%B7%E5%A4%96%E4%BA%BA%E6%89%8D%E4%B8%80%E7%AB%99%E5%BC%8F%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83%20%E6%B7%9E%E8%99%B9%E8%B7%AF377%E5%8F%B7%20%E5%85%89%E5%A4%A7%E5%AE%89%E7%9F%B3%E8%99%B9%E6%A1%A5%E4%B8%AD%E5%BF%83T5%E6%A0%8B2%E6%A5%BC&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "bookingUrl": "https://m.sh.189.cn/spa/foreign_service_new.html#/?fbc=cnsw",
         "sources": [
           {
@@ -2507,10 +2688,10 @@ window.TRIP_DATA = {
         "lat": 31.2003159,
         "lng": 121.3060846,
         "precision": "호텔 공식 좌표",
-        "note": "5박의 베이스. 시내 일정은 아침에 나가 권역별로 이어 본다.",
+        "note": "10/27부터 11/1 새벽까지 머문 5박의 숙소. 시내를 둘러본 뒤 이곳으로 돌아왔다.",
         "sourceUrl": "https://all.accor.com/hotel/9933/index.en.shtml",
         "kind": "hotel",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E6%96%B0%E5%8D%8E%E8%81%94%E7%B4%A2%E8%8F%B2%E7%89%B9%E5%A4%A7%E9%85%92%E5%BA%97%20%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%B3%B0%E8%99%B9%E8%B7%AF666%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E6%96%B0%E5%8D%8E%E8%81%94%E7%B4%A2%E8%8F%B2%E7%89%B9%E5%A4%A7%E9%85%92%E5%BA%97%20%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%B3%B0%E8%99%B9%E8%B7%AF666%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "mapLabel": "소피텔 숙소"
       },
       {
@@ -2521,10 +2702,10 @@ window.TRIP_DATA = {
         "lat": 31.1959147,
         "lng": 121.3428512,
         "precision": "T1 건물 중심 · 출입구 위치 아님",
-        "note": "10/27 12:55 도착, 11/1 08:00 출발. 국제선 T1을 확인한다.",
+        "note": "10/27 도착과 11/1 귀국에 이용한 홍차오 국제선 T1.",
         "sourceUrl": "https://www.openstreetmap.org/way/93184730",
         "kind": "airport",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BA%20T1%20%E8%99%B9%E6%A1%A5%E6%9C%BA%E5%9C%BA1%E5%8F%B7%E8%88%AA%E7%AB%99%E6%A5%BC&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%99%B9%E6%A1%A5%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BA%20T1%20%E8%99%B9%E6%A1%A5%E6%9C%BA%E5%9C%BA1%E5%8F%B7%E8%88%AA%E7%AB%99%E6%A5%BC&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "mapLabel": "홍차오공항 T1"
       },
       {
@@ -2535,10 +2716,11 @@ window.TRIP_DATA = {
         "lat": 31.2258172,
         "lng": 121.441134,
         "precision": "久光百货 건물 위치",
-        "note": "10/28 핵심. 휴머노이드·로봇개 전시와 상호작용. 직접 조작·예약·시연은 별도 확인.",
+        "note": "출발 전에 조사한 로봇 매장 후보. 이번 여행에서는 가지 못했다. 직접 조작·예약·시연 조건도 체험으로 확인하지 않았다.",
+        "candidate": true,
         "sourceUrl": "https://www.openstreetmap.org/node/573339616",
         "kind": "experience",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E5%AE%87%E6%A0%91%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E4%BD%93%E9%AA%8C%E9%A6%86%20%E4%B9%85%E5%85%89%E7%99%BE%E8%B4%A7%E5%BA%97%20%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF1618%E5%8F%B7%20%E4%B9%85%E5%85%89%E7%99%BE%E8%B4%A72%E6%A5%BC&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E5%AE%87%E6%A0%91%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E4%BD%93%E9%AA%8C%E9%A6%86%20%E4%B9%85%E5%85%89%E7%99%BE%E8%B4%A7%E5%BA%97%20%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF1618%E5%8F%B7%20%E4%B9%85%E5%85%89%E7%99%BE%E8%B4%A72%E6%A5%BC&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "mapLabel": "유니트리"
       },
       {
@@ -2549,10 +2731,11 @@ window.TRIP_DATA = {
         "lat": 31.2200923,
         "lng": 121.4575034,
         "precision": "지도 POI · 실제 입구 현장 확인",
-        "note": "10/28 핵심. 미래형 브랜드 공간에서 짧은 영상을 남긴다. 공식 10:00–22:00.",
+        "note": "출발 전에 조사한 브랜드 공간 후보. 예원으로 바로 이동하면서 이번 여행에서는 가지 못했다.",
+        "candidate": true,
         "sourceUrl": "https://www.openstreetmap.org/node/14301435101",
         "kind": "experience",
-        "mapUrl": "https://uri.amap.com/search?keyword=HAUS%20NOWHERE%20%E4%B8%8A%E6%B5%B7%20%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF798%E2%80%93812%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=HAUS%20NOWHERE%20%E4%B8%8A%E6%B5%B7%20%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF798%E2%80%93812%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "mapLabel": "하우스 노웨어"
       },
       {
@@ -2566,7 +2749,7 @@ window.TRIP_DATA = {
         "note": "별도 푸둥 코스를 고를 때 볼 수 있는 영상 후보. 현재 날짜별 일정에는 포함하지 않았다. 지도는 푸둥미술관 기준점이며 일락장랑 촬영 지점은 현장에서 확인.",
         "sourceUrl": "https://www.openstreetmap.org/way/803292747",
         "kind": "sight",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E6%B5%A6%E4%B8%9C%E7%BE%8E%E6%9C%AF%E9%A6%86+%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E6%BB%A8%E6%B1%9F%E5%A4%A7%E9%81%932777%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E6%B5%A6%E4%B8%9C%E7%BE%8E%E6%9C%AF%E9%A6%86+%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E6%BB%A8%E6%B1%9F%E5%A4%A7%E9%81%932777%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "mapLabel": "푸둥 강변",
         "candidate": true
       },
@@ -2578,10 +2761,10 @@ window.TRIP_DATA = {
         "lat": 31.2353356,
         "lng": 121.487632,
         "precision": "와이탄 권역 중심",
-        "note": "10/29 로스트 헤븐 저녁 뒤 산책, 10/30 와이탄 3호 메르카토 저녁. 와이탄 권역 중심 핀.",
+        "note": "10/28 관광터널로 건너와 푸둥 야경을 본 강변. 저녁은 징안사 人和馆에서 먹었고 메르카토와 차르 바는 가지 않았다. 와이탄 권역 중심 핀.",
         "sourceUrl": "https://www.openstreetmap.org/relation/2142077",
         "kind": "sight",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E5%A4%96%E6%BB%A9%20%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%B8%AD%E5%B1%B1%E4%B8%9C%E4%B8%80%E8%B7%AF%20%E5%A4%96%E6%BB%A9%E6%B2%BF%E7%BA%BF&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E5%A4%96%E6%BB%A9%20%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%B8%AD%E5%B1%B1%E4%B8%9C%E4%B8%80%E8%B7%AF%20%E5%A4%96%E6%BB%A9%E6%B2%BF%E7%BA%BF&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "mapLabel": "와이탄"
       },
       {
@@ -2593,10 +2776,10 @@ window.TRIP_DATA = {
         "lat": 31.2272,
         "lng": 121.4921,
         "precision": "권역 대표 좌표 · 출입구 현장 확인",
-        "note": "10/29 메이크업·한푸 스냅, 정원(16:00 입장 마감), 해 질 녘 예원상장 야경.",
+        "note": "10/29 메이크업과 한푸 대여를 하고 오후와 야경 사진을 남긴 예원·예원상장 권역.",
         "sourceUrl": "https://english.shanghai.gov.cn/en-CityTour/20250822/80b209847943414baae4a0e6fdba3b12.html",
         "kind": "sight",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E8%B1%AB%E5%9B%AD%20%2F%20%E8%B1%AB%E5%9B%AD%E5%95%86%E5%9F%8E%20%E9%BB%84%E6%B5%A6%E5%8C%BA%E8%B1%AB%E5%9B%AD%E8%80%81%E8%A1%97279%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1"
+        "mapUrl": "https://uri.amap.com/search?keyword=%E8%B1%AB%E5%9B%AD%20%2F%20%E8%B1%AB%E5%9B%AD%E5%95%86%E5%9F%8E%20%E9%BB%84%E6%B5%A6%E5%8C%BA%E8%B1%AB%E5%9B%AD%E8%80%81%E8%A1%97279%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1"
       },
       {
         "id": "nanjing-east",
@@ -2607,10 +2790,11 @@ window.TRIP_DATA = {
         "lat": 31.2372,
         "lng": 121.4785,
         "precision": "권역 대표 좌표 · 출입구 현장 확인",
-        "note": "10/29 와이탄 산책 뒤 기념품. M&M's World는 南京东路829号.",
+        "note": "출발 전에 조사한 기념품 쇼핑 후보. 10/28 난징둥루 쇼핑은 하지 않았다.",
+        "candidate": true,
         "sourceUrl": "https://www.mms.com/en-us/mms-store-shanghai",
         "kind": "sight",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E5%8D%97%E4%BA%AC%E4%B8%9C%E8%B7%AF%E6%AD%A5%E8%A1%8C%E8%A1%97%20%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%8D%97%E4%BA%AC%E4%B8%9C%E8%B7%AF&city=310000&view=map&src=shanghaitech2026&callnative=1"
+        "mapUrl": "https://uri.amap.com/search?keyword=%E5%8D%97%E4%BA%AC%E4%B8%9C%E8%B7%AF%E6%AD%A5%E8%A1%8C%E8%A1%97%20%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%8D%97%E4%BA%AC%E4%B8%9C%E8%B7%AF&city=310000&view=map&src=shanghaitravel2026&callnative=1"
       },
       {
         "id": "oriental-pearl",
@@ -2621,10 +2805,10 @@ window.TRIP_DATA = {
         "lat": 31.2397,
         "lng": 121.4995,
         "precision": "권역 대표 좌표 · 출입구 현장 확인",
-        "note": "10/30 오후. 대기가 길면 전망대 대신 옆 IFC몰에서 쉰다.",
+        "note": "10/28 동방명주 외관과 주변에서 사진을 남겼다. 동방명주 전망대에는 오르지 않았다.",
         "sourceUrl": "https://www.wanderinchina.com/destinations/shanghai/oriental-pearl-tower/",
         "kind": "sight",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%9C%E6%96%B9%E6%98%8E%E7%8F%A0%E5%B9%BF%E6%92%AD%E7%94%B5%E8%A7%86%E5%A1%94%20%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E4%B8%96%E7%BA%AA%E5%A4%A7%E9%81%931%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1"
+        "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%9C%E6%96%B9%E6%98%8E%E7%8F%A0%E5%B9%BF%E6%92%AD%E7%94%B5%E8%A7%86%E5%A1%94%20%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E4%B8%96%E7%BA%AA%E5%A4%A7%E9%81%931%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1"
       },
       {
         "id": "char",
@@ -2635,10 +2819,11 @@ window.TRIP_DATA = {
         "lat": 31.2264,
         "lng": 121.4993,
         "precision": "권역 대표 좌표 · 출입구 현장 확인",
-        "note": "10/30 마지막 밤 루프탑 칵테일. 좌석·이용금액 전화 확인.",
+        "note": "출발 전에 조사한 루프탑 바 후보. 저녁을 징안사 人和馆으로 바꾸면서 이번 여행에서는 가지 않았다.",
+        "candidate": true,
         "sourceUrl": "https://www.ihg.com/hotelindigo/hotels/us/en/shanghai/shgnb/hoteldetail/dining",
         "kind": "sight",
-        "mapUrl": "https://uri.amap.com/search?keyword=CHAR%20bar%20%E4%B8%8A%E6%B5%B7%E5%A4%96%E6%BB%A9%E8%8B%B1%E8%BF%AA%E6%A0%BC%E9%85%92%E5%BA%97%20%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%B8%AD%E5%B1%B1%E4%B8%9C%E4%BA%8C%E8%B7%AF585%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1"
+        "mapUrl": "https://uri.amap.com/search?keyword=CHAR%20bar%20%E4%B8%8A%E6%B5%B7%E5%A4%96%E6%BB%A9%E8%8B%B1%E8%BF%AA%E6%A0%BC%E9%85%92%E5%BA%97%20%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%B8%AD%E5%B1%B1%E4%B8%9C%E4%BA%8C%E8%B7%AF585%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1"
       },
       {
         "id": "robot",
@@ -2648,10 +2833,11 @@ window.TRIP_DATA = {
         "lat": 31.1967669,
         "lng": 121.4340122,
         "precision": "衡山路932号 건물 위치 · 3층 현장 확인",
-        "note": "10/30 핵심. 로봇개 조작과 회차별 체험. 기기·요금·예약은 당일 확인.",
+        "note": "출발 전에 조사한 로봇 조작 체험 후보. 이번 여행의 실제 체험 기록은 없다. 기기·요금·예약 조건은 당시 조사와 실제 이용을 구분한다.",
+        "candidate": true,
         "sourceUrl": "https://www.openstreetmap.org/node/6298348685",
         "kind": "experience",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E6%9C%BA%E6%97%B6%E7%A7%9F%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E4%BD%93%E9%AA%8C%E5%BA%97%20%E5%BE%90%E6%B1%87%E5%8C%BA%E8%A1%A1%E5%B1%B1%E8%B7%AF932%E5%8F%B7%20%E6%96%B0%E5%85%AD%E7%99%BEYOUNG%203%E6%A5%BC&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E6%9C%BA%E6%97%B6%E7%A7%9F%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E4%BD%93%E9%AA%8C%E5%BA%97%20%E5%BE%90%E6%B1%87%E5%8C%BA%E8%A1%A1%E5%B1%B1%E8%B7%AF932%E5%8F%B7%20%E6%96%B0%E5%85%AD%E7%99%BEYOUNG%203%E6%A5%BC&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "mapLabel": "로봇개 조작 체험"
       },
       {
@@ -2662,10 +2848,11 @@ window.TRIP_DATA = {
         "lat": 31.1870414,
         "lng": 121.4621964,
         "precision": "스케이트공원 중심 · 수령함 정확점 아님",
-        "note": "10/30 핵심. 현장 표지·QR로 지정 수령함을 찾는다. 운항과 계정·연락처·결제 조건을 주문 화면에서 확인.",
+        "note": "출발 전에 조사한 드론 수령점 후보. 이번 여행의 주문·수령 기록은 없다. 운항과 계정·결제 조건은 실제 이용으로 확인하지 않았다.",
+        "candidate": true,
         "sourceUrl": "https://www.openstreetmap.org/way/793718848",
         "kind": "experience",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E8%A5%BF%E5%B2%B8%E6%BB%91%E6%9D%BF%E5%85%AC%E5%9B%AD%20%E7%BE%8E%E5%9B%A2%E6%97%A0%E4%BA%BA%E6%9C%BA%20%E5%BE%90%E6%B1%87%E6%BB%A8%E6%B1%9F%20%E9%BE%99%E8%85%BE%E5%A4%A7%E9%81%93%E6%B2%BF%E7%BA%BF%20%E8%A5%BF%E5%B2%B8%E6%BB%91%E6%9D%BF%E5%85%AC%E5%9B%AD&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E8%A5%BF%E5%B2%B8%E6%BB%91%E6%9D%BF%E5%85%AC%E5%9B%AD%20%E7%BE%8E%E5%9B%A2%E6%97%A0%E4%BA%BA%E6%9C%BA%20%E5%BE%90%E6%B1%87%E6%BB%A8%E6%B1%9F%20%E9%BE%99%E8%85%BE%E5%A4%A7%E9%81%93%E6%B2%BF%E7%BA%BF%20%E8%A5%BF%E5%B2%B8%E6%BB%91%E6%9D%BF%E5%85%AC%E5%9B%AD&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "mapLabel": "드론 배달"
       },
       {
@@ -2676,10 +2863,11 @@ window.TRIP_DATA = {
         "lat": 31.1580639,
         "lng": 121.3451774,
         "precision": "漕宝路3509号 건물 중심 · 층·입구 현장 확인",
-        "note": "10/31 핵심. 휴머노이드와 중국 IT 기기를 한 건물에서 살펴본다.",
+        "note": "출발 전에 조사한 AGIBOT·JD MALL 후보. 10/31에는 풀만·티엔즈팡·로스터리로 움직여 가지 못했다.",
+        "candidate": true,
         "sourceUrl": "https://www.openstreetmap.org/way/306984718",
         "kind": "experience",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E6%99%BA%E5%85%83%E4%BA%AC%E4%B8%9C%E7%BA%BF%E4%B8%8B%E9%A6%96%E5%BA%97%20%E4%BA%AC%E4%B8%9CMALL%E4%B8%8A%E6%B5%B7%E4%B8%83%E5%AE%9D%E5%BA%97%20%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%BC%95%E5%AE%9D%E8%B7%AF3509%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E6%99%BA%E5%85%83%E4%BA%AC%E4%B8%9C%E7%BA%BF%E4%B8%8B%E9%A6%96%E5%BA%97%20%E4%BA%AC%E4%B8%9CMALL%E4%B8%8A%E6%B5%B7%E4%B8%83%E5%AE%9D%E5%BA%97%20%E9%97%B5%E8%A1%8C%E5%8C%BA%E6%BC%95%E5%AE%9D%E8%B7%AF3509%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "mapLabel": "애지봇 · JD몰"
       },
       {
@@ -2691,11 +2879,11 @@ window.TRIP_DATA = {
         "lat": 31.2326377,
         "lng": 121.457822,
         "precision": "카페 POI 위치 · 입구 현장 확인",
-        "note": "영상에서 본 선택 후보. 큰 로스팅 설비와 매장 공간을 구경하는 카페 후보. Unitree와 HAUS 사이의 쉬는 시간을 이곳으로 바꿀 수 있다.",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E6%98%9F%E5%B7%B4%E5%85%8B%E8%87%BB%E9%80%89%E4%B8%8A%E6%B5%B7%E7%83%98%E7%84%99%E5%B7%A5%E5%9D%8A%20%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF789%E5%8F%B7%20%E5%85%B4%E4%B8%9A%E5%A4%AA%E5%8F%A4%E6%B1%87N110-N201&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "note": "10/31 티엔즈팡 다음으로 방문한 스타벅스 리저브 로스터리. 매장과 주변 거리를 둘러봤다.",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E6%98%9F%E5%B7%B4%E5%85%8B%E8%87%BB%E9%80%89%E4%B8%8A%E6%B5%B7%E7%83%98%E7%84%99%E5%B7%A5%E5%9D%8A%20%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF789%E5%8F%B7%20%E5%85%B4%E4%B8%9A%E5%A4%AA%E5%8F%A4%E6%B1%87N110-N201&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "sourceUrl": "https://www.openstreetmap.org/node/5273577121",
         "kind": "sight",
-        "candidate": true
+        "candidate": false
       },
       {
         "id": "video-xintiandi",
@@ -2706,8 +2894,8 @@ window.TRIP_DATA = {
         "lat": 31.2219311,
         "lng": 121.4704371,
         "precision": "상업·역사 구역 중심 · 특정 입구 아님",
-        "note": "임시정부 청사 선택 관람 뒤 신톈디 한 구간을15–20분 걷고17시 이른 저녁으로 이어간다. 청사를 생략하면 기존처럼30–45분 산책한다. 지연 시 식사 시간을 우선한다.",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E6%96%B0%E5%A4%A9%E5%9C%B0%20%E5%A4%AA%E4%BB%93%E8%B7%AF181%E5%BC%84&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "note": "10/30 임시정부 청사를 관람한 뒤 산책했다. 이날 저녁도 신톈디광장의 胡恰에서 먹었다.",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E6%96%B0%E5%A4%A9%E5%9C%B0%20%E5%A4%AA%E4%BB%93%E8%B7%AF181%E5%BC%84&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "sourceUrl": "https://www.openstreetmap.org/way/40325255",
         "kind": "sight",
         "candidate": false
@@ -2721,11 +2909,11 @@ window.TRIP_DATA = {
         "lat": 31.2062561,
         "lng": 121.4337292,
         "precision": "우캉맨션 건물 중심 · 안푸루 전체 위치가 아님",
-        "note": "10/30 오전 로봇점 방문 전 외관만 15–20분 본다. 우캉루·안푸루 전체 산책은 포함하지 않는다. 10:25 출발, 11시 로봇 매장 도착을 우선하며 지연 시 생략.",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E6%AD%A6%E5%BA%B7%E5%A4%A7%E6%A5%BC%20%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF1850%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "note": "출발 전에 조사한 외관 사진 후보. 우캉맨션과 우캉루·안푸루는 이번 여행에서 가지 못했다.",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E6%AD%A6%E5%BA%B7%E5%A4%A7%E6%A5%BC%20%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF1850%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "sourceUrl": "https://www.openstreetmap.org/way/293434151",
         "kind": "sight",
-        "candidate": false
+        "candidate": true
       },
       {
         "id": "video-m50",
@@ -2737,7 +2925,7 @@ window.TRIP_DATA = {
         "lng": 121.4446618,
         "precision": "예술단지 대표 중심 · 갤러리별 입구 현장 확인",
         "note": "영상에서 본 선택 후보. 갤러리와 작업 공간을 둘러보는 예술단지. 톈안첸수와 한 권역으로 묶고, HAUS 일정과 교체하면 여유롭다.",
-        "mapUrl": "https://uri.amap.com/search?keyword=M50%E5%88%9B%E6%84%8F%E5%9B%AD%20%E6%99%AE%E9%99%80%E5%8C%BA%E8%8E%AB%E5%B9%B2%E5%B1%B1%E8%B7%AF50%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=M50%E5%88%9B%E6%84%8F%E5%9B%AD%20%E6%99%AE%E9%99%80%E5%8C%BA%E8%8E%AB%E5%B9%B2%E5%B1%B1%E8%B7%AF50%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "sourceUrl": "https://www.openstreetmap.org/way/477237906",
         "kind": "sight",
         "candidate": true
@@ -2752,7 +2940,7 @@ window.TRIP_DATA = {
         "lng": 121.4408887,
         "precision": "건물 대표 중심 · 출입구 현장 확인",
         "note": "영상에서 본 선택 후보. 건축과 강변 풍경을 보는 쇼핑몰 후보. M50과 한 묶음으로 검토하고 쑤저우허 맞은편에서 보는 외관도 비교한다.",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E5%A4%A9%E5%AE%89%E5%8D%83%E6%A0%91%20%E6%99%AE%E9%99%80%E5%8C%BA%E8%8E%AB%E5%B9%B2%E5%B1%B1%E8%B7%AF600%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E5%A4%A9%E5%AE%89%E5%8D%83%E6%A0%91%20%E6%99%AE%E9%99%80%E5%8C%BA%E8%8E%AB%E5%B9%B2%E5%B1%B1%E8%B7%AF600%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "sourceUrl": "https://www.openstreetmap.org/way/1078943456",
         "kind": "sight",
         "candidate": true
@@ -2767,7 +2955,7 @@ window.TRIP_DATA = {
         "lng": 121.4235063,
         "precision": "단지 대표 중심 · 특정 카페 위치 아님",
         "note": "영상에서 본 선택 후보. 옛 건물과 수영장 주변 상점·카페를 보는 공간. 수영 체험으로 소개하지 않고 산책·사진 후보로 둔다.",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E7%94%9F%C2%B7%E6%96%B0%E6%89%80%20%2F%20Columbia%20Circle%20%E9%95%BF%E5%AE%81%E5%8C%BA%E5%BB%B6%E5%AE%89%E8%A5%BF%E8%B7%AF1262%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E7%94%9F%C2%B7%E6%96%B0%E6%89%80%20%2F%20Columbia%20Circle%20%E9%95%BF%E5%AE%81%E5%8C%BA%E5%BB%B6%E5%AE%89%E8%A5%BF%E8%B7%AF1262%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "sourceUrl": "https://www.openstreetmap.org/way/765939973",
         "kind": "sight",
         "candidate": true
@@ -2781,8 +2969,8 @@ window.TRIP_DATA = {
         "lat": 31.190999,
         "lng": 121.2715607,
         "precision": "수향 상업구역 대표 중심 · 출입구 현장 확인",
-        "note": "이번 재정리로 일정에서 빠진 후보. 호텔에서 가까워 10/31 칠보고진 대신 넣을 수 있다.",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E8%9F%A0%E9%BE%99%E5%A4%A9%E5%9C%B0%20%E9%9D%92%E6%B5%A6%E5%8C%BA%E8%9F%A0%E9%BC%8E%E8%B7%AF123%E5%BC%848%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "note": "출발 전에 조사한 수향마을 후보. 이번 여행에서는 가지 않았다.",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E8%9F%A0%E9%BE%99%E5%A4%A9%E5%9C%B0%20%E9%9D%92%E6%B5%A6%E5%8C%BA%E8%9F%A0%E9%BC%8E%E8%B7%AF123%E5%BC%848%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "sourceUrl": "https://www.openstreetmap.org/way/1244930932",
         "kind": "sight",
         "candidate": true
@@ -2797,7 +2985,7 @@ window.TRIP_DATA = {
         "lng": 121.049214,
         "precision": "고진 관광구역 대표 중심 · 관광안내소·입구와 구분",
         "note": "영상에서 본 선택 후보. 보내주신 영상 14:48 구간의 첫 수향마을. 반나절 이상을 확보하고, 판룽톈디까지 묶으면 하루 코스로 계획한다.",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E6%9C%B1%E5%AE%B6%E8%A7%92%E5%8F%A4%E9%95%87%20%E6%B8%B8%E5%AE%A2%E4%B8%AD%E5%BF%83%EF%BC%9A%E9%9D%92%E6%B5%A6%E5%8C%BA%E6%9C%B1%E5%AE%B6%E8%A7%92%E9%95%87%E8%AF%BE%E6%A4%8D%E5%9B%AD%E8%B7%AF555%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E6%9C%B1%E5%AE%B6%E8%A7%92%E5%8F%A4%E9%95%87%20%E6%B8%B8%E5%AE%A2%E4%B8%AD%E5%BF%83%EF%BC%9A%E9%9D%92%E6%B5%A6%E5%8C%BA%E6%9C%B1%E5%AE%B6%E8%A7%92%E9%95%87%E8%AF%BE%E6%A4%8D%E5%9B%AD%E8%B7%AF555%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "sourceUrl": "https://www.openstreetmap.org/relation/21610209",
         "kind": "sight",
         "candidate": true
@@ -2811,11 +2999,11 @@ window.TRIP_DATA = {
         "lat": 31.153642,
         "lng": 121.3501439,
         "precision": "고진 핵심구역 대표 중심 · 관광안내소와 구분",
-        "note": "AGIBOT·JD MALL 뒤 기존 선택 산책을 45–60분 고진 산책과 간식으로 구체화했다. 주말 혼잡 시 생략하고 호텔 17시 복귀와 새벽 귀국 준비를 우선한다.",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%83%E5%AE%9D%E5%8F%A4%E9%95%87%20%E6%97%85%E6%B8%B8%E5%92%A8%E8%AF%A2%E7%82%B9%EF%BC%9A%E9%97%B5%E8%A1%8C%E5%8C%BA%E4%B8%83%E5%AE%9D%E9%95%87%E6%A8%AA%E6%B2%A5%E8%B7%AF108%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "note": "출발 전 10/31 AGIBOT·JD MALL 뒤에 검토했던 수향마을 후보. 실제 마지막 날에는 풀만·티엔즈팡·로스터리로 움직여 가지 않았다.",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%83%E5%AE%9D%E5%8F%A4%E9%95%87%20%E6%97%85%E6%B8%B8%E5%92%A8%E8%AF%A2%E7%82%B9%EF%BC%9A%E9%97%B5%E8%A1%8C%E5%8C%BA%E4%B8%83%E5%AE%9D%E9%95%87%E6%A8%AA%E6%B2%A5%E8%B7%AF108%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "sourceUrl": "https://www.openstreetmap.org/way/1212781236",
         "kind": "sight",
-        "candidate": false
+        "candidate": true
       },
       {
         "id": "video-westbund",
@@ -2826,8 +3014,8 @@ window.TRIP_DATA = {
         "lat": 31.1696238,
         "lng": 121.4592939,
         "precision": "미술관 건물 대표 중심 · 입구 현장 확인",
-        "note": "이번 재정리로 일정에서 빠진 후보. 드론 대기가 짧으면 잠깐 볼 수 있다.",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E8%A5%BF%E5%B2%B8%E7%BE%8E%E6%9C%AF%E9%A6%86+%E5%BE%90%E6%B1%87%E5%8C%BA%E9%BE%99%E8%85%BE%E5%A4%A7%E9%81%932600%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "note": "출발 전에 조사한 미술관 외관·강변 산책 후보. 이번 여행의 방문 기록은 없다.",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E8%A5%BF%E5%B2%B8%E7%BE%8E%E6%9C%AF%E9%A6%86+%E5%BE%90%E6%B1%87%E5%8C%BA%E9%BE%99%E8%85%BE%E5%A4%A7%E9%81%932600%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "sourceUrl": "https://www.openstreetmap.org/way/745277168",
         "kind": "sight",
         "candidate": true
@@ -2841,11 +3029,11 @@ window.TRIP_DATA = {
         "lat": 31.225215,
         "lng": 121.4407923,
         "precision": "정안사 건물 대표 중심 · 공공보도·공원 입구는 현장 확인",
-        "note": "10/28 Unitree 방문 전 도착 여유가 있을 때만 10–15분 산책. 사찰 내부 입장은 포함하지 않으며 11시 로봇 방문을 우선한다.",
+        "note": "출발 전에 조사한 사찰 외관·공원 산책 후보. 징안사 일대에서 저녁은 먹었지만 사찰 내부나 공원 관람 기록은 없다.",
         "sourceUrl": "https://www.openstreetmap.org/way/13981430",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E9%9D%99%E5%AE%89%E5%AF%BA%20%E9%9D%99%E5%AE%89%E5%8C%BA%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF1686%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E9%9D%99%E5%AE%89%E5%AF%BA%20%E9%9D%99%E5%AE%89%E5%8C%BA%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF1686%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "kind": "sight",
-        "candidate": false
+        "candidate": true
       },
       {
         "id": "video-korean-gov",
@@ -2856,9 +3044,9 @@ window.TRIP_DATA = {
         "lat": 31.2192213,
         "lng": 121.4701593,
         "precision": "청사 주변 지도 POI · 골목 입구·매표 위치는 현장 확인",
-        "note": "10/28 신톈디 기존 산책 시간에 선택 관람. 대기 포함 총30분·16:30퇴장, 개별 현장 매표. 평일 오후 매표 마감16:30. 대기 길면 생략해17시 저녁을 지킨다.",
+        "note": "10/30 현장에서 표를 사서 관람한 대한민국 임시정부 청사. 이후 신톈디로 걸었다.",
         "sourceUrl": "https://www.openstreetmap.org/node/5530017323",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E5%A4%A7%E9%9F%A9%E6%B0%91%E5%9B%BD%E4%B8%B4%E6%97%B6%E6%94%BF%E5%BA%9C%E6%97%A7%E5%9D%80%20%E9%A9%AC%E5%BD%93%E8%B7%AF306%E5%BC%844%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E5%A4%A7%E9%9F%A9%E6%B0%91%E5%9B%BD%E4%B8%B4%E6%97%B6%E6%94%BF%E5%BA%9C%E6%97%A7%E5%9D%80%20%E9%A9%AC%E5%BD%93%E8%B7%AF306%E5%BC%844%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "kind": "sight",
         "candidate": false
       },
@@ -2870,10 +3058,10 @@ window.TRIP_DATA = {
         "lat": 31.2336,
         "lng": 121.5055,
         "precision": "대략 좌표",
-        "note": "118층 전망대. 시간 지정권으로 입장하면 대기를 줄일 수 있다.",
+        "note": "10/28 118층 전망대에 올라 황푸강과 루자쭈이를 내려다봤다.",
         "kind": "landmark",
         "sourceUrl": "https://www.shanghaitower.com/",
-        "mapUrl": "https://uri.amap.com/search?keyword=上海中心大厦 上海之巅观光厅&city=310000&view=map&src=shanghaitech2026&callnative=1"
+        "mapUrl": "https://uri.amap.com/search?keyword=上海中心大厦 上海之巅观光厅&city=310000&view=map&src=shanghaitravel2026&callnative=1"
       },
       {
         "id": "bund-tunnel",
@@ -2883,10 +3071,10 @@ window.TRIP_DATA = {
         "lat": 31.2393,
         "lng": 121.4901,
         "precision": "대략 좌표",
-        "note": "푸동과 와이탄을 잇는 지하 관광 터널. 강을 건너는 체험으로 쓴다.",
+        "note": "10/28 푸동에서 와이탄으로 이동할 때 탄 지하 관광터널.",
         "kind": "experience",
         "sourceUrl": "https://www.shanghai.gov.cn/",
-        "mapUrl": "https://uri.amap.com/search?keyword=外滩观光隧道&city=310000&view=map&src=shanghaitech2026&callnative=1"
+        "mapUrl": "https://uri.amap.com/search?keyword=外滩观光隧道&city=310000&view=map&src=shanghaitravel2026&callnative=1"
       },
       {
         "id": "peoples-square",
@@ -2896,10 +3084,10 @@ window.TRIP_DATA = {
         "lat": 31.2304,
         "lng": 121.4737,
         "precision": "대략 좌표",
-        "note": "난징루 서쪽 끝의 대형 광장. 박물관·공원·거리와 이어진다.",
+        "note": "10/30 신톈디에서 걸어와 광장과 인민공원 입구를 둘러봤다.",
         "kind": "landmark",
         "sourceUrl": "https://www.shanghai.gov.cn/",
-        "mapUrl": "https://uri.amap.com/search?keyword=人民广场&city=310000&view=map&src=shanghaitech2026&callnative=1"
+        "mapUrl": "https://uri.amap.com/search?keyword=人民广场&city=310000&view=map&src=shanghaitravel2026&callnative=1"
       },
       {
         "id": "era-circus",
@@ -2909,10 +3097,10 @@ window.TRIP_DATA = {
         "lat": 31.2716,
         "lng": 121.4586,
         "precision": "대략 좌표",
-        "note": "지하철 1호선 上海马戏城역 인접. 공연 회차는 월별 일정표로 확인한다.",
+        "note": "10/30 저녁 19:30 ERA 공연을 관람했다. 공연 뒤 차량으로 호텔로 돌아왔다.",
         "kind": "experience",
         "sourceUrl": "https://www.shanghaimaxicheng.com/",
-        "mapUrl": "https://uri.amap.com/search?keyword=上海马戏城&city=310000&view=map&src=shanghaitech2026&callnative=1"
+        "mapUrl": "https://uri.amap.com/search?keyword=上海马戏城&city=310000&view=map&src=shanghaitravel2026&callnative=1"
       },
       {
         "id": "tianzifang",
@@ -2922,10 +3110,10 @@ window.TRIP_DATA = {
         "lat": 31.2113,
         "lng": 121.4661,
         "precision": "대략 좌표",
-        "note": "골목에 공방·소품점·카페가 모인 구역. 오전에 짧게 걷기 좋다.",
+        "note": "10/31 풀만 런치 뒤 골목 상점과 공방을 둘러봤다. 앞선 날의 계획에서는 빠졌지만 마지막 날 방문했다.",
         "kind": "street",
         "sourceUrl": "https://www.shanghai.gov.cn/",
-        "mapUrl": "https://uri.amap.com/search?keyword=田子坊&city=310000&view=map&src=shanghaitech2026&callnative=1"
+        "mapUrl": "https://uri.amap.com/search?keyword=田子坊&city=310000&view=map&src=shanghaitravel2026&callnative=1"
       },
       {
         "id": "renheguan",
@@ -2938,7 +3126,7 @@ window.TRIP_DATA = {
         "note": "상하이 본방채(本帮菜) 노포. 10/28 저녁 식사 장소.",
         "kind": "food",
         "sourceUrl": "https://www.dianping.com/",
-        "mapUrl": "https://uri.amap.com/search?keyword=人和馆 静安寺店&city=310000&view=map&src=shanghaitech2026&callnative=1"
+        "mapUrl": "https://uri.amap.com/search?keyword=人和馆 静安寺店&city=310000&view=map&src=shanghaitravel2026&callnative=1"
       },
       {
         "id": "pullman-skyway",
@@ -2948,10 +3136,10 @@ window.TRIP_DATA = {
         "lat": 31.2046,
         "lng": 121.4698,
         "precision": "대략 좌표",
-        "note": "打浦桥 인근 어코르 계열. 애프터눈티·뷔페. 티엔즈팡 도보 10분.",
-        "kind": "hotel",
+        "note": "10/31 뷔페 50% 쿠폰으로 런치를 먹었다. 식사 뒤 티엔즈팡으로 걸었다.",
+        "kind": "food",
         "sourceUrl": "https://all.accor.com/",
-        "mapUrl": "https://uri.amap.com/search?keyword=上海斯格威铂尔曼大酒店&city=310000&view=map&src=shanghaitech2026&callnative=1"
+        "mapUrl": "https://uri.amap.com/search?keyword=上海斯格威铂尔曼大酒店&city=310000&view=map&src=shanghaitravel2026&callnative=1"
       }
     ],
     "days": [
@@ -2974,7 +3162,6 @@ window.TRIP_DATA = {
         "summary": "상하이타워·동방명주·관광터널 · 와이탄 야경 · 징안사 人和馆 · 23시 귀환",
         "placeIds": [
           "hotel",
-          "lujiazui",
           "shanghai-tower",
           "oriental-pearl",
           "bund-tunnel",
@@ -3043,8 +3230,8 @@ window.TRIP_DATA = {
     "date": "2024-12-06",
     "url": "https://www.youtube.com/watch?v=avRg0Ee-E8s",
     "startUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=888s",
-    "intro": "출발 전에 영상에서 본 장소를 모아 둔 목록이에요. 실제로 간 곳은 날짜별 일정을 기준으로 봐 주세요.",
-    "note": "영상 소개와 자막에서 장소·등장 시각을 확인했습니다. 2024년 영상의 가격·영업시간·점등 시각을 현재 조건으로 적용하지 않았습니다. 주소는 공식 자료로 대조했습니다. 2024년 영상의 가격·영업시간은 현재 조건이 아닙니다.",
+    "intro": "출발 전에 영상에서 본 장소를 모아 둔 목록이에요. 방문한 곳에는 날짜를 연결하고, 가지 못한 곳과 기록이 없는 후보는 당시 조사로 남겼어요.",
+    "note": "영상은 2024년 자료이고 운영 안내는 출발 전 조사 기록입니다. 영상의 가격·영업시간·점등 시각이나 당시 조사한 주소가 지금도 유효하다고 단정하지 않습니다. 실제 경험은 날짜별 기록과 사진을 기준으로 봐 주세요.",
     "places": [
       {
         "id": "nanjing-east",
@@ -3054,13 +3241,13 @@ window.TRIP_DATA = {
         "category": "거리·쇼핑",
         "fit": "halfday",
         "suggestedDay": "10/28 생략",
-        "detail": "와이탄 산책 끝에서 들어가 M&M's World·I LOVE SH 스토어 등에서 가볍게 기념품을 산다.",
+        "detail": "와이탄 뒤 기념품 쇼핑을 검토했지만 10/28에는 하지 않았다. 영상에 나온 M&M's World·I LOVE SH 스토어도 실제 방문으로 기록하지 않았다.",
         "address": "黄浦区南京东路",
         "status": "10/28 생략",
         "videoSeconds": 35,
         "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=35s",
         "sourceUrl": "https://french.shanghai.gov.cn/cmsres/38/38256663e5134a45847c8bd89544ab05/30a2d34a4cd10093285aba68015582d3.pdf",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E5%8D%97%E4%BA%AC%E4%B8%9C%E8%B7%AF%E6%AD%A5%E8%A1%8C%E8%A1%97%20%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%8D%97%E4%BA%AC%E4%B8%9C%E8%B7%AF&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E5%8D%97%E4%BA%AC%E4%B8%9C%E8%B7%AF%E6%AD%A5%E8%A1%8C%E8%A1%97%20%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%8D%97%E4%BA%AC%E4%B8%9C%E8%B7%AF&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "subPlaces": [],
         "mapPlaceId": "nanjing-east",
         "includedDate": null
@@ -3072,14 +3259,14 @@ window.TRIP_DATA = {
         "area": "정안·난징서루",
         "category": "거리·쇼핑",
         "fit": "nearby",
-        "suggestedDay": "10/28 Unitree 전후",
-        "detail": "정안 일정에서 점심·카페를 고를 권역. 로스터리·장위안·우장루를 모두 더하기보다 한두 곳을 선택한다.",
+        "suggestedDay": "출발 전 조사 · 징안 일대",
+        "detail": "당시 점심·카페 산책 권역으로 검토했다. 10/31 로스터리와 주변 상점은 둘러봤지만 우장루까지 갔는지는 별도 기록이 없다.",
         "address": "静安区南京西路·吴江路",
         "status": "선택 후보 · 운영조건 확인",
         "videoSeconds": 91,
         "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=91s",
         "sourceUrl": "https://english.shanghai.gov.cn/en-FirstStores/20260915/d5476add77a54e47a3e6988e742e2edc.html",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF%20%2F%20%E5%90%B4%E6%B1%9F%E8%B7%AF%20%E9%9D%99%E5%AE%89%E5%8C%BA%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF%C2%B7%E5%90%B4%E6%B1%9F%E8%B7%AF&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF%20%2F%20%E5%90%B4%E6%B1%9F%E8%B7%AF%20%E9%9D%99%E5%AE%89%E5%8C%BA%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF%C2%B7%E5%90%B4%E6%B1%9F%E8%B7%AF&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "subPlaces": [
           {
             "name": "우장루",
@@ -3087,7 +3274,7 @@ window.TRIP_DATA = {
             "videoSeconds": 153,
             "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=153s",
             "note": "난징시루의 먹거리 거리. 식사 장소를 고를 때 함께 비교. · 静安区吴江路",
-            "mapUrl": "https://uri.amap.com/search?keyword=%E5%90%B4%E6%B1%9F%E8%B7%AF%20%E9%9D%99%E5%AE%89%E5%8C%BA%E5%90%B4%E6%B1%9F%E8%B7%AF&city=310000&view=map&src=shanghaitech2026&callnative=1",
+            "mapUrl": "https://uri.amap.com/search?keyword=%E5%90%B4%E6%B1%9F%E8%B7%AF%20%E9%9D%99%E5%AE%89%E5%8C%BA%E5%90%B4%E6%B1%9F%E8%B7%AF&city=310000&view=map&src=shanghaitravel2026&callnative=1",
             "sourceUrl": "https://www.shjinganlib.net/ReadingPromotionContent.aspx?ColumnNameEn=BOOKSTORE&id=11689"
           },
           {
@@ -3096,7 +3283,7 @@ window.TRIP_DATA = {
             "videoSeconds": 170,
             "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=170s",
             "note": "영상 속 지점. 방문 전 현재 영업 확인. · 吴江路289号",
-            "mapUrl": "https://uri.amap.com/search?keyword=BUTTERFUL%26CREAMOROUS%20%E4%B8%8A%E6%B5%B7%E5%90%B4%E6%B1%9F%E8%B7%AF%E5%BA%97%20%E5%90%B4%E6%B1%9F%E8%B7%AF289%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+            "mapUrl": "https://uri.amap.com/search?keyword=BUTTERFUL%26CREAMOROUS%20%E4%B8%8A%E6%B5%B7%E5%90%B4%E6%B1%9F%E8%B7%AF%E5%BA%97%20%E5%90%B4%E6%B1%9F%E8%B7%AF289%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
             "sourceUrl": "https://butterfulcreamorous.com/chinese/"
           }
         ]
@@ -3108,14 +3295,14 @@ window.TRIP_DATA = {
         "area": "정안·난징서루",
         "category": "카페·브랜드",
         "fit": "nearby",
-        "suggestedDay": "10/31 상세 일정에 반영",
-        "detail": "큰 로스팅 설비와 매장 공간을 구경하는 카페 후보. Unitree와 HAUS 사이의 쉬는 시간을 이곳으로 바꿀 수 있다.",
+        "suggestedDay": "10/31 방문",
+        "detail": "풀만 런치와 티엔즈팡 산책 뒤 방문했다. 매장과 주변 거리를 둘러보고 The Louis 앞에서도 사진을 남겼다.",
         "address": "南京西路789号 兴业太古汇N110-N201",
-        "status": "일정 반영",
+        "status": "방문 완료",
         "videoSeconds": 112,
         "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=112s",
         "sourceUrl": "https://english.shanghai.gov.cn/en-TrendyStores/20251211/99c3b1f117df431c9e342129724c640c.html",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E6%98%9F%E5%B7%B4%E5%85%8B%E8%87%BB%E9%80%89%E4%B8%8A%E6%B5%B7%E7%83%98%E7%84%99%E5%B7%A5%E5%9D%8A%20%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF789%E5%8F%B7%20%E5%85%B4%E4%B8%9A%E5%A4%AA%E5%8F%A4%E6%B1%87N110-N201&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E6%98%9F%E5%B7%B4%E5%85%8B%E8%87%BB%E9%80%89%E4%B8%8A%E6%B5%B7%E7%83%98%E7%84%99%E5%B7%A5%E5%9D%8A%20%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF789%E5%8F%B7%20%E5%85%B4%E4%B8%9A%E5%A4%AA%E5%8F%A4%E6%B1%87N110-N201&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "subPlaces": [],
         "mapPlaceId": "video-roastery",
         "includedDate": "2026-10-31"
@@ -3127,14 +3314,14 @@ window.TRIP_DATA = {
         "area": "정안·난징서루",
         "category": "거리·쇼핑",
         "fit": "nearby",
-        "suggestedDay": "10/28 산책 대안",
-        "detail": "스쿠먼(石库门) 골목과 브랜드 공간을 둘러보는 사진 산책. 난징시루 카페 일정과 묶되 현재 팝업·매장 운영은 따로 확인한다.",
+        "suggestedDay": "출발 전 조사 · 산책 대안",
+        "detail": "스쿠먼(石库门) 골목과 브랜드 공간을 둘러볼 산책 대안으로 조사했다. 이번 여행의 방문 기록은 없으며 팝업·매장 운영도 실제 이용으로 확인하지 않았다.",
         "address": "威海路588号",
         "status": "선택 후보 · 운영조건 확인",
         "videoSeconds": 132,
         "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=132s",
         "sourceUrl": "https://english.shanghai.gov.cn/en-SpecialtyShoppingAreas/20241113/401573bf13e5495eb189191e20884780.html",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E5%BC%A0%E5%9B%AD%20%E5%A8%81%E6%B5%B7%E8%B7%AF588%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E5%BC%A0%E5%9B%AD%20%E5%A8%81%E6%B5%B7%E8%B7%AF588%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "subPlaces": []
       },
       {
@@ -3144,14 +3331,14 @@ window.TRIP_DATA = {
         "area": "신천지·황푸",
         "category": "거리·쇼핑",
         "fit": "nearby",
-        "suggestedDay": "10/30 저녁 산책",
-        "detail": "임시정부 청사 선택 관람 뒤 신톈디 한 구간을15–20분 걷고17시 이른 저녁으로 이어간다. 청사를 생략하면 기존처럼30–45분 산책한다. 지연 시 식사 시간을 우선한다.",
+        "suggestedDay": "10/30 방문",
+        "detail": "임시정부 청사 관람 뒤 골목과 광장을 걸었다. 이날 저녁도 신톈디광장의 강서요리 胡恰에서 먹었다.",
         "address": "太仓路181弄",
-        "status": "일정 반영",
+        "status": "방문 완료",
         "videoSeconds": 187,
         "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=187s",
         "sourceUrl": "https://english.shanghai.gov.cn/en-SpecialtyShoppingAreas/20231207/521159f5af35430ab1641004f5c68d03.html",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E6%96%B0%E5%A4%A9%E5%9C%B0%20%E5%A4%AA%E4%BB%93%E8%B7%AF181%E5%BC%84&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E6%96%B0%E5%A4%A9%E5%9C%B0%20%E5%A4%AA%E4%BB%93%E8%B7%AF181%E5%BC%84&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "subPlaces": [],
         "mapPlaceId": "video-xintiandi",
         "includedDate": "2026-10-30"
@@ -3163,14 +3350,14 @@ window.TRIP_DATA = {
         "area": "신천지·황푸",
         "category": "문화·전시",
         "fit": "nearby",
-        "suggestedDay": "10/30 오후",
-        "detail": "16시경 대기 포함 총30분 안에 선택 관람하고16:30에 나와 신톈디를 거쳐 17시 저녁으로 이어간다. 최신 공지상 개별 방문은 현장 매표 후 입장하며, 평일 오후13:30–17:00·16:30 매표 종료. 대기가 10분을 넘으면 생략한다.",
+        "suggestedDay": "10/30 방문",
+        "detail": "우체국에서 엽서를 부친 뒤 이동해 현장 매표로 관람했다. 관람 후 신톈디 골목으로 이어갔다.",
         "address": "马当路306弄4号",
-        "status": "일정 반영",
+        "status": "방문 완료",
         "videoSeconds": 233,
         "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=233s",
         "sourceUrl": "https://www.jfdaily.com/sgh/detail?id=4052204",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E5%A4%A7%E9%9F%A9%E6%B0%91%E5%9B%BD%E4%B8%B4%E6%97%B6%E6%94%BF%E5%BA%9C%E6%97%A7%E5%9D%80%20%E9%A9%AC%E5%BD%93%E8%B7%AF306%E5%BC%844%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E5%A4%A7%E9%9F%A9%E6%B0%91%E5%9B%BD%E4%B8%B4%E6%97%B6%E6%94%BF%E5%BA%9C%E6%97%A7%E5%9D%80%20%E9%A9%AC%E5%BD%93%E8%B7%AF306%E5%BC%844%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "subPlaces": [],
         "includedDate": "2026-10-30",
         "mapPlaceId": "video-korean-gov"
@@ -3182,14 +3369,14 @@ window.TRIP_DATA = {
         "area": "신천지·황푸",
         "category": "거리·쇼핑",
         "fit": "nearby",
-        "suggestedDay": "10/31 짧게",
-        "detail": "작은 상점과 골목이 모인 예술 거리. 우캉루·신톈디와 모두 이어 붙이기보다 취향에 맞는 산책 권역을 고른다.",
+        "suggestedDay": "10/31 방문",
+        "detail": "앞선 날에는 시간이 없어 가지 못했지만 마지막 날 풀만 런치 뒤 방문했다. 골목 상점과 공방, 벽 그림을 구경하며 걸었다.",
         "address": "黄浦区泰康路210弄",
-        "status": "일정 반영",
+        "status": "방문 완료",
         "videoSeconds": 248,
         "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=248s",
         "sourceUrl": "https://french.shanghai.gov.cn/cmsres/38/38256663e5134a45847c8bd89544ab05/30a2d34a4cd10093285aba68015582d3.pdf",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E7%94%B0%E5%AD%90%E5%9D%8A%20%E9%BB%84%E6%B5%A6%E5%8C%BA%E6%B3%B0%E5%BA%B7%E8%B7%AF210%E5%BC%84&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E7%94%B0%E5%AD%90%E5%9D%8A%20%E9%BB%84%E6%B5%A6%E5%8C%BA%E6%B3%B0%E5%BA%B7%E8%B7%AF210%E5%BC%84&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "subPlaces": [],
         "includedDate": "2026-10-31",
         "mapPlaceId": "tianzifang"
@@ -3201,14 +3388,14 @@ window.TRIP_DATA = {
         "area": "신천지·황푸",
         "category": "거리·쇼핑",
         "fit": "nearby",
-        "suggestedDay": "10/28 또는 10/30 산책 대체",
-        "detail": "정원과 근대 건축을 보는 짧은 산책 후보. 신톈디·톈쯔팡 사이를 걷는 대안으로 두고 체력이 남을 때 고른다.",
+        "suggestedDay": "출발 전 조사 · 산책 대안",
+        "detail": "정원과 근대 건축을 볼 짧은 산책 대안으로 조사했다. 이번 여행의 방문 기록은 없다.",
         "address": "复兴中路523号",
         "status": "선택 후보 · 운영조건 확인",
         "videoSeconds": 297,
         "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=297s",
         "sourceUrl": "https://english.shanghai.gov.cn/en-SpecialtyShoppingAreas/20231217/2df63b2e96954fa093384679eaba9b49.html",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E6%80%9D%E5%8D%97%E5%85%AC%E9%A6%86%20%E5%A4%8D%E5%85%B4%E4%B8%AD%E8%B7%AF523%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E6%80%9D%E5%8D%97%E5%85%AC%E9%A6%86%20%E5%A4%8D%E5%85%B4%E4%B8%AD%E8%B7%AF523%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "subPlaces": []
       },
       {
@@ -3219,13 +3406,13 @@ window.TRIP_DATA = {
         "category": "거리·쇼핑",
         "fit": "nearby",
         "suggestedDay": "10/31 생략",
-        "detail": "이 권역 중 우캉맨션 외관만 오전 로봇 방문 전에15–20분 본다. 10:25에는 출발해11시 로봇 매장에 도착하며 지연 시 생략한다. 안푸루·카페·다른 하위 장소는 추가하지 않는다.",
+        "detail": "우캉맨션 외관을 짧게 보는 계획이었지만 시간이 없어 가지 못했다. 우캉루·안푸루 산책도 이번 여행에서는 하지 않았다.",
         "address": "徐汇区武康路·安福路，武康大楼位于淮海中路1850号",
         "status": "다음 기회",
         "videoSeconds": 308,
         "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=308s",
         "sourceUrl": "https://english.shanghai.gov.cn/en-SpecialtyShoppingAreas/20231217/b15a12afaa1c4fdcbca0f7638b05727b.html",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E6%AD%A6%E5%BA%B7%E8%B7%AF%20%2F%20%E5%AE%89%E7%A6%8F%E8%B7%AF%20%E5%BE%90%E6%B1%87%E5%8C%BA%E6%AD%A6%E5%BA%B7%E8%B7%AF%C2%B7%E5%AE%89%E7%A6%8F%E8%B7%AF%EF%BC%8C%E6%AD%A6%E5%BA%B7%E5%A4%A7%E6%A5%BC%E4%BD%8D%E4%BA%8E%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF1850%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E6%AD%A6%E5%BA%B7%E8%B7%AF%20%2F%20%E5%AE%89%E7%A6%8F%E8%B7%AF%20%E5%BE%90%E6%B1%87%E5%8C%BA%E6%AD%A6%E5%BA%B7%E8%B7%AF%C2%B7%E5%AE%89%E7%A6%8F%E8%B7%AF%EF%BC%8C%E6%AD%A6%E5%BA%B7%E5%A4%A7%E6%A5%BC%E4%BD%8D%E4%BA%8E%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF1850%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "subPlaces": [
           {
             "name": "우캉맨션",
@@ -3233,7 +3420,7 @@ window.TRIP_DATA = {
             "videoSeconds": 324,
             "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=324s",
             "note": "10/30 오전15–20분 외관 산책으로 반영. 실내 관람은 넣지 않으며10:25에 로봇 매장으로 이동한다. · 淮海中路1850号",
-            "mapUrl": "https://uri.amap.com/search?keyword=%E6%AD%A6%E5%BA%B7%E5%A4%A7%E6%A5%BC%20%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF1850%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+            "mapUrl": "https://uri.amap.com/search?keyword=%E6%AD%A6%E5%BA%B7%E5%A4%A7%E6%A5%BC%20%E6%B7%AE%E6%B5%B7%E4%B8%AD%E8%B7%AF1850%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
             "sourceUrl": "https://whlyj.sh.gov.cn/gqfc/20251203/a1174c2de60a4524bbd58144be95c49c.html"
           },
           {
@@ -3269,7 +3456,7 @@ window.TRIP_DATA = {
             "videoSeconds": 371,
             "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=371s",
             "note": "딩샹화원 담장 남쪽의 영상 속 카페·식당. 다른 夏朵 지점과 구분. · 复兴西路268号",
-            "mapUrl": "https://uri.amap.com/search?keyword=%E5%A4%8F%E6%9C%B5%E8%8A%B1%E5%9B%AD%20Chartres%20Garden%20%E5%A4%8D%E5%85%B4%E8%A5%BF%E8%B7%AF268%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+            "mapUrl": "https://uri.amap.com/search?keyword=%E5%A4%8F%E6%9C%B5%E8%8A%B1%E5%9B%AD%20Chartres%20Garden%20%E5%A4%8D%E5%85%B4%E8%A5%BF%E8%B7%AF268%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
             "sourceUrl": "https://www.meet-in-shanghai.net/cn/food/chardon-garden-361140/"
           },
           {
@@ -3287,7 +3474,7 @@ window.TRIP_DATA = {
             "videoSeconds": 392,
             "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=392s",
             "note": "안푸루 권역에서 이어 살펴볼 거리. · 上海 东湖路",
-            "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%9C%E6%B9%96%E8%B7%AF%20%E4%B8%8A%E6%B5%B7%20%E4%B8%9C%E6%B9%96%E8%B7%AF&city=310000&view=map&src=shanghaitech2026&callnative=1"
+            "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%9C%E6%B9%96%E8%B7%AF%20%E4%B8%8A%E6%B5%B7%20%E4%B8%9C%E6%B9%96%E8%B7%AF&city=310000&view=map&src=shanghaitravel2026&callnative=1"
           },
           {
             "name": "펀양루",
@@ -3295,7 +3482,7 @@ window.TRIP_DATA = {
             "videoSeconds": 405,
             "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=405s",
             "note": "시간이 남을 때 고르는 거리 산책. · 上海 汾阳路",
-            "mapUrl": "https://uri.amap.com/search?keyword=%E6%B1%BE%E9%98%B3%E8%B7%AF%20%E4%B8%8A%E6%B5%B7%20%E6%B1%BE%E9%98%B3%E8%B7%AF&city=310000&view=map&src=shanghaitech2026&callnative=1"
+            "mapUrl": "https://uri.amap.com/search?keyword=%E6%B1%BE%E9%98%B3%E8%B7%AF%20%E4%B8%8A%E6%B5%B7%20%E6%B1%BE%E9%98%B3%E8%B7%AF&city=310000&view=map&src=shanghaitravel2026&callnative=1"
           }
         ],
         "mapPlaceId": "video-wukang",
@@ -3308,14 +3495,14 @@ window.TRIP_DATA = {
         "area": "와이탄·루자쭈이",
         "category": "야경·강변",
         "fit": "halfday",
-        "suggestedDay": "별도 도심·와이탄 코스 교체 후보",
-        "detail": "와이탄 북단에서 쑤저우허를 건너는 다리. 락번드·우정박물관 중 원하는 곳과 짧게 묶을 수 있다.",
+        "suggestedDay": "출발 전 조사 · 와이탄 코스 대안",
+        "detail": "와이탄 북단에서 쑤저우허를 건너는 다리로 조사했다. 락번드·우정박물관과 함께 검토한 후보이며 이번 여행의 방문 기록은 없다.",
         "address": "苏州河口，外滩北端",
         "status": "선택 후보 · 운영조건 확인",
         "videoSeconds": 431,
         "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=431s",
         "sourceUrl": "https://english.shanghai.gov.cn/en-HeritageZones/20231208/f2ac293f546a4d32aba936f2e733a47c.html",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E5%A4%96%E7%99%BD%E6%B8%A1%E6%A1%A5%20%E8%8B%8F%E5%B7%9E%E6%B2%B3%E5%8F%A3%EF%BC%8C%E5%A4%96%E6%BB%A9%E5%8C%97%E7%AB%AF&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E5%A4%96%E7%99%BD%E6%B8%A1%E6%A1%A5%20%E8%8B%8F%E5%B7%9E%E6%B2%B3%E5%8F%A3%EF%BC%8C%E5%A4%96%E6%BB%A9%E5%8C%97%E7%AB%AF&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "subPlaces": []
       },
       {
@@ -3325,14 +3512,14 @@ window.TRIP_DATA = {
         "area": "쑤저우허·홍커우",
         "category": "문화·전시",
         "fit": "halfday",
-        "suggestedDay": "별도 도심·와이탄 코스 교체 후보",
-        "detail": "쑤저우허 강변 건물과 전시를 보는 후보. 박물관 관람은 와이탄 야경 뒤로 미루지 말고 개방일·입장 시간을 먼저 확인한다.",
+        "suggestedDay": "출발 전 조사 · 박물관 후보",
+        "detail": "쑤저우허 강변 건물과 전시를 볼 후보로 조사했다. 10/30 엽서를 보낸 우체국과는 다른 장소이며 우정박물관 방문 기록은 없다.",
         "address": "虹口区天潼路395号",
         "status": "선택 후보 · 운영조건 확인",
         "videoSeconds": 463,
         "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=463s",
         "sourceUrl": "https://english.shanghai.gov.cn/en-CityTour/20250523/c69d722267b64663a6082c3e5e4ada7f.html",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E9%82%AE%E6%94%BF%E5%8D%9A%E7%89%A9%E9%A6%86%20%E8%99%B9%E5%8F%A3%E5%8C%BA%E5%A4%A9%E6%BD%BC%E8%B7%AF395%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E9%82%AE%E6%94%BF%E5%8D%9A%E7%89%A9%E9%A6%86%20%E8%99%B9%E5%8F%A3%E5%8C%BA%E5%A4%A9%E6%BD%BC%E8%B7%AF395%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "subPlaces": []
       },
       {
@@ -3342,14 +3529,14 @@ window.TRIP_DATA = {
         "area": "쑤저우허·홍커우",
         "category": "문화·전시",
         "fit": "halfday",
-        "suggestedDay": "10/28 오후를 교체하는 대안",
-        "detail": "갤러리와 작업 공간을 둘러보는 예술단지. 톈안첸수와 한 권역으로 묶고, HAUS 일정과 교체하면 여유롭다.",
+        "suggestedDay": "출발 전 조사 · 예술단지 후보",
+        "detail": "갤러리와 작업 공간을 둘러볼 예술단지로 조사했다. 톈안첸수와 함께 검토했지만 이번 여행에서는 가지 않았다.",
         "address": "普陀区莫干山路50号",
         "status": "다음 기회",
         "videoSeconds": 478,
         "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=478s",
         "sourceUrl": "https://english.shanghai.gov.cn/en-ScenicSpots/20231208/4a9c2830891541c68fb5b3143964eec8.html",
-        "mapUrl": "https://uri.amap.com/search?keyword=M50%E5%88%9B%E6%84%8F%E5%9B%AD%20%E6%99%AE%E9%99%80%E5%8C%BA%E8%8E%AB%E5%B9%B2%E5%B1%B1%E8%B7%AF50%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=M50%E5%88%9B%E6%84%8F%E5%9B%AD%20%E6%99%AE%E9%99%80%E5%8C%BA%E8%8E%AB%E5%B9%B2%E5%B1%B1%E8%B7%AF50%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "subPlaces": [],
         "mapPlaceId": "video-m50"
       },
@@ -3360,14 +3547,14 @@ window.TRIP_DATA = {
         "area": "정안·난징서루",
         "category": "공원·산책",
         "fit": "nearby",
-        "suggestedDay": "10/30 오후",
-        "detail": "도심에서 잠깐 쉬거나 산책하고 싶을 때의 후보. 영상에 나온 주말 풍경을 평일에도 볼 수 있다고 가정하지 않는다.",
+        "suggestedDay": "10/30 광장·공원 입구 방문",
+        "detail": "신톈디에서 인민광장까지 걸어와 광장과 인민공원 입구를 둘러봤다. 공원 전체 관람이나 영상 속 주말 풍경을 경험한 것으로 기록하지 않았다.",
         "address": "黄浦区南京西路231号",
-        "status": "일정 반영",
+        "status": "방문 완료 · 광장·공원 입구",
         "videoSeconds": 524,
         "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=524s",
         "sourceUrl": "https://english.shanghai.gov.cn/en-CityTour/20240306/78e6a001aed842d6b8c37607764bdbee.html",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E4%BA%BA%E6%B0%91%E5%85%AC%E5%9B%AD%20%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF231%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E4%BA%BA%E6%B0%91%E5%85%AC%E5%9B%AD%20%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF231%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "subPlaces": [],
         "includedDate": "2026-10-30",
         "mapPlaceId": "peoples-square"
@@ -3379,14 +3566,14 @@ window.TRIP_DATA = {
         "area": "쑤저우허·홍커우",
         "category": "문화·전시",
         "fit": "halfday",
-        "suggestedDay": "별도 반나절 교체 후보",
-        "detail": "북쪽 공원 산책과 루쉰·윤봉길 기념 공간을 함께 검토하는 역사 코스. 각 실내 전시의 개방일은 별도로 확인한다.",
+        "suggestedDay": "출발 전 조사 · 역사 코스 후보",
+        "detail": "공원 산책과 루쉰·윤봉길 기념 공간을 함께 볼 역사 코스로 조사했다. 이번 여행의 방문 기록은 없다.",
         "address": "虹口区四川北路2288号",
         "status": "선택 후보 · 운영조건 확인",
         "videoSeconds": 551,
         "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=551s",
         "sourceUrl": "https://english.shanghai.gov.cn/en-ScenicSpots/20250321/4c723d5d75064d0da60ae2be855ac702.html",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E9%B2%81%E8%BF%85%E5%85%AC%E5%9B%AD%20%E8%99%B9%E5%8F%A3%E5%8C%BA%E5%9B%9B%E5%B7%9D%E5%8C%97%E8%B7%AF2288%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E9%B2%81%E8%BF%85%E5%85%AC%E5%9B%AD%20%E8%99%B9%E5%8F%A3%E5%8C%BA%E5%9B%9B%E5%B7%9D%E5%8C%97%E8%B7%AF2288%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "subPlaces": [
           {
             "name": "상하이 루쉰기념관",
@@ -3394,7 +3581,7 @@ window.TRIP_DATA = {
             "videoSeconds": 571,
             "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=571s",
             "note": "공원 근처 실내 전시. 개방일·관람 조건 확인. · 甜爱路200号",
-            "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E9%B2%81%E8%BF%85%E7%BA%AA%E5%BF%B5%E9%A6%86%20%E7%94%9C%E7%88%B1%E8%B7%AF200%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+            "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E9%B2%81%E8%BF%85%E7%BA%AA%E5%BF%B5%E9%A6%86%20%E7%94%9C%E7%88%B1%E8%B7%AF200%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
             "sourceUrl": "https://english.shanghai.gov.cn/en-MuseumsGalleries/20240527/6d77327b5ea34c4db25c1a7370e53635.html"
           },
           {
@@ -3403,7 +3590,7 @@ window.TRIP_DATA = {
             "videoSeconds": 583,
             "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=583s",
             "note": "루쉰공원 안 기념 공간. 실내 개방은 별도 확인. · 鲁迅公园 梅园",
-            "mapUrl": "https://uri.amap.com/search?keyword=%E6%A2%85%E5%9B%AD%20%E5%B0%B9%E5%A5%89%E5%90%89%E4%B9%89%E5%A3%AB%E7%BA%AA%E5%BF%B5%E9%A6%86%20%E9%B2%81%E8%BF%85%E5%85%AC%E5%9B%AD%20%E6%A2%85%E5%9B%AD&city=310000&view=map&src=shanghaitech2026&callnative=1",
+            "mapUrl": "https://uri.amap.com/search?keyword=%E6%A2%85%E5%9B%AD%20%E5%B0%B9%E5%A5%89%E5%90%89%E4%B9%89%E5%A3%AB%E7%BA%AA%E5%BF%B5%E9%A6%86%20%E9%B2%81%E8%BF%85%E5%85%AC%E5%9B%AD%20%E6%A2%85%E5%9B%AD&city=310000&view=map&src=shanghaitravel2026&callnative=1",
             "sourceUrl": "https://english.shanghai.gov.cn/en-ScenicSpots/20250321/4c723d5d75064d0da60ae2be855ac702.html"
           }
         ]
@@ -3415,14 +3602,14 @@ window.TRIP_DATA = {
         "area": "푸둥·엑스포",
         "category": "공원·산책",
         "fit": "halfday",
-        "suggestedDay": "10/30 강변 코스 교체 후보",
-        "detail": "푸둥 쪽 강변 공원 후보. 서안 강변과 강을 사이에 둔 별도 장소이며 世博文化公园과 구분해 검색한다.",
+        "suggestedDay": "출발 전 조사 · 강변 산책 대안",
+        "detail": "푸둥 쪽 강변 공원 후보로 조사했다. 서안 강변이나 世博文化公园과는 다른 장소이며 이번 여행의 방문 기록은 없다.",
         "address": "浦东新区世博大道1750号",
         "status": "선택 후보 · 운영조건 확인",
         "videoSeconds": 600,
         "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=600s",
         "sourceUrl": "https://zjw.sh.gov.cn/cmsres/7a/7acdfcf1e97340eaa51d11e205b44482/04a890ed80dc86d0eae372da5bf0b6bf.pdf",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%96%E5%8D%9A%E5%85%AC%E5%9B%AD%20%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E4%B8%96%E5%8D%9A%E5%A4%A7%E9%81%931750%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%96%E5%8D%9A%E5%85%AC%E5%9B%AD%20%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E4%B8%96%E5%8D%9A%E5%A4%A7%E9%81%931750%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "subPlaces": []
       },
       {
@@ -3433,13 +3620,13 @@ window.TRIP_DATA = {
         "category": "문화·전시",
         "fit": "nearby",
         "suggestedDay": "이번 재정리로 제외",
-        "detail": "10/30 오후를 루자쭈이·와이탄으로 바꾸면서 강변 산책은 빠졌다. 드론 대기가 짧으면 수령점 근처 강변만 잠깐 본다.",
+        "detail": "미술관 외관과 강변 산책을 검토했지만 실제 날짜별 방문 기록에는 없다. 드론 수령과 묶는 설명도 출발 전 계획이었다.",
         "address": "徐汇区龙腾大道沿线；西岸美术馆：龙腾大道2600号",
         "status": "다음 기회",
         "videoSeconds": 642,
         "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=642s",
         "sourceUrl": "https://english.shanghai.gov.cn/en-MuseumsGalleries/20250702/64d1d26886b3458b8dffb3a8533787b5.html",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E8%A5%BF%E5%B2%B8%20%2F%20%E5%BE%90%E6%B1%87%E6%BB%A8%E6%B1%9F%20%E5%BE%90%E6%B1%87%E5%8C%BA%E9%BE%99%E8%85%BE%E5%A4%A7%E9%81%93%E6%B2%BF%E7%BA%BF%EF%BC%9B%E8%A5%BF%E5%B2%B8%E7%BE%8E%E6%9C%AF%E9%A6%86%EF%BC%9A%E9%BE%99%E8%85%BE%E5%A4%A7%E9%81%932600%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E8%A5%BF%E5%B2%B8%20%2F%20%E5%BE%90%E6%B1%87%E6%BB%A8%E6%B1%9F%20%E5%BE%90%E6%B1%87%E5%8C%BA%E9%BE%99%E8%85%BE%E5%A4%A7%E9%81%93%E6%B2%BF%E7%BA%BF%EF%BC%9B%E8%A5%BF%E5%B2%B8%E7%BE%8E%E6%9C%AF%E9%A6%86%EF%BC%9A%E9%BE%99%E8%85%BE%E5%A4%A7%E9%81%932600%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "subPlaces": [
           {
             "name": "서안미술관",
@@ -3447,7 +3634,7 @@ window.TRIP_DATA = {
             "videoSeconds": 646,
             "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=646s",
             "note": "드론·강변 산책 대신 전시를 고를 때 확인. · 龙腾大道2600号",
-            "mapUrl": "https://uri.amap.com/search?keyword=%E8%A5%BF%E5%B2%B8%E7%BE%8E%E6%9C%AF%E9%A6%86%20%E9%BE%99%E8%85%BE%E5%A4%A7%E9%81%932600%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+            "mapUrl": "https://uri.amap.com/search?keyword=%E8%A5%BF%E5%B2%B8%E7%BE%8E%E6%9C%AF%E9%A6%86%20%E9%BE%99%E8%85%BE%E5%A4%A7%E9%81%932600%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
             "sourceUrl": "https://wbmshanghai.com/en/page/visit"
           }
         ],
@@ -3460,14 +3647,14 @@ window.TRIP_DATA = {
         "area": "신천지·황푸",
         "category": "문화·전시",
         "fit": "halfday",
-        "suggestedDay": "10/29 상세 일정에 반영",
-        "detail": "10/29 왕홍 메이크업·한푸 스냅 뒤 정원(16:00 입장 마감)을 보고, 해 질 녘 예원상장 야경을 찍는다.",
+        "suggestedDay": "10/29 방문·한푸 촬영",
+        "detail": "메이크업과 한푸 대여를 하고 예원·예원상장 권역에서 오후와 야경 사진을 남겼다. 점심은 상장 안에서, 저녁은 하이디라오에서 먹었다.",
         "address": "黄浦区豫园老街279号",
-        "status": "일정 반영 · 16:00 입장 마감",
+        "status": "방문 완료 · 오후·야경 촬영",
         "videoSeconds": 688,
         "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=688s",
         "sourceUrl": "https://english.shanghai.gov.cn/en-CityTour/20250822/80b209847943414baae4a0e6fdba3b12.html",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E8%B1%AB%E5%9B%AD%20%2F%20%E8%B1%AB%E5%9B%AD%E5%95%86%E5%9F%8E%20%E9%BB%84%E6%B5%A6%E5%8C%BA%E8%B1%AB%E5%9B%AD%E8%80%81%E8%A1%97279%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E8%B1%AB%E5%9B%AD%20%2F%20%E8%B1%AB%E5%9B%AD%E5%95%86%E5%9F%8E%20%E9%BB%84%E6%B5%A6%E5%8C%BA%E8%B1%AB%E5%9B%AD%E8%80%81%E8%A1%97279%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "subPlaces": [],
         "mapPlaceId": "video-yuyuan",
         "includedDate": "2026-10-29"
@@ -3480,13 +3667,13 @@ window.TRIP_DATA = {
         "category": "문화·전시",
         "fit": "nearby",
         "suggestedDay": "10/31 생략",
-        "detail": "Unitree가 있는 久光 바로 옆에서 사찰 외관·공원 입구 주변 한 구간만 10–15분 본다. 늦게 도착하면 생략하며 사찰 내부 입장·공원 전체 일주는 포함하지 않는다.",
+        "detail": "Unitree 방문 전 짧게 둘러볼 후보로 조사했다. 징안사 일대에서 저녁은 먹었지만 사찰 내부 입장과 공원 관람은 별도 경험으로 확인되지 않았다.",
         "address": "静安区南京西路1686号",
         "status": "다음 기회",
         "videoSeconds": 756,
         "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=756s",
         "sourceUrl": "https://english.jingan.gov.cn/fw/003006/foreign-singledetail.html",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E9%9D%99%E5%AE%89%E5%AF%BA%20%E9%9D%99%E5%AE%89%E5%8C%BA%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF1686%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E9%9D%99%E5%AE%89%E5%AF%BA%20%E9%9D%99%E5%AE%89%E5%8C%BA%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF1686%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "subPlaces": [
           {
             "name": "정안공원·광장",
@@ -3494,7 +3681,7 @@ window.TRIP_DATA = {
             "videoSeconds": 788,
             "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=788s",
             "note": "사찰 맞은편 공원·광장. 사찰 내부 입장과 구분. · 南京西路 静安寺对面",
-            "mapUrl": "https://uri.amap.com/search?keyword=%E9%9D%99%E5%AE%89%E5%85%AC%E5%9B%AD%20%E9%9D%99%E5%AE%89%E5%AF%BA%E5%B9%BF%E5%9C%BA%20%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF%20%E9%9D%99%E5%AE%89%E5%AF%BA%E5%AF%B9%E9%9D%A2&city=310000&view=map&src=shanghaitech2026&callnative=1",
+            "mapUrl": "https://uri.amap.com/search?keyword=%E9%9D%99%E5%AE%89%E5%85%AC%E5%9B%AD%20%E9%9D%99%E5%AE%89%E5%AF%BA%E5%B9%BF%E5%9C%BA%20%E5%8D%97%E4%BA%AC%E8%A5%BF%E8%B7%AF%20%E9%9D%99%E5%AE%89%E5%AF%BA%E5%AF%B9%E9%9D%A2&city=310000&view=map&src=shanghaitravel2026&callnative=1",
             "sourceUrl": ""
           }
         ],
@@ -3508,14 +3695,14 @@ window.TRIP_DATA = {
         "area": "홍차오·서쪽 교외",
         "category": "문화·전시",
         "fit": "fullday",
-        "suggestedDay": "도심 하루 일정 교체 후보",
-        "detail": "수면과 건축이 어우러진 송장 권역. 왕복 이동까지 고려해 별도 날로 두고 로봇·드론 일정에 연달아 넣지 않는다.",
+        "suggestedDay": "출발 전 조사 · 교외 하루 후보",
+        "detail": "수면과 건축이 어우러진 송장 권역으로 조사했다. 왕복 이동을 포함한 별도 하루 후보였으며 이번 여행의 방문 기록은 없다.",
         "address": "松江区广富林路3260弄",
         "status": "하루 교체 후보",
         "videoSeconds": 809,
         "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=809s",
         "sourceUrl": "https://english.shanghai.gov.cn/en-Parks/20240531/4574dec641a74faea2bba41381471b50.html",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E5%B9%BF%E5%AF%8C%E6%9E%97%E6%96%87%E5%8C%96%E9%81%97%E5%9D%80%20%E6%9D%BE%E6%B1%9F%E5%8C%BA%E5%B9%BF%E5%AF%8C%E6%9E%97%E8%B7%AF3260%E5%BC%84&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E5%B9%BF%E5%AF%8C%E6%9E%97%E6%96%87%E5%8C%96%E9%81%97%E5%9D%80%20%E6%9D%BE%E6%B1%9F%E5%8C%BA%E5%B9%BF%E5%AF%8C%E6%9E%97%E8%B7%AF3260%E5%BC%84&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "subPlaces": [
           {
             "name": "일척화원 광푸린점",
@@ -3535,14 +3722,14 @@ window.TRIP_DATA = {
         "area": "홍차오·서쪽 교외",
         "category": "수향마을",
         "fit": "halfday",
-        "suggestedDay": "10/31 또는 별도 반나절 교체",
-        "detail": "보내주신 영상 14:48 구간의 첫 수향마을. 반나절 이상을 확보하고, 판룽톈디까지 묶으면 하루 코스로 계획한다.",
+        "suggestedDay": "출발 전 조사 · 수향마을 후보",
+        "detail": "영상 14:48 구간에서 소개한 수향마을. 판룽톈디와 함께 교외 코스로 검토했지만 이번 여행에서는 가지 않았다.",
         "address": "游客中心：青浦区朱家角镇课植园路555号",
         "status": "다음 기회",
         "videoSeconds": 892,
         "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=892s",
         "sourceUrl": "https://www.zhujiajiao.com/en/contact/",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E6%9C%B1%E5%AE%B6%E8%A7%92%E5%8F%A4%E9%95%87%20%E6%B8%B8%E5%AE%A2%E4%B8%AD%E5%BF%83%EF%BC%9A%E9%9D%92%E6%B5%A6%E5%8C%BA%E6%9C%B1%E5%AE%B6%E8%A7%92%E9%95%87%E8%AF%BE%E6%A4%8D%E5%9B%AD%E8%B7%AF555%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E6%9C%B1%E5%AE%B6%E8%A7%92%E5%8F%A4%E9%95%87%20%E6%B8%B8%E5%AE%A2%E4%B8%AD%E5%BF%83%EF%BC%9A%E9%9D%92%E6%B5%A6%E5%8C%BA%E6%9C%B1%E5%AE%B6%E8%A7%92%E9%95%87%E8%AF%BE%E6%A4%8D%E5%9B%AD%E8%B7%AF555%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "subPlaces": [
           {
             "name": "허신위안",
@@ -3550,7 +3737,7 @@ window.TRIP_DATA = {
             "videoSeconds": 916,
             "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=916s",
             "note": "주가각 공식 티켓 안내에 등재된 정원. 课植园과 혼동하지 않기. · 朱家角古镇 和心园",
-            "mapUrl": "https://uri.amap.com/search?keyword=%E5%92%8C%E5%BF%83%E5%9B%AD%20%E6%9C%B1%E5%AE%B6%E8%A7%92%E5%8F%A4%E9%95%87%20%E5%92%8C%E5%BF%83%E5%9B%AD&city=310000&view=map&src=shanghaitech2026&callnative=1",
+            "mapUrl": "https://uri.amap.com/search?keyword=%E5%92%8C%E5%BF%83%E5%9B%AD%20%E6%9C%B1%E5%AE%B6%E8%A7%92%E5%8F%A4%E9%95%87%20%E5%92%8C%E5%BF%83%E5%9B%AD&city=310000&view=map&src=shanghaitravel2026&callnative=1",
             "sourceUrl": "https://www.zhujiajiao.com/cn/ticket/"
           }
         ],
@@ -3564,13 +3751,13 @@ window.TRIP_DATA = {
         "category": "수향마을",
         "fit": "nearby",
         "suggestedDay": "10/31 시간 부족",
-        "detail": "AGIBOT·JD MALL 뒤 기존 선택 산책을 45–60분 고진 산책과 간식으로 구체화했다. 주말 혼잡 시 생략하고 호텔 17시 복귀와 새벽 귀국 준비를 우선한다.",
+        "detail": "10/31 AGIBOT·JD MALL 뒤에 산책할 후보였지만 실제로는 가지 않았다. 마지막 날은 풀만·티엔즈팡·로스터리를 방문하고 23시에 호텔로 돌아왔다.",
         "address": "旅游咨询点：闵行区七宝镇横沥路108号",
         "status": "다음 기회",
         "videoSeconds": 946,
         "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=946s",
         "sourceUrl": "https://whlyj.sh.gov.cn/4ajjq/20191008/0022-28627.html",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%83%E5%AE%9D%E5%8F%A4%E9%95%87%20%E6%97%85%E6%B8%B8%E5%92%A8%E8%AF%A2%E7%82%B9%EF%BC%9A%E9%97%B5%E8%A1%8C%E5%8C%BA%E4%B8%83%E5%AE%9D%E9%95%87%E6%A8%AA%E6%B2%A5%E8%B7%AF108%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%83%E5%AE%9D%E5%8F%A4%E9%95%87%20%E6%97%85%E6%B8%B8%E5%92%A8%E8%AF%A2%E7%82%B9%EF%BC%9A%E9%97%B5%E8%A1%8C%E5%8C%BA%E4%B8%83%E5%AE%9D%E9%95%87%E6%A8%AA%E6%B2%A5%E8%B7%AF108%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "subPlaces": [],
         "mapPlaceId": "video-qibao",
         "includedDate": null
@@ -3582,14 +3769,14 @@ window.TRIP_DATA = {
         "area": "푸둥 교외",
         "category": "수향마을",
         "fit": "fullday",
-        "suggestedDay": "별도 하루 교체 후보",
-        "detail": "영상이 소개한 세 번째 수향마을. 홍차오 숙소와 떨어진 푸둥 남부이므로 다른 교외 코스와 구분해 여유 있게 잡는다.",
+        "suggestedDay": "출발 전 조사 · 수향마을 후보",
+        "detail": "영상이 소개한 세 번째 수향마을로 푸둥 남부의 별도 교외 코스로 검토했다. 이번 여행의 방문 기록은 없다.",
         "address": "浦东新区新场镇海泉街128号",
         "status": "하루 교체 후보",
         "videoSeconds": 978,
         "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=978s",
         "sourceUrl": "https://english.pudong.gov.cn/2017-07/19/c_84780.htm",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E6%96%B0%E5%9C%BA%E5%8F%A4%E9%95%87%20%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E6%96%B0%E5%9C%BA%E9%95%87%E6%B5%B7%E6%B3%89%E8%A1%97128%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E6%96%B0%E5%9C%BA%E5%8F%A4%E9%95%87%20%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E6%96%B0%E5%9C%BA%E9%95%87%E6%B5%B7%E6%B3%89%E8%A1%97128%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "subPlaces": [
           {
             "name": "일기일회 서점 카페",
@@ -3609,14 +3796,14 @@ window.TRIP_DATA = {
         "area": "쑤저우허·홍커우",
         "category": "카페·브랜드",
         "fit": "halfday",
-        "suggestedDay": "10/28 M50과 묶는 교체 후보",
-        "detail": "건축과 강변 풍경을 보는 쇼핑몰 후보. M50과 한 묶음으로 검토하고 쑤저우허 맞은편에서 보는 외관도 비교한다.",
+        "suggestedDay": "출발 전 조사 · M50과 묶은 대안",
+        "detail": "건축과 강변 풍경을 볼 쇼핑몰로 M50과 함께 검토했다. 이번 여행의 방문 기록은 없다.",
         "address": "普陀区莫干山路600号",
         "status": "선택 후보 · 운영조건 확인",
         "videoSeconds": 1021,
         "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=1021s",
         "sourceUrl": "https://english.shanghai.gov.cn/en-CityTour/20250418/b2fec3c8859a4c0980df0724da2e3b77.html",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E5%A4%A9%E5%AE%89%E5%8D%83%E6%A0%91%20%E6%99%AE%E9%99%80%E5%8C%BA%E8%8E%AB%E5%B9%B2%E5%B1%B1%E8%B7%AF600%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E5%A4%A9%E5%AE%89%E5%8D%83%E6%A0%91%20%E6%99%AE%E9%99%80%E5%8C%BA%E8%8E%AB%E5%B9%B2%E5%B1%B1%E8%B7%AF600%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "subPlaces": [],
         "mapPlaceId": "video-thousand-trees"
       },
@@ -3627,14 +3814,14 @@ window.TRIP_DATA = {
         "area": "우캉·쉬후이",
         "category": "카페·브랜드",
         "fit": "nearby",
-        "suggestedDay": "10/28 귀환 또는 10/30 산책 대체",
-        "detail": "옛 건물과 수영장 주변 상점·카페를 보는 공간. 수영 체험으로 소개하지 않고 산책·사진 후보로 둔다.",
+        "suggestedDay": "출발 전 조사 · 산책 대안",
+        "detail": "옛 건물과 수영장 주변 상점·카페를 볼 산책·사진 후보로 조사했다. 이번 여행의 방문 기록은 없다.",
         "address": "长宁区延安西路1262号",
         "status": "선택 후보 · 운영조건 확인",
         "videoSeconds": 1069,
         "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=1069s",
         "sourceUrl": "https://english.shanghai.gov.cn/en-SpecialtyShoppingAreas/20241113/401573bf13e5495eb189191e20884780.html",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E7%94%9F%C2%B7%E6%96%B0%E6%89%80%20%2F%20Columbia%20Circle%20%E9%95%BF%E5%AE%81%E5%8C%BA%E5%BB%B6%E5%AE%89%E8%A5%BF%E8%B7%AF1262%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E7%94%9F%C2%B7%E6%96%B0%E6%89%80%20%2F%20Columbia%20Circle%20%E9%95%BF%E5%AE%81%E5%8C%BA%E5%BB%B6%E5%AE%89%E8%A5%BF%E8%B7%AF1262%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "subPlaces": [],
         "mapPlaceId": "video-columbia"
       },
@@ -3645,14 +3832,14 @@ window.TRIP_DATA = {
         "area": "와이탄·루자쭈이",
         "category": "거리·쇼핑",
         "fit": "halfday",
-        "suggestedDay": "별도 도심·와이탄 코스 교체 후보",
-        "detail": "와이탄 북쪽의 건축·상점 거리. 다리나 강변 촬영 동선에 한 구간만 더하고 개별 매장 영업시간은 따로 확인한다.",
+        "suggestedDay": "출발 전 조사 · 와이탄 코스 대안",
+        "detail": "와이탄 북쪽의 건축·상점 거리로 강변 산책에 더할 후보로 조사했다. 이번 여행의 방문 기록은 없다.",
         "address": "黄浦区圆明园路185号",
         "status": "선택 후보 · 운영조건 확인",
         "videoSeconds": 1120,
         "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=1120s",
         "sourceUrl": "https://english.shanghai.gov.cn/en-PlanANightOut/20231217/2215770d32a145e09b6e31fb3c7fdeef.html",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E6%B4%9B%E5%85%8B%C2%B7%E5%A4%96%E6%BB%A9%E6%BA%90%20%2F%20ROCKBUND%20%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%9C%86%E6%98%8E%E5%9B%AD%E8%B7%AF185%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E6%B4%9B%E5%85%8B%C2%B7%E5%A4%96%E6%BB%A9%E6%BA%90%20%2F%20ROCKBUND%20%E9%BB%84%E6%B5%A6%E5%8C%BA%E5%9C%86%E6%98%8E%E5%9B%AD%E8%B7%AF185%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "subPlaces": []
       },
       {
@@ -3662,14 +3849,14 @@ window.TRIP_DATA = {
         "area": "홍차오·서쪽 교외",
         "category": "수향마을",
         "fit": "nearby",
-        "suggestedDay": "이번 재정리로 제외 · 10/31 칠보 대신 가능",
-        "detail": "10/29를 예원·와이탄 일정으로 바꾸면서 빠졌다. 호텔에서 가까워 10/31 칠보고진 산책 대신 넣을 수 있다.",
+        "suggestedDay": "출발 전 조사 · 이번 여행 미방문",
+        "detail": "호텔에서 비교적 가까운 수향마을 후보로 검토했지만 이번 여행에서는 가지 않았다. 마지막 날에도 칠보 대신 방문한 것으로 기록하지 않는다.",
         "address": "青浦区蟠鼎路123弄8号",
         "status": "다음 기회",
         "videoSeconds": 1155,
         "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=1155s",
         "sourceUrl": "https://english.shanghai.gov.cn/en-SpecialtyShoppingAreas/20241113/401573bf13e5495eb189191e20884780.html",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E8%9F%A0%E9%BE%99%E5%A4%A9%E5%9C%B0%20%E9%9D%92%E6%B5%A6%E5%8C%BA%E8%9F%A0%E9%BC%8E%E8%B7%AF123%E5%BC%848%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E8%9F%A0%E9%BE%99%E5%A4%A9%E5%9C%B0%20%E9%9D%92%E6%B5%A6%E5%8C%BA%E8%9F%A0%E9%BC%8E%E8%B7%AF123%E5%BC%848%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "subPlaces": [],
         "mapPlaceId": "video-panlong"
       },
@@ -3680,14 +3867,14 @@ window.TRIP_DATA = {
         "area": "푸둥 교외",
         "category": "테마파크",
         "fit": "fullday",
-        "suggestedDay": "기존 핵심 체험 하루와 교체",
-        "detail": "트론·주토피아 등을 하루에 즐기는 별도 선택지. 방문 날짜의 공식 입장권·예약·실명 입장 조건을 확인하고, 영상의 2024년 가격을 적용하지 않는다.",
+        "suggestedDay": "출발 전 조사 · 테마파크 하루 후보",
+        "detail": "트론·주토피아 등을 볼 별도 하루 후보로 조사했다. 이번 여행에서는 방문하지 않았으며 영상의 2024년 가격을 실제 이용금액으로 기록하지 않았다.",
         "address": "浦东新区黄赵路310号",
         "status": "하루 교체 후보",
         "videoSeconds": 1220,
         "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=1220s",
         "sourceUrl": "https://www.shanghaidisneyresort.com/",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%BF%AA%E5%A3%AB%E5%B0%BC%E4%B9%90%E5%9B%AD%20%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E9%BB%84%E8%B5%B5%E8%B7%AF310%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E8%BF%AA%E5%A3%AB%E5%B0%BC%E4%B9%90%E5%9B%AD%20%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E9%BB%84%E8%B5%B5%E8%B7%AF310%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "subPlaces": [
           {
             "name": "소어링",
@@ -3735,13 +3922,13 @@ window.TRIP_DATA = {
         "category": "야경·강변",
         "fit": "halfday",
         "suggestedDay": "10/28 완료",
-        "detail": "도시를 높은 곳에서 보는 유료 전망대 후보. 날씨·시야와 공식 입장권 조건을 확인한 뒤 와이탄 이동과 비교해 고른다.",
+        "detail": "10/28 118층 전망대에 올라 황푸강과 루자쭈이를 내려다봤다. 동방명주는 외관 사진만 남기고 전망대에 오르지 않았다.",
         "address": "浦东新区银城中路501号",
         "status": "완료",
         "videoSeconds": 1323,
         "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=1323s",
         "sourceUrl": "https://www.shanghaitower.com/office.html",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E4%B8%AD%E5%BF%83%E5%A4%A7%E5%8E%A6%20%E4%B8%8A%E6%B5%B7%E4%B9%8B%E5%B7%85%20%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E9%93%B6%E5%9F%8E%E4%B8%AD%E8%B7%AF501%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E4%B8%8A%E6%B5%B7%E4%B8%AD%E5%BF%83%E5%A4%A7%E5%8E%A6%20%E4%B8%8A%E6%B5%B7%E4%B9%8B%E5%B7%85%20%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E9%93%B6%E5%9F%8E%E4%B8%AD%E8%B7%AF501%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "subPlaces": [],
         "includedDate": "2026-10-28",
         "mapPlaceId": "shanghai-tower"
@@ -3754,13 +3941,13 @@ window.TRIP_DATA = {
         "category": "야경·바",
         "fit": "halfday",
         "suggestedDay": "이번 재정리로 제외",
-        "detail": "동방명주 가까이에서 야경을 보는 바. 메르카토 저녁 뒤 강을 다시 건너야 해서 이번 일정에서는 와이탄 쪽 차르 바로 대신했다.",
+        "detail": "동방명주 가까이에서 야경을 볼 바 후보로 조사했지만 이번 여행에서는 가지 않았다. 대안이었던 차르 바도 실제로 이용하지 않았다.",
         "address": "浦东新区世纪大道8号 丽思卡尔顿58楼",
         "status": "다음 기회",
         "videoSeconds": 1376,
         "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=1376s",
         "sourceUrl": "https://www.flairrooftopbarshanghai.com/contact-location",
-        "mapUrl": "https://uri.amap.com/search?keyword=FLAIR%20Rooftop%20Restaurant%20%26%20Bar%20%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E4%B8%96%E7%BA%AA%E5%A4%A7%E9%81%938%E5%8F%B7%20%E4%B8%BD%E6%80%9D%E5%8D%A1%E5%B0%94%E9%A1%BF58%E6%A5%BC&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=FLAIR%20Rooftop%20Restaurant%20%26%20Bar%20%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E4%B8%96%E7%BA%AA%E5%A4%A7%E9%81%938%E5%8F%B7%20%E4%B8%BD%E6%80%9D%E5%8D%A1%E5%B0%94%E9%A1%BF58%E6%A5%BC&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "subPlaces": []
       },
       {
@@ -3771,13 +3958,13 @@ window.TRIP_DATA = {
         "category": "야경·바",
         "fit": "halfday",
         "suggestedDay": "10/28 생략",
-        "detail": "와이탄과 푸둥을 함께 바라보는 호텔 바 후보. 현재 영업·좌석 예약·총 이용금액을 IHG 공식 안내에서 확인하고 선택한다.",
+        "detail": "와이탄과 푸둥을 함께 바라볼 호텔 바 후보였지만 저녁을 징안사 人和馆으로 바꾸면서 가지 않았다.",
         "address": "黄浦区中山东二路585号 上海外滩英迪格酒店30楼",
         "status": "다음 기회",
         "videoSeconds": 1418,
         "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=1418s",
         "sourceUrl": "https://www.ihg.com/hotelindigo/hotels/us/en/shanghai/shgnb/hoteldetail/dining",
-        "mapUrl": "https://uri.amap.com/search?keyword=CHAR%20bar%20%E4%B8%8A%E6%B5%B7%E5%A4%96%E6%BB%A9%E8%8B%B1%E8%BF%AA%E6%A0%BC%E9%85%92%E5%BA%97%20%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%B8%AD%E5%B1%B1%E4%B8%9C%E4%BA%8C%E8%B7%AF585%E5%8F%B7%20%E4%B8%8A%E6%B5%B7%E5%A4%96%E6%BB%A9%E8%8B%B1%E8%BF%AA%E6%A0%BC%E9%85%92%E5%BA%9730%E6%A5%BC&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=CHAR%20bar%20%E4%B8%8A%E6%B5%B7%E5%A4%96%E6%BB%A9%E8%8B%B1%E8%BF%AA%E6%A0%BC%E9%85%92%E5%BA%97%20%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%B8%AD%E5%B1%B1%E4%B8%9C%E4%BA%8C%E8%B7%AF585%E5%8F%B7%20%E4%B8%8A%E6%B5%B7%E5%A4%96%E6%BB%A9%E8%8B%B1%E8%BF%AA%E6%A0%BC%E9%85%92%E5%BA%9730%E6%A5%BC&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "subPlaces": [],
         "mapPlaceId": "char",
         "includedDate": null
@@ -3789,14 +3976,14 @@ window.TRIP_DATA = {
         "area": "와이탄·루자쭈이",
         "category": "야경·강변",
         "fit": "halfday",
-        "suggestedDay": "별도 푸둥 일정 교체 후보",
-        "detail": "푸둥을 따로 둘러보는 날 선택할 강변 후보. 현재 날짜별 일정에는 포함하지 않았다. 지도 핀은 푸둥미술관 기준점이며 영상의 정확한 촬영 지점은 현장에서 확인.",
+        "suggestedDay": "출발 전 조사 · 푸둥 강변 대안",
+        "detail": "푸둥 강변 산책 후보로 조사했으며 실제 방문 기록에는 없다. 지도 핀은 푸둥미술관 기준점이고 영상의 정확한 촬영 지점이나 실제 방문 지점을 뜻하지 않는다.",
         "address": "定位参考：浦东新区滨江大道2777号 浦东美术馆",
         "status": "선택 후보 · 별도 이동",
         "videoSeconds": 1455,
         "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=1455s",
         "sourceUrl": "https://edu.sh.gov.cn/study_cn_news/20251118/638a3648f2a54e71862055fad93ccb25.html",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E6%B5%A6%E4%B8%9C%E7%BE%8E%E6%9C%AF%E9%A6%86+%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E6%BB%A8%E6%B1%9F%E5%A4%A7%E9%81%932777%E5%8F%B7&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E6%B5%A6%E4%B8%9C%E7%BE%8E%E6%9C%AF%E9%A6%86+%E6%B5%A6%E4%B8%9C%E6%96%B0%E5%8C%BA%E6%BB%A8%E6%B1%9F%E5%A4%A7%E9%81%932777%E5%8F%B7&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "subPlaces": [],
         "mapPlaceId": "lujiazui"
       },
@@ -3807,17 +3994,17 @@ window.TRIP_DATA = {
         "area": "와이탄·루자쭈이",
         "category": "야경·강변",
         "fit": "halfday",
-        "suggestedDay": "10/28 생략",
-        "detail": "10/29 로스트 헤븐 저녁 뒤 강변 산책로를 따라 난징둥루까지 걷는다. 10/30에는 와이탄 3호에서 저녁을 먹는다.",
+        "suggestedDay": "10/28 방문",
+        "detail": "관광터널로 푸동에서 건너와 강변에서 야경을 봤다. 이후 징안사 人和馆에서 저녁을 먹었고, 로스트 헤븐·메르카토·차르 바 계획은 실제로 이어지지 않았다.",
         "address": "黄浦区中山东一路沿线",
-        "status": "10/28 생략",
+        "status": "방문 완료",
         "videoSeconds": 1481,
         "videoUrl": "https://www.youtube.com/watch?v=avRg0Ee-E8s&t=1481s",
         "sourceUrl": "https://french.shanghai.gov.cn/cmsres/38/38256663e5134a45847c8bd89544ab05/30a2d34a4cd10093285aba68015582d3.pdf",
-        "mapUrl": "https://uri.amap.com/search?keyword=%E5%A4%96%E6%BB%A9%20%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%B8%AD%E5%B1%B1%E4%B8%9C%E4%B8%80%E8%B7%AF%E6%B2%BF%E7%BA%BF&city=310000&view=map&src=shanghaitech2026&callnative=1",
+        "mapUrl": "https://uri.amap.com/search?keyword=%E5%A4%96%E6%BB%A9%20%E9%BB%84%E6%B5%A6%E5%8C%BA%E4%B8%AD%E5%B1%B1%E4%B8%9C%E4%B8%80%E8%B7%AF%E6%B2%BF%E7%BA%BF&city=310000&view=map&src=shanghaitravel2026&callnative=1",
         "subPlaces": [],
         "mapPlaceId": "bund",
-        "includedDate": null
+        "includedDate": "2026-10-28"
       }
     ]
   },

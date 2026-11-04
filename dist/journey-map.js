@@ -13,7 +13,7 @@
   const places = allPlaces.filter(place => !place.candidate);
   const byId = new Map(allPlaces.map(place => [place.id,place]));
   const hotel = places.find(place => place.kind === 'hotel');
-  const kindLabel = {hotel:'우리의 숙소',airport:'공항',sim:'현지 SIM',experience:'기술 체험',sight:'도시 산책'};
+  const kindLabel = {hotel:'우리의 숙소',airport:'공항',sim:'현지 SIM',experience:'기술 체험',sight:'도시 산책',food:'식사'};
   let activeDate = 'all', candidateId = null;
   let selectedId = hotel?.id || places[0]?.id;
   let map, tiles, routeLayer, markerLayer, initialized = false, forcedOverview = false, tileReady = false, failed = false;
@@ -68,7 +68,7 @@
     }
     const day = activeDay();
     const routeText = value => pointsForDay(value).filter(place=>place.kind !== 'hotel').filter((place,index,items)=>index === 0 || place.id !== items[index-1].id).map(mapLabel).join(' → ');
-    $('journey-map-summary').innerHTML = day ? `<p class="eyebrow" style="color:${day.color}">${esc(day.label)} / DAY ${String(days.indexOf(day)+1).padStart(2,'0')}</p><h3>${esc(day.title)}</h3><p class="journey-text-route">${esc(routeText(day))}</p><p>${esc(day.summary)}</p><button type="button" class="text-link" data-map-itinerary="${esc(day.date)}">이날의 상세 일정 보기 ↘</button>` : `<p class="eyebrow">날짜별 방문 순서</p><div class="journey-day-routes">${days.map(day=>`<button type="button" data-map-date="${esc(day.date)}" style="--day-color:${day.color}"><strong>${esc(day.label)}</strong><span>${esc(routeText(day))}</span></button>`).join('')}</div>`;
+    $('journey-map-summary').innerHTML = day ? `<p class="eyebrow" style="color:${day.color}">${esc(day.label)} / DAY ${String(days.indexOf(day)+1).padStart(2,'0')}</p><h3>${esc(day.title)}</h3><p class="journey-text-route">${esc(routeText(day))}</p><p>${esc(day.summary)}</p><button type="button" class="text-link" data-map-itinerary="${esc(day.date)}">이날의 여행 이야기 보기 ↘</button>` : `<p class="eyebrow">날짜별 방문 순서</p><div class="journey-day-routes">${days.map(day=>`<button type="button" data-map-date="${esc(day.date)}" style="--day-color:${day.color}"><strong>${esc(day.label)}</strong><span>${esc(routeText(day))}</span></button>`).join('')}</div>`;
   };
   const renderPlaceList = () => {
     $('journey-place-list').innerHTML = currentPoints.map(place => `<button type="button" class="journey-place-button" data-map-place="${esc(place.id)}" aria-pressed="${place.id === selectedId}"><span class="journey-list-pin" style="--pin-color:${pointColor(place)}">${esc(markerLabel(place))}</span><span><strong>${esc(mapLabel(place))}</strong><small>${esc(place.kind === 'hotel' ? '매일 출발·귀환' : matchingDays(place.id).map(day => day.label).join(' · '))}</small></span><span aria-hidden="true">↗</span></button>`).join('');
@@ -102,7 +102,7 @@
     $('journey-live-map').classList.toggle('is-ready',!overview);
     $('journey-map-view-label').textContent = overview ? '좌표 기준 위치 개요' : candidateId ? '선택한 영상 장소의 위치' : '우리의 상하이 여행 지도';
     $('journey-map-mode').textContent = overview ? '거리 지도 보기' : '위치 개요 보기';
-    $('journey-map-notice').textContent = failed ? '지도 타일을 불러오지 못해 위치 개요를 표시해요. 장소별 고덕지도는 계속 이용할 수 있어요.' : overview ? '위치 개요의 선은 방문 순서예요. 실제 이동은 고덕지도에서 확인하세요.' : candidateId ? '선택한 영상 장소를 보고 있어요. 날짜 버튼으로 그날의 여정에 돌아갈 수 있어요.' : (activeDate === 'all' ? '호텔과 가볼 곳을 한글로 표시했어요. 날짜를 고르면 그날의 방문지만 확대합니다.' : '그날의 방문지를 확대했어요. 선은 방문 순서예요.');
+    $('journey-map-notice').textContent = failed ? '지도 타일을 불러오지 못해 위치 개요를 표시해요. 장소별 고덕지도는 계속 이용할 수 있어요.' : overview ? '위치 개요의 선은 방문 순서예요. 실제 이동은 고덕지도에서 확인하세요.' : candidateId ? '선택한 영상 장소를 보고 있어요. 날짜 버튼으로 그날의 여정에 돌아갈 수 있어요.' : (activeDate === 'all' ? '호텔과 다녀온 곳을 한글로 표시했어요. 날짜를 고르면 그날의 방문지만 확대합니다.' : '그날의 방문지를 확대했어요. 선은 방문 순서예요.');
   };
   const layoutLabels = () => {
     if (!map) return;
