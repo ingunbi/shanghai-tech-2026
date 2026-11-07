@@ -794,8 +794,10 @@
 
 .day-photos{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px;margin:0 0 24px}.day-photos figure{margin:0}.day-photos a{display:block}.day-photos img{display:block;width:100%;height:auto;aspect-ratio:3/4;object-fit:cover;border-radius:6px;background:#e4e2da}.day-photos figcaption{margin-top:6px;font-size:12px;line-height:1.4;opacity:.75}
 @media(max-width:600px){.day-photos{grid-template-columns:repeat(2,1fr);gap:10px}}
+.day-photos .photo-wide { grid-column: span 2; }
+.day-photos .photo-wide img { aspect-ratio: auto; }
 .photo-story{margin:4px 0 28px}.story-chapter{padding:18px 0 4px;border-top:1px solid var(--line)}.story-chapter:first-child{border-top:0;padding-top:4px}.story-chapter h4{margin:0 0 4px;font-size:16px;font-weight:650;letter-spacing:-.3px;line-height:1.5}.story-chapter h4 span{margin-right:10px;color:var(--red);font-size:12px;font-weight:600;letter-spacing:.3px;font-variant-numeric:tabular-nums}.story-chapter>p{margin:0 0 12px;font-size:13px;line-height:1.8;color:var(--muted);max-width:640px}.story-chapter .day-photos{margin-bottom:18px}
-@media print{.day-photos,.photo-story{display:none}}
+@media print{.day-photos,.photo-story,#after-trip-link{display:none}}
 
 .day-diary {
   max-width: 65ch;

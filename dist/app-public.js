@@ -91,7 +91,14 @@
     const hasDetails = stop.detail || stop.meal || address || stop.sourceUrl || stop.videoUrl || stop.accessId;
     return `<li class="compact-stop"><div class="stop-time">${esc(stop.time)}</div><div class="compact-stop-copy"><div class="compact-stop-head"><h4>${esc(stop.displayTitle || stop.title)}</h4>${stop.quickStatus ? `<span class="quick-status">${esc(stop.quickStatus)}</span>` : ''}${link(stop.mapUrl,'지도')}</div>${stop.shortNote ? `<p class="compact-stop-note">${esc(stop.shortNote)}</p>` : ''}${hasDetails ? `<details class="stop-details"><summary>${stop.meal ? '메뉴·예약·식당 대안' : '주소·방문 안내'}</summary><div class="stop-details-body">${stop.detail ? `<p class="stop-detail">${esc(stop.detail)}</p>` : ''}${mealHTML(stop.meal)}${stop.zh ? `<p class="stop-zh" lang="zh-CN">${esc(stop.zh)}</p>` : ''}${stop.address ? `<div class="stop-address"><span lang="zh-CN">${esc(stop.address)}</span>${copyButton(address)}</div>` : address ? `<div class="stop-address">${copyButton(address)}</div>` : ''}<div class="stop-links">${link(stop.mapUrl,'고덕지도')}${link(stop.sourceUrl,'확인 자료')}${link(stop.videoUrl,'영상 속 장소')}</div>${stopAccessHTML(stop)}</div></details>` : ''}</div></li>`;
   };
-  const photoGridHTML = (photos,label) => `<div class="day-photos" aria-label="${esc(label)}">${photos.map(photo => `<figure><a href="${esc(photo.src)}" target="_blank" rel="noopener"><img src="${esc(photo.src)}" alt="${esc(photo.alt)}" width="${Number(photo.width)}" height="${Number(photo.height)}" loading="lazy" decoding="async"></a><figcaption>${esc(photo.caption)}</figcaption></figure>`).join('')}</div>`;
+  const photoGridHTML = (photos, label) => `<div class="day-photos" aria-label="${esc(label)}">
+    ${photos.map(photo => `<figure${photo.wide ? ' class="photo-wide"' : ''}>
+      <a href="${esc(photo.src)}" target="_blank" rel="noopener">
+        <img src="${esc(photo.src)}" alt="${esc(photo.alt)}" width="${Number(photo.width)}" height="${Number(photo.height)}" loading="lazy" decoding="async">
+      </a>
+      <figcaption>${esc(photo.caption)}</figcaption>
+    </figure>`).join('')}
+  </div>`;
   const dayPhotosHTML = day => array(day.photoStory).length ? `<section class="photo-story" aria-label="${esc(day.label)} 사진 이야기">${day.photoStory.map(chapter => `<div class="story-chapter"><h4>${chapter.time ? `<span>사진 ${esc(chapter.time)}</span>` : ''}${esc(chapter.title)}</h4>${chapter.text ? `<p>${esc(chapter.text)}</p>` : ''}${photoGridHTML(array(chapter.photos),`${day.label} ${chapter.title} 사진`)}</div>`).join('')}</section>` : array(day.photos).length ? photoGridHTML(day.photos,`${day.label} 사진`) : '';
   const paragraphsHTML = paragraphs => array(paragraphs)
     .map(paragraph => `<p>${esc(paragraph)}</p>`)
@@ -115,6 +122,8 @@
       ${paragraphsHTML(entry.paragraphs)}
     </article>`).join('');
     afterTrip.hidden = false;
+    const afterTripLink = $('#after-trip-link');
+    if (afterTripLink) afterTripLink.hidden = false;
   }
 
   const dayHTML = (day,index,print = false) => {
