@@ -8,9 +8,9 @@
   <meta name="description" content="두 사람의 상하이 5박 6일. 전망대와 야경, 예원의 한푸, 골목과 로스터리를 찾아간 여행의 기록.">
   <title>상하이 2026 — 두 사람의 여행일지</title>
   <link rel="stylesheet" href="vendor/leaflet/leaflet.css">
-  <link rel="stylesheet" href="styles.css?v=20261107-diary-scenes">
+  <link rel="stylesheet" href="styles.css?v=20261107-photo-viewer">
   <script src="data-public.js?v=20261107-diary-scenes" defer></script>
-  <script src="app-public.js?v=20261107-diary-scenes" defer></script>
+  <script src="app-public.js?v=20261107-photo-viewer" defer></script>
   <script src="vendor/leaflet/leaflet.js" defer></script>
   <script src="journey-map.js?v=20261105-story" defer></script>
 </head>
@@ -99,6 +99,29 @@
     </section></div></details></div></details><details id="pocket-guide" class="guide-group"><summary><span><strong>중문 메모·확인 자료</strong><small>기사님께 보여줄 문장 · 출처</small></span><i aria-hidden="true">＋</i></summary><div class="guide-body"><section class="section page-width practical-section" aria-labelledby="practical-title"><div class="section-heading compact"><div><p class="eyebrow section-number">THE POCKET NOTES</p><h2 id="practical-title">필요할 때, 바로 꺼내보기.</h2></div></div><div id="practical-grid" class="practical-grid"></div><details class="sources"><summary><span>자료 출처와 확인 기록</span><span aria-hidden="true">＋</span></summary><div class="sources-inner"><p class="source-note" id="source-note">다녀온 기록입니다. 영업시간·체험 운영·예약 조건은 여행 당시 기준이라 달라졌을 수 있어요.</p><ol id="source-list"></ol></div></details></section></div></details></section>
 </main>
   <footer class="site-footer page-width"><div><span class="footer-wordmark">SHANGHAI ’26</span><span>두 사람의 여행 노트</span></div><a href="#top">다시, 첫 장면으로 <span aria-hidden="true">↑</span></a><p>Small discoveries. A new perspective.</p></footer>
+  <dialog id="photo-viewer" class="photo-viewer" aria-labelledby="photo-viewer-title">
+    <div class="photo-viewer-content">
+      <header class="photo-viewer-header">
+        <h2 id="photo-viewer-title">여행 사진</h2>
+        <button id="photo-viewer-close" class="photo-viewer-close" type="button" aria-label="사진 닫기" autofocus>닫기 <span aria-hidden="true">×</span></button>
+      </header>
+      <div id="photo-viewer-stage" class="photo-viewer-stage">
+        <img id="photo-viewer-image" alt="" draggable="false">
+      </div>
+      <footer class="photo-viewer-footer">
+        <button id="photo-viewer-prev" class="photo-viewer-nav" type="button" aria-label="이전 사진">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="m15 5-7 7 7 7"/></svg>
+        </button>
+        <div class="photo-viewer-details">
+          <p id="photo-viewer-caption"></p>
+          <p id="photo-viewer-count" role="status"></p>
+        </div>
+        <button id="photo-viewer-next" class="photo-viewer-nav" type="button" aria-label="다음 사진">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg>
+        </button>
+      </footer>
+    </div>
+  </dialog>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
 </body>
 </html>

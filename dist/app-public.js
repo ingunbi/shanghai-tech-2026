@@ -93,7 +93,7 @@
   };
   const photoGridHTML = (photos, label) => `<div class="day-photos" aria-label="${esc(label)}">
     ${photos.map(photo => `<figure${photo.wide ? ' class="photo-wide"' : ''}>
-      <a href="${esc(photo.src)}" target="_blank" rel="noopener">
+      <a href="${esc(photo.src)}" target="_blank" rel="noopener" aria-haspopup="dialog">
         <img src="${esc(photo.src)}" alt="${esc(photo.alt)}" width="${Number(photo.width)}" height="${Number(photo.height)}" loading="lazy" decoding="async">
       </a>
       <figcaption>${esc(photo.caption)}</figcaption>
@@ -134,6 +134,118 @@
     if (array(day.photos).length) return diary + photoGridHTML(day.photos, `${day.label} 사진`);
     return diary;
   };
+
+  const setupPhotoViewer = () => {
+    const viewer = $('#photo-viewer');
+    if (!viewer || typeof viewer.showModal !== 'function') return;
+
+    const stage = $('#photo-viewer-stage');
+    const image = $('#photo-viewer-image');
+    const caption = $('#photo-viewer-caption');
+    const title = $('#photo-viewer-title');
+    const count = $('#photo-viewer-count');
+    const previous = $('#photo-viewer-prev');
+    const next = $('#photo-viewer-next');
+    const close = $('#photo-viewer-close');
+    const root = document.documentElement;
+    let scene = null;
+    let swipeStart = null;
+    let pressedBackdrop = false;
+
+    const renderPhoto = () => {
+      const { links, index } = scene;
+      const link = links[index];
+      image.alt = link.querySelector('img')?.alt || '';
+      image.src = link.href;
+      caption.textContent = link.closest('figure')?.querySelector('figcaption')?.textContent || '';
+      count.textContent = `${index + 1} / ${links.length}`;
+
+      const focused = document.activeElement;
+      previous.disabled = index === 0;
+      next.disabled = index === links.length - 1;
+      if ((focused === previous || focused === next) && focused.disabled) {
+        close.focus({ preventScroll: true });
+      }
+    };
+
+    const move = offset => {
+      if (!scene || !viewer.open) return;
+      const index = scene.index + offset;
+      if (index < 0 || index >= scene.links.length) return;
+      scene.index = index;
+      renderPhoto();
+    };
+
+    $('#day-panel').addEventListener('click', event => {
+      if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+      const trigger = event.target.closest('.day-photos a[href]');
+      if (!trigger) return;
+      event.preventDefault();
+      if (scene || viewer.open) return;
+      const gallery = trigger.closest('.day-photos');
+      const links = Array.from(gallery.querySelectorAll('a[href]'));
+      scene = {
+        links,
+        index: links.indexOf(trigger),
+        trigger,
+        offset: trigger.getBoundingClientRect().top,
+        x: window.scrollX,
+        y: window.scrollY,
+      };
+      title.textContent = gallery.getAttribute('aria-label') || '여행 사진';
+      renderPhoto();
+      viewer.showModal();
+      root.classList.add('photo-viewer-open');
+    });
+
+    previous.addEventListener('click', () => move(-1));
+    next.addEventListener('click', () => move(1));
+    close.addEventListener('click', () => viewer.close());
+    viewer.addEventListener('keydown', event => {
+      if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return;
+      if (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight') return;
+      event.preventDefault();
+      move(event.key === 'ArrowLeft' ? -1 : 1);
+    });
+
+    stage.addEventListener('pointerdown', event => {
+      if (event.pointerType !== 'touch') return;
+      swipeStart = event.isPrimary ? { id: event.pointerId, x: event.clientX, y: event.clientY } : null;
+    });
+    stage.addEventListener('pointerup', event => {
+      if (!swipeStart || event.pointerId !== swipeStart.id) return;
+      const dx = event.clientX - swipeStart.x;
+      const dy = event.clientY - swipeStart.y;
+      swipeStart = null;
+      if (Math.abs(dx) >= 48 && Math.abs(dx) > Math.abs(dy) * 1.4) move(dx < 0 ? 1 : -1);
+    });
+    stage.addEventListener('pointercancel', () => { swipeStart = null; });
+
+    viewer.addEventListener('pointerdown', event => { pressedBackdrop = event.target === viewer; });
+    viewer.addEventListener('click', event => {
+      if (pressedBackdrop && event.target === viewer) viewer.close();
+      pressedBackdrop = false;
+    });
+
+    viewer.addEventListener('close', () => {
+      const closedScene = scene;
+      scene = null;
+      swipeStart = null;
+      pressedBackdrop = false;
+      root.classList.remove('photo-viewer-open');
+      image.removeAttribute('src');
+      if (!closedScene) return;
+      const { trigger, offset, x, y } = closedScene;
+      if (trigger.isConnected) {
+        trigger.focus({ preventScroll: true });
+        window.scrollTo({ left: x, top: window.scrollY + trigger.getBoundingClientRect().top - offset, behavior: 'instant' });
+      } else {
+        window.scrollTo({ left: x, top: y, behavior: 'instant' });
+      }
+    });
+  };
+
+  setupPhotoViewer();
 
   const afterTrip = $('#after-trip');
   const afterTripEntries = array(data.afterTrip);
