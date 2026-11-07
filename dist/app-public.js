@@ -99,18 +99,40 @@
       <figcaption>${esc(photo.caption)}</figcaption>
     </figure>`).join('')}
   </div>`;
-  const dayPhotosHTML = day => array(day.photoStory).length ? `<section class="photo-story" aria-label="${esc(day.label)} 사진 이야기">${day.photoStory.map(chapter => `<div class="story-chapter"><h4>${chapter.time ? `<span>사진 ${esc(chapter.time)}</span>` : ''}${esc(chapter.title)}</h4>${chapter.text ? `<p>${esc(chapter.text)}</p>` : ''}${photoGridHTML(array(chapter.photos),`${day.label} ${chapter.title} 사진`)}</div>`).join('')}</section>` : array(day.photos).length ? photoGridHTML(day.photos,`${day.label} 사진`) : '';
+  const photoStoryHTML = (day, chapters, inDiary = false) => {
+    if (!chapters.length) return '';
+    const heading = inDiary ? 'h5' : 'h4';
+    const contents = chapters.map(chapter => {
+      const time = chapter.time ? `<span>사진 ${esc(chapter.time)}</span>` : '';
+      const note = !inDiary && chapter.text ? `<p>${esc(chapter.text)}</p>` : '';
+      const gallery = photoGridHTML(array(chapter.photos), `${day.label} ${chapter.title} 사진`);
+      return `<div class="story-chapter">
+        <${heading}>${time}${esc(chapter.title)}</${heading}>
+        ${note}${gallery}
+      </div>`;
+    }).join('');
+    if (inDiary) return `<div class="photo-story photo-story-inline">${contents}</div>`;
+    return `<section class="photo-story" aria-label="${esc(day.label)} 사진 이야기">${contents}</section>`;
+  };
   const paragraphsHTML = paragraphs => array(paragraphs)
     .map(paragraph => `<p>${esc(paragraph)}</p>`)
     .join('');
 
-  const dayDiaryHTML = day => {
-    const paragraphs = paragraphsHTML(day.diary);
-    if (!paragraphs) return '';
-    return `<section class="day-diary" aria-label="${esc(day.label)} 일기">
+  const dayNarrativeHTML = day => {
+    const paragraphs = array(day.diary);
+    const chapters = array(day.photoStory);
+    const hasPlacement = chapter => Number.isInteger(chapter.afterParagraph) &&
+      chapter.afterParagraph >= 1 && chapter.afterParagraph <= paragraphs.length;
+    const diary = paragraphs.length ? `<section class="day-diary" aria-label="${esc(day.label)} 일기">
       <h4>이날의 일기</h4>
-      ${paragraphs}
-    </section>`;
+      ${paragraphs.map((paragraph, index) => {
+        const photos = chapters.filter(chapter => chapter.afterParagraph === index + 1);
+        return `<p>${esc(paragraph)}</p>${photoStoryHTML(day, photos, true)}`;
+      }).join('')}
+    </section>` : '';
+    if (chapters.length) return diary + photoStoryHTML(day, chapters.filter(chapter => !hasPlacement(chapter)));
+    if (array(day.photos).length) return diary + photoGridHTML(day.photos, `${day.label} 사진`);
+    return diary;
   };
 
   const afterTrip = $('#after-trip');
@@ -128,7 +150,7 @@
 
   const dayHTML = (day,index,print = false) => {
     if (print) return fullDayHTML(day,index,true);
-    return `<div class="compact-day-header"><p class="eyebrow">DAY ${String(index + 1).padStart(2,'0')} · ${esc(day.label)} ${esc(day.weekday)}</p><h3>${esc(day.displayTitle || day.title)}</h3><p>${esc(day.displaySummary || day.summary)}</p></div>${dayDiaryHTML(day)}${dayPhotosHTML(day)}<ol class="compact-timeline" aria-label="${esc(day.label)} 핵심 일정">${array(day.stops).filter(stop=>!stop.secondary).map(compactStopHTML).join('')}</ol><details class="day-more"><summary>이동 기록·개인 메모</summary><div class="day-more-body">${array(day.stops).some(stop=>stop.secondary) ? `<ol class="compact-timeline secondary-stops" aria-label="추가 준비·조건부 일정">${array(day.stops).filter(stop=>stop.secondary).map(compactStopHTML).join('')}</ol>` : ''}<p>${esc(day.summary)}</p>${array(day.focus).length ? `<ul class="day-focus" aria-label="오늘의 핵심과 선택 일정">${day.focus.map(item => `<li>${esc(item)}</li>`).join('')}</ul>` : ''}${day.mealNote ? `<p class="day-meal-note"><strong>식사 기록</strong>${esc(day.mealNote)}</p>` : ''}${array(day.route).length ? `<p class="day-route">${day.route.map(esc).join(' → ')}</p>` : ''}${day.travelNote || day.weatherPlan ? `<div class="day-small-note">${day.travelNote ? `<strong>이동 기록</strong>${esc(day.travelNote)}` : ''}${day.weatherPlan ? `<div class="weather-note"><strong>날씨</strong>${esc(day.weatherPlan)}</div>` : ''}</div>` : ''}<div class="day-note"><label for="daily-note">오늘의 작은 메모<span>이 브라우저에 자동 저장</span></label><textarea id="daily-note" data-note-date="${esc(day.date)}" placeholder="그날의 장면, 함께 먹은 것, 기억해 둘 이야기…" aria-label="${esc(day.label)} 여행 메모">${esc(saved.notes[day.date] || '')}</textarea></div></div></details>`;
+    return `<div class="compact-day-header"><p class="eyebrow">DAY ${String(index + 1).padStart(2,'0')} · ${esc(day.label)} ${esc(day.weekday)}</p><h3>${esc(day.displayTitle || day.title)}</h3><p>${esc(day.displaySummary || day.summary)}</p></div>${dayNarrativeHTML(day)}<ol class="compact-timeline" aria-label="${esc(day.label)} 핵심 일정">${array(day.stops).filter(stop=>!stop.secondary).map(compactStopHTML).join('')}</ol><details class="day-more"><summary>이동 기록·개인 메모</summary><div class="day-more-body">${array(day.stops).some(stop=>stop.secondary) ? `<ol class="compact-timeline secondary-stops" aria-label="추가 준비·조건부 일정">${array(day.stops).filter(stop=>stop.secondary).map(compactStopHTML).join('')}</ol>` : ''}<p>${esc(day.summary)}</p>${array(day.focus).length ? `<ul class="day-focus" aria-label="오늘의 핵심과 선택 일정">${day.focus.map(item => `<li>${esc(item)}</li>`).join('')}</ul>` : ''}${day.mealNote ? `<p class="day-meal-note"><strong>식사 기록</strong>${esc(day.mealNote)}</p>` : ''}${array(day.route).length ? `<p class="day-route">${day.route.map(esc).join(' → ')}</p>` : ''}${day.travelNote || day.weatherPlan ? `<div class="day-small-note">${day.travelNote ? `<strong>이동 기록</strong>${esc(day.travelNote)}` : ''}${day.weatherPlan ? `<div class="weather-note"><strong>날씨</strong>${esc(day.weatherPlan)}</div>` : ''}</div>` : ''}<div class="day-note"><label for="daily-note">오늘의 작은 메모<span>이 브라우저에 자동 저장</span></label><textarea id="daily-note" data-note-date="${esc(day.date)}" placeholder="그날의 장면, 함께 먹은 것, 기억해 둘 이야기…" aria-label="${esc(day.label)} 여행 메모">${esc(saved.notes[day.date] || '')}</textarea></div></div></details>`;
   };
 
   let activeDay = Math.max(0, days.findIndex(day => day.date === today));
